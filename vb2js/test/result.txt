@@ -1,0 +1,117 @@
+[VB] Before Conversion
+' Condition 0
+        If (Not IsArray(SourceArray)) Or (Not IsArray(DestArray)) Then
+        Exit Sub
+        End If
+
+        ' Condition 8
+        If UBound(SourceArray) = 0 Then
+        ReDim DestArray(0 To 0)
+        Exit Sub
+        End If
+
+        ' Condition 7
+        If startingpoint < 1 Then
+        startingpoint = 1
+        End If
+        ' Condition 7
+        If numberofvalues < 0 Then
+        numberofvalues = 0
+        End If
+
+        ' Condition 4
+        If startingpoint > UBound(SourceArray) Then
+        Exit Sub
+        End If
+
+        ' Condition 6
+        If numberofvalues > 0 And _
+        (startingpoint + numberofvalues) > UBound(SourceArray) Then
+        Exit Sub
+        End If
+
+        Dim lngDestLength As Long, lngCnt As Long
+
+        ' Condition 5
+        If numberofvalues = 0 Then
+        lngDestLength = (UBound(SourceArray) - startingpoint) + 1
+        Else
+        lngDestLength = numberofvalues
+        End If
+
+        ' Conditions 1, 2, 3
+        ReDim DestArray(lngDestLength)
+
+        For lngCnt = 1 To lngDestLength
+        DestArray(lngCnt) = SourceArray((startingpoint + lngCnt) - 1)
+        Next
+
+
+        Exit Sub
+
+
+        MsgBox "CopyArray(): Error occurred.", vbInformation, "Error occurred."
+        MsgBox Err.Number & ": " & Err.Description
+
+
+        End Sub
+
+---[VB -> JS] Conversion---
+
+[JS] After Conversion
+// Condition 0
+if ((!IsArray(SourceArray)) || (!IsArray(DestArray))) {
+  return;
+}
+
+// Condition 8
+if (UBound(SourceArray) == 0) {
+  var DestArray = new Array(/* (0 To 0) */);  // ReDim decl
+  return;
+}
+
+// Condition 7
+if (startingpoint < 1) {
+  startingpoint = 1;
+}
+// Condition 7
+if (numberofvalues < 0) {
+  numberofvalues = 0;
+}
+
+// Condition 4
+if (startingpoint > UBound(SourceArray)) {
+  return;
+}
+
+// Condition 6
+if (numberofvalues > 0 && (startingpoint + numberofvalues) > UBound(SourceArray)) {
+  return;
+}
+
+var lngDestLength; // Long
+var lngCnt; // Long
+
+// Condition 5
+if (numberofvalues == 0) {
+  lngDestLength = (UBound(SourceArray) - startingpoint) + 1;
+} else {
+  lngDestLength = numberofvalues;
+}
+
+// Conditions 1, 2, 3
+
+for (var lngCnt = 1; lngCnt <= lngDestLength; ++lngCnt) {
+  DestArray[lngCnt] = SourceArray((startingpoint + lngCnt) - 1);
+}
+
+
+return;
+
+
+MsgBox("CopyArray(): Error occurred.", vbInformation, "Error occurred.");
+MsgBox(Err.Number + ": " + Err.Description);
+
+
+// End Sub; // UNTOUCHED
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.nd4j:canova-spark_2.11:0.0.0.17">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-spark_2.11/0.0.0.17/bed4412bd0fc84cdb077353d56171c1f914d1840/canova-spark_2.11-0.0.0.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-spark_2.11/0.0.0.17/b4d94da9a5440342c874f4baf543fd86c6643c10/canova-spark_2.11-0.0.0.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-spark_2.11/0.0.0.17/1600c68291fd030f4cd79edb68fed87f94017219/canova-spark_2.11-0.0.0.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ignite:ignite-clients:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-clients/1.7.0/268fbabb7196acdbf17f2bf22cc64a2eba8cba39/ignite-clients-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-clients/1.7.0/3b84a0e541775160fe5402a6568d6d5dca9add75/ignite-clients-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

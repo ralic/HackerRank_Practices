@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hadoop:hadoop-common:tests:2.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/2.7.2/482b3051dc384c1e15182a6ad1402649ef24be02/hadoop-common-2.7.2-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/2.7.2/1847260ce48b580faed5c810cb1e9d818a0aa02d/hadoop-common-2.7.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/2.7.2/66fa6493c50d1df1e2c907331d70699a5ee9acfe/hadoop-common-2.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

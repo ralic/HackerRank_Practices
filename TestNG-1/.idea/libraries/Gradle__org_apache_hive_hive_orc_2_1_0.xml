@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hive:hive-orc:2.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-orc/2.1.0/203d5485eef70de6a5428391cc3f363e210cf88f/hive-orc-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-orc/2.1.0/f8298d9296dac3f523f486ef779806c42eec83fe/hive-orc-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

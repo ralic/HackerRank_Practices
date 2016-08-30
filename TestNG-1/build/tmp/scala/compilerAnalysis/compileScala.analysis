@@ -1,0 +1,296 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+8 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main
+6 -> -g
+7 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.12.0-M5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+12 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectral_norm.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm$.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm$delayedInit$body.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Demo$.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Demo.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Point.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaHelloWorld.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/mainHello$.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/mainHello.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaObjectClass$.class
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> /Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaObjectClass.class
+binary dependencies:
+8 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+12 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectral_norm
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$delayedInit$body
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Demo
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Demo$
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Point
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> ScalaHelloWorld
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> mainHello
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> mainHello$
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> ScalaObjectClass
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> ScalaObjectClass$
+used names:
+157 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> *
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> +
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> -
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> /
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> <
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> <init>
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> >
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> A
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> AnyRef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> App
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Array
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> At
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Await
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> ClassTag
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Double
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> ExecutionContext
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Function2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Future
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Implicits
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> IndexedSeq
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Int
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> M
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Predef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Runtime
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Seq
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> System
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Tuple2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> Unit
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> _1
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> _2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> _root_
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> apply
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> args
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> augmentString
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> availableProcessors
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> canBuildFrom
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> chunkEnd
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> chunkSize
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> chunkStart
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> chunks
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> collection
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> concurrent
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> currentTimeMillis
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> duration
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> end
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> f
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> fill
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> foreach
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> format
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> getRuntime
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> global
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> i
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> immutable
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> intWrapper
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> j
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> java
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> lang
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> length
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> map
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> materializeClassTag
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> math
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> min
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> minute
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> multiply
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> multiplyAtv
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> multiplyAv
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> n
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> ne
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> package
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> printf
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> println
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> reflect
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> res
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> result
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> s
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> scala
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> sequence
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> spectral_norm
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> spectralnorm
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> split
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> sqrt
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> start
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> t
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> threads
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> tmp
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> to
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> toInt
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> totalTime
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> u
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> until
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> update
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> v
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> vbv
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> vv
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> w
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> while$1
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> while$2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> while$3
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> work
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> +
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> <init>
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> AnyRef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Array
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Demo
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Int
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Point
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Predef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> String
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> Unit
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> dx
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> dy
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> io
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> java
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> move
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> println
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> pt
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> scala
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> x
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> x_=
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> xc
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> y
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> y_=
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> yc
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> <init>
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> AnyRef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> Array
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> Predef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> ScalaHelloWorld
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> String
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> Unit
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> mainHello
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> println
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> scala
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> show
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> testHello
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> *
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> +
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> <init>
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> AnyRef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> Array
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> Int
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> Predef
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> ScalaObjectClass
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> String
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> Unit
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> func1
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> func2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> o
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> obj
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> println
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> proto1
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> proto2
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> proto3
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> scala
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> x
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> y
+product stamps:
+12 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectral_norm.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm$.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm$delayedInit$body.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/BenchmarkGame/spectralnorm.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Demo$.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Demo.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/Point.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaHelloWorld.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaObjectClass$.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/ScalaObjectClass.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/mainHello$.class -> lastModified(1472518735000)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/build/classes/main/mainHello.class -> lastModified(1472518735000)
+source stamps:
+4 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> hash(cda5decd904d5aaf1537a944168383c4f268b062)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> hash(079ad140cc7325670df427c672d6112c3dc4d127)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> hash(c3238d8df14c4b6813852ede766c9a8769fe0e16)
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> hash(80a4e7b2ca7a4f43de672a0e7553fa4aa29dbd46)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1459485740000)
+/Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar -> lastModified(1471843118000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar -> scala.Array
+internal apis:
+4 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4SwrOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKzw4St0AApjaHVua1N0YXJ0c3EAfgAMSgQn9nQAAkF0c3EAfgAMWIex33QABm5vdGlmeXNxAH4ADKwqF4F0AAljaHVua1NpemVzcQB+AAy4m1KVdAAEd2FpdHNxAH4ADNMGgu50AA0kYXNJbnN0YW5jZU9mc3EAfgAMmBHixXQAAW5zcQB+AAyJLdM7dAAGZXF1YWxzc3EAfgAMCyud5nQACm11bHRpcGx5QXZzcQB+AAzm1AWNdAAMYXNJbnN0YW5jZU9mc3EAfgAMtFr5vXQADmV4ZWN1dGlvblN0YXJ0c3EAfgAMFirdo3QAAXVzcQB+AAyXqMNbdAAGY2h1bmtzc3EAfgAMm+WChnQADHN5bmNocm9uaXplZHNxAH4ADCBibVN0AAFBc3EAfgAMgRF6nHQADSRpc0luc3RhbmNlT2ZzcQB+AAx95lkPdAANc3BlY3RyYWxfbm9ybXNxAH4ADB3Bg+R0AAN0bXBzcQB+AAxAsokPdAAEbWFpbnNxAH4ADAvtolx0AAhjaHVua0VuZHNxAH4ADPYBFkh0AAR3b3Jrc3EAfgAMDqo0/HQACW5vdGlmeUFsbHNxAH4ADL1scIh0AAxpc0luc3RhbmNlT2ZzcQB+AAzgidt1dAABdnNxAH4ADOVVoaN0AAY8aW5pdD5zcQB+AAyoR7TndAACPT1zcQB+AAy/vcDKdAAFY2xvbmVzcQB+AAzRSIGVdAAIbXVsdGlwbHlzcQB+AAysIP8VdAAMc3BlY3RyYWxub3Jtc3EAfgAMuaqEK3QAC211bHRpcGx5QXR2c3EAfgAMoCWuPnQACHRvU3RyaW5nc3EAfgAMPv4g8XQABGFyZ3NzcQB+AAy4hgdcdAACIT1zcQB+AAzudKPMdAAIZ2V0Q2xhc3NzcQB+AAwdurHUdAAFc3RhcnRzcQB+AAxVAud9dAACbmVzcQB+AAxJ+67ldAAJdG90YWxUaW1lc3EAfgAMX8vNaXQAB3RocmVhZHNzcQB+AAxOv20udAACZXFzcQB+AAwAcuqYdAALZGVsYXllZEluaXRzcQB+AAxiOXkldAACIyNzcQB+AAyDuP2CdAAIZmluYWxpemVzcQB+AAz/HZhSdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBteHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAbQmVuY2htYXJrR2FtZS5zcGVjdHJhbF9ub3JtdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCGeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCFAHBzcQB+AIpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AbUwACWluaGVyaXRlZHEAfgBtTAAHcGFyZW50c3EAfgBteHEAfgCOc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAAAc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAAAc3EAfgCFAHBzcQB+AIp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AI10AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AI1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AKp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKtzcQB+AJ50AANBbnlzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqdAAFc2NhbGFxAH4AsXNxAH4AanEAfgB3dXEAfgB4AAAAAHNxAH4AegB0ABpCZW5jaG1hcmtHYW1lLnNwZWN0cmFsbm9ybXVxAH4AfQAAAAB+cQB+AH90AAZNb2R1bGV1cQB+AIMAAAACdAAQc2NhbGEuZGVwcmVjYXRlZHQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5nc3EAfgCFAHBzcQB+AIpxAH4Aj3NxAH4AhQBwc3EAfgCKc3EAfgCSc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAAAc3EAfgCFAHBzcQB+AIp1cQB+AGgAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AG5xAH4Ad3VxAH4AeAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AM94cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3EAfgCedAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AKJzcQB+AKV1cQB+AKgAAAACc3EAfgCqcQB+ALhxAH4AsXNxAH4AegBxAH4AM3VxAH4AfQAAAABzcQB+AJ50AARVbml0cQB+AN51cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgDPeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCAdAAFUGxhaW5xAH4ATXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4An1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AjXNxAH4AnnQABUFycmF5cQB+AN51cQB+AJwAAAABc3EAfgCedAAGU3RyaW5nc3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnEAfgCtc3EAfgCqcQB+AK9xAH4AsXNxAH4AhQBwc3EAfgCKdXEAfgCcAAAABHNxAH4AnnQAA0FwcHEAfgDec3EAfgCedAALRGVsYXllZEluaXRxAH4A3nNxAH4AnnEAfgChcQB+APtzcQB+AJ5xAH4As3EAfgDedXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAANQmVuY2htYXJrR2FtZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVtj0kvV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABML1VzZXJzL3JhbGljbG8vd29yay9ATmV0YmVhbnMvTGVldENvZGVfUHJhY3RpY2VzL1Rlc3RORy0xL2J1aWxkL2NsYXNzZXMvbWFpbnQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFM2l3s2QTVqvFTepRBaDg8TyaLBi
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByXo2LAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAuNtKN0AAZub3RpZnlzcQB+AAwnlWdMdAABeHNxAH4ADMPvykN0AARtb3Zlc3EAfgAMIrzkjXQABHdhaXRzcQB+AAyuWgwsdAANJGFzSW5zdGFuY2VPZnNxAH4ADNPVfa90AAZlcXVhbHNzcQB+AAz0Ki8fdAABeXNxAH4ADB/r28R0AAxhc0luc3RhbmNlT2ZzcQB+AAzrVk1ldAAFUG9pbnRzcQB+AAzi6X+YdAAMc3luY2hyb25pemVkc3EAfgAMgltVU3QADSRpc0luc3RhbmNlT2ZzcQB+AAw6hq2zdAAERGVtb3NxAH4ADIKCzqN0AARtYWluc3EAfgAMI0YNvXQAAnhjc3EAfgAMNY0GynQACW5vdGlmeUFsbHNxAH4ADAYTQe10AAxpc0luc3RhbmNlT2ZzcQB+AAzpCPIudAAGPGluaXQ+c3EAfgAMiqYVf3QAAj09c3EAfgAMC/PhfXQABWNsb25lc3EAfgAMsJesxHQACHRvU3RyaW5nc3EAfgAMjwBxP3QAAiE9c3EAfgAMBd+TgHQACGdldENsYXNzc3EAfgAMseCZM3QAAm5lc3EAfgAM1tM79HQAAnljc3EAfgAMT4f8Z3QAAmVxc3EAfgAMw2zoU3QAAiMjc3EAfgAMCA+7y3QACGZpbmFsaXplc3EAfgAM4KExDHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAfdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBneHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBmAHBzcQB+AGtzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBvc3EAfgBmAHBzcQB+AGt1cQB+AEoAAAAAc3EAfgBmAHBzcQB+AGt1cQB+AEoAAAAAc3EAfgBmAHBzcQB+AGt1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG50AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHN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
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDRcBwoAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cL9uxDN0AAZub3RpZnlzcQB+AAwFaIHwdAAEd2FpdHNxAH4ADItyRA10AARzaG93c3EAfgAMyb2BM3QADSRhc0luc3RhbmNlT2ZzcQB+AAwnmjFEdAAGZXF1YWxzc3EAfgAMdALyMXQADGFzSW5zdGFuY2VPZnNxAH4ADCx/2Y50AAxzeW5jaHJvbml6ZWRzcQB+AAxzAH/xdAANJGlzSW5zdGFuY2VPZnNxAH4ADK/kt6x0AARtYWluc3EAfgAMXsynbXQACW5vdGlmeUFsbHNxAH4ADEPvBod0AAxpc0luc3RhbmNlT2ZzcQB+AAyg7HlrdAAGPGluaXQ+c3EAfgAM18yBeHQAD1NjYWxhSGVsbG9Xb3JsZHNxAH4ADHTlPMF0AAI9PXNxAH4ADGggX8V0AAVjbG9uZXNxAH4ADB9JMI50AAh0b1N0cmluZ3NxAH4ADFo+t0h0AAIhPXNxAH4ADLqvwJZ0AAhnZXRDbGFzc3NxAH4ADKiD3HV0AAltYWluSGVsbG9zcQB+AAw0DlMkdAACbmVzcQB+AAxB6JLOdAACZXFzcQB+AAw4qMmPdAACIyNzcQB+AAwJ6WEqdAAIZmluYWxpemVzcQB+AAyiRe5qdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ACd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF94cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF4AcHNxAH4AY3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGdzcQB+AF4AcHNxAH4AY3VxAH4AQgAAAABzcQB+AF4AcHNxAH4AY3VxAH4AQgAAAABzcQB+AF4AcHNxAH4AY3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXB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
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAj3ofrAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCpiNrh0AAZub3RpZnlzcQB+AAz9e55hdAAEd2FpdHNxAH4ADJnPwfF0AA0kYXNJbnN0YW5jZU9mc3EAfgAMxLRbCHQABmVxdWFsc3NxAH4ADKeg+vV0AAxhc0luc3RhbmNlT2ZzcQB+AAyg1ooqdAAMc3luY2hyb25pemVkc3EAfgAMrsDBcHQADSRpc0luc3RhbmNlT2ZzcQB+AAwo0krPdAAGcHJvdG8xc3EAfgAMV9LHPnQABG1haW5zcQB+AAwA55qSdAAJbm90aWZ5QWxsc3EAfgAM5EqNSHQADGlzSW5zdGFuY2VPZnNxAH4ADLwxHvJ0AAVmdW5jMnNxAH4ADOKd2qh0AAY8aW5pdD5zcQB+AAz3l7/PdAAGcHJvdG8zc3EAfgAMV+FQWHQAAj09c3EAfgAMExx25XQABWNsb25lc3EAfgAMK8JryHQACHRvU3RyaW5nc3EAfgAMsftTu3QABWZ1bmMxc3EAfgAMA6I1RnQAAiE9c3EAfgAMNGH4j3QABnByb3RvMnNxAH4ADEMQ5Z90AAhnZXRDbGFzc3NxAH4ADKhNB/B0AAJuZXNxAH4ADKLpSKV0AAJlcXNxAH4ADCpmCHN0AAIjI3NxAH4ADOQV84N0AAhmaW5hbGl6ZXNxAH4ADL85vLR0AAFvc3EAfgAMrK4hg3QACGhhc2hDb2Rlc3EAfgAMyKSpFHQAEFNjYWxhT2JqZWN0Q2xhc3NzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBPeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AEV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGd4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGYAcHNxAH4Aa3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBPTAAJaW5oZXJpdGVkcQB+AE9MAAdwYXJlbnRzcQB+AE94cQB+AG9zcQB+AGYAcHNxAH4Aa3VxAH4ASgAAAABzcQB+AGYAcHNxAH4Aa3VxAH4ASgAAAABzcQB+AGYAcHNxAH4Aa3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4Ai3QABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjHNxAH4Af3QAA0FueXNxAH4Ag3NxAH4AhnVxAH4AiQAAAAJzcQB+AIt0AAVzY2FsYXEAfgCSc3EAfgBMcQB+AFl1cQB+AFoAAAAAc3EAfgBcAHQAEFNjYWxhT2JqZWN0Q2xhc3N1cQB+AF4AAAAAfnEAfgBgdAAGTW9kdWxldXEAfgBkAAAAAHNxAH4AZgBwc3EAfgBrcQB+AHBzcQB+AGYAcHNxAH4Aa3NxAH4Ac3NxAH4AZgBwc3EAfgBrdXEAfgBKAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBQcQB+AFl1cQB+AFoAAAAAc3EAfgBcAHEAfgAfdXEAfgBeAAAAAHNxAH4Af3QABFVuaXRzcQB+AINzcQB+AIZ1cQB+AIkAAAACc3EAfgCLcQB+AJlxAH4AknVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AKt4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGF0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIBbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AG5zcQB+AH90AAVBcnJheXEAfgCzdXEAfgB9AAAAAXNxAH4Af3QABlN0cmluZ3NxAH4Ag3NxAH4AhnVxAH4AiQAAAANzcQB+AItxAH4AjnNxAH4Ai3EAfgCQcQB+AJJzcQB+AGYAcHNxAH4Aa3VxAH4ASgAAAABzcQB+AGYAcHNxAH4Aa3VxAH4AfQAAAAJzcQB+AH9xAH4AgnEAfgDNc3EAfgB/cQB+AJRxAH4As3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFW2PSS9XVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvVXNlcnMvcmFsaWNsby93b3JrL0BOZXRiZWFucy9MZWV0Q29kZV9QcmFjdGljZXMvVGVzdE5HLTEvYnVpbGQvY2xhc3Nlcy9tYWludAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUgKTnssp6T0PeZyoOdVP6SqKdvUY=
+external apis:
+0 items
+source infos:
+4 items
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/BenchmarkGame/spectral_norm.scala -> 
+AAAAAAAAAAA=
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/Point.scala -> 
+AAAAAAAAAAA=
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaHelloWorld.scala -> 
+AAAAAAAAAAA=
+/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/main/scala/ScalaObjectClass.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVtj0kvV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9yYWxpY2xvL3dvcmsvQE5ldGJlYW5zL0xlZXRDb2RlX1ByYWN0aWNlcy9UZXN0TkctMS9idWlsZC9jbGFzc2VzL21haW50AAEv

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.cassandra:cassandra-clientutil:3.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.cassandra/cassandra-clientutil/3.0.2/3ddc036798e2c9a2b3413ee211c2690eebb9ab29/cassandra-clientutil-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.cassandra/cassandra-clientutil/3.0.2/e64f7e341e68e6f2810f6bd2e11bfcce0779fc8b/cassandra-clientutil-3.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.cassandra/cassandra-clientutil/3.0.2/bfb2b3404748079a159a18e5f70b8bbcbe685bfb/cassandra-clientutil-3.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.holdenkarau:spark-testing-base_2.11:2.0.0_0.4.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.holdenkarau/spark-testing-base_2.11/2.0.0_0.4.4/e6fcdc7218aefe59fc2335c045c232114dfc9db1/spark-testing-base_2.11-2.0.0_0.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.holdenkarau/spark-testing-base_2.11/2.0.0_0.4.4/44e3eaf1848729b5ec99879f346b853a8f35ae2c/spark-testing-base_2.11-2.0.0_0.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.holdenkarau/spark-testing-base_2.11/2.0.0_0.4.4/105b72dbd9d456ee25749b5b04ebb488d2e091c3/spark-testing-base_2.11-2.0.0_0.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

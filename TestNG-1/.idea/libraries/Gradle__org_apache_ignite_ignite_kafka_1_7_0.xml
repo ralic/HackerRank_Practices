@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ignite:ignite-kafka:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-kafka/1.7.0/72831dce06ca7a3782999c319189dcfb8365715a/ignite-kafka-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-kafka/1.7.0/2cb987b2ca97a6273f8038773a302a6ca0d0c0eb/ignite-kafka-1.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-kafka/1.7.0/963da931c77e00c86c9c3fc9bdf762df4af13571/ignite-kafka-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

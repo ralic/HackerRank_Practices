@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hive:hive-storage-api:2.1.1-pre-orc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-storage-api/2.1.1-pre-orc/3800c2f8e112d8b0857addad94fee3122792d020/hive-storage-api-2.1.1-pre-orc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-storage-api/2.1.1-pre-orc/bb7c57c4f2f28995825eb0ff4f51813c16b45358/hive-storage-api-2.1.1-pre-orc-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-storage-api/2.1.1-pre-orc/8eefea3511f8a66cdb59b9471ac5efc3f4a8296e/hive-storage-api-2.1.1-pre-orc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

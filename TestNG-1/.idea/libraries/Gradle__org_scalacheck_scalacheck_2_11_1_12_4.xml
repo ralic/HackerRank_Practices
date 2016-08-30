@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.scalacheck:scalacheck_2.11:1.12.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalacheck/scalacheck_2.11/1.12.4/bb7d723764dcd86f4212fa8cc5ece34452bd1ffa/scalacheck_2.11-1.12.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalacheck/scalacheck_2.11/1.12.4/9c13e274042fd43a1a6b09030a8cdbf9f89a9965/scalacheck_2.11-1.12.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scalacheck/scalacheck_2.11/1.12.4/1f830c9824026c901bcfd935500e0fa5d8ce57a0/scalacheck_2.11-1.12.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

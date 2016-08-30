@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hadoop:hadoop-hdfs:tests:2.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-hdfs/2.7.2/dfb6840b97211044e87a0345f7edad51b942fd2a/hadoop-hdfs-2.7.2-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-hdfs/2.7.2/34c4e10af404f0aa8634dc2055da4793c35311f6/hadoop-hdfs-2.7.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-hdfs/2.7.2/b92867af29529a666610f3b7df501f7e8d8fbd44/hadoop-hdfs-2.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

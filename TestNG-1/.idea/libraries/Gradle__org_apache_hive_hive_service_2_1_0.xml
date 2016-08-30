@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hive:hive-service:2.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-service/2.1.0/4bd13cfd7c0869a2175668a2b7726e7f3a33ed2d/hive-service-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hive/hive-service/2.1.0/2258ce34f9428fa7d8fd7b8a752dc00e99a58e6c/hive-service-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

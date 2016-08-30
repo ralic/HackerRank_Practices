@@ -1,0 +1,37 @@
+products:
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectral_norm.class
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm$.class
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm$delayedInit$body.class
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm.class
+   src/main/scala/Point.scala -> build/classes/main/Demo$.class
+   src/main/scala/Point.scala -> build/classes/main/Demo.class
+   src/main/scala/Point.scala -> build/classes/main/Point.class
+   src/main/scala/ScalaHelloWorld.scala -> build/classes/main/ScalaHelloWorld.class
+   src/main/scala/ScalaHelloWorld.scala -> build/classes/main/mainHello$.class
+   src/main/scala/ScalaHelloWorld.scala -> build/classes/main/mainHello.class
+   src/main/scala/ScalaObjectClass.scala -> build/classes/main/ScalaObjectClass$.class
+   src/main/scala/ScalaObjectClass.scala -> build/classes/main/ScalaObjectClass.class
+binary dependencies:
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/Point.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/Point.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/ScalaHelloWorld.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/ScalaObjectClass.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+   src/main/scala/ScalaObjectClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+source dependencies:
+external dependencies:
+class names:
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectral_norm
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$delayedInit$body
+   src/main/scala/Point.scala -> Demo
+   src/main/scala/Point.scala -> Demo$
+   src/main/scala/Point.scala -> Point
+   src/main/scala/ScalaHelloWorld.scala -> ScalaHelloWorld
+   src/main/scala/ScalaHelloWorld.scala -> mainHello
+   src/main/scala/ScalaHelloWorld.scala -> mainHello$
+   src/main/scala/ScalaObjectClass.scala -> ScalaObjectClass
+   src/main/scala/ScalaObjectClass.scala -> ScalaObjectClass$

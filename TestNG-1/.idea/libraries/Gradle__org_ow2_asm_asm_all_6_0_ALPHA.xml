@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ow2.asm:asm-all:6.0_ALPHA">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-all/6.0_ALPHA/b1d8d6a8fae4f4b44131c7f2390c1bfa99c82743/asm-all-6.0_ALPHA.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-all/6.0_ALPHA/ebda595f0c2c7a20af36f54af40ba0198c59cc33/asm-all-6.0_ALPHA-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-all/6.0_ALPHA/8a00f9c4c09c7f41b62500b7672d06fa18bc3eab/asm-all-6.0_ALPHA-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

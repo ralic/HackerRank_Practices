@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ben-manes.caffeine:caffeine:2.2.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.2.6/472291cda8957f45a2e203f15b048cdfd4f261cf/caffeine-2.2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.2.6/cc1d42ff1e7d569664fe746a73a1c6c91d59f445/caffeine-2.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.2.6/5a6546ba309e69d78ac6b050ae0b023511e2e1ce/caffeine-2.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ignite:ignite-codegen:1.0.0-RC3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-codegen/1.0.0-RC3/207e3d8256caa1594e1cac1134d1a6e5cae325ff/ignite-codegen-1.0.0-RC3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-codegen/1.0.0-RC3/553d0b6faf5bbf29d76e45fc7e3a1531a6017f13/ignite-codegen-1.0.0-RC3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-codegen/1.0.0-RC3/39dbd2ea005e48ec5d8f87cab52254aa14737064/ignite-codegen-1.0.0-RC3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
