@@ -1,8 +1,7 @@
 products:
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectral_norm$.class
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectral_norm$delayedInit$body.class
    src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectral_norm.class
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm$.class
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm$delayedInit$body.class
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> build/classes/main/BenchmarkGame/spectralnorm.class
    src/main/scala/Point.scala -> build/classes/main/Demo$.class
    src/main/scala/Point.scala -> build/classes/main/Demo.class
    src/main/scala/Point.scala -> build/classes/main/Point.class
@@ -24,9 +23,8 @@ source dependencies:
 external dependencies:
 class names:
    src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectral_norm
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$
-   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectralnorm$delayedInit$body
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectral_norm$
+   src/main/scala/BenchmarkGame/spectral_norm.scala -> BenchmarkGame.spectral_norm$delayedInit$body
    src/main/scala/Point.scala -> Demo
    src/main/scala/Point.scala -> Demo$
    src/main/scala/Point.scala -> Point

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="intermediate_MultiThreadTest.SimpleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-08-30T02:24:49" hostname="tastypotinc.private" time="0.004">
+<testsuite name="intermediate_MultiThreadTest.SimpleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-08-30T06:44:12" hostname="tastypotinc.private" time="0.007">
   <properties/>
-  <testcase name="aFastTest" classname="intermediate_MultiThreadTest.SimpleTest" time="0.0"/>
-  <testcase name="aHandsome" classname="intermediate_MultiThreadTest.SimpleTest" time="0.0"/>
+  <testcase name="aFastTest" classname="intermediate_MultiThreadTest.SimpleTest" time="0.001"/>
+  <testcase name="aHandsome" classname="intermediate_MultiThreadTest.SimpleTest" time="0.001"/>
   <testcase name="aSlowTest" classname="intermediate_MultiThreadTest.SimpleTest" time="0.001"/>
   <system-out><![CDATA[[TT]#    Fast ReadLines
 [TT]#    I love you!

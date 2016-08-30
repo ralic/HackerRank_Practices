@@ -26,10 +26,8 @@ buildscript {
     // Use "jcenter" for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.    
     repositories {
-        jcenter()
         mavenCentral()
-        maven { url "https://oss.sonatype.org/content/repositories/releases" }
-        maven { url "https://jitpack.io" }
+        jcenter()
     }
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
@@ -61,6 +59,7 @@ plugins {
 //    id "com.github.j2objccontrib.j2objcgradle" version "0.5.0-alpha"
 //     Golang Support
 //    id "de.flachnetz.golang-gradle-plugin" version "0.1.29"
+//    https://github.com/a8m/go-lang-cheat-sheet
 }
 
 /*
@@ -172,8 +171,11 @@ repositories {
     jcenter()
     mavenCentral()
     maven { url "https://oss.sonatype.org/content/repositories/releases" }
-    //    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
     maven { url "http://conjars.org/repo" }
+    maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
+    maven { url "https://oss.sonatype.org/content/repositories/releases" }
+    maven { url "https://jitpack.io" }
 }
 
 /*
@@ -276,7 +278,6 @@ dependencies {
     // Headless web test || GhostDriver
     compile "com.github.detro:phantomjsdriver:1.2.0"
 
-
     def SpringVer = "1.4.0.RELEASE"
     // For Spring Boot Rest Backend WebAPI design
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
@@ -288,38 +289,39 @@ dependencies {
     compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
 
     // For Hadoop Basic Development Environment
-    compile "org.apache.hadoop:hadoop-main:2.7.2"
-    compile "org.apache.hadoop:hadoop-common:2.7.2"
-    compile "org.apache.hadoop:hadoop-client:2.7.2"
-    compile "org.apache.hadoop:hadoop-hdfs:2.7.2"
-    compile "org.apache.hadoop:hadoop-annotations:2.7.2"
+    def HadoopVer = "2.7.3"
+    compile "org.apache.hadoop:hadoop-main:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-client:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-hdfs:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-annotations:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-core:1.2.1"
     compile "org.apache.hadoop:hadoop-tools:1.2.1" // Dist-cp support
 
     // For Hadoop MapReduce Development Environment
-    compile "org.apache.hadoop:hadoop-mapreduce-client-core:2.7.2"
-    compile "org.apache.hadoop:hadoop-mapreduce-client-common:2.7.2"
-    compile "org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.7.2"
-    compile "org.apache.hadoop:hadoop-mapreduce-client-app:2.7.2"
-    compile "org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.7.2"
-    compile "org.apache.hadoop:hadoop-mapreduce-client-hs:2.7.2" // MapReduce History Storage
-    compile "org.apache.hadoop:hadoop-streaming:2.7.2" // MapReduce Streaming
+    compile "org.apache.hadoop:hadoop-mapreduce-client-core:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-jobclient:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-app:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-shuffle:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-hs:${HadoopVer}" // MapReduce History Storage
+    compile "org.apache.hadoop:hadoop-streaming:${HadoopVer}" // MapReduce Streaming
 
     // For Hadoop YARN Development Environment
-    compile "org.apache.hadoop:hadoop-yarn-common:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-api:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-server-common:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-client:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-server-web-proxy:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-server-nodemanager:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-server-resourcemanager:2.7.2"
+    compile "org.apache.hadoop:hadoop-yarn-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-api:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-client:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-web-proxy:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-nodemanager:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-resourcemanager:${HadoopVer}"
 
     // For Hadoop Auth Security Development Environment
-    compile "org.apache.hadoop:hadoop-auth:2.7.2"
+    compile "org.apache.hadoop:hadoop-auth:${HadoopVer}"
 
     // Mini Cluster for Hadoop Test
-    compile "org.apache.hadoop:hadoop-minicluster:2.7.2"
-    compile "org.apache.hadoop:hadoop-yarn-server-tests:2.7.2"
+    compile "org.apache.hadoop:hadoop-minicluster:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-tests:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-test:1.2.1"
     //http://attic.apache.org/projects/mrunit.html
     //compile "org.apache.mrunit:mrunit:1.1.0:hadoop2"
@@ -333,14 +335,54 @@ dependencies {
     compile "org.apache.zookeeper:zookeeper:3.4.8"
 
     // For Spark Development
-    compile "org.apache.spark:spark-core_2.11:2.0.0"
-    compile "org.apache.spark:spark-sql_2.11:2.0.0"
+    def SparkVer = "2.0.0"
+    compile "org.apache.spark:spark-core_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
+
+    compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
+
+    compile "org.apache.spark:spark-hive_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-repl_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-yarn_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-graphx_2.11:${SparkVer}"
+
+    def SparkVerOld = "1.6.2"
+    compile "org.apache.spark:spark-tags_2.11:1.6.2"
+    compile "org.apache.spark:spark-test-tags_2.11:1.6.2"
+    compile "org.apache.spark:spark-streaming-twitter_2.11:1.6.2"
+    compile "org.apache.spark:spark-streaming-kafka_2.11:1.6.2"
+    compile "org.apache.spark:spark-bagel_2.11:1.6.2"
+
+    // ZeroMQ vs Kafka vs RabbitMQ
+    // https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
+    // http://stackoverflow.com/questions/731233/activemq-or-rabbitmq-or-zeromq-or
+
+    // For Bitcoin in Java
+    compile "org.bitcoinj:bitcoinj-core:0.14.3"
+
+    // For CoAP in IOT //  Java CoAP implementation
+    // http://www.win.tue.nl/~lrahman/iot/files/LeshanTutorial.pdf
+    // http://stackoverflow.com/questions/30424457/what-are-the-major-differences-between-http-and-coap
+    compile "org.eclipse.californium:californium-core:2.0.0-M1"
+    compile "de.uzl.itm:ncoap-core:1.8.3-SNAPSHOT"
+    compile "org.eclipse.leshan:leshan-all:0.1.11-M12"
+
+    // C10K Problem
+    // https://en.wikipedia.org/wiki/C10k_problem
+    // https://news.ycombinator.com/item?id=5127251
+    // http://shenfeng.me/600k-concurrent-connection-http-kit.html
+
+    // For HTTP2 Servers
+    // http://unrestful.io/2015/10/10/http2-java-client-examples.html
+    compile "io.netty:netty-all:5.0.0.Alpha2"
+    compile "org.eclipse.jetty:jetty-server:9.4.0.M1"
 
     // For Spark Unit Test with SparkHive
     // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
 
     compile "com.holdenkarau:spark-testing-base_2.11:2.0.0_0.4.4"
-    compile "org.apache.spark:spark-hive_2.11:2.0.0"
 
     // For Mesos Development
     compile "org.apache.mesos:mesos:1.0.0"
@@ -392,8 +434,29 @@ dependencies {
 
     // For Virtual Reality
 
+    // For Hibernate
+    compile "org.hibernate:hibernate-core:5.2.2.Final"
+
+    // For Dependency Injection
+
+    // For Time and Date (Joda-Time)
+    compile "joda-time:joda-time:2.9.4"
+
+    // For H2 Datbase http://www.h2database.com/html/main.html
+    compile "com.h2database:h2:1.4.192"
+
     // For Leap Motion
 //    compile "com.leapmotion.leap:leapMotion:2.1.5"
+
+    // For Arquillian Test ( http://arquillian.org/modules/core-platform/ )
+    testCompile "org.jboss.arquillian:arquillian-bom:1.1.11.Final"
+    testCompile "org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6"
+    testCompile "org.jboss.shrinkwrap:shrinkwrap-descriptors-bom:2.0.0-alpha-9"
+
+    // For Arquillian Cube ( Docker or Kubernetes Testing , http://arquillian.org/blog/2016/08/18/arquillian-cube-1-0-0-Alpha14/ )
+    compile "org.arquillian.cube:arquillian-cube-requirement:1.0.0.Alpha14"
+    testCompile "org.arquillian.extension:arquillian-desktop-video-recorder:1.1.2.Final"
+    testCompile "org.arquillian.spacelift:arquillian-spacelift:1.0.0.Alpha8"
 
     // The production code uses the SLF4J logging API at compile time
     // "format ||  <groupId> :<artifactId> :<version> "
@@ -848,7 +911,6 @@ task dist(dependsOn: [compile, test]) << {
 //        ndkCommandPath = ndkBuildPath
 //    }
 //}
-
 
 //xcodebuild {
 //    version = "7.3.1"
