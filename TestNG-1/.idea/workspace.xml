@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/Java8/SubSetConcept.java" line="21" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c39821-c791-4bb9-a4ed-c4029b19d54c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/android_app/android_app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/golang/Basics/hello.go" afterPath="$PROJECT_DIR$/src/main/golang/Basic/hello.go" />
+    <list default="true" id="583c783d-45d4-40c3-b3e1-b1bff1d637db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ExampleSuite.class" afterPath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ExampleSuite.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ScalaTestNG.class" afterPath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ScalaTestNG.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/golang.iml" afterPath="$PROJECT_DIR$/src/main/golang/golang.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java8_Tests/Avro_Tests/TwitterAvro.java" afterPath="$PROJECT_DIR$/src/test/java/Java8_Tests/Avro_Tests/TwitterAvro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTestNG.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTestNG.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" afterPath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" />
     </list>
     <ignored path="TestNG-1.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/build/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/build/min-closure.js/" />
+    <ignored path="$PROJECT_DIR$/build/reports/" />
+    <ignored path="$PROJECT_DIR$/build/resources/" />
+    <ignored path="$PROJECT_DIR$/build/test-results/" />
+    <ignored path="$PROJECT_DIR$/build/tmp/" />
     <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/src/main/javascript/.gradle/" />
-    <ignored path="$PROJECT_DIR$/src/main/javascript/build/" />
-    <ignored path="$PROJECT_DIR$/mylibrary/.gradle/" />
-    <ignored path="$PROJECT_DIR$/mylibrary/build/" />
-    <ignored path="$PROJECT_DIR$/android_app/.gradle/" />
-    <ignored path="$PROJECT_DIR$/android_app/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,51 +65,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TestNG-1$NorthernTour.coverage" NAME="NorthernTour Coverage Results" MODIFIED="1470946136101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.raliclo.HackerRank_Basic.Contests.BookingMobile.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestNG-1$ReviewsMobile.coverage" NAME="ReviewsMobile Coverage Results" MODIFIED="1470961342194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.raliclo.HackerRank_Basic.Contests.BookingMobile.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestNG-1$spectral_norm__1_.coverage" NAME="spectral-norm (1) Coverage Results" MODIFIED="1472451549429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
-    <SUITE FILE_PATH="coverage/TestNG-1$LongestIncreasingSubsequenceArrays.coverage" NAME="LongestIncreasingSubsequenceArrays Coverage Results" MODIFIED="1469312897318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Java8.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TestNG-1$Unittests_in_TestNG_1.coverage" NAME="Unittests in TestNG-1 Coverage Results" MODIFIED="1472031232925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TestNG-1$spectral_norm.coverage" NAME="spectral-norm Coverage Results" MODIFIED="1472451018957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myAutoScrollFromSource" value="true" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/src/main/javascript">
-      <ProjectState />
-    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/build.gradle">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state />
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
@@ -87,34 +85,21 @@
     <favorites_list name="TestNG-1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+    <leaf>
+      <file leaf-file-name="Mandelbrot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/Mandelbrot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="802" column="2" selection-start-line="802" selection-start-column="2" selection-end-line="802" selection-end-column="2" />
+            <state relative-caret-position="885">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#2204#2402#0" expanded="true" />
+                <element signature="e#2401#2402#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Scala Worksheet" />
-        <option value="JavaFXApplication" />
-        <option value="JavaScript File" />
-        <option value="Kotlin File" />
-        <option value="Class" />
-        <option value="Python Script" />
-        <option value="Go File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -139,10 +124,6 @@
               <ExternalProjectPojo>
                 <option name="name" value="TestNG-1" />
                 <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":android_app" />
-                <option name="path" value="$PROJECT_DIR$/android_app" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -222,7 +203,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'TestNG-1' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'TestNG-1'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -554,63 +535,15 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/android_app">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':android_app'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':android_app'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':android_app'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android_app" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/IdeaProjects/poi" value="2936662776000" />
-        <entry key="$PROJECT_DIR$" value="4416937832000" />
+        <entry key="$PROJECT_DIR$/../../#LeetCode_Practices/TestNG-1" value="4406368076000" />
+        <entry key="$PROJECT_DIR$" value="4416938077000" />
+        <entry key="$PROJECT_DIR$/../../LeetCode_Practices/TestNG-1" value="4416929943000" />
+        <entry key="$PROJECT_DIR$/../../VRdevelop/openmapfx" value="7349367025000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -728,117 +661,6 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/android_app">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.0.0-M2/f8d8767628a8f120e895046c6ef8788e9ac19e44/junit-platform-gradle-plugin-1.0.0-M2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-gradle-plugin/1.0.0-M2/a6d2e8a4dccd6a8bec8264a1f5763e8e90520bf/junit-platform-gradle-plugin-1.0.0-M2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/gradle-dependency-lock-plugin/4.3.0/b69a10a44bb9a7bdadb2a4dedf758f6e5ca581ed/gradle-dependency-lock-plugin-4.3.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/gradle-dependency-lock-plugin/4.3.0/22acf8d0feabb69a53838f060ca892357f316365/gradle-dependency-lock-plugin-4.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.3.6.RELEASE/3b0bfd30050ad793dabb519627f73dd3a60b1399/spring-boot-gradle-plugin-1.3.6.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.3.6.RELEASE/1edc38660650dc234ef2b958fe06696243f9811e/spring-boot-gradle-plugin-1.3.6.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.0.RELEASE/7575ebe812e9988d7eff563ab046fab34a13d7c5/dependency-management-plugin-0.6.0.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/0.6.0.RELEASE/8be3924e1790c9cc089e6a96dbf2ed3c8fa0ed3/dependency-management-plugin-0.6.0.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/gradle-git/1.5.1/455b8edaa604da99c0c4b1b4a730aa6bdf7379f8/gradle-git-1.5.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/gradle-git/1.5.1/cabb51f6a7556b01fd3df6ed670c268e3b7d2c72/gradle-git-1.5.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.layer/gradle-git-repo-plugin/2.0.2/f44ff07742ae3e4bf9722bfe24bdc0f7ef72c7/gradle-git-repo-plugin-2.0.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.layer/gradle-git-repo-plugin/2.0.2/2299b613eff175269e2578bc087ab727adecce6e/gradle-git-repo-plugin-2.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.eriwen/gradle-js-plugin/2.14.1/170c770cb42f6fdee7bdf4579131d63cbad8eec2/gradle-js-plugin-2.14.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moowork.gradle/gradle-node-plugin/0.13/336e6b964f13b13ae83474c95797c3947271a161/gradle-node-plugin-0.13-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moowork.gradle/gradle-node-plugin/0.13/d0c389f5ae768a0a7cb152bcb22e9c49dbd739e1/gradle-node-plugin-0.13.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commercehub.gradle.plugin/gradle-avro-plugin/0.9.0/62de75db29b0b94c2d135a308dfc04be91d9fb85/gradle-avro-plugin-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0-M2/b86699b26cf9ddb32d0516aebe9b7e37a84ce5f5/junit-platform-console-1.0.0-M2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0-M2/e5976edd133c6966f56471d37bf89f86f86df62c/junit-platform-console-1.0.0-M2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/gradle-scm-plugin/2.2.0/975ee7099a5cfe0f1a5b3760388bbaa86f47a9c2/gradle-scm-plugin-2.2.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/gradle-scm-plugin/2.2.0/6d219eef666f0f845149d88e0d5f01f94d976f1a/gradle-scm-plugin-2.2.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.3.6.RELEASE/e2322ae6ad14d0d717225332cdc3e830b36ae744/spring-boot-loader-tools-1.3.6.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.3.6.RELEASE/396cf1af5248274eac462d525251a581a8a928a9/spring-boot-loader-tools-1.3.6.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/grgit/1.7.0/b6b6d1eda6b3db8207fe1e78a6b90809a90165fc/grgit-1.7.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/grgit/1.7.0/4fc8ccf2b1aca07e8b041ccfadb317f09b8eb1e2/grgit-1.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/38d5bf2aa1204792794489a0e2c4c19548bc35c1/java-semver-0.9.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/59a83ca73c72a5e25b3f0b1bb305230a11000329/java-semver-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20160208/d00008b38351a9a7b6b2b4adb107f99127cd427a/closure-compiler-v20160208-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20160208/5a2f4be6cf41e27ed7119d26cb8f106300d87d91/closure-compiler-v20160208.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jdev.html2js/html2js/0.1/2a8a982c39df8f6d17e23bbff73669d0d8a462b7/html2js-0.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jdev.html2js/html2js/0.1/800009a1d8e54c935cb29aca67b565d6afa3568e/html2js-0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-compiler/1.8.1/d9d0029157ba80263064434813b27601999ae93/avro-compiler-1.8.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-compiler/1.8.1/a150c5bc9faba3ee4a060944b36d070939559a6b/avro-compiler-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0-M2/fd0898b4cb93b12293807870b689e6eeacec0ae7/junit-platform-launcher-1.0.0-M2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0-M2/2c7f203cd470023891184a6e52d9562c9cc729bc/junit-platform-launcher-1.0.0-M2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.2/8c1ab37cb37a04678788316d6c560078bc56d885/jopt-simple-5.0.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.2/98cafc6081d5632b61be2c9e60650b64ddbc637c/jopt-simple-5.0.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.7.RELEASE/2f10a08b226a960ec9e0f78199302a6e54f93f7/spring-core-4.2.7.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.7.RELEASE/3d08f6f68e0654bf4be50559aec4218334189583/spring-core-4.2.7.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.3.1.201605051710-r/c346002a03e08c47ef8c332b1158a5794fb5037e/org.eclipse.jgit-4.3.1.201605051710-r-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.3.1.201605051710-r/1aac3274c4a30bd85a200a785273c71c6b0d331c/org.eclipse.jgit-4.3.1.201605051710-r.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.ui/4.3.1.201605051710-r/1b34a56f70b501c97c4f712f63ff531d6b807b55/org.eclipse.jgit.ui-4.3.1.201605051710-r-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.ui/4.3.1.201605051710-r/9691c32f3fd8c48a6319c205008b6f5b454a6cd1/org.eclipse.jgit.ui-4.3.1.201605051710-r.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.9/580aea5836a0b077c285f85c4d5f80cb7070619c/jsch.agentproxy.jsch-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.9/26f5c718216f1668f674816e580aa7c92f2660ad/jsch.agentproxy.jsch-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.9/a3865d329183d51cbd6e21023d19d3eebd5df70e/jsch.agentproxy.pageant-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.9/7651361429af009ff18a6ea5c4e5d38ecff7f959/jsch.agentproxy.pageant-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.9/19cb8705d905d218655aff43305cc8361f232fd7/jsch.agentproxy.sshagent-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.9/2ecca436463287682d16c3fa628bd7cca426cf6f/jsch.agentproxy.sshagent-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.9/2135bde834fb5fba3125c2f3aa14bcf472739c74/jsch.agentproxy.usocket-jna-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.9/100522438a57b4c0d15db112fc8a08d17f48080a/jsch.agentproxy.usocket-jna-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.9/bbfa3094c024cc1cffff1cef50be630d20ded605/jsch.agentproxy.usocket-nc-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.9/926fd2eb5586c779b8d7827036ea8e06fe7744ba/jsch.agentproxy.usocket-nc-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/f285ac123f201fb4b028bac556928d7cf527ef48/slf4j-api-1.7.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.8.1/6964f2878322ebbc09c69f78f49b1cde4e9a200a/avro-1.8.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.8.1/f4e11d00055760dca33daab193192bd75cc87b59/avro-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity/1.7/eb11eb70171ed64842b2e5216d5904e21ed162ac/velocity-1.7-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.velocity/velocity/1.7/2ceb567b8f3f21118ecdec129fe1271dbc09aa7a/velocity-1.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.13/6ed53c5ce78344e14296aa47769d67b10e1c7b2c/jackson-core-asl-1.9.13-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.13/3c304d70f42f832e0a86d45bd437f692129299a4/jackson-core-asl-1.9.13.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/83113901bc2a377d698ccea35ad842786f37c6ad/jackson-mapper-asl-1.9.13-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7/jackson-mapper-asl-1.9.13.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/1fc633cf2a3f5a1767ef28b81ebc5d0ecfa1ffda/joda-time-2.7-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.7/5599707a3eaad13e889f691b3af78c8c03842195/joda-time-2.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0-M2/f5d500a78355875859fbf48de2baa57bfae7d5e0/junit-platform-engine-1.0.0-M2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0-M2/fe36ee348295ec740b068b3dd46ec5c733134eb5/junit-platform-engine-1.0.0-M2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/791359d94d6edcace686a56d0727ee093a2f7c33/jsch-0.1.53-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/658b682d5c817b27ae795637dfec047c63d29935/jsch-0.1.53.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/a50d78eb630e05439461f3130b94b3bcd1ea6f03/JavaEWAH-0.7.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/eceaf316a8faf0e794296ebe158ae110c7d72a5a/JavaEWAH-0.7.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.9/dc8402ed7f647c7d44057189a49b5743b02a7262/jsch.agentproxy.core-0.0.9-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.9/1af3741c3a83a71e29b8aa7637979791e50e538b/jsch.agentproxy.core-0.0.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/28a5d592b494fe54c120c64689087e779a7bf55b/jna-4.1.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.1.0/67d178949fe41ff82de6dbda7ef62d48f70e031c/jna-platform-4.1.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.1.0/23457ad1cf75c2c16763330de5565a0e67b4bc0a/jna-platform-4.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/dda6e29e9450d82e04d7fc9d686d96b93c94116/paranamer-2.7-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/3ed64c69e882a324a75e890024c32a28aff0ade8/paranamer-2.7.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.1.3/7677279be5bfba62a760ceca6e2c88a890d29942/snappy-java-1.1.1.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.1.3/fbd7b0b8400ebd0d6a2c61493f39530a93d9c4b6/snappy-java-1.1.1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/3caea4421428752206c7a94c3e3097f0c47f1bb8/commons-compress-1.8.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/66cf970ae7a73d9c3eb7d0ad3e901c43591139c3/xz-1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/9c64274b7dbb65288237216e3fae7877fd3f2bee/xz-1.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/fa095ef874374e5b2a11f8b06c26a5d68c7cb3a4/commons-collections-3.2.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.1/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0-M2/9b8e5ae60ac6bfa83795e6117a5443e4c67a322d/junit-platform-commons-1.0.0-M2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0-M2/a6f1f88b10512623ed14e8b93be10b7590f74c11/junit-platform-commons-1.0.0-M2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0-M1/fe6d496a6a0c8a6ed9a2cdeaab4a0bb43ed52a9b/opentest4j-1.0.0-M1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0-M1/b091255eafd515995a5c5fa042cd8db6f4860bf6/opentest4j-1.0.0-M1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$/android_app" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -986,63 +808,6 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.spectral-norm.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BookingFE/Contest/TheElevatorSuperstition.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BookingFE/Contest/TheGPSCoordination.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BookingFE/Contest/TheTemperatureConfiguration.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BookingFE/Contest/TheTrainScheduling.js" />
-        <option value="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.mandelbrot.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/nocleotide-input" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/mandelbrot.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/k-nucleotide.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/input" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/fasta-redux.js" />
-        <option value="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.fasta-redux.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/nbody.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/binary-trees.js" />
-        <option value="$PROJECT_DIR$/src/main/java/BenchmarkGame/Mandelbrot.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Avro_Tests/user.avsc" />
-        <option value="$PROJECT_DIR$/src/test/java/Avro_Tests/AvroTools.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Avro_Tests/AvroParser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Avro_Tests/twitter.avsc" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Avro_Tests/AvroParser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Avro_Tests/TwitterAvro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/FlippingtheMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bon_Appétit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/CombinationLock.java" />
-        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/spectral-norm.js" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/TestNG_PermUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Abbreviation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/ConsumerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonPOJODeserializer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonPOJOSerializer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonTimestampExtractor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/PageViewTypedDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pipe/PipeDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/wordcount/WordCountDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/wordcount/WordCountProcessorDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BenchmarkGame/SpectralNorm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bonetrousle.java" />
-        <option value="$PROJECT_DIR$/src/main/python/spectral-norm.py" />
-        <option value="$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py" />
-        <option value="$PROJECT_DIR$/src/main/swift/main.swift" />
-        <option value="$PROJECT_DIR$/src/main/golang/math_test.go" />
-        <option value="$PROJECT_DIR$/src/main/golang/math.go" />
-        <option value="$PROJECT_DIR$/src/main/golang/hello.go" />
-        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala" />
-        <option value="$PROJECT_DIR$/src/main/golang/Basics/hello.go" />
-        <option value="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/src/main/golang/golang.iml" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -1061,28 +826,6 @@
     <option name="y" value="23" />
     <option name="width" value="1269" />
     <option name="height" value="739" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>JSAnnotator</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1109,53 +852,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Android Instrumentation Tests" />
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1176,90 +872,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.38045976" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/golang" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="jdk.selected.PLUGIN_MODULE" value="IntelliJ IDEA IU-145.1617.8" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/build.gradle" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="do.not.ask.to.change.module.type" value="TestNG-1_main" />
-    <property name="configurable.Global.libraries.is.expanded" value="true" />
-    <property name="configurable.Project.libraries.is.expanded" value="true" />
-    <property name="configurable.Module.libraries.is.expanded" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Java8" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/golang/Basic" />
-      <recent name="$PROJECT_DIR$/src/main/golang/Basics" />
-      <recent name="$PROJECT_DIR$/src/main/golang/BenchmarkGame" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.raliclo.HackerRank_Basic.Contests.C101Hack40" />
-      <recent name="Java8" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/javascript/BenchmarkGame" />
-      <recent name="$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go Single File.go run hello.go (2)">
-    <configuration default="false" name="go run spectral-norm.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run hello.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="TestNG-1_main" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/Basics/hello.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in 'golang'" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/main/golang" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$/src/main/golang" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run hello.go (1)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/BenchmarkGame/hello.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run hello.go (2)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/Basic/hello.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Groovy.build">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1288,10 +916,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -1314,10 +939,7 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -1434,7 +1056,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -1533,7 +1155,6 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -1621,7 +1242,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <envs />
       <method />
     </configuration>
@@ -1649,7 +1270,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -1663,7 +1284,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -1679,7 +1300,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -1692,13 +1313,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
-      <module name="" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
@@ -1803,16 +1417,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1850,7 +1458,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1870,7 +1478,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1890,7 +1498,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1912,7 +1520,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1935,7 +1543,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TestNG-1" />
+      <module name="main" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -1966,48 +1574,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Spark_WordCount" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java8_Tests.Spark_UnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java8_Tests.Spark_UnitTest.Spark_WordCount" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestNG-1_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="myMinify" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="TestNG-1" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="myMinify" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="false" name="NGreport" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="TestNG-1" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="-S NGreport" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="false" name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="TestNG-1" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
@@ -2019,72 +1585,12 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="tasks" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="TestNG-1" />
-      <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="tasks" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="false" name="SparkTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java8_Tests.Spark_UnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TestNG-1_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Java8_Tests.Spark_UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="Java8_Tests.Spark_UnitTest.SparkTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TheElevatorSuperstition.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/main/javascript/BookingFE/Contest/TheElevatorSuperstition.js" working-dir="$PROJECT_DIR$/src/main/javascript/BookingFE">
-      <method />
-    </configuration>
-    <list size="12">
-      <item index="0" class="java.lang.String" itemvalue="Application.Spark_WordCount" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.myMinify" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.NGreport" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.tasks" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SparkTest" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.TheElevatorSuperstition.js" />
-      <item index="7" class="java.lang.String" itemvalue="Go Single File.go run spectral-norm.go" />
-      <item index="8" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
-      <item index="9" class="java.lang.String" itemvalue="Go Test.All in 'golang'" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run hello.go (1)" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run hello.go (2)" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run hello.go (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run hello.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run hello.go (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.All in 'golang'" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run spectral-norm.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1472519363819" />
+    <option name="lastUpdateTimestamp" value="1472523260924" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2092,297 +1598,55 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c5c39821-c791-4bb9-a4ed-c4029b19d54c" name="Default" comment="" />
-      <created>1468813774647</created>
+      <changelist id="583c783d-45d4-40c3-b3e1-b1bff1d637db" name="Default" comment="" />
+      <created>1472523185499</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1468813774647</updated>
-      <workItem from="1468813776421" duration="1190000" />
-      <workItem from="1468815567236" duration="39147000" />
-      <workItem from="1468905508429" duration="24051000" />
-      <workItem from="1468954315583" duration="17000" />
-      <workItem from="1469196863286" duration="1594000" />
-      <workItem from="1469298128183" duration="52294000" />
-      <workItem from="1469444747039" duration="3495000" />
-      <workItem from="1469825028506" duration="166000" />
-      <workItem from="1469825293411" duration="18265000" />
-      <workItem from="1470168181771" duration="439000" />
-      <workItem from="1470170118894" duration="2348000" />
-      <workItem from="1470180533247" duration="103000" />
-      <workItem from="1470180698966" duration="11153000" />
-      <workItem from="1470268681439" duration="225000" />
-      <workItem from="1470278404849" duration="1065000" />
-      <workItem from="1470377510355" duration="31101000" />
-      <workItem from="1470868424618" duration="1163000" />
-      <workItem from="1470869836816" duration="172000" />
-      <workItem from="1470870048919" duration="86862000" />
-      <workItem from="1471031134081" duration="662000" />
-      <workItem from="1471035371524" duration="1832000" />
-      <workItem from="1471158549105" duration="862000" />
-      <workItem from="1471159579459" duration="30000" />
-      <workItem from="1471159680634" duration="11371000" />
-      <workItem from="1471479557364" duration="758000" />
-      <workItem from="1471657626581" duration="9667000" />
-      <workItem from="1471691295566" duration="20279000" />
-      <workItem from="1471842310168" duration="19087000" />
-      <workItem from="1471866688724" duration="2297000" />
-      <workItem from="1471871040345" duration="7894000" />
-      <workItem from="1471879059022" duration="16110000" />
-      <workItem from="1471930285134" duration="57655000" />
-      <workItem from="1472444447326" duration="5946000" />
-      <workItem from="1472458423098" duration="12292000" />
-      <workItem from="1472517906850" duration="1309000" />
-      <workItem from="1472519276195" duration="2818000" />
+      <updated>1472523185499</updated>
+      <workItem from="1472523187851" duration="541000" />
     </task>
-    <task id="LOCAL-00001" summary="IntelliJ workspace setup">
-      <created>1468815706427</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1468815706427</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Hacker Ranker Basic Java">
-      <created>1468882487794</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1468882487794</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Hacker Ranker Basic Java">
-      <created>1468882570485</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1468882570485</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Java End of File">
-      <created>1468883451861</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1468883451861</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Java Static Initializer Block">
-      <created>1468884793318</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1468884793318</updated>
-    </task>
-    <task id="LOCAL-00006" summary="HackerRank Java Basic">
-      <created>1468885353021</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1468885353021</updated>
-    </task>
-    <task id="LOCAL-00007" summary="HackerRank Java Basic / Relocated">
-      <created>1468893117670</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1468893117670</updated>
-    </task>
-    <task id="LOCAL-00008" summary="HackerRank Java Strings">
-      <created>1468893156630</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1468893156630</updated>
-    </task>
-    <task id="LOCAL-00009" summary="HackerRank Java Strings/Anagrams/StringReverse">
-      <created>1468896323256</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1468896323256</updated>
-    </task>
-    <task id="LOCAL-00010" summary="HackerRank Java Strings/ Regex / Pattern/ Matcher / Remove Duplicated Word / IPv4 address check">
-      <created>1468913825683</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1468913825683</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Permutation Utility &amp;&amp; Test Case">
-      <created>1469527992785</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1469527992785</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Permutation Utility &amp;&amp; Test Case">
-      <created>1469528048769</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1469528048769</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Updates">
-      <created>1471849969764</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1471849969764</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Updates">
-      <created>1471849994321</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1471849994321</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Build files and libraries update">
-      <created>1471864752341</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1471864752341</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 18m 22s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 18m 33s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 18m 44s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 26m 56s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 27m 49s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="All_in_'golang' - 2016.08.29 at 18h 28m 27s.xml">
-      <configuration name="All in 'golang'" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTestNG - 2016.08.22 at 07h 36m 47s.xml">
-      <configuration name="ScalaTestNG" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ScalaTestNG - 2016.08.22 at 07h 37m 15s.xml">
-      <configuration name="ScalaTestNG" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ScalaTestNG - 2016.08.22 at 14h 18m 11s.xml">
-      <configuration name="ScalaTestNG" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestNG-1 - 2016.08.24 at 02h 33m 53s.xml">
-      <configuration name="Unittests in TestNG-1" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451999000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1269" height="739" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33848533" sideWeight="0.2176039" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35857806" sideWeight="0.6161369" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.45476773" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33848533" sideWeight="0.7823961" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.48410758" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36166924" sideWeight="0.53382236" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.45802772" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49062756" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3802164" sideWeight="0.8223309" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3626732" sideWeight="0.49202734" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11165444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.45150775" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925835" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31260097" sideWeight="0.50797266" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.49062756" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36166924" sideWeight="0.50774246" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44204018" sideWeight="0.6283619" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.45476773" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33848533" sideWeight="0.68948656" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.48736757" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36166924" sideWeight="0.49225754" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.45802772" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49062756" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3802164" sideWeight="0.86797065" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29095355" sideWeight="0.49202734" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11165444" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.4612877" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925835" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31260097" sideWeight="0.50797266" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2395,331 +1659,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="IntelliJ workspace setup" />
-    <MESSAGE value="Hacker Ranker Basic Java" />
-    <MESSAGE value="Java End of File" />
-    <MESSAGE value="Java Static Initializer Block" />
-    <MESSAGE value="HackerRank Java Basic" />
-    <MESSAGE value="HackerRank Java Basic / Relocated" />
-    <MESSAGE value="HackerRank Java Strings" />
-    <MESSAGE value="HackerRank Java Strings/Anagrams/StringReverse" />
-    <MESSAGE value="HackerRank Java Strings/ Regex / Pattern/ Matcher / Remove Duplicated Word / IPv4 address check" />
-    <MESSAGE value="Permutation Utility &amp;&amp; Test Case" />
-    <MESSAGE value="Updates" />
-    <MESSAGE value="Build files and libraries update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build files and libraries update" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Java/DataStructure/Java1DArray_2.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Abbreviation.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="195" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/FlippingtheMatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/ConsumerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/PageViewTypedDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonTimestampExtractor.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonPOJOSerializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/wordcount/WordCountProcessorDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/wordcount/WordCountDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pipe/PipeDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Kafka_UnitTest/pageview/JsonPOJODeserializer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/BenchMarkGame/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/spectral-norm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/swift/main.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bonetrousle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Artificial_Intellegence/MatchingBookName_Descriptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/math_test.go" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/Mandelbrot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.7/libexec/src/strconv/atoi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="750" column="32" selection-start-line="750" selection-start-column="32" selection-end-line="750" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.7/libexec/src/time/example_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scripts/TestNG-1.bat" />
-    <entry file="file://$PROJECT_DIR$/build/scripts/TestNG-1" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaHelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/SpectralNorm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaObjectClass.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640">
-          <caret line="12" column="231" selection-start-line="12" selection-start-column="231" selection-end-line="12" selection-end-column="231" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/TestNG-1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="885">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/Basic/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/golang.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules/TestNG-1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="802" column="2" selection-start-line="802" selection-start-column="2" selection-end-line="802" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2204#2402#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2730,11 +1689,10 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Gradle : TestNG-1.war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -2746,7 +1704,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -2754,11 +1712,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.12.0-M3</last-edited>
+          <last-edited>Python 2.7.10 (/usr/bin/python) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -2766,11 +1724,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Go 1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -2778,12 +1736,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>golang|TestNG-1</last-edited>
+          <last-edited>TestNG-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
-                <option value="0.6" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -2791,7 +1748,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Go 1.7</last-edited>
+          <last-edited>IntelliJ IDEA IU-145.1617.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2803,11 +1760,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.pentaho:pentaho-aggdesigner-algorithm:5.1.5-jhyde</last-edited>
+          <last-edited>Gradle: ant:ant:1.6.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.38045976" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
