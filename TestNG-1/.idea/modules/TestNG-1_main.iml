@@ -641,5 +641,6 @@
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpmime:4.5.2" level="project" />
     <orderEntry type="library" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.12.0-M3" level="application" />
   </component>
 </module>

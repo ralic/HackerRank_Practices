@@ -2,49 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583c783d-45d4-40c3-b3e1-b1bff1d637db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ExampleSuite.class" afterPath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ExampleSuite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ScalaTestNG.class" afterPath="$PROJECT_DIR$/build/classes/test/ScalaTestNG/ScalaTestNG.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__golang_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/python/python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm.class" afterPath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm.class" afterPath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Demo$.class" afterPath="$PROJECT_DIR$/build/classes/main/Demo$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Point.class" afterPath="$PROJECT_DIR$/build/classes/main/Point.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ScalaObjectClass$.class" afterPath="$PROJECT_DIR$/build/classes/main/ScalaObjectClass$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ScalaObjectClass.class" afterPath="$PROJECT_DIR$/build/classes/main/ScalaObjectClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mainHello$.class" afterPath="$PROJECT_DIR$/build/classes/main/mainHello$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTestNG.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTestNG.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" afterPath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/golang.iml" afterPath="$PROJECT_DIR$/src/main/golang/golang.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py" afterPath="$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala" afterPath="$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala" />
     </list>
     <ignored path="TestNG-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,6 +36,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TestNG-1$spectral_norm.coverage" NAME="spectral-norm Coverage Results" MODIFIED="1472525261037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -85,21 +60,7 @@
     <favorites_list name="TestNG-1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Mandelbrot.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/Mandelbrot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-              <folding>
-                <element signature="e#2204#2402#0" expanded="true" />
-                <element signature="e#2401#2402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -808,6 +769,14 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala" />
+        <option value="$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -878,16 +847,105 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.203125" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/python" />
   </component>
-  <component name="RunManager" selected="Groovy.build">
+  <component name="RunManager" selected="Python.spectral-norm">
+    <configuration default="false" name="spectralnorm" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BenchmarkGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.spectralnorm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="spectral_norm" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BenchmarkGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.spectral_norm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="mainHello" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="mainHello" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ScalaObjectClass" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ScalaObjectClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="spectral-norm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1585,9 +1643,23 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="1" class="java.lang.String" itemvalue="Application.spectralnorm" />
+      <item index="2" class="java.lang.String" itemvalue="Application.spectral_norm" />
+      <item index="3" class="java.lang.String" itemvalue="Application.mainHello" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ScalaObjectClass" />
+      <item index="5" class="java.lang.String" itemvalue="Python.spectral-norm" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.spectral-norm" />
+        <item index="1" class="java.lang.String" itemvalue="Application.spectral_norm" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ScalaObjectClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.mainHello" />
+        <item index="4" class="java.lang.String" itemvalue="Application.spectralnorm" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="lastUpdateTimestamp" value="1472523260924" />
@@ -1605,40 +1677,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472523185499</updated>
-      <workItem from="1472523187851" duration="541000" />
+      <workItem from="1472523187851" duration="1848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="541000" />
+    <option name="totallyTimeSpent" value="1848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1269" height="739" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1663,6 +1736,10 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/main.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1672,13 +1749,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/swift/main.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="34" selection-start-line="22" selection-start-column="59" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/Mandelbrot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#2204#2402#0" expanded="true" />
-            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#338#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1724,11 +1826,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Go 1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.203125" />
               </list>
             </option>
           </splitter-proportions>
@@ -1736,11 +1838,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TestNG-1</last-edited>
+          <last-edited>python|TestNG-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.203125" />
               </list>
             </option>
           </splitter-proportions>

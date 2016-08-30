@@ -12,7 +12,7 @@ import scala.concurrent._
 import scala.concurrent.duration._
 import ExecutionContext.Implicits.global
 
-object spectralnorm extends App {
+object spectral_norm extends App {
   val n = if (args.length > 0) args(0).toInt else 5500
   val start = System.currentTimeMillis
   val u, v, tmp = Array.fill(n)(1.0)

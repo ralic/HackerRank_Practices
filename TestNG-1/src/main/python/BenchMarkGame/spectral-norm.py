@@ -9,10 +9,10 @@
 # Concurrency by Jason Stitt
 # 2to3
 
+import sys
 import time
 from math import sqrt
 from multiprocessing import Pool
-from sys import argv
 
 
 def eval_A(i, j):
@@ -50,7 +50,10 @@ def part_At_times_u(xxx_todo_changeme1):
 
 
 def main():
-    n = int(argv[1])
+    if len(sys.argv) == "1":
+        n = int(sys.argv[1])
+    else:
+        n = 5500
     u = [1] * n
 
     for dummy in range(10):
@@ -71,4 +74,4 @@ if __name__ == '__main__':
     pool = Pool(processes=4)
     main()
     elapsed_time = time.time() - start_time
-    print("Time Elapsed:",elapsed_time)
+    print("Time Elapsed:", elapsed_time)
