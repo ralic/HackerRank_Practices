@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-bagel_2.11:1.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-bagel_2.11/1.6.2/baf46e8c5c7084cba641e327f950dfb76cf07d93/spark-bagel_2.11-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-bagel_2.11/1.6.2/9b58124aa2879094c30e36ddc2f8659969c85359/spark-bagel_2.11-1.6.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-bagel_2.11/1.6.2/fde97f32b8d16ee5e8e5b3fd99b3cd9f951c7a37/spark-bagel_2.11-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.arquillian.extension:arquillian-recorder-api:1.1.2.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-api/1.1.2.Final/ccd2b9009b34b8fc4123b6eb36c2c17f7c81c98c/arquillian-recorder-api-1.1.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-api/1.1.2.Final/dee369f2f477042214542be44b52a69b987c46f/arquillian-recorder-api-1.1.2.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-api/1.1.2.Final/df99b7a23711ed92be4676e877f11bafe76f7963/arquillian-recorder-api-1.1.2.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

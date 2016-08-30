@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hadoop:hadoop-yarn-server-resourcemanager:2.7.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-server-resourcemanager/2.7.3/2bd211c3d8d1e28d0d7248c9bce329ad8a7c534c/hadoop-yarn-server-resourcemanager-2.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-server-resourcemanager/2.7.3/9975742a0efafcf8ca8039c6e9b55ab599c50708/hadoop-yarn-server-resourcemanager-2.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-server-resourcemanager/2.7.3/446e35214576562aabad7e442ccaba043c6e7724/hadoop-yarn-server-resourcemanager-2.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

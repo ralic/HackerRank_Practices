@@ -8,9 +8,9 @@ class spectral_norm {
 
 }
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.concurrent.duration._
-import ExecutionContext.Implicits.global
 
 object spectral_norm extends App {
   val n = if (args.length > 0) args(0).toInt else 5500

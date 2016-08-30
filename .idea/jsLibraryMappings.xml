@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$/TestNG-1/src/main/javascript/ZeroMQ" libraries="{HackerRank_Practices/TestNG-1/src/main/javascript/ZeroMQ/node_modules}" />
+  </component>
+</project>

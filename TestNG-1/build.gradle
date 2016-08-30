@@ -170,12 +170,12 @@ jar {
 repositories {
     jcenter()
     mavenCentral()
-    maven { url "https://oss.sonatype.org/content/repositories/releases" }
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "http://repo1.maven.org/maven2/" }
     maven { url "http://conjars.org/repo" }
     maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
-    maven { url "https://oss.sonatype.org/content/repositories/releases" }
     maven { url "https://jitpack.io" }
+//    maven { url "https://oss.sonatype.org/content/repositories/releases" }
+//    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
 }
 
 /*
@@ -451,11 +451,10 @@ dependencies {
     // For Arquillian Test ( http://arquillian.org/modules/core-platform/ )
     testCompile "org.jboss.arquillian:arquillian-bom:1.1.11.Final"
     testCompile "org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6"
-    testCompile "org.jboss.shrinkwrap:shrinkwrap-descriptors-bom:2.0.0-alpha-9"
 
     // For Arquillian Cube ( Docker or Kubernetes Testing , http://arquillian.org/blog/2016/08/18/arquillian-cube-1-0-0-Alpha14/ )
-    compile "org.arquillian.cube:arquillian-cube-requirement:1.0.0.Alpha14"
-    testCompile "org.arquillian.extension:arquillian-desktop-video-recorder:1.1.2.Final"
+    testCompile "org.arquillian.cube:arquillian-cube-requirement:1.0.0.Alpha14"
+    testCompile "org.arquillian.extension:arquillian-recorder:1.1.2.Final"
     testCompile "org.arquillian.spacelift:arquillian-spacelift:1.0.0.Alpha8"
 
     // The production code uses the SLF4J logging API at compile time

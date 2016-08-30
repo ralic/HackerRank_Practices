@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.arquillian.test:arquillian-test-api:1.1.11.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-api/1.1.11.Final/a2618054d354f2d103220ba2152d35f2b4a5ee30/arquillian-test-api-1.1.11.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-api/1.1.11.Final/f0710ddd25e5c56249c97301f8d0d3070854c8a/arquillian-test-api-1.1.11.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.test/arquillian-test-api/1.1.11.Final/68ca2b874d4152a8114d02910507a637c226a2d9/arquillian-test-api-1.1.11.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

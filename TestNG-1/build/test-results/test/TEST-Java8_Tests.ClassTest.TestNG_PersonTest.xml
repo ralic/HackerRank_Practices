@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Java8_Tests.ClassTest.TestNG_PersonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-08-30T06:44:18" hostname="tastypotinc.private" time="0.021">
+<testsuite name="Java8_Tests.ClassTest.TestNG_PersonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-08-30T11:12:50" hostname="tastypotinc.private" time="0.037">
   <properties/>
-  <testcase name="collect0" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.016"/>
-  <testcase name="collect1" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.002"/>
-  <testcase name="collect2" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.001"/>
-  <testcase name="collect3" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.0"/>
-  <system-out><![CDATA[{chicago=[Java8_Tests.ClassTest.Person@324be31b, Java8_Tests.ClassTest.Person@268eb47c], new york=[Java8_Tests.ClassTest.Person@5b08486d, Java8_Tests.ClassTest.Person@7d91aae7]}
+  <testcase name="collect0" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.028"/>
+  <testcase name="collect1" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.003"/>
+  <testcase name="collect2" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.002"/>
+  <testcase name="collect3" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.001"/>
+  <system-out><![CDATA[{chicago=[Java8_Tests.ClassTest.Person@2f5776db, Java8_Tests.ClassTest.Person@3c55712], new york=[Java8_Tests.ClassTest.Person@24bebee1, Java8_Tests.ClassTest.Person@12915023]}
 {chicago=[raliclo], new york=[raliclo1, raliclo3]}
 {chicago=[raliclo, raliclo], new york=[raliclo1, raliclo3]}
-{raliclo1=[Java8_Tests.ClassTest.Person@5b08486d], raliclo=[Java8_Tests.ClassTest.Person@324be31b, Java8_Tests.ClassTest.Person@268eb47c], raliclo3=[Java8_Tests.ClassTest.Person@7d91aae7]}
+{raliclo1=[Java8_Tests.ClassTest.Person@24bebee1], raliclo=[Java8_Tests.ClassTest.Person@2f5776db, Java8_Tests.ClassTest.Person@3c55712], raliclo3=[Java8_Tests.ClassTest.Person@12915023]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

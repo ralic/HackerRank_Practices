@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hadoop:hadoop-streaming:2.7.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-streaming/2.7.3/62cfc1324d4831a6830bc1fc690719bd4d8ae1f0/hadoop-streaming-2.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-streaming/2.7.3/d0f1b40d29d18ec9a5d5bd12c2f06b5bff723384/hadoop-streaming-2.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-streaming/2.7.3/2763ae309b734307397f532c3175abd46fd4e1ee/hadoop-streaming-2.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

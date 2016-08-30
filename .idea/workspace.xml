@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67bb38c0-44f5-4c15-984e-5ff4f0f6778a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/GOPATH__golang_.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__ant_ant_1_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__asm_asm_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__asm_asm_commons_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__asm_asm_tree_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__co_cask_tephra_tephra_api_0_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__co_cask_tephra_tephra_core_0_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__co_cask_tephra_tephra_hbase_compat_1_0_0_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_101tec_zkclient_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_addthis_metrics_reporter_config3_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_addthis_metrics_reporter_config_base_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_beust_jcommander_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_boundary_high_scale_lib_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_carrotsearch_hppc_0_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_clearspring_analytics_stream_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_datastax_cassandra_cassandra_driver_core_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_datastax_spark_spark_cassandra_connector_2_10_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_esotericsoftware_kryo_kryo_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_esotericsoftware_minlog_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_esotericsoftware_minlog_minlog_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_esotericsoftware_reflectasm_reflectasm_shaded_1_07.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_classmate_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_6_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_6_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_6_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_scala_2_10_2_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_ben_manes_caffeine_caffeine_2_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_detro_phantomjsdriver_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_fommil_netlib_core_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_jai_imageio_jai_imageio_core_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_jbellis_jamm_0_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_joshelser_dropwizard_metrics_hadoop_metrics2_reporter_0_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_rholder_snowball_stemmer_1_3_0_581_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_rwl_jtransforms_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_github_wookietreiber_scala_chart_2_11_0_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_gluonhq_charm_down_common_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_gluonhq_maps_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_code_findbugs_annotations_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_code_simple_spring_memcached_spymemcached_2_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_inject_extensions_guice_assistedinject_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_inject_extensions_guice_servlet_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_inject_guice_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_0_0_beta_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_googlecode_concurrent_trees_concurrent_trees_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_googlecode_javaewah_JavaEWAH_0_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_h2database_h2_1_3_175.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_holdenkarau_spark_testing_base_2_11_2_0_0_0_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_itextpdf_itextpdf_5_5_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_jcraft_jsch_0_1_42.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_jolbox_bonecp_0_8_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_lmax_disruptor_3_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_ning_compress_lzf_1_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_storm_enroute_scalameter_2_11_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_storm_enroute_scalameter_core_2_11_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_jersey_contribs_jersey_guice_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_jersey_jersey_client_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_jersey_jersey_core_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_jersey_jersey_json_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_jersey_jersey_server_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_mail_javax_mail_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_thinkaurelius_thrift_thrift_server_0_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_thoughtworks_paranamer_paranamer_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_common_common_image_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_common_common_io_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_common_common_lang_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_bmp_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_core_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_jpeg_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_metadata_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_psd_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twelvemonkeys_imageio_imageio_tiff_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_chill_2_10_0_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_chill_2_11_0_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_chill_java_0_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_jsr166e_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_parquet_format_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_parquet_hadoop_bundle_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_util_core_2_10_6_34_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_twitter_util_function_2_10_6_34_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_typesafe_akka_akka_actor_2_10_2_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_typesafe_akka_akka_remote_2_10_2_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_typesafe_akka_akka_slf4j_2_10_2_3_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_typesafe_config_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_univocity_univocity_parsers_2_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__com_yammer_metrics_metrics_core_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_cli_commons_cli_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_configuration_commons_configuration_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_daemon_commons_daemon_1_0_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_dbcp_commons_dbcp_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_digester_commons_digester_1_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_el_commons_el_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_httpclient_commons_httpclient_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_io_commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_lang_commons_lang_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_net_commons_net_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__commons_pool_commons_pool_1_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__de_jflex_jflex_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__hsqldb_hsqldb_1_8_0_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_airlift_aircompressor_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_github_nicolasstucki_multisets_2_11_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_3_8_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_all_4_0_36_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_buffer_4_0_37_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_codec_4_0_37_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_common_4_0_37_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_handler_4_0_37_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__io_netty_netty_transport_4_0_37_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__it_unimi_dsi_fastutil_6_5_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_activation_activation_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_cache_cache_api_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_jdo_jdo_api_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_mail_mail_1_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_servlet_jsp_api_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_transaction_javax_transaction_api_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_transaction_transaction_api_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javax_xml_stream_stax_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__javolution_javolution_5_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__jline_jline_2_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__joda_time_joda_time_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__log4j_apache_log4j_extras_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__mx4j_mx4j_tools_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_hydromatic_eigenbase_properties_1_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_dev_jets3t_jets3t_0_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_jinput_jinput_2_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_java_jutils_jutils_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_jcip_jcip_annotations_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_jpountz_lz4_lz4_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_mintern_primitive_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_razorvine_pyrolite_4_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_4_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sf_jpam_jpam_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sf_kosmosfs_kfs_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sf_opencsv_opencsv_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sf_py4j_py4j_0_10_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_argparse4j_argparse4j_0_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_cssparser_cssparser_0_9_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_f2j_arpack_combined_all_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__net_sourceforge_htmlunit_neko_htmlunit_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_antlr_ST4_4_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_antlr_antlr4_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_antlr_antlr4_runtime_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_antlr_antlr_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_antlr_antlr_runtime_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ant_ant_1_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ant_ant_launcher_1_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_avro_avro_1_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_avro_avro_ipc_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_calcite_calcite_avatica_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_calcite_calcite_core_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_calcite_calcite_linq4j_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_camel_camel_core_2_16_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_cassandra_cassandra_all_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_cassandra_cassandra_clientutil_3_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_cassandra_cassandra_thrift_3_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_email_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_math3_3_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_commons_commons_math_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_curator_apache_curator_pom_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_curator_curator_client_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_curator_curator_framework_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_curator_curator_recipes_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_derby_derby_10_10_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_directory_api_api_util_1_0_0_M20.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ftpserver_ftplet_api_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ftpserver_ftpserver_core_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ftpserver_ftpserver_deprecated_1_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_annotation_1_0_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jaspic_1_0_spec_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_annotations_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_auth_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_client_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_client_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_common_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_common_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_core_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_hdfs_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_hdfs_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_hs_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_jobclient_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_minicluster_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_streaming_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_test_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_tools_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_api_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_client_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_common_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_registry_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_applicationhistoryservice_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_common_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_resourcemanager_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_tests_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_web_proxy_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_web_proxy_tests_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_annotations_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_client_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_common_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_common_tests_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_hadoop2_compat_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_hadoop_compat_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_prefix_tree_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_procedure_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_protocol_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hbase_hbase_server_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_ant_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_common_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_exec_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_llap_client_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_llap_common_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_llap_server_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_llap_tez_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_metastore_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_orc_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_serde_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_service_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_service_rpc_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_shims_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_hive_storage_api_2_1_1_pre_orc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_shims_hive_shims_0_23_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_shims_hive_shims_common_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_hive_shims_hive_shims_scheduler_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_camel_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_clients_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_codegen_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_core_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_examples_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_hibernate_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_indexing_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_kafka_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_log4j_1_0_0_RC3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_mesos_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_rest_http_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_spark_2_10_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_spring_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ignite_ignite_tools_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_ivy_ivy_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_connect_api_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_connect_file_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_connect_json_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_connect_runtime_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_2_10_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_clients_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_examples_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_hadoop_consumer_0_8_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_hadoop_producer_0_8_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_java_examples_0_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_log4j_appender_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_streams_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_streams_examples_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_kafka_kafka_tools_0_10_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_1_2_api_2_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_core_2_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_jul_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_slf4j_impl_2_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_web_2_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_lucene_lucene_core_3_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_mesos_mesos_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_mesos_mesos_shaded_protobuf_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_mina_mina_core_2_0_0_M5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_orc_orc_core_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_orc_orc_mapreduce_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_orc_orc_tools_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_column_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_common_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_encoding_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_format_2_3_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_generator_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_hadoop_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_hadoop_bundle_1_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_parquet_parquet_jackson_1_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_pdfbox_fontbox_2_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_pdfbox_pdfbox_2_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_pig_pig_0_12_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_pig_piggybank_0_12_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_poi_poi_3_15_beta2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_slider_slider_core_0_90_2_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_solr_solr_solrj_5_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_catalyst_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_catalyst_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_core_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_core_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_graphx_2_11_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_hive_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_launcher_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_launcher_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_mllib_2_11_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_network_common_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_network_common_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_network_shuffle_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_network_shuffle_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_sketch_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_sql_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_sql_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_streaming_2_11_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_tags_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_unsafe_2_10_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_spark_spark_unsafe_2_11_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_thrift_libfb303_0_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_thrift_libthrift_0_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_tomcat_jdbc_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_tomcat_juli_8_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_tomcat_tomcat_servlet_api_8_0_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_api_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_common_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_core_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_discovery_api_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_discovery_core_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_twill_twill_zookeeper_0_6_0_incubating.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_velocity_velocity_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_4_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_tests_3_4_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_assertj_assertj_core_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_beanshell_bsh_2_0b4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bytedeco_javacpp_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bytedeco_javacpp_presets_ffmpeg_3_0_2_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bytedeco_javacpp_presets_leptonica_1_73_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bytedeco_javacpp_presets_opencv_3_1_0_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_bytedeco_javacv_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_caffinitas_ohc_ohc_core_0_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_jackson_jackson_xc_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_janino_commons_compiler_2_7_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_janino_janino_2_7_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_jettison_jettison_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datanucleus_datanucleus_api_jdo_4_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datanucleus_datanucleus_core_4_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datanucleus_datanucleus_rdbms_4_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datanucleus_javax_jdo_3_2_0_m3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datavec_datavec_api_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datavec_datavec_data_image_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datavec_datavec_nd4j_common_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_datavec_datavec_spark_2_11_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_deeplearning4j_deeplearning4j_core_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_deeplearning4j_deeplearning4j_scaleout_api_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_deeplearning4j_deeplearning4j_ui_components_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_deeplearning4j_dl4j_spark_2_11_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jdt_core_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_aggregate_jetty_all_7_6_0_v20120127.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_continuation_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlet_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_servlets_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_9_3_2_v20150730.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_9_2_11_v20150529.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_freemarker_freemarker_2_3_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_fusesource_sigar_1_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_gridgain_ignite_shmem_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_0_9_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_0_9_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_iq80_snappy_snappy_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jamon_jamon_runtime_2_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_javassist_javassist_3_18_2_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jboss_netty_netty_3_2_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jfree_jcommon_1_0_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jfree_jfreechart_1_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jmonkeyengine_jme3_core_3_1_0_beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jmonkeyengine_jme3_desktop_3_1_0_beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jmonkeyengine_jme3_lwjgl_3_1_0_beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_joda_joda_convert_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jodd_jodd_core_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jodd_jodd_lagarto_3_4_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jpmml_pmml_agent_1_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jpmml_pmml_model_1_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jpmml_pmml_schema_1_1_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jruby_jcodings_jcodings_1_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jruby_joni_joni_2_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_ast_2_10_3_2_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_ast_2_11_3_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_core_2_10_3_2_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_core_2_11_3_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_jackson_2_10_3_2_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_json_json_20140107.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_jsoup_jsoup_1_9_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mindrot_jbcrypt_0_3m.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_jetty_6_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_jetty_util_6_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_jsp_2_1_6_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_servlet_api_2_5_20081211.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_canova_api_0_0_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_canova_data_image_0_0_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_canova_nd4j_common_0_0_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_canova_nd4j_image_0_0_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_canova_spark_2_11_0_0_0_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_api_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_buffer_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_common_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_context_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_api_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_linux_ppc64le_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_linux_x86_64_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_macosx_x86_64_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_platform_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_nd4j_nd4j_native_windows_x86_64_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_noggit_noggit_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_openpnp_opencv_2_4_11_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0_M1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_ow2_asm_asm_6_0_ALPHA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_ow2_asm_asm_all_6_0_ALPHA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_ow2_asm_asm_analysis_6_0_ALPHA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_ow2_asm_asm_debug_all_6_0_ALPHA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_ow2_asm_asm_tree_6_0_ALPHA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_pentaho_pentaho_aggdesigner_algorithm_5_1_5_jhyde.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_reflections_reflections_0_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_roaringbitmap_RoaringBitmap_0_5_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_rocksdb_rocksdbjni_4_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_12_0_M5_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_swing_2_11_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_swing_2_12_0_M5_2_0_0_M2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_12_0_M5_1_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_scala_compiler_2_12_0_M5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_scala_library_2_12_0_M5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_scala_reflect_2_12_0_M5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_lang_scalap_2_12_0_M5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_sbt_test_interface_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scala_tools_testing_test_interface_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scalacheck_scalacheck_2_11_1_12_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scalanlp_breeze_2_11_0_11_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scalanlp_breeze_macros_2_11_0_11_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scalatest_scalatest_2_11_2_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_scalatest_scalatest_app_2_12_0_M5_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_jetty_rc_repacked_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_jetty_repacked_9_2_13_v20150730.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_android_driver_2_39_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_iphone_driver_2_39_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_leg_rc_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_control_2_0rc2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_server_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_sonatype_sisu_inject_cglib_2_2_1_v20090111.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_spark_project_hive_hive_exec_1_2_1_spark2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_spark_project_hive_hive_metastore_1_2_1_spark2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_spark_project_spark_unused_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_spire_math_spire_2_11_0_7_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_spire_math_spire_macros_2_11_0_7_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_1_4_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_1_10_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_data_spring_data_solr_2_0_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_security_spring_security_config_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_security_spring_security_core_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_security_spring_security_web_4_1_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_aspects_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_context_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_core_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_orm_4_2_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_test_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_web_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_tachyonproject_tachyon_client_0_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_tachyonproject_tachyon_underfs_hdfs_0_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_tachyonproject_tachyon_underfs_local_0_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_testng_testng_6_9_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_tukaani_xz_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_uncommons_maths_uncommons_maths_1_2_2a.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__oro_oro_2_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__stax_stax_api_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__tomcat_jasper_compiler_5_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__tomcat_jasper_runtime_5_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__xalan_serializer_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__xalan_xalan_2_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/libraries/Gradle__xmlenc_xmlenc_0_52.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/modules/TestNG-1.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/modules/TestNG-1_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/modules/TestNG-1_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Adder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Arithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/BenchmarkGame/Mandelbrot$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/BenchmarkGame/Mandelbrot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/BenchmarkGame/SpectralNorm$Approximate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/BenchmarkGame/SpectralNorm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8/SubSetConcept$SubsetIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8/SubSetConcept.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8_Tests/ClassTest/PermUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8_Tests/ClassTest/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/Java8_Tests/Spark_UnitTest/Spark_WordCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/JavaInheritanceII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Artificial_Intellegence/MatchingBookName_Descriptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/CamelCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Destination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$DestinationPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Guest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/DestinationTogether.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/EventRaffle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories$Excursion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Review.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Reviewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/C101Hack40/DesignPDFViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/C101Hack40/LazyMayorandLasers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/CookieParty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MakingPolygons.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MatchingSets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/NumberofSequences.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/SubmaskQueries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Abbreviation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bon_Appétit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/CombinationLock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/FlippingtheMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Competitions/StringConstruction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigDecimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaPrimalityTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray_2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java2DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaArraylist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaBitSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaDeque.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics$Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaHashset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaPriorityQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSubArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/StudentQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/AVeryBigSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/CompareTriplets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/DiagonalDifference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDatatypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDateTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaEndofFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaInt2String.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaOutputFormatting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaSTDinSTDout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaStaticInitializerBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Java_If_Else.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/ReadLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Introduction/SimpleArraySum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/AdvancedArithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/BiCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Bird.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Output.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/CalculatingVolume.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Hacker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaAbstractClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInheritanceI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInstanceofKeyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding2_Super_Keyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MotorCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Rockstar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Soccer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Sports.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex2DuplicateWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringReverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringTokens.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringsIntroduction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/PatternSyntaxChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/Solution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/TagContentExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/HackerRank_Java/Strings/myRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/JavaSEApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/AbstractNameValueComment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarBrowser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCacheRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarContent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCookie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCookies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarDatabaseConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarEntries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarEntryTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarHeaders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPageTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPostData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/HarWarning.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/ISO8601DateFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/test/AllTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileReaderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileWriterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/test/HarJDBCTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/test/ISO8601DateFormatterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/Java8_Tests/Avro_Tests/AvroParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/Java8_Tests/ClassTest/Junit5_JupiterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/Java8_Tests/ClassTest/TestNG_PermUtilTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/Java8_Tests/ClassTest/TestNG_PersonTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/Java8_Tests/ClassTest/TestNG_TestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/ScalaTestNG/ExampleSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/ScalaTestNG/ScalaTestNG.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/advanced_Selenium/seleniumTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/beginner/TestNG0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/intermediate_MultiThreadTest/MultiThreadTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/intermediate_MultiThreadTest/SimpleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/classes/test/intermediate_MultiThreadTest/TestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/beginner.TestNG0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/packages/ScalaTestNG.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/packages/advanced_Selenium.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/packages/beginner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/resources/test/log4j2.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/junit-platform/TEST-junit-jupiter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-beginner.TestNG0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/tmp/scala/compilerAnalysis/compileTestScala.analysis.relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestNG-1/build/tmp/test/jar_extract_7797819526376165149_tmp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestNG-1/src/main/java/org/raliclo/KrogerStores/JavaSEApplication.java" afterPath="$PROJECT_DIR$/TestNG-1/src/main/java/org/raliclo/JavaSEApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestNG-1/src/main/scala/Basic/ScalaHelloWorld.scala" afterPath="$PROJECT_DIR$/TestNG-1/src/main/scala/ScalaHelloWorld.scala" />
+    </list>
+    <ignored path="HackerRank_Practices.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="HackerRank_Practices" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/poi" value="2936662776000" />
+        <entry key="$PROJECT_DIR$/../#LeetCode_Practices/TestNG-1" value="4406368076000" />
+        <entry key="$PROJECT_DIR$/TestNG-1" value="4416971901000" />
+        <entry key="$PROJECT_DIR$/../LeetCode_Practices/TestNG-1" value="4416929943000" />
+        <entry key="$PROJECT_DIR$/../VRdevelop/openmapfx" value="7349367025000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/TestNG-1/src/main/javascript/ZeroMQ/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1269" />
+    <option name="height" value="739" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank_Practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank_Practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank_Practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank_Practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HackerRank_Practices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.xslt" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67bb38c0-44f5-4c15-984e-5ff4f0f6778a" name="Default" comment="" />
+      <created>1472553959046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472553959046</updated>
+      <workItem from="1472553960437" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="23" width="1269" height="739" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="advanced_Selenium.seleniumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-30T06:44:02" hostname="tastypotinc.private" time="1.709">
+<testsuite name="advanced_Selenium.seleniumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-30T11:12:33" hostname="tastypotinc.private" time="2.18">
   <properties/>
-  <testcase name="main" classname="advanced_Selenium.seleniumTest" time="1.709"/>
+  <testcase name="main" classname="advanced_Selenium.seleniumTest" time="2.18"/>
   <system-out><![CDATA[
 [Info] List out all Elements founded~!
 --------------------------------------

@@ -9,19 +9,17 @@
 I[Info] You shall be searching TestNG on google using Firefox or Chrome~!
 
 --> TestNG is working fine
-5[MT]##   Test method executing on thread with id: 16
-5[MT]##   Test method executing on thread with id: 19
-5[MT]##   Test method executing on thread with id: 13
-5[MT]##   Test method executing on thread with id: 22
 5[MT]##   Test method executing on thread with id: 17
 5[MT]##   Test method executing on thread with id: 21
-5[MT]##   Test method executing on thread with id: 16
-5[MT]##   Test method executing on thread with id: 18
-5[MT]##   Test method executing on thread with id: 14
-5[MT]##   Test method executing on thread with id: 20
-5[MT]##   Test method executing on thread with id: 17
-5[MT]##   Test method executing on thread with id: 15
-5[MT]##   Test method executing on thread with id: 22
+5[MT]##   Test method executing on thread with id: 19
+5[MT]##   Test method executing on thread with id: 14
+5[MT]##   Test method executing on thread with id: 18
+5[MT]##   Test method executing on thread with id: 22
+5[MT]##   Test method executing on thread with id: 15
+5[MT]##   Test method executing on thread with id: 14
+5[MT]##   Test method executing on thread with id: 20
+5[MT]##   Test method executing on thread with id: 20
+5[MT]##   Test method executing on thread with id: 14
 [TT]#    Fast ReadLines
 [TT]#    I love you!
 [TT]#    Slow ReadLines
@@ -2546,10 +2544,10 @@
 [7, 1, 2, 3, 5, 4, 6]
 [7, 1, 2, 3, 6, 4, 5]
 [7, 1, 2, 3, 4, 5, 6]
-²{chicago=[Java8_Tests.ClassTest.Person@324be31b, Java8_Tests.ClassTest.Person@268eb47c], new york=[Java8_Tests.ClassTest.Person@5b08486d, Java8_Tests.ClassTest.Person@7d91aae7]}
+±{chicago=[Java8_Tests.ClassTest.Person@2f5776db, Java8_Tests.ClassTest.Person@3c55712], new york=[Java8_Tests.ClassTest.Person@24bebee1, Java8_Tests.ClassTest.Person@12915023]}
 3{chicago=[raliclo], new york=[raliclo1, raliclo3]}
  <{chicago=[raliclo, raliclo], new york=[raliclo1, raliclo3]}
-!½{raliclo1=[Java8_Tests.ClassTest.Person@5b08486d], raliclo=[Java8_Tests.ClassTest.Person@324be31b, Java8_Tests.ClassTest.Person@268eb47c], raliclo3=[Java8_Tests.ClassTest.Person@7d91aae7]}
+!¼{raliclo1=[Java8_Tests.ClassTest.Person@24bebee1], raliclo=[Java8_Tests.ClassTest.Person@2f5776db, Java8_Tests.ClassTest.Person@3c55712], raliclo3=[Java8_Tests.ClassTest.Person@12915023]}
 #"ListBuffer(sweet)
 #%ScalaTest is fun!
 #%ListBuffer()
