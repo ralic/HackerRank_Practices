@@ -2,174 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3df6edf8-6a32-42dc-b3a8-a97c39b7ac30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jets3t_jets3t_0_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_auth_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_client_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_common_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_hdfs_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_core_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_jobclient_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_minicluster_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_api_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_client_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_common_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_resourcemanager_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_tests_3_0_0_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_web_proxy_3_0_0_SNAPSHOT.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jcraft_jsch_0_1_42.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_jersey_contribs_jersey_guice_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_daemon_commons_daemon_1_0_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_stream_stax_api_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jets3t_jets3t_0_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_api_api_util_1_0_0_M20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_annotations_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_auth_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_client_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_client_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_common_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_common_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_hdfs_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_hdfs_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_hs_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_jobclient_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_minicluster_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_streaming_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_api_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_client_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_common_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_applicationhistoryservice_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_common_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_resourcemanager_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_tests_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_web_proxy_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_server_web_proxy_tests_2_7_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_tests_3_4_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.binary-trees.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.fasta-redux.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.k-nucleotide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.mandelbrot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.nbody.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.spectral-norm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BookingFE/Contest/min.TheElevatorSuperstition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BookingFE/Contest/min.TheGPSCoordination.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BookingFE/Contest/min.TheTemperatureConfiguration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/BookingFE/Contest/min.TheTrainScheduling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/min.xpub_xsub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/bindings/min.bindings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/nan/min.include_dirs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/nan/tools/min.1to2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/devices/min.forwarder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/devices/min.queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/devices/min.streamer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.dealer_router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.pub_sub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.push_pull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.rep_req.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.req_rep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.router_dealer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/min.rpc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/workers/min.producer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/examples/workers/min.worker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/lib/min.index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/min.index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/perf/min.local_lat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/perf/min.local_thr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/perf/min.remote_lat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/perf/min.remote_thr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.exports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.gc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.error-callback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.monitor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.pair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.pub-sub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.push-pull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.req-rep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.stream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.unbind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.xpub-xsub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.socket.zap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zmq_proxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zmq_proxy.push-pull.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zmq_proxy.router-dealer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zmq_proxy.xpub-xsub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/min-closure.js/ZeroMQ/node_modules/zmq/test/min.zmq_proxy.xrep-xreq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ExampleSuite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTestNG.ScalaTestNG.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTestNG.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ExampleSuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTestNG.ScalaTestNG.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6458433054531371845_tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Spark_GraphX/Spark_GraphX.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Spark_GraphX/data/user.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Basic/Demo$.class" afterPath="$PROJECT_DIR$/build/classes/main/Basic/Demo$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Basic/Point.class" afterPath="$PROJECT_DIR$/build/classes/main/Basic/Point.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass$.class" afterPath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass.class" afterPath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$.class" afterPath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$delayedInit$body.class" afterPath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm.class" afterPath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/Spark_UnitTest/Spark_WordCount.class" afterPath="$PROJECT_DIR$/build/classes/main/Java8_Tests/Spark_UnitTest/Spark_WordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/mainHello$.class" afterPath="$PROJECT_DIR$/build/classes/main/mainHello$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/junit5-gradle-consumer-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/junit5-gradle-consumer-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/HackerRank_Practices.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TestNG-1" afterPath="$PROJECT_DIR$/build/scripts/TestNG-1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/scripts/TestNG-1.bat" afterPath="$PROJECT_DIR$/build/scripts/TestNG-1.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterPath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j2.properties" afterPath="$PROJECT_DIR$/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java" afterPath="$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java" />
     </list>
     <ignored path="TestNG-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -213,11 +60,11 @@
     <favorites_list name="TestNG-1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4333">
+            <state relative-caret-position="15">
               <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -855,7 +702,7 @@
       <map>
         <entry key="$USER_HOME$/IdeaProjects/poi" value="2936662776000" />
         <entry key="$PROJECT_DIR$/../../#LeetCode_Practices/TestNG-1" value="4406368076000" />
-        <entry key="$PROJECT_DIR$" value="4417029071000" />
+        <entry key="$PROJECT_DIR$" value="4417039615000" />
         <entry key="$PROJECT_DIR$/../../LeetCode_Practices/TestNG-1" value="4416929943000" />
         <entry key="$PROJECT_DIR$/../../VRdevelop/openmapfx" value="7349367025000" />
       </map>
@@ -1150,11 +997,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/src/main/javascript/ZeroMQ/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1269" />
-    <option name="height" value="739" />
+    <option name="width" value="1280" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1182,6 +1031,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1217,7 +1067,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1608,6 +1457,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -1874,6 +1724,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -2081,7 +1937,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1472609762338" />
+    <option name="lastUpdateTimestamp" value="1472620285335" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2100,6 +1956,7 @@
       <option name="presentableId" value="Default" />
       <updated>1472554077995</updated>
       <workItem from="1472554276933" duration="14596000" />
+      <workItem from="1472620249476" duration="228000" />
     </task>
     <servers />
   </component>
@@ -2109,7 +1966,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14596000" />
+    <option name="totallyTimeSpent" value="14824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2121,39 +1978,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1269" height="739" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="741" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.25183374" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.4971475" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.41518578" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.5848142" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738096" sideWeight="0.74816626" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49062756" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22213247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.4971475" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.4180929" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32766616" sideWeight="0.74816626" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49062756" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22249389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2176,43 +2033,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.0.0/ed99ba20cd5ebda54f107c410b158322540dc010/spark-core_2.11-2.0.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="364" column="6" selection-start-line="364" selection-start-column="6" selection-end-line="364" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/codeInsightSettings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeInsightSettings.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaHelloWorld.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/follower.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/follower.txt" />
     <entry file="file://$PROJECT_DIR$/log4j2.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2220,7 +2070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2228,7 +2077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2236,7 +2084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2244,7 +2091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2252,18 +2098,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/user.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/user.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -2276,7 +2114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2284,7 +2121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2292,7 +2128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2300,7 +2135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2308,7 +2142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4147">
           <caret line="436" column="14" selection-start-line="436" selection-start-column="14" selection-end-line="436" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2316,7 +2149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2324,47 +2156,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_api_3_0_0_alpha1_RC0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/SparkBasic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Cloudera_SparkWordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_hadoop_hadoop_yarn_api_3_0_0_alpha1_RC0.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/SparkBasic.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Cloudera_SparkWordCount.java" />
     <entry file="file://$PROJECT_DIR$/common.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4333">
+        <state relative-caret-position="15">
           <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
