@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" group="TestNG-1" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" group="TestNG-1" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/golang/golang.iml" filepath="$PROJECT_DIR$/src/main/golang/golang.iml" group="TestNG-1" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/python/python.iml" filepath="$PROJECT_DIR$/src/main/python/python.iml" group="TestNG-1" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/golang/golang.iml" filepath="$PROJECT_DIR$/src/main/golang/golang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/python/python.iml" filepath="$PROJECT_DIR$/src/main/python/python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/test/test.iml" filepath="$PROJECT_DIR$/src/test/test.iml" />
     </modules>
   </component>
 </project>
