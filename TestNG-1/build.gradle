@@ -37,6 +37,7 @@ buildscript {
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
         classpath "org.ajoberstar:gradle-git:1.5.1" // Support Gradle-Git
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
+        classpath "com.fasterxml.jackson.core:jackson-core:2.8.0"
 // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
 //        github("layerhq", "maven-private", "master", "releases")
 //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
@@ -164,13 +165,13 @@ Big Jar setup
  */
 jar {
     baseName = "TestNG-Projects"
-    version = "1.2.0-SNAPSHOT"
+    version = "1.3.0-SNAPSHOT"
 }
 
 repositories {
+    mavenCentral()
     mavenLocal()
     jcenter()
-    mavenCentral()
     maven { url "http://repo1.maven.org/maven2/" }
     maven { url "http://conjars.org/repo" }
     maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
@@ -258,11 +259,6 @@ dependencies {
     // Apache Log4J 2
     compile "org.apache.logging.log4j:log4j-api:2.6.2" // Apache Log4J 2
     compile "org.apache.logging.log4j:log4j-core:2.6.2" // Apache Log4J 2
-
-    // JSON, YAML support
-    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // For Selenium Development : Automation Web Browser Automation Test
     compile "org.seleniumhq.selenium:selenium:2.0rc2"
@@ -521,6 +517,11 @@ dependencies {
 
     // Data Storage : Schema evolution
     //https://docs.oracle.com/cd/E26161_02/html/GettingStartedGuide/schemaevolution.html
+
+    // JSON, YAML support
+    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // For JSON to Java Object (Gson)
     compile "com.google.code.gson:gson:2.7"
