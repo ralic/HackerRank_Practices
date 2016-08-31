@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="beginner.TestNG0" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-08-30T11:12:38" hostname="tastypotinc.private" time="0.002">
-  <properties/>
-  <testcase name="testAdd" classname="beginner.TestNG0" time="0.002"/>
-  <system-out><![CDATA[--> TestNG is working fine
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,1 +1,0 @@
-'use strict';function processData(a){for(var c=0,b=0,c=0;c<a;)b++,b.toString().includes("4")||b.toString().includes("13")||c++;console.log(b)}process.stdin.resume();process.stdin.setEncoding("utf-8");var _input="";process.stdin.on("data",function(a){_input+=a});process.stdin.on("end",function(){var a=new Date;processData(_input);console.log("Time Elapsed:"+(new Date-a))});
