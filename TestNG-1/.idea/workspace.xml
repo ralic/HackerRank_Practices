@@ -2,20 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3df6edf8-6a32-42dc-b3a8-a97c39b7ac30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/HackerRank_Practices.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Adder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Arithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic/Demo$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic/Demo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic/Point.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic/ScalaObjectClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Mandelbrot$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Mandelbrot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm$Approximate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/spectral_norm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/SubSetConcept$SubsetIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/SubSetConcept.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/ClassTest/PermUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/ClassTest/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/Spark_UnitTest/Cloudera_SparkWordCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/Spark_UnitTest/Spark_WordCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/JavaInheritanceII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/ScalaHelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/mainHello$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/mainHello.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Artificial_Intellegence/MatchingBookName_Descriptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/CamelCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Destination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$DestinationPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Guest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/DestinationTogether.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/EventRaffle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories$Excursion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Review.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Reviewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/C101Hack40/DesignPDFViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/C101Hack40/LazyMayorandLasers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/CookieParty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MakingPolygons.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MatchingSets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/NumberofSequences.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/SubmaskQueries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Abbreviation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bon_Appétit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/CombinationLock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/FlippingtheMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/StringConstruction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigDecimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaPrimalityTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray_2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java2DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaArraylist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaBitSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaDeque.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics$Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaHashset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaPriorityQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSubArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/StudentQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/AVeryBigSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/CompareTriplets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/DiagonalDifference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDatatypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDateTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaEndofFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaInt2String.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaOutputFormatting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaSTDinSTDout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaStaticInitializerBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Java_If_Else.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/ReadLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/SimpleArraySum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/AdvancedArithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/BiCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Bird.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Output.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/CalculatingVolume.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Hacker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaAbstractClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInheritanceI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInstanceofKeyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding2_Super_Keyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MotorCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Rockstar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Soccer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Sports.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex2DuplicateWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringReverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringTokens.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringsIntroduction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/PatternSyntaxChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/Solution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/TagContentExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/myRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/JavaSEApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/AbstractNameValueComment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarBrowser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCacheRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarContent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCookie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCookies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarDatabaseConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntryTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarHeaders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPageTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarWarning.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/ISO8601DateFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/AllTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileReaderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileWriterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarJDBCTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/ISO8601DateFormatterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileWriter.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestNG-1.iws" />
@@ -64,8 +232,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -1956,7 +2124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1472554077995</updated>
       <workItem from="1472554276933" duration="14596000" />
-      <workItem from="1472620249476" duration="228000" />
+      <workItem from="1472620249476" duration="276000" />
     </task>
     <servers />
   </component>
@@ -1966,7 +2134,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14824000" />
+    <option name="totallyTimeSpent" value="14872000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2171,8 +2339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
