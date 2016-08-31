@@ -36,14 +36,12 @@ public class Spark_WordCount {
     public static JavaPairRDD<String, Integer> runETL(JavaRDD<String> input) {
         // Split up into suits and numbers and
         // transform into pairs
-        JavaPairRDD<String, Integer> suitsAndValues = input.mapToPair(
-                w -> {
-                    String[] split = w.split("\t");
-                    int cardValue = Integer.parseInt(split[0]);
-                    String cardSuit = split[1];
-                    return new Tuple2<String, Integer>(cardSuit, cardValue);
-                });
-
+        JavaPairRDD<String, Integer> suitsAndValues = input.mapToPair(w -> {
+            String[] split = w.split("\t");
+            int cardValue = Integer.parseInt(split[0]);
+            String cardSuit = split[1];
+            return new Tuple2<String, Integer>(cardSuit, cardValue);
+        });
         JavaPairRDD<String, Integer> counts = suitsAndValues.reduceByKey((x, y) -> x + y);
         return counts;
     }
