@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3df6edf8-6a32-42dc-b3a8-a97c39b7ac30" name="Default" comment="Relocate SQL folder" />
-    <list id="d247e3b7-8d0d-4fe4-b626-c792aa545b8d" name="Rejected commit: Default" comment="Upload SQL files">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Spark_GraphX/Spark_GraphX.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Spark_GraphX/data/user.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java" afterPath="$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java" />
-    </list>
-    <list id="a0494e42-0f2f-4145-a84a-7f4f3880c0d3" name="Gradle" comment="Gradle">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties.lock" />
-    </list>
-    <list id="379f3dd0-7fbe-4039-af40-a36687390e50" name="IDEA" comment="IDEA">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list id="d247e3b7-8d0d-4fe4-b626-c792aa545b8d" name="Rejected commit: Default" comment="Upload SQL files" />
+    <list id="a0494e42-0f2f-4145-a84a-7f4f3880c0d3" name="Gradle" comment="Gradle" />
+    <list id="379f3dd0-7fbe-4039-af40-a36687390e50" name="IDEA" comment="IDEA" />
     <ignored path="TestNG-1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,7 +30,6 @@
     <ignored path="$PROJECT_DIR$/build/Services/" />
     <ignored path="$PROJECT_DIR$/build/spring/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1150,20 +1137,6 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2066,7 +2039,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472554077995</updated>
-      <workItem from="1472554276933" duration="22567000" />
+      <workItem from="1472554276933" duration="22600000" />
     </task>
     <task id="LOCAL-00001" summary="Upload SQL files">
       <created>1472619343260</created>
@@ -2091,7 +2064,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22567000" />
+    <option name="totallyTimeSpent" value="22600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
