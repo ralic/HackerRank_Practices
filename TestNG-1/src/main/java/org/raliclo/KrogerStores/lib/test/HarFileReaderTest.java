@@ -30,9 +30,8 @@ import java.util.List;
 
 import junit.framework.TestCase;
 
-import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.JsonParser;
+import com.fasterxml.jackson.core.*;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

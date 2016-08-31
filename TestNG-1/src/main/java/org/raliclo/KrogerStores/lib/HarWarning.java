@@ -21,7 +21,7 @@
 
 package org.raliclo.KrogerStores.lib;
 
-import org.codehaus.jackson.JsonLocation;
+import com.fasterxml.jackson.core.*;
 
 /**
  * This class defines a HarWarning

@@ -22,17 +22,15 @@
 package org.raliclo.KrogerStores.lib.test;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
 
 import junit.framework.TestCase;
 
-import org.codehaus.jackson.JsonEncoding;
-import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonGenerator;
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.JsonParser;
+import com.fasterxml.jackson.core.*;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -133,7 +131,7 @@ public class HarFileWriterTest extends TestCase
       System.out.println("Writing " + fileName + ".test");
 
       File file2 = new File(fileName + ".test");
-      JsonGenerator g2 = new JsonFactory().createJsonGenerator(file2,
+      JsonGenerator g2 = new JsonFactory().createJsonGenerator(new FileOutputStream(file2),
           JsonEncoding.UTF8);
       JsonParser jp2 = new JsonFactory().createJsonParser(file2);
       w.writeHarFile(l, g2);

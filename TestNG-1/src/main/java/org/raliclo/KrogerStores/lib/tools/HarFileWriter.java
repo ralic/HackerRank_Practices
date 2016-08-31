@@ -2,93 +2,88 @@
  * BenchLab: Internet Scale Benchmarking.
  * Copyright (C) 2010-2011 Emmanuel Cecchet.
  * Contact: cecchet@cs.umass.edu
- * 
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License. 
- *
+ * limitations under the License.
+ * <p>
  * Initial developer(s): Emmanuel Cecchet.
  * Contributor(s): ______________________.
  */
 
 package org.raliclo.KrogerStores.lib.tools;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.OutputStream;
-
-import org.codehaus.jackson.JsonEncoding;
-import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonGenerator;
+import com.fasterxml.jackson.core.*;
 
 import org.raliclo.KrogerStores.lib.HarLog;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+
 /**
  * HarFileWriter writes a HarLog object into a HAR file.
- * 
+ *
  * @author <a href="mailto:cecchet@cs.umass.edu>Emmanuel Cecchet</a>
  * @version 1.0
  */
-public class HarFileWriter
-{
+public class HarFileWriter {
     /**
      * Write a HarLog object into a file.
-     * 
+     *
      * @param log the HarLog to write to a file
      * @param generator the Json generator
      * @throws IOException if an error occurs writing the file
      */
-    public void writeHarFile(HarLog log, JsonGenerator generator) throws IOException
-    {
-      generator.writeStartObject();
-      log.writeHar(generator);
-      generator.writeEndObject();
-      generator.close();
+    public void writeHarFile(HarLog log, JsonGenerator generator) throws IOException {
+        generator.writeStartObject();
+        log.writeHar(generator);
+        generator.writeEndObject();
+        generator.close();
     }
-    
-  /**
-   * Write a HarLog object into a file.
-   * 
-   * @param log the HarLog to write to a file
-   * @param file the file to write the HAR to
-   * @throws IOException if an error occurs writing the file
-   */
-  public void writeHarFile(HarLog log, File file) throws IOException
-  {
-    JsonFactory f = new JsonFactory();
-    JsonGenerator g = f.createJsonGenerator(file, JsonEncoding.UTF8);
-    g.useDefaultPrettyPrinter();
 
-    g.writeStartObject();
-    log.writeHar(g);
-    g.writeEndObject();
-    g.close();
-  }
-  
-  /**
-   * Write a HarLog object into an OutputStream.
-   * 
-   * @param log the HarLog to write to an OutputStream
-   * @param os the OutputStream to write the HAR to
-   * @throws IOException if an error occurs writing into the OutputStream
-   */
-  public void writeHarFile(HarLog log, OutputStream os) throws IOException
-  {
-    JsonFactory f = new JsonFactory();
-    JsonGenerator g = f.createJsonGenerator(os, JsonEncoding.UTF8);
-    g.useDefaultPrettyPrinter();
+    /**
+     * Write a HarLog object into a file.
+     *
+     * @param log the HarLog to write to a file
+     * @param file the file to write the HAR to
+     * @throws IOException if an error occurs writing the file
+     */
+    public void writeHarFile(HarLog log, File file) throws IOException {
+        JsonFactory f = new JsonFactory();
+        JsonGenerator g = f.createJsonGenerator(new FileOutputStream(file), JsonEncoding.UTF8);
+        g.useDefaultPrettyPrinter();
 
-    g.writeStartObject();
-    log.writeHar(g);
-    g.writeEndObject();
-    g.close();
-  }
+        g.writeStartObject();
+        log.writeHar(g);
+        g.writeEndObject();
+        g.close();
+    }
+
+    /**
+     * Write a HarLog object into an OutputStream.
+     *
+     * @param log the HarLog to write to an OutputStream
+     * @param os the OutputStream to write the HAR to
+     * @throws IOException if an error occurs writing into the OutputStream
+     */
+    public void writeHarFile(HarLog log, OutputStream os) throws IOException {
+        JsonFactory f = new JsonFactory();
+        JsonGenerator g = f.createJsonGenerator(os, JsonEncoding.UTF8);
+        g.useDefaultPrettyPrinter();
+
+        g.writeStartObject();
+        log.writeHar(g);
+        g.writeEndObject();
+        g.close();
+    }
 }

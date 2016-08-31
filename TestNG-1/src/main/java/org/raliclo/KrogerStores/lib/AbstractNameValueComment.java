@@ -26,10 +26,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Types;
 
-import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.JsonGenerator;
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.JsonParser;
+import com.fasterxml.jackson.core.*;
 
 import org.raliclo.KrogerStores.lib.tools.HarFileWriter;
 

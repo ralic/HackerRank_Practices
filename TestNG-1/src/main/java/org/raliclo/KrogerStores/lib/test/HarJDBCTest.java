@@ -29,7 +29,7 @@ import java.util.Collection;
 
 import junit.framework.TestCase;
 
-import org.codehaus.jackson.JsonParseException;
+import com.fasterxml.jackson.core.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
