@@ -12,11 +12,10 @@
       <root url="file:///usr/local/opt/go/libexec/bin/src/golang.org" />
     </SOURCES>
     <excluded>
-      <root url="file://$PROJECT_DIR$/src/main/python" />
-      <root url="file://$PROJECT_DIR$/src/main" />
-      <root url="file://$PROJECT_DIR$" />
       <root url="file://$PROJECT_DIR$/src/test" />
       <root url="file://$PROJECT_DIR$/src/main/golang" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/src/main" />
     </excluded>
   </library>
 </component>

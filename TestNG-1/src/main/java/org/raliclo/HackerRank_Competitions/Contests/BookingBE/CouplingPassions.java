@@ -1,3 +1,19 @@
+/*
+ * Copyright 2016 Ralic Lo<raliclo@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and limitations under the License.
+ */
+
+
 package org.raliclo.HackerRank_Competitions.Contests.BookingBE;/**
  * Created by raliclo on 8/9/16.
  * Project Name : TestNG-1
@@ -82,6 +98,12 @@ public class CouplingPassions {
         input = null;
     }
 
+    public static double distance(Destination p1, Destination p2) {
+        int EARTH_RADIUS = 6371;//in km
+        return Math.acos(Math.sin(p1.lat) * Math.sin(p2.lat)
+                + Math.cos(p1.lat) * Math.cos(p2.lat) * Math.cos(p2.lng - p1.lng)) * EARTH_RADIUS;
+    }
+
     public static class Guest {
         ArrayList<String> passions = new ArrayList<>();
 
@@ -143,12 +165,6 @@ public class CouplingPassions {
                     }
             );
         }
-    }
-
-    public static double distance(Destination p1, Destination p2) {
-        int EARTH_RADIUS = 6371;//in km
-        return Math.acos(Math.sin(p1.lat) * Math.sin(p2.lat)
-                + Math.cos(p1.lat) * Math.cos(p2.lat) * Math.cos(p2.lng - p1.lng)) * EARTH_RADIUS;
     }
 }
 
