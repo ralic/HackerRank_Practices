@@ -6,5 +6,7 @@
     <orderEntry type="jdk" jdkName="Go 1.7" jdkType="Go SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="GOPATH &lt;golang&gt;" level="project" />
+    <orderEntry type="library" name="R Skeletons" level="project" />
+    <orderEntry type="library" name="R User Skeletons" level="project" />
   </component>
 </module>
