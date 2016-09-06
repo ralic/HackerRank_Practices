@@ -37,14 +37,14 @@ public class DestinationTogether {
         int m = Integer.valueOf(info[1]);
         int c = Integer.valueOf(info[2]);
         int uniq = n + m - c;
-        System.out.println(ways(uniq-1));
+        System.out.println(ways(uniq - 1));
     }
 
-    public static long ways (long ways) {
-        long ans=1;
-        while (ways>1) {
-            ans*=ways;
-            ways --;
+    public static long ways(long ways) {
+        long ans = 1;
+        while (ways > 1) {
+            ans *= ways;
+            ways--;
         }
         return ans;
     }

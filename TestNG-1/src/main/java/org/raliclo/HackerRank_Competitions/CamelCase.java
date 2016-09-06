@@ -64,7 +64,7 @@ public class CamelCase {
         String s = "saveChangesInTheEditor";
 //        int[] list=IntStream.range(65,91).toArray();
 //        System.out.println((int)'z');
-        int ans = (s.charAt(0) > 96 && s.charAt(0)<123 )? 1:0;
+        int ans = (s.charAt(0) > 96 && s.charAt(0) < 123) ? 1 : 0;
         for (int i = 0; i < s.length(); i++) {
             if ((int) s.charAt(i) > 64 && (int) s.charAt(i) < 91) {
                 ans++;

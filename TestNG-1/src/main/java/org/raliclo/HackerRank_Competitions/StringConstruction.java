@@ -80,8 +80,8 @@ public class StringConstruction {
         int n = in.nextInt();
         for (int a0 = 0; a0 < n; a0++) {
             String s = in.next();
-            HashMap<String,Integer> k = new HashMap<>();
-            Arrays.stream(s.split("")).forEach((x)-> k.put(x,0));
+            HashMap<String, Integer> k = new HashMap<>();
+            Arrays.stream(s.split("")).forEach((x) -> k.put(x, 0));
             System.out.println(k.size());
         }
     }

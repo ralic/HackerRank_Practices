@@ -1,3 +1,18 @@
+/*
+ * Copyright 2016 Ralic Lo<raliclo@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ *
+ * You may obtain a copy of the License at
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and limitations under the License.
+ */
+
 package org.raliclo.HackerRank_Competitions.Contests.WeekofCode22;/**
  * Created by raliclo on 8/12/16.
  * Project Name : TestNG-1
@@ -68,25 +83,25 @@ public class SubmaskQueries {
 
     }
 
-    private static Set<Set<Object>> getSubsets(List<Object> list){
+    private static Set<Set<Object>> getSubsets(List<Object> list) {
         Set<Set<Object>> result = new HashSet<Set<Object>>();
         int numOfSubsets = 1 << list.size(); //OR Math.pow(2, list.size())
         // For i from 0 to 7 in case of [a, b, c],
         // we will pick 0(0,0,0) and check each bits to see any bit is set,
         // If set then element at corresponding position in a given Set need to be included in a subset.
-        for(int i = 0; i < numOfSubsets; i++){
+        for (int i = 0; i < numOfSubsets; i++) {
             Set<Object> subset = new HashSet<Object>();
             int mask = 1; // we will use this mask to check any bit is set in binary representation of value i.
-            for(int k = 0; k < list.size(); k++){
-                if((mask & i) != 0){ // If result is !=0 (or >0) then bit is set.
+            for (int k = 0; k < list.size(); k++) {
+                if ((mask & i) != 0) { // If result is !=0 (or >0) then bit is set.
                     subset.add(list.get(k)); // include the corresponding element from a given set in a subset.
                 }
                 // check next bit in i.
                 mask = mask << 1;
             }
             if (!subset.isEmpty())
-            // add all subsets in final result.
-            result.add(subset);
+                // add all subsets in final result.
+                result.add(subset);
         }
         return result;
     }

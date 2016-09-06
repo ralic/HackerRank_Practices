@@ -13,21 +13,17 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package org.raliclo.HackerRank_Competitions.Contests.C101Hack40;/**
- * Created by raliclo on 8/23/16.
+package org.raliclo.HackerRank_Competitions.Contests.AdInfinitum16;/**
+ * Created by raliclo on 9/4/16.
  * Project Name : TestNG-1
  */
+//https://www.hackerrank.com/contests/infinitum16-firsttimer/challenges/xrange-and-pizza
+//TODO Unsolved
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.stream.Collectors;
-
-public class LazyMayorandLasers {
+public class XrangePancakes {
 
     public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<String> input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
+
 
     }
 

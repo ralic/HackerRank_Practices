@@ -13,22 +13,30 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package org.raliclo.HackerRank_Competitions.Contests.C101Hack40;/**
- * Created by raliclo on 8/23/16.
+package Java8_Tests.ClassTest;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+/**
+ * Created by raliclo on 9/3/16.
  * Project Name : TestNG-1
  */
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.stream.Collectors;
-
-public class LazyMayorandLasers {
-
-    public static void main(String[] args) {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<String> input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
-
+public class Permute {
+    static void permute(java.util.List<Integer> arr, int k) {
+        for (int i = k; i < arr.size(); i++) {
+            java.util.Collections.swap(arr, i, k);
+            permute(arr, k + 1);
+            java.util.Collections.swap(arr, k, i);
+        }
+        System.out.println(java.util.Arrays.toString(arr.toArray()));
     }
 
+    public static void main(String[] args) {
+        Permute.permute(java.util.Arrays.asList(3, 4, 6, 2, 1), 0);
+    }
 }
+
+

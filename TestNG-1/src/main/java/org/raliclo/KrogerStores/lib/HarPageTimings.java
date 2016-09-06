@@ -1,22 +1,16 @@
-/**
- * BenchLab: Internet Scale Benchmarking.
- * Copyright (C) 2010-2011 Emmanuel Cecchet.
- * Contact: cecchet@cs.umass.edu
- * <p>
+/*
+ * Copyright 2016 Ralic Lo<raliclo@gmail.com>
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
+ *
  * You may obtain a copy of the License at
- * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * <p>
- * Initial developer(s): Emmanuel Cecchet.
- * Contributor(s): Fabien Mottet, karlholl (sf.net).
+ * See the License for the specific language governing permissions and limitations under the License.
  */
 
 package org.raliclo.KrogerStores.lib;
@@ -56,12 +50,12 @@ public class HarPageTimings {
      * Creates a new <code>HarPageTimings</code> object
      *
      * @param onContentLoad Content of the page loaded. Number of milliseconds
-     *          since page load started (page.startedDateTime). Use -1 if the
-     *          timing does not apply to the current request.
-     * @param onLoad Page is loaded (onLoad event fired). Number of milliseconds
-     *          since page load started (page.startedDateTime). Use -1 if the
-     *          timing does not apply to the current request.
-     * @param comment A comment provided by the user or the application.
+     *                      since page load started (page.startedDateTime). Use -1 if the
+     *                      timing does not apply to the current request.
+     * @param onLoad        Page is loaded (onLoad event fired). Number of milliseconds
+     *                      since page load started (page.startedDateTime). Use -1 if the
+     *                      timing does not apply to the current request.
+     * @param comment       A comment provided by the user or the application.
      */
     public HarPageTimings(long onContentLoad, long onLoad, String comment) {
         this.onContentLoad = onContentLoad;
@@ -73,10 +67,10 @@ public class HarPageTimings {
      * Creates a new <code>HarPageTimings</code> object from a JsonParser already
      * positioned at the beginning of the element content
      *
-     * @param jp a JsonParser already positioned at the beginning of the element
-     *          content
+     * @param jp       a JsonParser already positioned at the beginning of the element
+     *                 content
      * @param warnings null if parser should fail on first error, pointer to
-     *          warning list if warnings can be issued for missing fields
+     *                 warning list if warnings can be issued for missing fields
      * @throws JsonParseException
      * @throws IOException
      */
@@ -150,7 +144,7 @@ public class HarPageTimings {
      * Write this object on a JsonGenerator stream
      *
      * @param g a JsonGenerator
-     * @throws IOException if an IO error occurs
+     * @throws IOException             if an IO error occurs
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
@@ -169,10 +163,10 @@ public class HarPageTimings {
     /**
      * Write this object in the given database referencing the specified logId.
      *
-     * @param pageId the database page id this object refers to
-     * @param config the database configuration to write to
+     * @param pageId   the database page id this object refers to
+     * @param config   the database configuration to write to
      * @param timingPs PreparedStatement to write page timings data
-     * @param logId the log entry to update
+     * @param logId    the log entry to update
      * @throws SQLException if a database access error occurs
      */
     public void writeJDBC(long pageId, HarDatabaseConfig config, PreparedStatement timingPs, long logId)

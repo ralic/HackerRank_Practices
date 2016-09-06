@@ -21,7 +21,6 @@ package org.raliclo.HackerRank_Algorithm.Exams;/**
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -41,7 +40,7 @@ public class Segment {
 //            Arrays.stream(newarr).forEach(System.out::print);
 //            System.out.println();
 //            list.add(findmin(newarr));
-            int localmin =findmin(newarr);
+            int localmin = findmin(newarr);
             if (max < localmin) {
                 max = localmin;
             }

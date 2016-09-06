@@ -61,10 +61,10 @@ public class CouplingPassions {
             }
         }
         destpairlist.sort(
-                (m7,m8) -> {
-                    int cmp1=Integer.compare(m8.uniqs,m7.uniqs);
-                    int cmp2=Double.compare(m7.distpair,m8.distpair);
-                    if (cmp1>0 || cmp1<0) {
+                (m7, m8) -> {
+                    int cmp1 = Integer.compare(m8.uniqs, m7.uniqs);
+                    int cmp2 = Double.compare(m7.distpair, m8.distpair);
+                    if (cmp1 > 0 || cmp1 < 0) {
                         return cmp1;
                     } else {
                         return cmp2;
@@ -76,7 +76,7 @@ public class CouplingPassions {
 //            System.out.println(m3.start + " " + m3.end + " " + m3.distpair + " " + m3.uniqs);
 //        });
 
-        System.out.println(destpairlist.get(0).start+" "+destpairlist.get(0).end);
+        System.out.println(destpairlist.get(0).start + " " + destpairlist.get(0).end);
 
 //            int[] counter = new int[1];
 //        HashMap<String, Integer> set_destination = new HashMap<>();

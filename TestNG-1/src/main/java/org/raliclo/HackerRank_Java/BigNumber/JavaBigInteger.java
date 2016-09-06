@@ -33,7 +33,7 @@ public class JavaBigInteger {
         ArrayList<String> x = reader.lines().collect(Collectors.toCollection(ArrayList::new));
 
 
-        BigInteger a= new BigInteger(x.get(0));
+        BigInteger a = new BigInteger(x.get(0));
         BigInteger b = new BigInteger(x.get(1));
 
         System.out.println(a.add(b));
