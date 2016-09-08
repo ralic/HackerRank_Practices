@@ -26,7 +26,6 @@ import org.raliclo.KrogerStores.lib.tools.HarFileReader;
 import org.raliclo.KrogerStores.lib.tools.HarFileWriter;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
@@ -104,16 +103,16 @@ public class HarFileWriterTest extends TestCase {
         HarFileWriter w = new HarFileWriter();
         try {
             File f = new File(fileName);
-            JsonParser jp = new JsonFactory().createJsonParser(f);
+            JsonParser jp = new JsonFactory().createParser(f);
 
             System.out.println("Reading " + fileName);
             HarLog l = r.readHarFile(jp, null);
             System.out.println("Writing " + fileName + ".test");
 
             File file2 = new File(fileName + ".test");
-            JsonGenerator g2 = new JsonFactory().createJsonGenerator(new FileOutputStream(file2),
+            JsonGenerator g2 = new JsonFactory().createGenerator(file2,
                     JsonEncoding.UTF8);
-            JsonParser jp2 = new JsonFactory().createJsonParser(file2);
+            JsonParser jp2 = new JsonFactory().createParser(file2);
             w.writeHarFile(l, g2);
             System.out.println("Writing done, reading again from " + fileName
                     + ".test");

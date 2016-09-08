@@ -61,8 +61,8 @@ public class HarHeaders {
 
         // Read the content of the pages element
         if (jp.nextToken() != JsonToken.START_ARRAY) {
-            throw new JsonParseException("[ missing after \"headers\" element "
-                    + jp.getCurrentName(), jp.getCurrentLocation());
+            throw new JsonParseException(jp, "[ missing after \"headers\" element "
+                    + jp.getCurrentName());
         }
 
         while (jp.nextToken() != JsonToken.END_ARRAY) {

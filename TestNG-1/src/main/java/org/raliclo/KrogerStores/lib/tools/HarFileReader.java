@@ -49,7 +49,7 @@ public class HarFileReader {
      */
     public HarLog readHarFile(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("File does not start with {", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "File does not start with {");
         }
 
         try {
@@ -86,9 +86,9 @@ public class HarFileReader {
      */
     public HarLog readHarFile(File file, List<HarWarning> warnings) throws JsonParseException, IOException {
         JsonFactory f = new JsonFactory();
-        JsonParser jp = f.createJsonParser(file);
+        JsonParser jp = f.createParser(file);
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("File does not start with {", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "File does not start with {");
         }
 
         try {
@@ -112,9 +112,9 @@ public class HarFileReader {
      */
     public HarLog readHarFile(InputStream stream, List<HarWarning> warnings) throws JsonParseException, IOException {
         JsonFactory f = new JsonFactory();
-        JsonParser jp = f.createJsonParser(stream);
+        JsonParser jp = f.createParser(stream);
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("File does not start with {", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "File does not start with {");
         }
 
         try {

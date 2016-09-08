@@ -77,7 +77,7 @@ public class HarPageTimings {
     public HarPageTimings(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"pageTimings\" element", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"pageTimings\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -93,9 +93,7 @@ public class HarPageTimings {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException(
-                        "Unrecognized field '" + name + "' with Value '" + jp.getText() + "' in page element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name + "' with Value '" + jp.getText() + "' in page element");
             }
         }
     }

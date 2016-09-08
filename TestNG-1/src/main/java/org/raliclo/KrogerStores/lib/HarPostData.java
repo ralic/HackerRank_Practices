@@ -73,8 +73,7 @@ public class HarPostData {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"postData\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"postData\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -90,8 +89,7 @@ public class HarPostData {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in page element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name + "' in page element");
             }
         }
         if (mimeType == null) {
@@ -100,9 +98,7 @@ public class HarPostData {
                         "Missing mimeType field in postData element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing mimeType field in postData element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing mimeType field in postData element");
         }
 
         if (params == null) {
@@ -111,8 +107,7 @@ public class HarPostData {
                         jp.getCurrentLocation()));
                 setParams(new HarPostDataParams());
             } else
-                throw new JsonParseException(
-                        "Missing params field in postData element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing params field in postData element");
         }
         if (text == null) {
             if (warnings != null) {
@@ -120,8 +115,7 @@ public class HarPostData {
                         jp.getCurrentLocation()));
                 setText("");
             } else
-                throw new JsonParseException("Missing text field in postData element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing text field in postData element");
         }
     }
 

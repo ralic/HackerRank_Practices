@@ -95,7 +95,7 @@ public class HarFileReaderTest extends TestCase {
     @Test
     public void testReadWithCustomJsonParser() {
         try {
-            JsonParser jp = new JsonFactory().createJsonParser(new File(fileName));
+            JsonParser jp = new JsonFactory().createParser(new File(fileName));
             HarFileReader r = new HarFileReader();
 
             List<HarWarning> warnings = new ArrayList<HarWarning>();

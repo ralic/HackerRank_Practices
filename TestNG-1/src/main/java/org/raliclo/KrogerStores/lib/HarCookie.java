@@ -103,8 +103,7 @@ public class HarCookie {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"cookies\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"cookies\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -131,8 +130,8 @@ public class HarCookie {
                         warnings.add(new HarWarning("Invalid date format '" + jp.getText()
                                 + "'", jp.getCurrentLocation()));
                     else
-                        throw new JsonParseException("Invalid date format '" + jp.getText()
-                                + "'", jp.getCurrentLocation());
+                        throw new JsonParseException(jp, "Invalid date format '" + jp.getText()
+                                + "'");
                 }
             } else if ("httpOnly".equals(name))
                 setHttpOnly(jp.getValueAsBoolean());
@@ -147,8 +146,8 @@ public class HarCookie {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in page element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in page element");
             }
         }
         if (name == null) {
@@ -156,16 +155,14 @@ public class HarCookie {
                 warnings.add(new HarWarning("Missing name field in cookie element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing name field in cookie element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing name field in cookie element");
         }
         if (value == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing value field in cookie element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing value field in cookie element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing value field in cookie element");
         }
     }
 

@@ -91,8 +91,7 @@ public class HarHeader extends AbstractNameValueComment {
 
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"headers\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"headers\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -106,24 +105,22 @@ public class HarHeader extends AbstractNameValueComment {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in headers element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in headers element");
         }
         if (getName() == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing name field in header element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing name field in header element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing name field in header element");
         }
         if (getValue() == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing value field in header element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing value field in header element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing value field in header element");
         }
     }
 

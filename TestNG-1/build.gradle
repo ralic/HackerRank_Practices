@@ -239,6 +239,9 @@ configurations.all {
     exclude group: "org.bytedeco", module: "javacpp-presets"
     exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
 //    exclude group: "org.eclipse.jetty", module: "jetty-server"
+    exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
+    // TODO : To find out whether this aggregate is from Spring Boot's, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
+    exclude group: "org.eclipse.jetty", module: "jetty-webapp"
 }
 
 
@@ -354,10 +357,11 @@ dependencies {
     def jettyVer = "9.4.0.M1"
     compile "org.eclipse.jetty:jetty-server:${jettyVer}"
     compile "org.eclipse.jetty:jetty-servlet:${jettyVer}"
-    compile "org.eclipse.jetty:jetty-webapp:${jettyVer}"
     compile "org.eclipse.jetty:jetty-util:${jettyVer}"
     compile "org.eclipse.jetty:jetty-http:${jettyVer}"
     compile "javax.servlet:javax.servlet-api:4.0.0-b01"
+    // Turn next line on for Spring-Boot Embedded Jetty , off to use Tomcat with Spring.
+//    compile "org.eclipse.jetty:jetty-webapp:${jettyVer}"
 
     // For Hadoop Basic Development Environment
     def HadoopVer = "2.7.3"
@@ -398,9 +402,10 @@ dependencies {
     //compile "org.apache.mrunit:mrunit:1.1.0:hadoop2"
 
     // Cassandra
-    compile "org.apache.cassandra:cassandra-all:3.7"
-    compile "com.datastax.spark:spark-cassandra-connector_2.10:1.6.0"
-    compile "com.datastax.cassandra:cassandra-driver-core:3.0.3"
+    // TODO : One of these makes Spring Boot/Tomcat crashes.
+//    compile "org.apache.cassandra:cassandra-all:3.7"
+//    compile "com.datastax.spark:spark-cassandra-connector_2.10:1.6.0"
+//    compile "com.datastax.cassandra:cassandra-driver-core:3.0.3"
 
     // For ZooKeeper Development
     compile "org.apache.zookeeper:zookeeper:3.4.8"
@@ -410,7 +415,6 @@ dependencies {
     compile "org.apache.spark:spark-core_2.11:${SparkVer}"
     compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
     compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
-
     compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
 
     compile "org.apache.spark:spark-hive_2.11:${SparkVer}"
@@ -451,8 +455,8 @@ dependencies {
     compile "org.apache.camel:camel-core:${CamelVer}"
     compile "org.apache.camel:camel-cdi:${CamelVer}"
     compile "org.apache.camel:camel-test:${CamelVer}"
-//    compile "org.apache.camel:camel-spring:${CamelVer}"
-//    compile "org.apache.camel:camel-jetty:${CamelVer}"
+    compile "org.apache.camel:camel-spring:${CamelVer}"
+    compile "org.apache.camel:camel-jetty:${CamelVer}"
     compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-xstream:${CamelVer}"
     compile "org.apache.camel:camel-jackson:${CamelVer}"

@@ -117,7 +117,7 @@ public class HarResponse {
     public HarResponse(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"response\" element", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"response\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -147,63 +147,62 @@ public class HarResponse {
                     warnings
                             .add(new HarWarning("Unrecognized field '" + name + "' in response element", jp.getCurrentLocation()));
                 else
-                    throw new JsonParseException("Unrecognized field '" + name + "' in response element",
-                            jp.getCurrentLocation());
+                    throw new JsonParseException(jp, "Unrecognized field '" + name + "' in response element");
             }
         }
         if (status == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing status field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing status field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing status field in response element");
         }
         if (statusText == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing statusText field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing statusText field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing statusText field in response element");
         }
         if (httpVersion == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing httpVersion field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing httpVersion field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing httpVersion field in response element");
         }
         if (cookies == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing cookies field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing cookies field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing cookies field in response element");
         }
         if (headers == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing headers field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing headers field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing headers field in response element");
         }
         if (content == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing content field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing content field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing content field in response element");
         }
         if (redirectURL == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing redirectURL field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing redirectURL field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing redirectURL field in response element");
         }
         if (headersSize == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing headersSize field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing headersSize field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing headersSize field in response element");
         }
         if (bodySize == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing bodySize field in response element", jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing bodySize field in response element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing bodySize field in response element");
         }
     }
 

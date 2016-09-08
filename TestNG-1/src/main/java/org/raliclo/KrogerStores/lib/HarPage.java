@@ -1,22 +1,16 @@
-/**
- * BenchLab: Internet Scale Benchmarking.
- * Copyright (C) 2010-2011 Emmanuel Cecchet.
- * Contact: cecchet@cs.umass.edu
- * <p>
+/*
+ * Copyright 2016 Ralic Lo<raliclo@gmail.com>
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
+ *
  * You may obtain a copy of the License at
- * <p>
  * http://www.apache.org/licenses/LICENSE-2.0
- * <p>
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * <p>
- * Initial developer(s): Emmanuel Cecchet.
- * Contributor(s): Fabien Mottet.
+ * See the License for the specific language governing permissions and limitations under the License.
  */
 
 package org.raliclo.KrogerStores.lib;
@@ -86,8 +80,7 @@ public class HarPage {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"pages\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"pages\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -101,8 +94,7 @@ public class HarPage {
                     setStartedDateTime(ISO8601DateFormatter.parseDate(jp.getText()));
                 } catch (ParseException e) {
                     e.printStackTrace();
-                    throw new JsonParseException("Invalid date format '" + jp.getText()
-                            + "'", jp.getCurrentLocation());
+                    throw new JsonParseException(jp, "Invalid date format '" + jp.getText() + "'");
                 }
             } else if ("title".equals(name))
                 setTitle(jp.getText());
@@ -113,8 +105,7 @@ public class HarPage {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in page element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name + "' in page element");
         }
         if (startedDateTime == null) {
             if (warnings != null)
@@ -122,25 +113,22 @@ public class HarPage {
                         "Missing startedDateTime field in pages element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing startedDateTime field in pages element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp,
+                        "Missing startedDateTime field in pages element");
         }
         if (id == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing id field in pages element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing id field in pages element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing id field in pages element");
         }
         if (title == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing title field in pages element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing title field in pages element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing title field in pages element");
         }
         if (pageTimings == null) {
             if (warnings != null)
@@ -148,9 +136,7 @@ public class HarPage {
                         "Missing pageTimings field in pages element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing pageTimings field in pages element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing pageTimings field in pages element");
         }
     }
 

@@ -109,8 +109,7 @@ public class HarPostDataParam extends AbstractNameValueComment {
 
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"params\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"params\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -128,16 +127,15 @@ public class HarPostDataParam extends AbstractNameValueComment {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in params element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in params element");
         }
         if (getName() == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing name field in postData element",
                         jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing name field in postData element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing name field in postData element");
         }
     }
 

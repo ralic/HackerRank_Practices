@@ -111,8 +111,7 @@ public class HarEntryTimings {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"timings\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"timings\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -136,8 +135,8 @@ public class HarEntryTimings {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in timings element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in timings element");
             }
         }
         if (send == null) {
@@ -145,24 +144,21 @@ public class HarEntryTimings {
                 warnings.add(new HarWarning("Missing send field in timings element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing send field in timings element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing send field in timings element");
         }
         if (wait == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing wait field in timings element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing wait field in timings element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing wait field in timings element");
         }
         if (receive == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing receive field in timings element",
                         jp.getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing receive field in timings element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing receive field in timings element");
         }
     }
 

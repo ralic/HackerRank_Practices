@@ -94,8 +94,7 @@ public class HarQueryParam extends AbstractNameValueComment {
 
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"queryString\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"queryString\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -109,8 +108,8 @@ public class HarQueryParam extends AbstractNameValueComment {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in queryString element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in queryString element");
             }
         }
         if (getName() == null) {
@@ -120,8 +119,8 @@ public class HarQueryParam extends AbstractNameValueComment {
                         .getCurrentLocation()));
             else
                 throw new JsonParseException(
-                        "Missing name field in queryString element",
-                        jp.getCurrentLocation());
+                        jp, "Missing name field in queryString element"
+                );
         }
         if (getValue() == null) {
             if (warnings != null)
@@ -130,8 +129,7 @@ public class HarQueryParam extends AbstractNameValueComment {
                         .getCurrentLocation()));
             else
                 throw new JsonParseException(
-                        "Missing value field in queryString element",
-                        jp.getCurrentLocation());
+                        jp, "Missing value field in queryString element");
         }
     }
 

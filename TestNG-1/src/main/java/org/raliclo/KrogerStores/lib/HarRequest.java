@@ -127,8 +127,7 @@ public class HarRequest {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"request\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"request\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -156,8 +155,8 @@ public class HarRequest {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in request element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in request element");
             }
         }
         if (method == null) {
@@ -165,16 +164,14 @@ public class HarRequest {
                 warnings.add(new HarWarning("Missing name field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing name field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing name field in request element");
         }
         if (url == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing url field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing url field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing url field in request element");
         }
         if (httpVersion == null) {
             if (warnings != null)
@@ -182,25 +179,21 @@ public class HarRequest {
                         "Missing httpVersion field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing httpVersion field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing httpVersion field in request element");
         }
         if (cookies == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing cookies field in request element",
                         jp.getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing cookies field in request element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing cookies field in request element");
         }
         if (headers == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing headers field in request element",
                         jp.getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing headers field in request element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing headers field in request element");
         }
         if (queryString == null) {
             if (warnings != null)
@@ -208,9 +201,7 @@ public class HarRequest {
                         "Missing queryString field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing queryString field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing queryString field in request element");
         }
         if (headersSize == null) {
             if (warnings != null)
@@ -218,9 +209,7 @@ public class HarRequest {
                         "Missing headersSize field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing headersSize field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing headersSize field in request element");
         }
         if (bodySize == null) {
             if (warnings != null)
@@ -228,9 +217,8 @@ public class HarRequest {
                         "Missing bodySize field in request element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing bodySize field in request element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp,
+                        "Missing bodySize field in request element");
         }
     }
 

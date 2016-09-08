@@ -133,8 +133,7 @@ public class HarEntry implements Comparable<HarEntry> {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"entries\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"entries\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -147,8 +146,8 @@ public class HarEntry implements Comparable<HarEntry> {
                         jp.nextToken();
                     setStartedDateTime(ISO8601DateFormatter.parseDate(jp.getText()));
                 } catch (ParseException e) {
-                    throw new JsonParseException("Invalid date format '" + jp.getText()
-                            + "'", jp.getCurrentLocation());
+                    throw new JsonParseException(jp, "Invalid date format '" + jp.getText()
+                            + "'");
                 }
             } else if ("time".equals(name))
                 setTime(jp.getValueAsLong());

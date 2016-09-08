@@ -21,7 +21,6 @@ import com.fasterxml.jackson.core.JsonGenerator;
 import org.raliclo.KrogerStores.lib.HarLog;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
@@ -54,8 +53,7 @@ public class HarFileWriter {
      * @throws IOException if an error occurs writing the file
      */
     public void writeHarFile(HarLog log, File file) throws IOException {
-        JsonFactory f = new JsonFactory();
-        JsonGenerator g = f.createJsonGenerator(new FileOutputStream(file), JsonEncoding.UTF8);
+        JsonGenerator g = new JsonFactory().createGenerator(file, JsonEncoding.UTF8);
         g.useDefaultPrettyPrinter();
 
         g.writeStartObject();
@@ -73,7 +71,7 @@ public class HarFileWriter {
      */
     public void writeHarFile(HarLog log, OutputStream os) throws IOException {
         JsonFactory f = new JsonFactory();
-        JsonGenerator g = f.createJsonGenerator(os, JsonEncoding.UTF8);
+        JsonGenerator g = f.createGenerator(os, JsonEncoding.UTF8);
         g.useDefaultPrettyPrinter();
 
         g.writeStartObject();

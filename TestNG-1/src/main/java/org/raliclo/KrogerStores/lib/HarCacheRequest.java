@@ -107,8 +107,8 @@ public class HarCacheRequest {
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             if ("null".equals(jp.getText()))
                 return;
-            throw new JsonParseException("{ missing after \"" + getObjectTag()
-                    + "\" element", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"" + getObjectTag()
+                    + "\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -129,8 +129,8 @@ public class HarCacheRequest {
                             warnings.add(new HarWarning("Invalid date format '"
                                     + jp.getText() + "'", jp.getCurrentLocation()));
                         else
-                            throw new JsonParseException("Invalid date format '"
-                                    + jp.getText() + "'", jp.getCurrentLocation());
+                            throw new JsonParseException(jp, "Invalid date format '"
+                                    + jp.getText() + "'");
                     }
                 }
             } else if ("lastAccess".equals(name)) {
@@ -147,8 +147,8 @@ public class HarCacheRequest {
                             warnings.add(new HarWarning("Invalid date format '"
                                     + jp.getText() + "'", jp.getCurrentLocation()));
                         else
-                            throw new JsonParseException("Invalid date format '"
-                                    + jp.getText() + "'", jp.getCurrentLocation());
+                            throw new JsonParseException(jp, "Invalid date format '"
+                                    + jp.getText() + "'");
                     }
                 }
             } else if ("hitCount".equals(name))
@@ -158,8 +158,8 @@ public class HarCacheRequest {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name + "' in "
-                        + getObjectTag() + " element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name + "' in "
+                        + getObjectTag() + " element");
             }
         }
         if (lastAccess == null) {
@@ -168,25 +168,22 @@ public class HarCacheRequest {
                         "Missing lastAccess field in cache element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(
-                        "Missing lastAccess field in cache element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp,
+                        "Missing lastAccess field in cache element");
         }
         if (eTag == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing eTag field in cache element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing eTag field in cache element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing eTag field in cache element");
         }
         if (hitCount == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing hitCount field in cache element",
                         jp.getCurrentLocation()));
             else
-                throw new JsonParseException("Missing hitCount field in cache element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing hitCount field in cache element");
         }
     }
 

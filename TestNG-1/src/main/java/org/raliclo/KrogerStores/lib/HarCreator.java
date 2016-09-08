@@ -81,8 +81,7 @@ public class HarCreator {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"creator\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"creator\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {

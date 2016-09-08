@@ -55,7 +55,7 @@ public class HarTimeStamp {
     public HarTimeStamp(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"pages\" element", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"pages\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -67,7 +67,7 @@ public class HarTimeStamp {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name + "' in page element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name + "' in page element");
             }
         }
     }
