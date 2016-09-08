@@ -29,7 +29,7 @@ buildscript {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
         classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.3.0" // Support Dynamic version in dependency
         //        classpath "gradle.plugin.com.netflix.nebula:gradle-ospackage-plugin:3.6.1" // Support RPM Package.
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.3.6.RELEASE" // Support Spring Boot
+//        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE" // Support Spring Boot
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
         classpath "org.ajoberstar:gradle-git:1.5.1" // Support Gradle-Git
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
@@ -150,6 +150,7 @@ idea {
         downloadSources = true //false //
     }
 }
+
 //apply plugin: "eclipse"
 //eclipse {
 //    classpath {
@@ -167,7 +168,8 @@ jar {
 }
 
 repositories {
-    mavenCentral()
+    maven { url "http://central.maven.org/" }
+//    mavenCentral()
     mavenLocal()
     jcenter()
     maven { url "http://repo1.maven.org/maven2/" }
@@ -231,13 +233,12 @@ TODO Jenkins Support
 
 configurations.all {
     exclude group: "org.slf4j", module: "slf4j-log4j12"
+    exclude group: "org.slf4j", module: "slf4j-simple"
+//    exclude group: "ch.qos.logback", module: "logback-classic"
     exclude group: "log4j", module: "log4j"
     exclude group: "org.bytedeco", module: "javacpp-presets"
-}
-
-jar {
-    baseName = "junit5-gradle-consumer"
-    version = "1.0.0-SNAPSHOT"
+    exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
+//    exclude group: "org.eclipse.jetty", module: "jetty-server"
 }
 
 
@@ -288,6 +289,11 @@ gradle.startParameter.continueOnFailure = true
 
 dependencies {
 
+    // For Spring Boot
+    // Error :java.lang.NoClassDefFoundError: ch/qos/logback/classic/turbo/TurboFilter
+    compile "ch.qos.logback:logback-classic:1.1.7"
+    testCompile("ch.qos.logback:logback-classic:1.1.7") { force = true }
+
     // Github as depency Example
 //    compile "com.github.User:Repo:Tag"
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
@@ -314,15 +320,44 @@ dependencies {
     // Headless web test || GhostDriver
     compile "com.github.detro:phantomjsdriver:1.2.0"
 
+    // MySQL Connector support
+    compile "mysql:mysql-connector-java:6.0.3"
+
     def SpringVer = "1.4.0.RELEASE"
-    // For Spring Boot Rest Backend WebAPI design
-    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-web:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
+    compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
+            {
+                exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
+            }
     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
-    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
+    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
+
+//    compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-web:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
+//    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
+
+//    def SpringFullVer = "4.3.2.RELEASE"
+//    compile "org.springframework:spring-core:${SpringFullVer}"
+//    compile "org.springframework:spring-context:${SpringFullVer}"
+//    compile "org.springframework:spring-orm:${SpringFullVer}"
+//    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
+
+    // For HTTP2 Servers
+    // http://unrestful.io/2015/10/10/http2-java-client-examples.html
+    compile "io.netty:netty-all:5.0.0.Alpha2"
+    def jettyVer = "9.4.0.M1"
+    compile "org.eclipse.jetty:jetty-server:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-servlet:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-webapp:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-util:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-http:${jettyVer}"
+    compile "javax.servlet:javax.servlet-api:4.0.0-b01"
 
     // For Hadoop Basic Development Environment
     def HadoopVer = "2.7.3"
@@ -384,12 +419,13 @@ dependencies {
     compile "org.apache.spark:spark-yarn_2.11:${SparkVer}"
     compile "org.apache.spark:spark-graphx_2.11:${SparkVer}"
 
+    compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
+
     def SparkVerOld = "1.6.2"
-    compile "org.apache.spark:spark-tags_2.11:1.6.2"
-    compile "org.apache.spark:spark-test-tags_2.11:1.6.2"
-    compile "org.apache.spark:spark-streaming-twitter_2.11:1.6.2"
-    compile "org.apache.spark:spark-streaming-kafka_2.11:1.6.2"
-    compile "org.apache.spark:spark-bagel_2.11:1.6.2"
+    compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
+    compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
+    compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
+    compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
 
     // ZeroMQ vs Kafka vs RabbitMQ
     // https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
@@ -410,26 +446,20 @@ dependencies {
     // https://news.ycombinator.com/item?id=5127251
     // http://shenfeng.me/600k-concurrent-connection-http-kit.html
 
-    // For HTTP2 Servers
-    // http://unrestful.io/2015/10/10/http2-java-client-examples.html
-    compile "io.netty:netty-all:5.0.0.Alpha2"
-    compile "org.eclipse.jetty:jetty-server:9.4.0.M1"
-
     // For Apache Camel
     def CamelVer = "2.17.3"
     compile "org.apache.camel:camel-core:${CamelVer}"
     compile "org.apache.camel:camel-cdi:${CamelVer}"
     compile "org.apache.camel:camel-test:${CamelVer}"
-    compile "org.apache.camel:camel-spring:${CamelVer}"
-    compile "org.apache.camel:camel-jetty:${CamelVer}"
+//    compile "org.apache.camel:camel-spring:${CamelVer}"
+//    compile "org.apache.camel:camel-jetty:${CamelVer}"
     compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-xstream:${CamelVer}"
     compile "org.apache.camel:camel-jackson:${CamelVer}"
-    compile "org.apache.camel:camel-email:${CamelVer}"
+    compile "org.apache.camel:camel-mail:${CamelVer}"
 
     // For Spark Unit Test with SparkHive
     // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
-
     compile "com.holdenkarau:spark-testing-base_2.11:2.0.0_0.4.4"
 
     // For Mesos Development
@@ -509,7 +539,7 @@ dependencies {
     testCompile "net.serenity-bdd:serenity-core:1.1.9"
     testCompile "net.serenity-bdd:serenity-junit:1.1.9"
     testCompile "org.assertj:assertj-core:3.5.2"
-    testCompile "org.slf4j:slf4j-simple:1.7.7"
+//    testCompile "org.slf4j:slf4j-simple:1.7.7"
 
     // Support Cucumber
     // https://cucumber.io/docs/reference/jvm#java
@@ -632,10 +662,25 @@ dependencies {
     compile "org.ow2.asm:asm-analysis:6.0_ALPHA"
     compile "org.scala-lang:scalap:2.12.0-M5"
 
-    // Guava Plugin & Twitter Plugin
+    // Google Guava Library
     compile "com.google.guava:guava:19.0"
-    compile "com.google.guava:guice:4.1.0"
+    compile "com.google.guava:guava-parent:19.0"
+    compile "com.google.guava:guava-gwt:19.0"
+    compile "com.google.guava:guava-tests:19.0"
+    compile "com.google.guava:guava-testlib:19.0"
+    compile "com.google.j2objc:j2objc-annotations:1.1"
+
+    // Google Guice for Dependency Injection
+    compile "com.google.inject:guice:4.1.0" // Core
+    compile "com.google.inject:guice-parent:4.1.0"
+    compile "com.google.inject:guice-bom:4.1.0"
+    compile "com.google.inject:jdk8-tests:4.1.0"
+
+    // Twitter Utilities
     compile "com.twitter:util-core_2.10:6.34.0"
+
+    // JWT Web Token support
+    compile "io.jsonwebtoken:jjwt:0.6.0"
 
     //https://orc.apache.org/
 //    compile "com.typesafe.zinc:zinc:0.3.11"
@@ -756,9 +801,14 @@ generateGrammarSource {
 }
 
 //  Automatic restart using Spring-Boot
+
 //apply plugin: "spring-boot"
 //bootRun {
 //    addResources = true
+//}
+//
+//bootRepackage {
+//    mainClass = 'org.raliclo.backend.BackendApplication'
 //}
 
 /*
