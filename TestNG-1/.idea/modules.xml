@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" group="TestNG-1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" group="TestNG-1" />
       <module fileurl="file://$PROJECT_DIR$/src/main/golang/golang.iml" filepath="$PROJECT_DIR$/src/main/golang/golang.iml" group="TestNG-1" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/java/org/raliclo/backend/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/java/org/raliclo/backend/src/main/main.iml" group="TestNG-1" />
     </modules>
   </component>
 </project>
