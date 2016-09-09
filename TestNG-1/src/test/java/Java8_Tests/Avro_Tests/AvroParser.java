@@ -14,7 +14,10 @@ import org.apache.avro.generic.GenericRecord;
 import org.apache.avro.io.DatumReader;
 import org.apache.avro.io.DatumWriter;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -33,7 +36,7 @@ public class AvroParser {
 
         // Creating users and stored in avro
         File file = new File(path + "users.avro");
-        Schema schema = new Schema.Parser().parse(new File(path+"user.avsc"));
+        Schema schema = new Schema.Parser().parse(new File(path + "user.avsc"));
         GenericRecord user1 = new GenericData.Record(schema);
         user1.put("name", "Alyssa");
         user1.put("favorite_number", 256);

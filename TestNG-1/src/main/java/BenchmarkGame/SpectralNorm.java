@@ -18,7 +18,7 @@ public class SpectralNorm {
         n = 5500;
         Date begin = new Date();
         System.out.println(formatter.format(spectralnormGame(n)));
-        System.out.println("Time Elapsed:"+(new Date().getTime()-begin.getTime()));
+        System.out.println("Time Elapsed:" + (new Date().getTime() - begin.getTime()));
     }
 
 
@@ -86,6 +86,12 @@ public class SpectralNorm {
             start();
         }
 
+        /* return element i,j of infinite matrix A */
+        private final static double eval_A(int i, int j) {
+            int div = (((i + j) * (i + j + 1) >>> 1) + i + 1);
+            return 1.0 / div;
+        }
+
         public void run() {
             // 20 steps of the power method
             for (int i = 0; i < 10; i++) {
@@ -97,12 +103,6 @@ public class SpectralNorm {
                 m_vBv += _u[i] * _v[i];
                 m_vv += _v[i] * _v[i];
             }
-        }
-
-        /* return element i,j of infinite matrix A */
-        private final static double eval_A(int i, int j) {
-            int div = (((i + j) * (i + j + 1) >>> 1) + i + 1);
-            return 1.0 / div;
         }
 
         /* multiply vector v by matrix A, each thread evaluate its range only */

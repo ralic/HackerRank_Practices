@@ -11,16 +11,16 @@ import java.util.stream.IntStream;
  */
 public class TestConfig {
 
-    private static String prefixBT = "[BT]~~~~~";
-    private static String prefixBC = "[BC]->   ";
     public static String prefixBM = "[BM]-->  ";
     public static String prefixTT = "[TT]#    ";
     public static String prefixMT = "[MT]##   ";
     public static String prefixAM = "[AM]<--  ";
+    public static int countTests;
+    private static String prefixBT = "[BT]~~~~~";
+    private static String prefixBC = "[BC]->   ";
     private static String prefixAC = "[AC]<-   ";
     private static String prefixAT = "[AT]~~~~~";
     private static Date classTime;
-    public static int countTests;
     private static String testName = "Ralic Lo";
     //    String testName=null;
 

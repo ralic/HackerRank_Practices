@@ -82,16 +82,14 @@ public class HarLog {
     public HarLog(JsonParser jp, List<HarWarning> warnings)
             throws JsonParseException, IOException {
         if (jp.nextToken() == JsonToken.END_OBJECT)
-            throw new JsonParseException("Empty file", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "Empty file");
 
         if (!"log".equals(jp.getCurrentName()))
-            throw new JsonParseException("First element must be \"log\"",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "First element must be \"log\"");
 
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"log\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"log\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -111,32 +109,29 @@ public class HarLog {
             else if (name != null && name.startsWith("_"))
                 customFields.addHarCustomFields(name, jp);
             else
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in log element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in log element");
         }
         if (version == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing version field in log element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing version field in log element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing version field in log element");
         }
         if (creator == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing create field in log element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing create field in log element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing create field in log element");
         }
         if (entries == null) {
             if (warnings != null)
                 warnings.add(new HarWarning("Missing entries field in log element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException("Missing entries field in log element",
-                        jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Missing entries field in log element");
         }
     }
 

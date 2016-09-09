@@ -56,8 +56,8 @@ public class HarPages {
 
         // Read the content of the pages element
         if (jp.nextToken() != JsonToken.START_ARRAY) {
-            throw new JsonParseException("[ missing after \"pages\" element "
-                    + jp.getCurrentName(), jp.getCurrentLocation());
+            throw new JsonParseException(jp, "[ missing after \"pages\" element "
+                    + jp.getCurrentName());
         }
 
         while (jp.nextToken() != JsonToken.END_ARRAY) {

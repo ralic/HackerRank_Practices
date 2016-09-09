@@ -25,7 +25,7 @@ xpub.bindSync('tcp://*:8701');
 
 // Message pump
 xsub.on('message', function (topic, data) {
-    xpub.send([ topic, data ]);
+    xpub.send([topic, data]);
 });
 
 // Subscription pump

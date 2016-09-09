@@ -32,7 +32,9 @@ function frequency(seq, length) {
 function sort(seq, length) {
     var f = frequency(seq, length), keys = Array.from(f.keys()),
         n = seq.length - length + 1, res = '';
-    keys.sort((a, b)=>f.get(b) - f.get(a));
+    keys.sort((a, b) = > f.get(b) - f.get(a)
+)
+    ;
     for (var key of keys) res +=
         key.toUpperCase() + ' ' + (f.get(key) * 100 / n).toFixed(3) + '\n';
     res += '\n';

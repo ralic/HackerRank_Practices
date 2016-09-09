@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package org.raliclo.HackerRank_Artificial_Intellegence;/**
+package org.raliclo.HackerRank_Artificial_Intellegence;
+
+/**
  * Created by raliclo on 8/28/16.
  * Project Name : TestNG-1
  */

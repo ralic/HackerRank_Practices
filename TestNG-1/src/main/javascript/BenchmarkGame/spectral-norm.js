@@ -50,8 +50,8 @@ function processData(input) {
             v = new Float64Array(storage_, 8 * n, n),
             w = new Float64Array(storage_, 16 * n, n);
         let i, vv = 0, vBv = 0;
-        i=0;
-        while(i++<n) {
+        i = 0;
+        while (i++ < n) {
             u[i] = 1;
             v[i] = w[i] = 0;
         }

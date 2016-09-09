@@ -18,20 +18,21 @@ package Java8_Tests.ClassTest;/**
  */
 
 // TODO Good for debugging and testing.
-import java.util.*;
 
-public class PermUtil <T> {
+import java.util.Arrays;
+
+public class PermUtil<T> {
     private T[] arr;
     private int[] permSwappings;
 
     public PermUtil(T[] arr) {
-        this(arr,arr.length);
+        this(arr, arr.length);
     }
 
     public PermUtil(T[] arr, int permSize) {
         this.arr = arr.clone();
         this.permSwappings = new int[permSize];
-        for(int i = 0;i < permSwappings.length;i++)
+        for (int i = 0; i < permSwappings.length; i++)
             permSwappings[i] = i;
     }
 
@@ -41,7 +42,7 @@ public class PermUtil <T> {
 
         T[] res = Arrays.copyOf(arr, permSwappings.length);
         //Prepare next
-        int i = permSwappings.length-1;
+        int i = permSwappings.length - 1;
         while (i >= 0 && permSwappings[i] == arr.length - 1) {
             swap(i, permSwappings[i]); //Undo the swap represented by permSwappings[i]
             permSwappings[i] = i;

@@ -32,7 +32,7 @@ import java.util.Set;
  * This class defines a HAR custom fields. From the specifications, each HAR
  * file can contain custom fields. A custom field is made of a (name, value)
  * string pair. Manipulating HarCustomFields in an object is done this way: <br>
- *
+ * <p>
  * <pre>
  * {@code
  * HarLog hl = new HarLog(config) ;

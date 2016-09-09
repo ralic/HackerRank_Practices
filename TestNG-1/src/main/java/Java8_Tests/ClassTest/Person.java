@@ -23,7 +23,6 @@
 package Java8_Tests.ClassTest;
 
 
-
 /**
  * @author raliclo
  */

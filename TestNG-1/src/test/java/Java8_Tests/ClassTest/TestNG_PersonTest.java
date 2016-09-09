@@ -22,7 +22,6 @@
  */
 package Java8_Tests.ClassTest;
 
-import Java8_Tests.ClassTest.Person;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -32,7 +31,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-//import Java8_Tests.ClassTests.Person;   // Not Necessary if it's in same package.
 
 public class TestNG_PersonTest {
 

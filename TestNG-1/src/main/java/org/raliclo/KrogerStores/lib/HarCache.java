@@ -79,8 +79,7 @@ public class HarCache {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"cache\" element",
-                    jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"cache\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -94,8 +93,8 @@ public class HarCache {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException("Unrecognized field '" + name
-                        + "' in cache element", jp.getCurrentLocation());
+                throw new JsonParseException(jp, "Unrecognized field '" + name
+                        + "' in cache element");
             }
         }
     }

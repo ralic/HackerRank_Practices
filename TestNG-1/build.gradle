@@ -242,6 +242,7 @@ configurations.all {
     exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
     // TODO : To find out whether this aggregate is from Spring Boot's, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
     exclude group: "org.eclipse.jetty", module: "jetty-webapp"
+    exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
 }
 
 
@@ -586,11 +587,13 @@ dependencies {
      */
 
     // Scala Support
+    compile "org.scala-lang:scalap:2.12.0-M5"
     compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
+    testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
 
     // For Kafka Development
-    ext.KafkaVer = "0.10.0.1"
+    def KafkaVer = "0.10.0.1"
     compile "org.apache.kafka:kafka_2.11:$KafkaVer"
     compile "org.apache.kafka:kafka-streams:$KafkaVer"
     compile "org.apache.kafka:kafka-examples:$KafkaVer"
@@ -664,7 +667,6 @@ dependencies {
     compile "org.ow2.asm:asm-all:6.0_ALPHA"
     compile "org.ow2.asm:asm-debug-all:6.0_ALPHA"
     compile "org.ow2.asm:asm-analysis:6.0_ALPHA"
-    compile "org.scala-lang:scalap:2.12.0-M5"
 
     // Google Guava Library
     compile "com.google.guava:guava:19.0"
@@ -906,9 +908,9 @@ task test2(dependsOn: [compile, compileTest]) << {
 }
 
 //gradle dist -x test ==> This will exclude [test]
-task dist(dependsOn: [compile, test]) << {
-    println "building the distribution"
-}
+//task dist(dependsOn: [compile, test]) << {
+//    println "building the distribution"
+//}
 
 // gradle projects ===> List all Projects in Tree
 // gradle tasks ===> List all tasks in Tree , same as tasks

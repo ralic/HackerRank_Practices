@@ -46,16 +46,16 @@ function processData(input) {
         var miles = 0;
         var meetpt = [];
         for (var i = 0; i < route1.length; i++) {
-                if (route1[i].x === route2[i].x && route1[i].y === route2[i].y) {
-                    var tmp = i ;
-                    if (miles===0 && tmp!==0){
-                        miles = tmp;
-                        meetpt[0] = route1[i].x;
-                        meetpt[1] = route1[i].y;
-                    }
+            if (route1[i].x === route2[i].x && route1[i].y === route2[i].y) {
+                var tmp = i;
+                if (miles === 0 && tmp !== 0) {
+                    miles = tmp;
+                    meetpt[0] = route1[i].x;
+                    meetpt[1] = route1[i].y;
+                }
             }
         }
-        console.log(meetpt[0]+","+meetpt[1],miles)
+        console.log(meetpt[0] + "," + meetpt[1], miles)
     }
     meetup(data);
 }

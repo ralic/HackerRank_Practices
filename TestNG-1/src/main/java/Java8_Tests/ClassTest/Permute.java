@@ -15,10 +15,6 @@
 
 package Java8_Tests.ClassTest;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * Created by raliclo on 9/3/16.
  * Project Name : TestNG-1

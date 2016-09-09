@@ -9,7 +9,7 @@ import java.util.Arrays;
  * Project Name : TestNG-1
  */
 public class TestNG_PermUtilTest {
-    Integer[] info = {1, 2, 3, 4, 5, 6, 7};
+    public Integer[] info = {1, 2, 3, 4, 5, 6, 7};
 
     @Test
     public void testUsage() {

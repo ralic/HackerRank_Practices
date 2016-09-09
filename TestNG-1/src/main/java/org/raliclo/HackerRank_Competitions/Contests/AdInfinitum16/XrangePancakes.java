@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package org.raliclo.HackerRank_Competitions.Contests.AdInfinitum16;/**
+package org.raliclo.HackerRank_Competitions.Contests.AdInfinitum16;
+
+/**
  * Created by raliclo on 9/4/16.
  * Project Name : TestNG-1
  */

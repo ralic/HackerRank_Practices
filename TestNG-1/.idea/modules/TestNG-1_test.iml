@@ -110,6 +110,7 @@
     <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.4" level="project" />
     <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.192" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scalap:2.12.0-M5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.11:0.10.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-streams:0.10.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-examples:0.10.0.1" level="project" />
@@ -151,7 +152,6 @@
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-all:6.0_ALPHA" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-debug-all:6.0_ALPHA" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:6.0_ALPHA" level="project" />
-    <orderEntry type="library" name="Gradle: org.scala-lang:scalap:2.12.0-M5" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava-gwt:19.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava-tests:19.0" level="project" />
@@ -431,8 +431,8 @@
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.0.0-M2" level="project" />
     <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.0.0-M2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
@@ -539,14 +539,14 @@
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:2.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven:2.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:2.1.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:2.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: info.cukes:cucumber-html:0.2.3" level="project" />
     <orderEntry type="library" name="Gradle: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
     <orderEntry type="library" name="Gradle: info.cukes:gherkin:2.12.2" level="project" />
@@ -604,10 +604,10 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-model:3.1.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model-builder:3.1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.maven:maven-repository-metadata:3.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-model-builder:3.1.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.maven:maven-repository-metadata:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.maven:maven-settings-builder:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.19" level="project" />
@@ -681,6 +681,7 @@
     <orderEntry type="library" name="Gradle: org.spire-math:spire_2.11:0.7.4" level="project" />
     <orderEntry type="library" name="Gradle: org.jpmml:pmml-schema:1.2.15" level="project" />
     <orderEntry type="library" name="Gradle: org.spire-math:spire-macros_2.11:0.7.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.scala-lang:scala-compiler:2.12.0-M5" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.12.0-M5" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
@@ -702,7 +703,6 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.ant:ant-launcher:1.9.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.scala-lang:scala-compiler:2.12.0-M5" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
@@ -744,6 +744,7 @@
     <orderEntry type="library" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.3.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-continuation:9.2.17.v20160517" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.12.0-M3" level="application" />
   </component>
   <component name="TestModuleProperties" production-module="TestNG-1_main" />
 </module>

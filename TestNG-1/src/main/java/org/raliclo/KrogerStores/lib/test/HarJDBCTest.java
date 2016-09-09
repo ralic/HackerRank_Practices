@@ -32,7 +32,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 /**
- *Read files from test_files, write them to an embedded Derby database, read
+ * Read files from test_files, write them to an embedded Derby database, read
  * them back and compare with the original reading from the file.
  *
  * @author <a href="mailto:cecchet@cs.umass.edu>Emmanuel Cecchet</a>
