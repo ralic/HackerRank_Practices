@@ -1,4 +1,4 @@
-package org.raliclo.backend.config;
+package org.raliclo.Spring_backend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,8 @@
-package org.raliclo.backend;
+package org.raliclo.Spring_backend;
 
 //import javax.servlet.Filter;
 
-import org.raliclo.backend.config.JwtFilter;
+import org.raliclo.Spring_backend.config.JwtFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

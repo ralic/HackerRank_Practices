@@ -1,7 +1,7 @@
-package org.raliclo.backend.service;
+package org.raliclo.Spring_backend.service;
 
-import org.raliclo.backend.model.Photo;
-import org.raliclo.backend.model.User;
+import org.raliclo.Spring_backend.model.Photo;
+import org.raliclo.Spring_backend.model.User;
 
 import java.util.List;
 

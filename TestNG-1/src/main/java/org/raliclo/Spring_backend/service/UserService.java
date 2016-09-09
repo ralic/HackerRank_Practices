@@ -1,6 +1,6 @@
-package org.raliclo.backend.service;
+package org.raliclo.Spring_backend.service;
 
-import org.raliclo.backend.model.User;
+import org.raliclo.Spring_backend.model.User;
 
 public interface UserService {
     User save(User user);

@@ -1,4 +1,4 @@
-package org.raliclo.backend.config;
+package org.raliclo.Spring_backend.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

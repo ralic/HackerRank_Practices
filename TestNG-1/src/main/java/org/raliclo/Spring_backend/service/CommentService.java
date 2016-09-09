@@ -1,6 +1,6 @@
-package org.raliclo.backend.service;
+package org.raliclo.Spring_backend.service;
 
-import org.raliclo.backend.model.Comment;
+import org.raliclo.Spring_backend.model.Comment;
 
 import java.util.List;
 

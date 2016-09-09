@@ -1,8 +1,8 @@
-package org.raliclo.backend.controller;
+package org.raliclo.Spring_backend.controller;
 
-import org.raliclo.backend.model.Photo;
-import org.raliclo.backend.model.User;
-import org.raliclo.backend.service.PhotoService;
+import org.raliclo.Spring_backend.model.Photo;
+import org.raliclo.Spring_backend.model.User;
+import org.raliclo.Spring_backend.service.PhotoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

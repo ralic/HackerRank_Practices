@@ -1,9 +1,9 @@
-package org.raliclo.backend.impl;
+package org.raliclo.Spring_backend.impl;
 
-import org.raliclo.backend.dao.PhotoDao;
-import org.raliclo.backend.model.Photo;
-import org.raliclo.backend.model.User;
-import org.raliclo.backend.service.PhotoService;
+import org.raliclo.Spring_backend.dao.PhotoDao;
+import org.raliclo.Spring_backend.model.Photo;
+import org.raliclo.Spring_backend.model.User;
+import org.raliclo.Spring_backend.service.PhotoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

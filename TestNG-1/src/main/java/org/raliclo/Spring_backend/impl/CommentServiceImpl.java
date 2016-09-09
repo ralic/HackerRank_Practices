@@ -1,8 +1,8 @@
-package org.raliclo.backend.impl;
+package org.raliclo.Spring_backend.impl;
 
-import org.raliclo.backend.dao.CommentDao;
-import org.raliclo.backend.model.Comment;
-import org.raliclo.backend.service.CommentService;
+import org.raliclo.Spring_backend.dao.CommentDao;
+import org.raliclo.Spring_backend.model.Comment;
+import org.raliclo.Spring_backend.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

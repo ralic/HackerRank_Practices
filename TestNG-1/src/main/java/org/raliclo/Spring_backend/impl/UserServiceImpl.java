@@ -1,8 +1,8 @@
-package org.raliclo.backend.impl;
+package org.raliclo.Spring_backend.impl;
 
-import org.raliclo.backend.dao.UserDao;
-import org.raliclo.backend.model.User;
-import org.raliclo.backend.service.UserService;
+import org.raliclo.Spring_backend.dao.UserDao;
+import org.raliclo.Spring_backend.model.User;
+import org.raliclo.Spring_backend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

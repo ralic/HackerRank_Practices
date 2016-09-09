@@ -1,4 +1,4 @@
-package org.raliclo.backend.model;
+package org.raliclo.Spring_backend.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.annotations.CreationTimestamp;
