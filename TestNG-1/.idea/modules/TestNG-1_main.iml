@@ -502,8 +502,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.22.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.22.2" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.janino:commons-compiler:2.7.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.parquet:parquet-generator:1.7.0" level="project" />
@@ -540,14 +540,14 @@
     <orderEntry type="library" name="Gradle: com.typesafe:config:1.2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.json4s:json4s-ast_2.10:3.2.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jfree:jcommon:1.0.21" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.48" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:annotations:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.48" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.48" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
-    <orderEntry type="library" name="Gradle: mx4j:mx4j-tools:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.48" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
+    <orderEntry type="library" name="Gradle: mx4j:mx4j-tools:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:jetty-repacked:9.2.13.v20150730" level="project" />
     <orderEntry type="library" name="Gradle: org.seleniumhq.selenium:jetty-rc-repacked:5" level="project" />
     <orderEntry type="library" name="Gradle: cglib:cglib-nodep:2.1_3" level="project" />

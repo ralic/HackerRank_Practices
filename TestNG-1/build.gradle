@@ -42,8 +42,8 @@ buildscript {
 }
 
 /*
- Javascript Support
-  */
+    Javascript Support
+*/
 // Support Nodejs and javascript combine
 // https://github.com/HappyCodeDay/gradle-node-plugin
 // https://github.com/HappyCodeDay/gradle-js-plugin
@@ -51,6 +51,12 @@ plugins {
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
+/*
+    Scala Test Support
+    // Turn it on to see Scala Test Report, off to see Java Test Report
+ */
+    id "com.github.maiflai.scalatest" version "0.14"
+
 //     XCode Support https://github.com/openbakery/gradle-xcodePlugin/releases
 //    id "org.openbakery.xcode-plugin" version "0.14.0"
 //      J2 Object C https://github.com/j2objc-contrib/j2objc-gradle
@@ -591,6 +597,8 @@ dependencies {
     compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
     testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
+    testCompile 'org.scalatest:scalatest_2.11:3.0.0'
+    testRuntime 'org.pegdown:pegdown:1.6.0'
 
     // For Kafka Development
     def KafkaVer = "0.10.0.1"
@@ -894,7 +902,7 @@ task compile << {
 }
 
 // Compile / Test / Read report
-task NGreport(type: Exec, dependsOn: [clean, compile, test]) {
+task NGreport(type: Exec, dependsOn: [test]) {
     executable "open"
     args "./build/reports/tests/test/index.html"
 }
