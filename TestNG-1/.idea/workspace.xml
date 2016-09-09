@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/OctaveAns/OctaveAns.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/OctaveAns/a.m" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/src/PatternInLine.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log4j2.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j2.properties" afterPath="$PROJECT_DIR$/log4j2.properties" />
     </list>
     <list id="f5791ac9-382b-4d65-b766-4f1ce32906bb" name="Rejected commit: Default" comment="Update Project Files" />
     <ignored path="TestNG-1.iws" />
@@ -2285,7 +2278,7 @@
       <workItem from="1473438131281" duration="269000" />
       <workItem from="1473438709465" duration="8426000" />
       <workItem from="1473447372295" duration="148000" />
-      <workItem from="1473447623637" duration="13024000" />
+      <workItem from="1473447623637" duration="13060000" />
     </task>
     <task id="LOCAL-00001" summary="Regex Basics / Factory Pattern / Regex for DomainName">
       <created>1472727736996</created>
@@ -2385,7 +2378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473446826189</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Octave in Java">
+      <created>1473460734223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473460734223</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2421,7 +2421,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164340000" />
+    <option name="totallyTimeSpent" value="164376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2558,7 +2558,8 @@
     <MESSAGE value="Stable Update for Scala Test Reporting or Java Test Reporting" />
     <MESSAGE value="test-output" />
     <MESSAGE value="Spring Boot Backend Application Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot Backend Application Example" />
+    <MESSAGE value="Octave in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Octave in Java" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
