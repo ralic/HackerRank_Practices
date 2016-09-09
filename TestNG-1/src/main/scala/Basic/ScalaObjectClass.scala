@@ -31,36 +31,25 @@ You either have to import them explicitly, or prefix them with the class/object 
 
 class ScalaObjectClass {
 
-  // Variables
-  private def o = 2
+  def proto2(x: Int) = proto1(x)
 
   // Methods
   // class ScalaClass can see private members of object ScalaClass
   // Shared with Class
   // Prefix to call
-  def proto1(x: Int) = ScalaObjectClass.func1(x)  // Same as func1 in object
+  def proto1(x: Int) = ScalaObjectClass.func1(x) // Same as func1 in object
 
   //  Import and use
-  import ScalaObjectClass._
-  def proto2(x: Int) = func1(x) // Same as func1 in object
 
-  def proto3(x:ScalaObjectClass,y:Int): Int = {
-    return x.o*y
+  def proto3(x: ScalaObjectClass, y: Int): Int = {
+    return x.o * y
   }
+
+  // Variables
+  private def o = 2
 }
 
 object ScalaObjectClass {
-  // Scope shared with Class
-  // definition of func1 in object
-  private def func1(x: Int) = x * x
-
-  // object ScalaClass can see private members of class ScalaClass
-
-  def func2(x: ScalaObjectClass) = {
-    import x._
-    x.o * o // fully specified and imported
-  }
-
   def main(args: Array[String]) {
     //    println("Hello, world! Test Run #12345 ")
     //    println("Hello, world! Test Run @23456 ")
@@ -68,14 +57,25 @@ object ScalaObjectClass {
     println(func1(10))
     var obj = new ScalaObjectClass()
 
-    println("proto1(3)",obj.proto1(3))
-    println("proto1(10)="+obj.proto1(10))
+    println("proto1(3)", obj.proto1(3))
+    println("proto1(10)=" + obj.proto1(10))
 
-    println("proto2(3)",obj.proto2(3))
-    println("proto2(10)="+obj.proto2(10))
+    println("proto2(3)", obj.proto2(3))
+    println("proto2(10)=" + obj.proto2(10))
 
-    println("func2(obj)="+func2(obj))
+    println("func2(obj)=" + func2(obj))
 
-    println("obj.proto3(obj,5)="+obj.proto3(obj,5))
+    println("obj.proto3(obj,5)=" + obj.proto3(obj, 5))
+  }
+
+  // object ScalaClass can see private members of class ScalaClass
+
+  // Scope shared with Class
+  // definition of func1 in object
+  private def func1(x: Int) = x * x
+
+  def func2(x: ScalaObjectClass) = {
+    import x._
+    x.o * o // fully specified and imported
   }
 }

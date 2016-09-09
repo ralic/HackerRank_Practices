@@ -18,28 +18,35 @@ object spectral_norm extends App {
   val u, v, tmp = Array.fill(n)(1.0)
 
   // Ordinary and transposed versions of infinite matrix
-  val A = (i: Int, j: Int) => 1.0/((i + j) * (i + j + 1) / 2 + i + 1)
+  val A = (i: Int, j: Int) => 1.0 / ((i + j) * (i + j + 1) / 2 + i + 1)
   val multiplyAv = multiply(A) _
-  val At = (j: Int, i: Int) => 1.0/((i + j) * (i + j + 1) / 2 + i + 1)
+  val At = (j: Int, i: Int) => 1.0 / ((i + j) * (i + j + 1) / 2 + i + 1)
   val multiplyAtv = multiply(At) _
 
   // Calculate the chunks and perform calculation.
   val threads = Runtime.getRuntime.availableProcessors
-  val chunkSize = 1 + n/threads
-  def chunkStart(t: Int) = t * chunkSize
-  def chunkEnd(t: Int) = ((t + 1) * chunkSize) min n
+  val chunkSize = 1 + n / threads
   val chunks = (0 until threads) map { t => (chunkStart(t), chunkEnd(t)) }
-  printf("%.09f\n",  work(chunks))
+  val totalTime = System.currentTimeMillis - start
+
+  def chunkStart(t: Int) = t * chunkSize
+
+  printf("%.09f\n", work(chunks))
+
+  def chunkEnd(t: Int) = ((t + 1) * chunkSize) min n
 
   // Matrix multiplication for a given range: w <- M*v
-  def multiply(M: (Int,Int) => Double)
+  def multiply(M: (Int, Int) => Double)
               (v: Array[Double], w: Array[Double])(start: Int, end: Int) {
     var i = start
     while (i < end) {
       var s = 0.0
       var j = 0
-      while (j < n) { s += M(i,j)*v(j); j += 1 }
-      w(i) =  s
+      while (j < n) {
+        s += M(i, j) * v(j);
+        j += 1
+      }
+      w(i) = s
       i += 1
     }
   }
@@ -47,7 +54,10 @@ object spectral_norm extends App {
   def work(chunks: Seq[(Int, Int)]) = {
     def split(f: (Int, Int) => Unit) = {
       val res = Future.sequence(
-        chunks map { case (start, end) => Future { f(start, end) } }
+        chunks map { case (start, end) => Future {
+          f(start, end)
+        }
+        }
       )
       Await.result(res, 1.minute)
     }
@@ -60,15 +70,14 @@ object spectral_norm extends App {
       split(multiplyAtv(tmp, u))
     }
 
-    var vbv,vv = 0.0
+    var vbv, vv = 0.0
     var i = 0
     while (i < n) {
-      vbv += u(i)*v(i)
-      vv += v(i)*v(i)
+      vbv += u(i) * v(i)
+      vv += v(i) * v(i)
       i += 1
     }
-    math.sqrt(vbv/vv)
+    math.sqrt(vbv / vv)
   }
-  val totalTime = System.currentTimeMillis - start
   println("Elapsed time: %1d ms".format(totalTime))
 }

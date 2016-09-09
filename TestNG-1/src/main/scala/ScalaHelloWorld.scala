@@ -25,9 +25,9 @@
  * limitations under the License.
  */
 class ScalaHelloWorld {
- def show: Unit = {
-   println("Show Method")
- }
+  def show: Unit = {
+    println("Show Method")
+  }
 }
 
 object mainHello {
