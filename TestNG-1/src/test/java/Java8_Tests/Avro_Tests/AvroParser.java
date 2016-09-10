@@ -27,7 +27,7 @@ public class AvroParser {
     public static void main(String[] args) throws IOException {
 
         // Test Schema methods
-        String path = "/Users/raliclo/work/@Netbeans/LeetCode_Practices/TestNG-1/src/test/java/Java8_Tests.Avro_Tests/";
+        String path = "/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/test/java/Java8_Tests/Avro_Tests/";
         File f = new File(path + "user.avsc");
         Parser p = new Parser();
         Schema x = p.parse(f);
@@ -68,8 +68,8 @@ public class AvroParser {
         FileReader rd = new FileReader(f2);
         BufferedReader reader = new BufferedReader(rd);
         ArrayList<String> input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
+        reader.close();
         System.out.println(input);
-
 
     }
 }
