@@ -13,9 +13,9 @@ import java.util.List;
 
 @Repository
 public interface WordCountDBDao extends CrudRepository<WordCountDB, BigInteger> {
-    WordCountDB save(WordCountDBDao wordCountDBDao);
+    WordCountDB save(WordCountDB wordCountDB);
 
-    WordCountDB findByWordCountDBId(BigInteger wordcountID);
+    WordCountDB findByWordCountDBId(BigInteger wordCountDBId);
 
     List<WordCountDB> findAll();
 

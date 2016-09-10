@@ -21,7 +21,6 @@ import java.io.IOException;
 public class Spring_WordCountSite {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication.run(Spring_WordCountSite.class, args);
 
          /*
          * Data Source
@@ -42,7 +41,7 @@ public class Spring_WordCountSite {
             // many items.
             avroRecord = avroFileReader.next(avroRecord);
         }
+        SpringApplication.run(Spring_WordCountSite.class, args);
+
     }
-
-
 }

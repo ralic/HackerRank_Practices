@@ -18,7 +18,7 @@ public class WordCountDBController {
     @Autowired
     private WordCountDBService wordCountDBService;
 
-    @RequestMapping("/allWords")
+    @RequestMapping("/countall")
     public List<WordCountDB> getAllWordCountDBs() {
         return wordCountDBService.findAll();
     }

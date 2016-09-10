@@ -20,18 +20,9 @@ public class WordCountDB {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String word;
     private BigInteger count;
-    private BigInteger wordcountId;
-
+    private BigInteger wordCountDBId;
     @CreationTimestamp
     private Date created;
-
-    public String getWord() {
-        return word;
-    }
-
-    public void setWord(String word) {
-        this.word = word;
-    }
 
     public BigInteger getCount() {
         return count;
@@ -41,12 +32,12 @@ public class WordCountDB {
         this.count = count;
     }
 
-    public BigInteger findByWordCountDBid() {
-        return wordcountId;
+    public BigInteger getWordCountDBId() {
+        return wordCountDBId;
     }
 
-    public void setWordcountId(BigInteger wordcountId) {
-        this.wordcountId = wordcountId;
+    public void setWordCountDBId(BigInteger wordCountDBId) {
+        this.wordCountDBId = wordCountDBId;
     }
 
     public Date getCreated() {
@@ -55,6 +46,14 @@ public class WordCountDB {
 
     public void setCreated(Date created) {
         this.created = created;
+    }
+
+    public String getWord() {
+        return word;
+    }
+
+    public void setWord(String word) {
+        this.word = word;
     }
 
 }
