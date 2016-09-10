@@ -6,7 +6,6 @@ import org.raliclo.WordCountWeb.RestAPI.service.WordCountDBService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.math.BigInteger;
 import java.util.List;
 
 @Service
@@ -24,7 +23,7 @@ public class WordCountDBServiceImpl implements WordCountDBService {
         return null;
     }
 
-    public WordCountDB findByWordCountDBId(BigInteger wordCountDBId) {
+    public WordCountDB findByWordCountDBId(Long wordCountDBId) {
         return wordCountDBDao.findByWordCountDBId(wordCountDBId);
     }
 

@@ -5,7 +5,6 @@ package org.raliclo.WordCountWeb.RestAPI.service;/**
 
 import org.raliclo.WordCountWeb.RestAPI.model.WordCountDB;
 
-import java.math.BigInteger;
 import java.util.List;
 
 public interface WordCountDBService {
@@ -13,7 +12,7 @@ public interface WordCountDBService {
 
     List<WordCountDB> findByWordCountDB(WordCountDB wordCountDB);
 
-    WordCountDB findByWordCountDBId(BigInteger wordCountDBId);
+    WordCountDB findByWordCountDBId(Long wordCountDBId);
 
     List<WordCountDB> findAll();
 }

@@ -7,15 +7,14 @@ import org.raliclo.WordCountWeb.RestAPI.model.WordCountDB;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.math.BigInteger;
 import java.util.List;
 
 
 @Repository
-public interface WordCountDBDao extends CrudRepository<WordCountDB, BigInteger> {
+public interface WordCountDBDao extends CrudRepository<WordCountDB, Long> {
     WordCountDB save(WordCountDB wordCountDB);
 
-    WordCountDB findByWordCountDBId(BigInteger wordCountDBId);
+    WordCountDB findByWordCountDBId(Long wordCountDBId);
 
     List<WordCountDB> findAll();
 

@@ -22,4 +22,5 @@ public class WordCountDBController {
     public List<WordCountDB> getAllWordCountDBs() {
         return wordCountDBService.findAll();
     }
+
 }

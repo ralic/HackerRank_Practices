@@ -123,7 +123,7 @@ public class WordCountAvro {
                 (String k, BigInteger v) -> {
                     GenericRecord avroRecord = new GenericData.Record(avroSchema);
                     avroRecord.put("word", k);
-                    avroRecord.put("count", v);
+                    avroRecord.put("counts", Long.parseLong(v.toString()));
                     try {
                         avroFileWriter.append(avroRecord);
                     } catch (IOException e) {

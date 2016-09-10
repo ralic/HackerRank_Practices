@@ -9,34 +9,35 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.math.BigInteger;
 import java.util.Date;
 
 
 @Entity
 public class WordCountDB {
 
+    private String word;
+    private Long counts;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String word;
-    private BigInteger count;
-    private BigInteger wordCountDBId;
+    private Long wordCountDBId;
+
     @CreationTimestamp
     private Date created;
 
-    public BigInteger getCount() {
-        return count;
+    public Long getCounts() {
+        return counts;
     }
 
-    public void setCount(BigInteger count) {
-        this.count = count;
+    public void setCounts(Long count) {
+        this.counts = count;
     }
 
-    public BigInteger getWordCountDBId() {
+    public Long getWordCountDBId() {
         return wordCountDBId;
     }
 
-    public void setWordCountDBId(BigInteger wordCountDBId) {
+    public void setWordCountDBId(Long wordCountDBId) {
         this.wordCountDBId = wordCountDBId;
     }
 

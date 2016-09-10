@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/rest")
 public class WordCountDBResources {
 
-
     @Autowired
     private WordCountDBService wordCountDBService;
 
-    // UPPDATE
+    // UPDATE
     @RequestMapping(value = "/wordcountdb/save", method = RequestMethod.POST)
     public WordCountDB addWordCountDB(@RequestBody WordCountDB wordCountDB) {
         return wordCountDBService.save(wordCountDB);
     }
+
 }
