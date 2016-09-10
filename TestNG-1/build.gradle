@@ -822,7 +822,7 @@ generateGrammarSource {
 //}
 //
 //bootRepackage {
-//    mainClass = 'org.raliclo.backend.BackendApplication'
+//    mainClass = 'org.raliclo.backend.Spring_WordCountSite'
 //}
 
 /*

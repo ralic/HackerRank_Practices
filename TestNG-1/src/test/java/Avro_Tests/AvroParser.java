@@ -1,4 +1,4 @@
-package Java8_Tests.Avro_Tests;/**
+package Avro_Tests;/**
  * Created by raliclo on 8/26/16.
  * Project Name : TestNG-1
  */
@@ -27,7 +27,7 @@ public class AvroParser {
     public static void main(String[] args) throws IOException {
 
         // Test Schema methods
-        String path = "/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/test/java/Java8_Tests/Avro_Tests/";
+        String path = "/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/test/java/Avro_Tests/";
         File f = new File(path + "user.avsc");
         Parser p = new Parser();
         Schema x = p.parse(f);

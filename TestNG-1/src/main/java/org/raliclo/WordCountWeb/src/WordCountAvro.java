@@ -94,6 +94,7 @@ public class WordCountAvro {
         /* AvroFile Storage*/
         avroPut(finalIndex, avroFileWriter, avroSchema);
         System.out.println("All Files' wordcount data consolited in \n[File] " + avroFile);
+        avroFileWriter.close();
 
         /* For Evaluation or Debug
         System.out.println(fileList);
