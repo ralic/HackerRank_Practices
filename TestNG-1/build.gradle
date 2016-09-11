@@ -24,6 +24,9 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
+        maven {
+            url "http://repo.spring.io/milestone"
+        }
     }
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
@@ -133,11 +136,11 @@ javascript.source {
 apply plugin: "base"
 apply plugin: "java"
 apply plugin: "maven"
-//apply plugin: "war" // Support Web Application Archive
 apply plugin: "scala"
 apply plugin: "git-repo"
 apply plugin: "antlr"
 apply plugin: 'net.serenity-bdd.aggregator'
+//apply plugin: "war" // Support Web Application Archive
 
 generateGrammarSource {
     maxHeapSize = "64m"
@@ -334,6 +337,7 @@ dependencies {
     compile "mysql:mysql-connector-java:6.0.3"
 
     def SpringVer = "1.4.0.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
             {
                 exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
@@ -343,9 +347,6 @@ dependencies {
 
 //    compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-web:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
@@ -814,26 +815,26 @@ generateGrammarSource {
     arguments += ["-visitor", "-long-messages"]
 }
 
-//  Automatic restart using Spring-Boot
+/*
+    Apply Plugin for JavaSE RunTime Support
+    Automatic restart using Spring-Boot
+ */
 
+// Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
+apply plugin: "application"
 apply plugin: "spring-boot"
 bootRun {
     addResources = true
 }
 
 bootRepackage {
-    mainClass = 'org.raliclo.backend.WordCountWeb.RestAPI.Spring_WordCountSite'
+    mainClassName = 'org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite'
+//    mainClassName = "org.raliclo.JavaSEApplication"
 }
-
-/*
-Apply Plugin for JavaSE RunTime Support
- */
-
-// Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
-apply plugin: "application"
-mainClassName = "org.raliclo.JavaSEApplication"  // Class for Main Application
-applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
-ext.mainClass = "org.raliclo.JavaSEApplication"  // Class for Debug Application
+//mainClassName = "org.raliclo.JavaSEApplication"  // Class for Main Application
+//applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
+//ext.mainClass = "org.raliclo.JavaSEApplication"  // Class for Debug Application
+// mainClassName = "org.raliclo.backend.WordCountWeb.RestAPI.Spring_WordCountSite"
 
 /*
 Software Test : Junit & TestNG
