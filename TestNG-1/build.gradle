@@ -29,7 +29,7 @@ buildscript {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
         classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.3.0" // Support Dynamic version in dependency
         //        classpath "gradle.plugin.com.netflix.nebula:gradle-ospackage-plugin:3.6.1" // Support RPM Package.
-//        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE" // Support Spring Boot
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE" // Support Spring Boot
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
         classpath "org.ajoberstar:gradle-git:1.5.1" // Support Gradle-Git
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
@@ -52,10 +52,10 @@ plugins {
     id "com.moowork.node" version "0.13"
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
 /*
-    Scala Test Support
-    // Turn it on to see Scala Test Report, off to see Java Test Report
+    Scalatest Report Support
+    // Turn it on to see Scalatest Formate Report, off to see TestNG Report
+    //    id "com.github.maiflai.scalatest" version "0.14"
  */
-    id "com.github.maiflai.scalatest" version "0.14"
 
 //     XCode Support https://github.com/openbakery/gradle-xcodePlugin/releases
 //    id "org.openbakery.xcode-plugin" version "0.14.0"
@@ -816,14 +816,14 @@ generateGrammarSource {
 
 //  Automatic restart using Spring-Boot
 
-//apply plugin: "spring-boot"
-//bootRun {
-//    addResources = true
-//}
-//
-//bootRepackage {
-//    mainClass = 'org.raliclo.backend.Spring_WordCountSite'
-//}
+apply plugin: "spring-boot"
+bootRun {
+    addResources = true
+}
+
+bootRepackage {
+    mainClass = 'org.raliclo.backend.WordCountWeb.RestAPI.Spring_WordCountSite'
+}
 
 /*
 Apply Plugin for JavaSE RunTime Support

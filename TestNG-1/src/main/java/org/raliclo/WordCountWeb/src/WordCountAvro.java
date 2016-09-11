@@ -35,7 +35,6 @@ public class WordCountAvro {
 
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         ExecutorService executor = Executors.newFixedThreadPool(cpus * 10);
-
         // Avro Setup
         Path avroDir = Paths.get("/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/main/java/org/raliclo/WordCountWeb/avroModel");
         File avroFile = new File(avroDir + "/wordCounts.avro");
@@ -93,7 +92,7 @@ public class WordCountAvro {
 
         /* AvroFile Storage*/
         avroPut(finalIndex, avroFileWriter, avroSchema);
-        System.out.println("All Files' wordcount data consolited in \n[File] " + avroFile);
+        System.out.println("All Files' wordcount data consolidated in \n[File] " + avroFile);
         avroFileWriter.close();
 
         /* For Evaluation or Debug

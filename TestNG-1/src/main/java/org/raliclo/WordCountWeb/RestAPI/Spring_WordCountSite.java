@@ -15,8 +15,5 @@ public class Spring_WordCountSite {
          * Running Spring Spring Application and Autowire to Instance of Service Objects
          * */
         SpringApplication.run(Spring_WordCountSite.class, args);
-//        DataAppController test = new DataAppController();
-//        test.run();
     }
-
 }
