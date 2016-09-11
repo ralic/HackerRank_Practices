@@ -826,16 +826,16 @@ apply plugin: "spring-boot"
 bootRun {
     addResources = true
 }
+/*
+mainClassName = "org.raliclo.JavaSEApplication"  // Class for Main Application
+applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
+ext.mainClass = "org.raliclo.JavaSEApplication"  // Class for Debug Application
+ */
 
 bootRepackage {
     mainClassName = 'org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite'
 //    mainClassName = "org.raliclo.JavaSEApplication"
 }
-//mainClassName = "org.raliclo.JavaSEApplication"  // Class for Main Application
-//applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
-//ext.mainClass = "org.raliclo.JavaSEApplication"  // Class for Debug Application
-// mainClassName = "org.raliclo.backend.WordCountWeb.RestAPI.Spring_WordCountSite"
-
 /*
 Software Test : Junit & TestNG
  */
