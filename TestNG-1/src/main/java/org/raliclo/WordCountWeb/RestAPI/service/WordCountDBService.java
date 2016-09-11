@@ -8,7 +8,7 @@ import org.raliclo.WordCountWeb.RestAPI.model.WordCountDB;
 import java.util.List;
 
 public interface WordCountDBService {
-    WordCountDB save(WordCountDB photo);
+    WordCountDB save(WordCountDB wordCountDB);
 
     List<WordCountDB> findByWordCountDB(WordCountDB wordCountDB);
 

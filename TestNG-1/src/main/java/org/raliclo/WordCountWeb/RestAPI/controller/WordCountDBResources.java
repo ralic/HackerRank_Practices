@@ -18,7 +18,7 @@ public class WordCountDBResources {
     @Autowired
     private WordCountDBService wordCountDBService;
 
-    // UPDATE
+    // Create
     @RequestMapping(value = "/wordcountdb/save", method = RequestMethod.POST)
     public WordCountDB addWordCountDB(@RequestBody WordCountDB wordCountDB) {
         return wordCountDBService.save(wordCountDB);
