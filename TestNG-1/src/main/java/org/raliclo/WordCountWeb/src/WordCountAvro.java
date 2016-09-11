@@ -36,7 +36,8 @@ public class WordCountAvro {
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         ExecutorService executor = Executors.newFixedThreadPool(cpus * 10);
         // Avro Setup
-        Path avroDir = Paths.get("/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/main/java/org/raliclo/WordCountWeb/avroModel");
+        Path curDir = Paths.get("");
+        String avroDir = curDir.toAbsolutePath().toString() + "/src/main/java/org/raliclo/WordCountWeb/avroModel";
         File avroFile = new File(avroDir + "/wordCounts.avro");
         Schema avroSchema = new Schema.Parser().parse(new File(avroDir + "/wordCounts.avsc"));
         DatumWriter<GenericRecord> recordWriter = new GenericDatumWriter<>(avroSchema);
@@ -65,6 +66,7 @@ public class WordCountAvro {
                 }
             };
             new Thread(worker).run();
+//            executor.submit(worker);
         }
 
         // Clean queue;

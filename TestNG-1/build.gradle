@@ -902,18 +902,33 @@ task compile << {
     println "[Info] Compiler started" // Emit additional message to :compile
 }
 
+
 // Compile / Test / Read report
 task NGreport(type: Exec, dependsOn: [test]) {
     executable "open"
     args "./build/reports/tests/test/index.html"
 }
 
-task compileTest(dependsOn: compile) << {
-    println "compiling unit tests"
+task runEasy(type: JavaExec) {
+    mainClassName = "org.raliclo.JavaSEApplication"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
 }
 
-task test2(dependsOn: [compile, compileTest]) << {
-    println "running unit tests"
+task runCountSite(type: JavaExec) {
+    mainClassName = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task runCount(type: JavaExec) {
+    mainClassName = "org.raliclo.WordCountWeb.src.WordCountAvro"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task compileTest(dependsOn: compile) << {
+    println "compiling unit tests"
 }
 
 //gradle dist -x test ==> This will exclude [test]

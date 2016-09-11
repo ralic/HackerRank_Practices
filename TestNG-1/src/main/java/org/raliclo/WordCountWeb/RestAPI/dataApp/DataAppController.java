@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.HashMap;
 
 /**
@@ -33,7 +35,8 @@ public class DataAppController {
         /*
          * Data Source
          * */
-        String avroDir = "/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/main/java/org/raliclo/WordCountWeb/avroModel";
+        Path curDir = Paths.get("");
+        String avroDir = curDir.toAbsolutePath().toString() + "/src/main/java/org/raliclo/WordCountWeb/avroModel";
         File avroFile = new File(avroDir + "/wordCounts.avro");
         Schema avroSchema = new Schema.Parser().parse(new File(avroDir + "/wordCounts.avsc"));
         DatumReader<GenericRecord> datumReader = new GenericDatumReader<>(avroSchema);
@@ -77,10 +80,13 @@ public class DataAppController {
             @RequestParam(value = "search", required = false) String search) throws Exception {
         if (ans.size() == 0) {
             run();
+            System.out.println("[Info] Loaded DB in HashMap, size= " + ans.size());
         }
-        System.out.println("[Info] Loaded DB in HashMap, size= " + ans.size());
-        return ans.containsKey(search) ?
-                (ans.get(search).called + " " + ans.get(search).counted) :
-                (search + " is not in these files");
+        if (ans.containsKey(search)) {
+            ans.get(search).called += 1;
+            return (ans.get(search).called + " " + ans.get(search).counted);
+        } else {
+            return (search + " is not in these files");
+        }
     }
 }
