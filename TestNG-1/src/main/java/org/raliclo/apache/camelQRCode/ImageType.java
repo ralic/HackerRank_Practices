@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.raliclo.apache.camelexample;
+package org.raliclo.apache.camelQRCode;
 
 /**
  * Endings for the supported image types.
