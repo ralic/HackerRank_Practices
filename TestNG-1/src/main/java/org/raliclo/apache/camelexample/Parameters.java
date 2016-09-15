@@ -63,26 +63,26 @@ public class Parameters {
 
     private void setParameters(Map<String, Object> headers, Parameters params) {
 
-        if (headers.containsKey(org.apache.camel.dataformat.qrcode.QRCode.HEIGHT)) {
-            this.setHeight((Integer) headers.get(org.apache.camel.dataformat.qrcode.QRCode.HEIGHT));
+        if (headers.containsKey(QRCode.HEIGHT)) {
+            this.setHeight((Integer) headers.get(QRCode.HEIGHT));
         } else {
             this.setHeight(params.getHeight());
         }
 
-        if (headers.containsKey(org.apache.camel.dataformat.qrcode.QRCode.WIDTH)) {
-            this.setWidth((Integer) headers.get(org.apache.camel.dataformat.qrcode.QRCode.WIDTH));
+        if (headers.containsKey(QRCode.WIDTH)) {
+            this.setWidth((Integer) headers.get(QRCode.WIDTH));
         } else {
             this.setWidth(params.getWidth());
         }
 
-        if (headers.containsKey(org.apache.camel.dataformat.qrcode.QRCode.TYPE)) {
-            this.setType((ImageType) headers.get(org.apache.camel.dataformat.qrcode.QRCode.TYPE));
+        if (headers.containsKey(QRCode.TYPE)) {
+            this.setType((ImageType) headers.get(QRCode.TYPE));
         } else {
             this.setType(params.getType());
         }
 
-        if (headers.containsKey(org.apache.camel.dataformat.qrcode.QRCode.ENCODING)) {
-            this.setCharset((String) headers.get(org.apache.camel.dataformat.qrcode.QRCode.ENCODING));
+        if (headers.containsKey(QRCode.ENCODING)) {
+            this.setCharset((String) headers.get(QRCode.ENCODING));
         } else {
             this.setCharset(params.getCharset());
         }

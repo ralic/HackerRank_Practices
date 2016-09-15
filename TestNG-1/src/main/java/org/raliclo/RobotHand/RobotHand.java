@@ -19,13 +19,12 @@ package org.raliclo.RobotHand;/**
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
-import java.util.ArrayList;
 import java.util.HashMap;
 
 ;
 
 public class RobotHand {
-    HashMap<Character, Integer> dict = new ArrayList<>();
+    HashMap<Character, Integer> dict = new HashMap<>();
 
     RobotHand() {
         dict.put('0', KeyEvent.VK_0);

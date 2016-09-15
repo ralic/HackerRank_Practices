@@ -346,16 +346,10 @@ dependencies {
     // Apache Tika Support ( Image meta file. for GMAP)
     compile "org.apache.tika:tika-parent:1.13"
 
-    // Apache Camel Spring Boot Support  & QRCode Generator
-    compile "org.apache.camel:camel-spring-boot:2.17.3"
-    compile "com.google.zxing:zxing-parent:3.2.1"
-    compile "com.google.zxing:javase:3.2.1"
-
-    // Apache Camel Mail Support
-    compile "org.apache.camel:camel-mail:2.17.3"
-
-    // Apache Camel Core Enterprise Support
-    compile "org.apache.camel:camel-core:2.17.3"
+    // JSON, YAML support
+    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
@@ -509,12 +503,15 @@ dependencies {
     compile "org.apache.camel:camel-core:${CamelVer}"
     compile "org.apache.camel:camel-cdi:${CamelVer}"
     compile "org.apache.camel:camel-test:${CamelVer}"
-    compile "org.apache.camel:camel-spring:${CamelVer}"
+    compile "org.apache.camel:camel-spring-boot:${CamelVer}"
     compile "org.apache.camel:camel-jetty:${CamelVer}"
-    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-xstream:${CamelVer}"
-    compile "org.apache.camel:camel-jackson:${CamelVer}"
+//    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-mail:${CamelVer}"
+
+    // Google Zxing QRCode Generator
+    compile "com.google.zxing:zxing-parent:3.2.1"
+    compile "com.google.zxing:javase:3.2.1"
 
     // For Spark Unit Test with SparkHive
     // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
@@ -679,11 +676,6 @@ dependencies {
 
     // Data Storage : Schema evolution
     //https://docs.oracle.com/cd/E26161_02/html/GettingStartedGuide/schemaevolution.html
-
-    // JSON, YAML support
-    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // For JSON to Java Object (Gson)
     compile "com.google.code.gson:gson:2.7"
