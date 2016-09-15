@@ -276,6 +276,7 @@ configurations.all {
     // TODO : To find out whether this aggregate is from Spring Boot"s, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
     exclude group: "org.eclipse.jetty", module: "jetty-webapp"
     exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
+    exclude group: "org.apache.calcite", module: "calcite-avatica"
 }
 
 

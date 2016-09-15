@@ -14,6 +14,26 @@
  */
 
 package org.raliclo.KrogerStores.lib;
+/**
+ * BenchLab: Internet Scale Benchmarking.
+ * Copyright (C) 2010-2011 Emmanuel Cecchet.
+ * Contact: cecchet@cs.umass.edu
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * <p>
+ * Initial developer(s): karlholl (sf.net)
+ * Contributor(s): Emmanuel Cecchet. , Ralic Lo
+ */
 
 import com.fasterxml.jackson.core.*;
 import org.raliclo.KrogerStores.lib.tools.HarFileWriter;
@@ -73,7 +93,7 @@ public class HarPostData {
             throws JsonParseException, IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException(jp, "{ missing after \"postData\" element");
+            throw new JsonParseException("{ missing after \"postData\" element", jp.getCurrentLocation());
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {
@@ -89,7 +109,7 @@ public class HarPostData {
             else if (name != null && name.startsWith("_"))
                 this.customFields.addHarCustomFields(name, jp);
             else {
-                throw new JsonParseException(jp, "Unrecognized field '" + name + "' in page element");
+                throw new JsonParseException("Unrecognized field '" + name + "' in page element", jp.getCurrentLocation());
             }
         }
         if (mimeType == null) {
@@ -98,7 +118,7 @@ public class HarPostData {
                         "Missing mimeType field in postData element", jp
                         .getCurrentLocation()));
             else
-                throw new JsonParseException(jp, "Missing mimeType field in postData element");
+                throw new JsonParseException("Missing mimeType field in postData element", jp.getCurrentLocation());
         }
 
         if (params == null) {
@@ -107,7 +127,7 @@ public class HarPostData {
                         jp.getCurrentLocation()));
                 setParams(new HarPostDataParams());
             } else
-                throw new JsonParseException(jp, "Missing params field in postData element");
+                throw new JsonParseException("Missing params field in postData element", jp.getCurrentLocation());
         }
         if (text == null) {
             if (warnings != null) {
@@ -115,7 +135,7 @@ public class HarPostData {
                         jp.getCurrentLocation()));
                 setText("");
             } else
-                throw new JsonParseException(jp, "Missing text field in postData element");
+                throw new JsonParseException("Missing text field in postData element", jp.getCurrentLocation());
         }
     }
 
