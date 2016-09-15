@@ -339,23 +339,23 @@ dependencies {
     compile "ch.qos.logback:logback-classic:1.1.7"
     testCompile("ch.qos.logback:logback-classic:1.1.7") { force = true }
 
-
-    // Github as depency Example
+    // Github as dependency Example
 //    compile "com.github.User:Repo:Tag"
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
 
     // Apache Tika Support ( Image meta file. for GMAP)
     compile "org.apache.tika:tika-parent:1.13"
 
-    // Apache Camel Spring Boot Support (QRCode Generator)
-//    compile group: 'org.apache.camel', name: 'camel-spring', version: '2.17.3'
-    compile group: 'org.apache.camel', name: 'camel-spring-boot', version: '2.17.3'
+    // Apache Camel Spring Boot Support  & QRCode Generator
+    compile "org.apache.camel:camel-spring-boot:2.17.3"
+    compile "com.google.zxing:zxing-parent:3.2.1"
+    compile "com.google.zxing:javase:3.2.1"
 
-    // Apache Camel Mail Supprot
-    compile group: 'org.apache.camel', name: 'camel-mail', version: '2.17.3'
+    // Apache Camel Mail Support
+    compile "org.apache.camel:camel-mail:2.17.3"
 
     // Apache Camel Core Enterprise Support
-    compile group: 'org.apache.camel', name: 'camel-core', version: '2.17.3'
+    compile "org.apache.camel:camel-core:2.17.3"
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
