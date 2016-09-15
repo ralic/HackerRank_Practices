@@ -27,6 +27,9 @@ buildscript {
         maven {
             url "http://repo.spring.io/milestone"
         }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
@@ -41,6 +44,9 @@ buildscript {
 // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
 //        github("layerhq", "maven-private", "master", "releases")
 //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
+
+        // JavaFX Port for Mobile
+        classpath "org.javafxports:jfxmobile-plugin:1.0.8"
     }
 }
 
@@ -56,18 +62,24 @@ plugins {
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
 /*
     Scalatest Report Support
-    // Turn it on to see Scalatest Formate Report, off to see TestNG Report
+    // Uncomment to see Scalatest Report Format, Comment to see TestNG Report
     //    id "com.github.maiflai.scalatest" version "0.14"
  */
 
 //     XCode Support https://github.com/openbakery/gradle-xcodePlugin/releases
 //    id "org.openbakery.xcode-plugin" version "0.14.0"
-//      J2 Object C https://github.com/j2objc-contrib/j2objc-gradle
-//    id "com.github.j2objccontrib.j2objcgradle" version "0.5.0-alpha"
 //     Golang Support
-//    id "de.flachnetz.golang-gradle-plugin" version "0.1.29"
 //    https://github.com/a8m/go-lang-cheat-sheet
+    // id "de.flachnetz.golang-gradle-plugin" version "0.1.29"
+//      J2 Object C https://github.com/j2objc-contrib/j2objc-gradle
+    id "com.github.j2objccontrib.j2objcgradle" version "0.6.0-alpha"
+//    finalConfigure():
+//    https://github.com/j2objc-contrib/j2objc-gradle/blob/master/FAQ.md#how-do-i-call-finalconfigure
+
 }
+
+
+apply plugin: "com.github.j2objccontrib.j2objcgradle"
 
 /*
 Node.js All script minify
@@ -139,8 +151,20 @@ apply plugin: "maven"
 apply plugin: "scala"
 apply plugin: "git-repo"
 apply plugin: "antlr"
-apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "net.serenity-bdd.aggregator"
 //apply plugin: "war" // Support Web Application Archive
+apply plugin: "org.javafxports.jfxmobile"
+
+// JavaFX Support for Android / iOS
+// http://docs.gluonhq.com/javafxports/
+jfxmobile {
+    ios {
+        forceLinkClasses = ["ensemble.**.*"]
+    }
+    android {
+        applicationPackage = "org.raliclo.JavaFX_Mobile"
+    }
+}
 
 generateGrammarSource {
     maxHeapSize = "64m"
@@ -206,13 +230,13 @@ Jenkins has highest market share and deployed for large enterprise.
 TODO Jenkins Support
  */
 
-//apply plugin: 'com.terrafolio.jenkins'
+//apply plugin: "com.terrafolio.jenkins"
 //
 //jenkins {
 //
 //    servers {
 //        testing {
-//            url 'https://ci.jenkins.io/'
+//            url "https://ci.jenkins.io/"
 //            secure true         // optional
 //            username "testuser" // optional
 //            password "testpass" // optional
@@ -221,7 +245,7 @@ TODO Jenkins Support
 //
 //    templates {
 //        build {
-//            xml file('build-template.xml')
+//            xml file("build-template.xml")
 //        }
 //    }
 //    defaultServer servers.testing // optional
@@ -230,7 +254,7 @@ TODO Jenkins Support
 //            server servers.testing
 //            definition {
 //                name "Build ${project.name}" //optional
-//                xml file('config.xml')
+//                xml file("config.xml")
 //            }
 //        }
 //    }
@@ -249,7 +273,7 @@ configurations.all {
     exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
 //    exclude group: "org.eclipse.jetty", module: "jetty-server"
     exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
-    // TODO : To find out whether this aggregate is from Spring Boot's, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
+    // TODO : To find out whether this aggregate is from Spring Boot"s, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
     exclude group: "org.eclipse.jetty", module: "jetty-webapp"
     exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
 }
@@ -301,15 +325,37 @@ http://thucydides.info/docs/serenity-staging/
 gradle.startParameter.continueOnFailure = true
 
 dependencies {
+    // For JavaFX Support -- Mobile Applications
+    // https://bitbucket.org/javafxports/javafxmobile-plugin
+    compile "org.javafxports:ios-sdk:8.60.7"
+    compile "org.javafxports:dalvik-sdk:8.60.7"
+    compile "org.javafxports:jfxdvk:8.60.7"
+    // TODO Need more time to configure this.
+    // compile "org.robovm:robovm-dist:1.14.0"
+    // compile "org.robovm:robovm-rt-android:1.14.0"
 
     // For Spring Boot
     // Error :java.lang.NoClassDefFoundError: ch/qos/logback/classic/turbo/TurboFilter
     compile "ch.qos.logback:logback-classic:1.1.7"
     testCompile("ch.qos.logback:logback-classic:1.1.7") { force = true }
 
+
     // Github as depency Example
 //    compile "com.github.User:Repo:Tag"
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
+
+    // Apache Tika Support ( Image meta file. for GMAP)
+    compile "org.apache.tika:tika-parent:1.13"
+
+    // Apache Camel Spring Boot Support (QRCode Generator)
+//    compile group: 'org.apache.camel', name: 'camel-spring', version: '2.17.3'
+    compile group: 'org.apache.camel', name: 'camel-spring-boot', version: '2.17.3'
+
+    // Apache Camel Mail Supprot
+    compile group: 'org.apache.camel', name: 'camel-mail', version: '2.17.3'
+
+    // Apache Camel Core Enterprise Support
+    compile group: 'org.apache.camel', name: 'camel-core', version: '2.17.3'
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
@@ -509,6 +555,11 @@ dependencies {
     runtime "org.jmonkeyengine:jme3-desktop:3.1.0-beta1"
     runtime "org.jmonkeyengine:jme3-lwjgl:3.1.0-beta1"
 
+    // For libGDX
+    compile group: 'com.badlogicgames.gdx', name: 'gdx', version: '1.9.4'
+    compile group: 'com.badlogicgames.gdx', name: 'gdx-platform', version: '1.9.4'
+    compile group: 'com.badlogicgames.gdx', name: 'gdx-backend-moe', version: '1.9.4'
+
     // For Geo Location Integration
     compile "com.gluonhq:maps:1.0.0"
 
@@ -598,8 +649,8 @@ dependencies {
     compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
     testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
-    testCompile 'org.scalatest:scalatest_2.11:3.0.0'
-    testRuntime 'org.pegdown:pegdown:1.6.0'
+    testCompile "org.scalatest:scalatest_2.11:3.0.0"
+    testRuntime "org.pegdown:pegdown:1.6.0"
 
     // For Kafka Development
     def KafkaVer = "0.10.0.1"
@@ -897,7 +948,6 @@ task compile << {
     println "[Info] Compiler started" // Emit additional message to :compile
 }
 
-
 // Compile / Test / Read report
 task NGreport(type: Exec, dependsOn: [test]) {
     executable "open"
@@ -1062,11 +1112,11 @@ task compileTest(dependsOn: compile) << {
 //    destination = ["iPhone 6s"]
 //}
 
-//j2objcConfig {
-//    // Sets up libraries you depend on
-//    autoConfigureDeps true
-//    // Omit these two lines if you don"t configure your Xcode project with CocoaPods
-//    xcodeProjectDir "../ios"  //  suggested directory name
-//    xcodeTargetsIos "IOS-APP"  // greplace with your iOS targets
-//    finalConfigure()          // Must be last call to configuration
-//}
+j2objcConfig {
+    // Sets up libraries you depend on
+    autoConfigureDeps true
+    // Omit these two lines if you don"t configure your Xcode project with CocoaPods
+    xcodeProjectDir "../ios"  //  suggested directory name
+    xcodeTargetsIos "IOS-APP"  // greplace with your iOS targets
+    finalConfigure()          // Must be last call to configuration
+}
