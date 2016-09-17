@@ -27,6 +27,9 @@ buildscript {
         maven {
             url "http://repo.spring.io/milestone"
         }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
@@ -41,6 +44,12 @@ buildscript {
 // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
 //        github("layerhq", "maven-private", "master", "releases")
 //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
+
+        // JavaFX Port for Mobile
+        classpath "org.javafxports:jfxmobile-plugin:1.0.8"
+
+        // Google Platform Support
+        classpath 'com.google.appengine:gradle-appengine-plugin:1.9.42'
     }
 }
 
@@ -56,18 +65,24 @@ plugins {
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
 /*
     Scalatest Report Support
-    // Turn it on to see Scalatest Formate Report, off to see TestNG Report
+    // Uncomment to see Scalatest Report Format, Comment to see TestNG Report
     //    id "com.github.maiflai.scalatest" version "0.14"
  */
 
 //     XCode Support https://github.com/openbakery/gradle-xcodePlugin/releases
 //    id "org.openbakery.xcode-plugin" version "0.14.0"
-//      J2 Object C https://github.com/j2objc-contrib/j2objc-gradle
-//    id "com.github.j2objccontrib.j2objcgradle" version "0.5.0-alpha"
 //     Golang Support
-//    id "de.flachnetz.golang-gradle-plugin" version "0.1.29"
 //    https://github.com/a8m/go-lang-cheat-sheet
+    // id "de.flachnetz.golang-gradle-plugin" version "0.1.29"
+//      J2 Object C https://github.com/j2objc-contrib/j2objc-gradle
+//    id "com.github.j2objccontrib.j2objcgradle" version "0.6.0-alpha"
+//    finalConfigure():
+//    https://github.com/j2objc-contrib/j2objc-gradle/blob/master/FAQ.md#how-do-i-call-finalconfigure
+
 }
+
+
+//apply plugin: "com.github.j2objccontrib.j2objcgradle"
 
 /*
 Node.js All script minify
@@ -139,8 +154,46 @@ apply plugin: "maven"
 apply plugin: "scala"
 apply plugin: "git-repo"
 apply plugin: "antlr"
-apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "net.serenity-bdd.aggregator"
 //apply plugin: "war" // Support Web Application Archive
+apply plugin: "org.javafxports.jfxmobile"
+
+// Google's Cloud Platform , Gradle App Engine , Gcloud plugin
+//https://github.com/GoogleCloudPlatform/gradle-appengine-plugin
+//apply plugin: 'appengine'
+//apply plugin: 'com.google.gcloud-preview'
+
+//gcloud {
+//    configurations {
+//        prod {
+//            args project: "myProd", verbosity: "info"
+//            deployArgs "http-port": "8888"
+//            runArgs "admin-host": ":1995"
+//            modules ":a", ":b"
+//        }
+//        test {
+//            modules ":a", ":b"
+//            runAsync true
+//            args project: "myTest"
+//            modules ":" // same as default behavior
+//            descriptors "app.yaml" // same as default behavior
+//        }
+//        indexes {
+//            modules ":a"
+//            descriptors "index.yaml"
+//        }
+//    }
+//}
+// JavaFX Support for Android / iOS
+// http://docs.gluonhq.com/javafxports/
+jfxmobile {
+    ios {
+        forceLinkClasses = ["ensemble.**.*"]
+    }
+    android {
+        applicationPackage = "org.raliclo.JavaFX_Mobile"
+    }
+}
 
 generateGrammarSource {
     maxHeapSize = "64m"
@@ -206,13 +259,13 @@ Jenkins has highest market share and deployed for large enterprise.
 TODO Jenkins Support
  */
 
-//apply plugin: 'com.terrafolio.jenkins'
+//apply plugin: "com.terrafolio.jenkins"
 //
 //jenkins {
 //
 //    servers {
 //        testing {
-//            url 'https://ci.jenkins.io/'
+//            url "https://ci.jenkins.io/"
 //            secure true         // optional
 //            username "testuser" // optional
 //            password "testpass" // optional
@@ -221,7 +274,7 @@ TODO Jenkins Support
 //
 //    templates {
 //        build {
-//            xml file('build-template.xml')
+//            xml file("build-template.xml")
 //        }
 //    }
 //    defaultServer servers.testing // optional
@@ -230,7 +283,7 @@ TODO Jenkins Support
 //            server servers.testing
 //            definition {
 //                name "Build ${project.name}" //optional
-//                xml file('config.xml')
+//                xml file("config.xml")
 //            }
 //        }
 //    }
@@ -249,9 +302,10 @@ configurations.all {
     exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
 //    exclude group: "org.eclipse.jetty", module: "jetty-server"
     exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
-    // TODO : To find out whether this aggregate is from Spring Boot's, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
+    // TODO : To find out whether this aggregate is from Spring Boot"s, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
     exclude group: "org.eclipse.jetty", module: "jetty-webapp"
     exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
+    exclude group: "org.apache.calcite", module: "calcite-avatica"
 }
 
 
@@ -301,15 +355,31 @@ http://thucydides.info/docs/serenity-staging/
 gradle.startParameter.continueOnFailure = true
 
 dependencies {
+    // For JavaFX Support -- Mobile Applications
+    // https://bitbucket.org/javafxports/javafxmobile-plugin
+    compile "org.javafxports:ios-sdk:8.60.7"
+    compile "org.javafxports:dalvik-sdk:8.60.7"
+    compile "org.javafxports:jfxdvk:8.60.7"
+    // TODO Need more time to configure this.
+    // compile "org.robovm:robovm-dist:1.14.0"
+    // compile "org.robovm:robovm-rt-android:1.14.0"
 
     // For Spring Boot
     // Error :java.lang.NoClassDefFoundError: ch/qos/logback/classic/turbo/TurboFilter
     compile "ch.qos.logback:logback-classic:1.1.7"
     testCompile("ch.qos.logback:logback-classic:1.1.7") { force = true }
 
-    // Github as depency Example
+    // Github as dependency Example
 //    compile "com.github.User:Repo:Tag"
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
+
+    // Apache Tika Support ( Image meta file. for GMAP)
+    compile "org.apache.tika:tika-parent:1.13"
+
+    // JSON, YAML support
+    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
@@ -353,11 +423,12 @@ dependencies {
 //    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
 
-//    def SpringFullVer = "4.3.2.RELEASE"
+    def SpringFullVer = "4.3.2.RELEASE"
 //    compile "org.springframework:spring-core:${SpringFullVer}"
 //    compile "org.springframework:spring-context:${SpringFullVer}"
 //    compile "org.springframework:spring-orm:${SpringFullVer}"
 //    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
+//    compile "org.springframework.data:spring-data-hadoop:2.4.0.RELEASE"
 
     // For HTTP2 Servers
     // http://unrestful.io/2015/10/10/http2-java-client-examples.html
@@ -372,14 +443,15 @@ dependencies {
 //    compile "org.eclipse.jetty:jetty-webapp:${jettyVer}"
 
     // For Hadoop Basic Development Environment
-    def HadoopVer = "2.7.3"
+//    def HadoopVer = "2.7.3"
+    def HadoopVer ='3.0.0-alpha1'
     compile "org.apache.hadoop:hadoop-main:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-common:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-client:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-hdfs:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-annotations:${HadoopVer}"
-    compile "org.apache.hadoop:hadoop-core:1.2.1"
-    compile "org.apache.hadoop:hadoop-tools:1.2.1" // Dist-cp support
+//    compile "org.apache.hadoop:hadoop-core:1.2.1"
+//    compile "org.apache.hadoop:hadoop-tools:1.2.1" // Dist-cp support
 
     // For Hadoop MapReduce Development Environment
     compile "org.apache.hadoop:hadoop-mapreduce-client-core:${HadoopVer}"
@@ -446,6 +518,9 @@ dependencies {
     // For Bitcoin in Java
     compile "org.bitcoinj:bitcoinj-core:0.14.3"
 
+    // For Apache TinkerPop
+    compile "org.apache.tinkerpop:hadoop-gremlin:3.2.2"
+
     // For CoAP in IOT //  Java CoAP implementation
     // http://www.win.tue.nl/~lrahman/iot/files/LeshanTutorial.pdf
     // http://stackoverflow.com/questions/30424457/what-are-the-major-differences-between-http-and-coap
@@ -463,12 +538,15 @@ dependencies {
     compile "org.apache.camel:camel-core:${CamelVer}"
     compile "org.apache.camel:camel-cdi:${CamelVer}"
     compile "org.apache.camel:camel-test:${CamelVer}"
-    compile "org.apache.camel:camel-spring:${CamelVer}"
+    compile "org.apache.camel:camel-spring-boot:${CamelVer}"
     compile "org.apache.camel:camel-jetty:${CamelVer}"
-    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-xstream:${CamelVer}"
-    compile "org.apache.camel:camel-jackson:${CamelVer}"
+//    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-mail:${CamelVer}"
+
+    // Google Zxing QRCode Generator
+    compile "com.google.zxing:zxing-parent:3.2.1"
+    compile "com.google.zxing:javase:3.2.1"
 
     // For Spark Unit Test with SparkHive
     // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
@@ -500,7 +578,10 @@ dependencies {
     // For Web Conference https://jitsi.org/
     compile "org.jitsi:jitsi-universe-public:1.0.2"
     // For Game Development https://libgdx.badlogicgames.com/
-    compile "com.badlogicgames.gdx:gdx:1.9.3"
+    // For libGDX
+    compile "com.badlogicgames.gdx:gdx:1.9.4"
+    compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
 
     // For JMonkey3 Game Development
     // https://jmonkeyengine.github.io/wiki/jme3/maven.html#gradle
@@ -598,8 +679,8 @@ dependencies {
     compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
     testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
-    testCompile 'org.scalatest:scalatest_2.11:3.0.0'
-    testRuntime 'org.pegdown:pegdown:1.6.0'
+    testCompile "org.scalatest:scalatest_2.11:3.0.0"
+    testRuntime "org.pegdown:pegdown:1.6.0"
 
     // For Kafka Development
     def KafkaVer = "0.10.0.1"
@@ -628,11 +709,6 @@ dependencies {
 
     // Data Storage : Schema evolution
     //https://docs.oracle.com/cd/E26161_02/html/GettingStartedGuide/schemaevolution.html
-
-    // JSON, YAML support
-    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
 
     // For JSON to Java Object (Gson)
     compile "com.google.code.gson:gson:2.7"
@@ -696,6 +772,9 @@ dependencies {
 
     // JWT Web Token support
     compile "io.jsonwebtoken:jjwt:0.6.0"
+
+    // Vaadin U & I Framework
+    compile "com.vaadin:vaadin:7.0.0.alpha3"
 
     //https://orc.apache.org/
 //    compile "com.typesafe.zinc:zinc:0.3.11"
@@ -896,7 +975,6 @@ Task Definitions
 task compile << {
     println "[Info] Compiler started" // Emit additional message to :compile
 }
-
 
 // Compile / Test / Read report
 task NGreport(type: Exec, dependsOn: [test]) {

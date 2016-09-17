@@ -6,6 +6,11 @@ plugins {
     id 'java'
     id 'com.github.j2objccontrib:j2objcgradle:v0.6.0-alpha'
 }
+
+dependencies {
+    compile project(':shared')
+}
+
 // Plugin settings; put these at the bottom of the file.
 j2objcConfig {
     // Sets up libraries you depend on
@@ -17,7 +22,3 @@ j2objcConfig {
 
     finalConfigure()          // Must be last call to configuration
 }
-dependencies {
-    compile project(':shared')
-}
-compile 'com.google.guava:guava:18.0'
