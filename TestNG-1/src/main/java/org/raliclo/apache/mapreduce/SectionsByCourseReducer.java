@@ -14,24 +14,23 @@ public class SectionsByCourseReducer extends
 
         String finalValue = "";
         double sumScore = 0;
-        String[] data = new String[2];
         for (Text insideCS : courseScore) {
-            data = insideCS.toString().split(" ");
-            finalValue = finalValue.concat(data[0]);
+            finalValue = finalValue
+                    .concat(insideCS.toString())
+                    .concat(",");
+            String[] splitedCS = insideCS.toString().split("[()]");
+            String courseName = splitedCS[0];
+            int score = Integer.parseInt(splitedCS[1]);
+            sumScore += score;
         }
-        sumScore = Double.parseDouble(data[1]);
         int count = 0;
         for (int i = 0; i < finalValue.length(); i++) {
             if (finalValue.charAt(i) == ',') {
                 count++;
             }
         }
-
         context.write(
                 new Text(studentName + "(" + sumScore / count + ")"),
                 new Text(finalValue));
-        //count = 0;
-
-//        context.write(token, new IntWritable(sum));
     }
 }
