@@ -19,7 +19,16 @@ public class SectionsByCourse {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-        java.nio.file.Path path = Paths.get("output");
+
+        if (args.length == 0) {
+            args = new String[2];
+            args[0] = Paths.get("").toAbsolutePath().toString()
+                    .concat("/src/main/java/org/raliclo/apache/mapreduce/input");
+            args[1] = Paths.get("").toAbsolutePath().toString()
+                    .concat("/src//main/java/org/raliclo/apache/mapreduce/output");
+        }
+
+        java.nio.file.Path path = Paths.get(args[1]);
         if (Files.exists(path)) {
             FileUtils.deleteDirectory(path.toFile());
         }

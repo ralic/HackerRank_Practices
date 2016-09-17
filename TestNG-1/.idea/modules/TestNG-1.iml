@@ -16,7 +16,9 @@
       <excludeFolder url="file://$MODULE_DIR$/../../build/retrolambda" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/scripts" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../input" />
       <excludeFolder url="file://$MODULE_DIR$/../../nbproject" />
+      <excludeFolder url="file://$MODULE_DIR$/../../output" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
