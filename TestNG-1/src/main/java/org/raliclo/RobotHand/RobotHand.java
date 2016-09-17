@@ -19,24 +19,30 @@ package org.raliclo.RobotHand;/**
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.Arrays;
 import java.util.HashMap;
 
 ;
 
 public class RobotHand {
-    HashMap<Character, Integer> dict = new HashMap<>();
+    HashMap<String, Integer> dict = new HashMap<>();
 
     RobotHand() {
-        dict.put('0', KeyEvent.VK_0);
-        dict.put('1', KeyEvent.VK_1);
-        dict.put('2', KeyEvent.VK_2);
-        dict.put('3', KeyEvent.VK_3);
-        dict.put('4', KeyEvent.VK_4);
-        dict.put('5', KeyEvent.VK_5);
-        dict.put('6', KeyEvent.VK_6);
-        dict.put('7', KeyEvent.VK_7);
-        dict.put('8', KeyEvent.VK_8);
-        dict.put('9', KeyEvent.VK_9);
+        dict.put("0", KeyEvent.VK_0);
+        dict.put("1", KeyEvent.VK_1);
+        dict.put("2", KeyEvent.VK_2);
+        dict.put("3", KeyEvent.VK_3);
+        dict.put("4", KeyEvent.VK_4);
+        dict.put("5", KeyEvent.VK_5);
+        dict.put("6", KeyEvent.VK_6);
+        dict.put("7", KeyEvent.VK_7);
+        dict.put("8", KeyEvent.VK_8);
+        dict.put("9", KeyEvent.VK_9);
+        dict.put("LEFT", KeyEvent.VK_LEFT);
+        dict.put("RIGHT", KeyEvent.VK_RIGHT);
+        dict.put("UP", KeyEvent.VK_UP);
+        dict.put("DOWN", KeyEvent.VK_DOWN);
+        dict.put("ENTER", KeyEvent.VK_LEFT);
     }
 
     public void robotSave(String xx) throws InterruptedException, AWTException {
@@ -47,11 +53,9 @@ public class RobotHand {
         robots.keyRelease(KeyEvent.VK_META);
         robots.keyRelease(KeyEvent.VK_S);
         Thread.sleep(1000);
-        robots.keyPress(KeyEvent.VK_LEFT);
-        robots.keyRelease(KeyEvent.VK_LEFT);
+        simuPress("LEFT");
         Thread.sleep(100);
-        robots.keyPress(KeyEvent.VK_ENTER);
-        robots.keyRelease(KeyEvent.VK_ENTER);
+        simuPress("ENTER");
         Thread.sleep(3000);
         robots.keyPress(KeyEvent.VK_META);
         robots.keyPress(KeyEvent.VK_W);
@@ -60,22 +64,25 @@ public class RobotHand {
 
     }
 
-    public void clickNumbers(String x) throws AWTException, InterruptedException {
+    public void clickNumbers(String x) {
         int i;
         int n = x.length();
-        for (i = 0; i < n; i++) {
-            System.out.println(x.charAt(i));
-            simuPress(x.charAt(i));
-        }
+        Arrays.stream(x.split("")).forEach((item) -> {
+            System.out.println(item);
+            try {
+                simuPress(item);
+            } catch (Exception e) {
+            }
+        });
     }
 
-    public void simuPress(char c) throws AWTException, InterruptedException {
+    public void simuPress(String c) throws AWTException, InterruptedException {
         Robot robotclick = new Robot();
         Thread.sleep(100);
         keyPR(c);
     }
 
-    public void keyPR(char c) {
+    public void keyPR(String c) {
         if (dict.containsKey(c)) {
             Thread tmp = new Thread(() -> {
                 try {

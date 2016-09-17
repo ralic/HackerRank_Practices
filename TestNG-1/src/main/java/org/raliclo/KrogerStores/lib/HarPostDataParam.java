@@ -114,7 +114,7 @@ public class HarPostDataParam extends AbstractNameValueComment {
 
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
-            throw new JsonParseException("{ missing after \"params\" element", jp.getCurrentLocation());
+            throw new JsonParseException(jp, "{ missing after \"params\" element");
         }
 
         while (jp.nextToken() != JsonToken.END_OBJECT) {

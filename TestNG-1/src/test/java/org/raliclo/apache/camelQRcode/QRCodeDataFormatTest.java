@@ -12,7 +12,7 @@
  * or implied. See the License for the specific language governing permissions and limitations under
  * the License.
  */
-package org.raliclo.apache.camelQRCode;
+package org.raliclo.apache.camelQRcode;
 
 import org.apache.camel.EndpointInject;
 import org.apache.camel.Exchange;
@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 
 public class QRCodeDataFormatTest extends CamelTestSupport {
 
-    private final static String MSG = "This is a testmessage!";
+    private final static String MSG = "www.nthu.edu.tw!";
 
     @EndpointInject(uri = "mock:out")
     MockEndpoint out;
@@ -114,7 +114,7 @@ public class QRCodeDataFormatTest extends CamelTestSupport {
     public void testQRCodeWithParameterizedType() throws Exception {
         out.expectedBodiesReceived(MSG);
         image.expectedMessageCount(1);
-        HashMap<String, Object> headers = new HashMap<String, Object>();
+        HashMap<String, Object> headers = new HashMap<>();
         headers.put(QRCode.TYPE, ImageType.JPG);
 
         template.sendBodyAndHeaders("direct:qrcode6", MSG, headers);
@@ -127,7 +127,7 @@ public class QRCodeDataFormatTest extends CamelTestSupport {
     public void testQRCodeWithParameterizedSizeAndType() throws Exception {
         out.expectedBodiesReceived(MSG);
         image.expectedMessageCount(1);
-        HashMap<String, Object> headers = new HashMap<String, Object>();
+        HashMap<String, Object> headers = new HashMap<>();
         headers.put(QRCode.WIDTH, 200);
         headers.put(QRCode.HEIGHT, 200);
         headers.put(QRCode.TYPE, ImageType.JPG);

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.raliclo.apache.camelQRCode;
+package org.raliclo.apache.camelQRcode;
 
 /**
  * Header Variables for the qr-code data format.

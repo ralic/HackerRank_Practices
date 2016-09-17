@@ -1,4 +1,4 @@
-package org.raliclo.apache.camelQRCode;/**
+package org.raliclo.apache.camelQRcode;/**
  * /*
  * Copyright 2009 ZXing authors
  * <p>

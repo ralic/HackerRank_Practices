@@ -1,4 +1,4 @@
-package org.raliclo.apache.camelQRCode;/**
+package org.raliclo.apache.camelQRcode;/**
  * Created by raliclo on 9/15/16.
  * Project Name : TestNG-1
  */

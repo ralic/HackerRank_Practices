@@ -14,12 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.raliclo.apache.camelQRCode;
+package org.raliclo.apache.camelQRcode;
 
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
-import com.google.zxing.client.j2se.MatrixToImageWriter;
+import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import org.apache.camel.Exchange;
@@ -128,7 +128,7 @@ public class QRCodeDataFormat implements DataFormat {
         Map<EncodeHintType, ErrorCorrectionLevel> hintMap = new EnumMap<EncodeHintType, ErrorCorrectionLevel>(EncodeHintType.class);
         hintMap.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);
 
-        com.google.zxing.common.BitMatrix matrix;
+        BitMatrix matrix;
         matrix = new MultiFormatWriter().encode(
                 new String(payload.getBytes(charset), charset),
                 format,
