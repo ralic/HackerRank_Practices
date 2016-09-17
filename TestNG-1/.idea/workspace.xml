@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/Course0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input/Course1.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseCombiner.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/.part-r-00000.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/part-r-00000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j2.properties" afterPath="$PROJECT_DIR$/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
     </list>
     <list id="f5791ac9-382b-4d65-b766-4f1ce32906bb" name="Rejected commit: Default" comment="Update Project Files">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties" afterPath="" />
@@ -1638,6 +1635,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="input" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2632,7 +2643,7 @@
       <workItem from="1473936828758" duration="23331000" />
       <workItem from="1474103356638" duration="2195000" />
       <workItem from="1474105897718" duration="93000" />
-      <workItem from="1474106060225" duration="4141000" />
+      <workItem from="1474106060225" duration="4199000" />
     </task>
     <task id="LOCAL-00001" summary="Regex Basics / Factory Pattern / Regex for DomainName">
       <created>1472727736996</created>
@@ -2893,7 +2904,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474107599457</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add Hadoop MapReduce Example.">
+      <created>1474110249044</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1474110249044</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2929,7 +2947,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294636000" />
+    <option name="totallyTimeSpent" value="294694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2942,7 +2960,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44513136" sideWeight="0.21647818" order="7" side_tool="true" content_ui="tabs" />
@@ -2967,7 +2985,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.52164006" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30448222" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.74636513" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30371568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30371568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -3059,7 +3077,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Stable Update for Scala Test Reporting or Java Test Reporting" />
     <MESSAGE value="test-output" />
     <MESSAGE value="Spring Boot Backend Application Example" />
     <MESSAGE value="Octave in Java" />
@@ -3084,7 +3101,8 @@
     <MESSAGE value="HarFileReader upgrade to  Fastxml 2.8" />
     <MESSAGE value="File Relocated" />
     <MESSAGE value="Upgrade Hadoop to 3.0.0-alpha1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrade Hadoop to 3.0.0-alpha1" />
+    <MESSAGE value="Add Hadoop MapReduce Example." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Hadoop MapReduce Example." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
