@@ -14,6 +14,8 @@ public class SectionsByCourseReducer extends
 
         String finalValue = "";
         double sumScore = 0;
+        int count = 0;
+
         for (Text insideCS : courseScore) {
             finalValue = finalValue
                     .concat(insideCS.toString())
@@ -22,13 +24,9 @@ public class SectionsByCourseReducer extends
             String courseName = splitedCS[0];
             int score = Integer.parseInt(splitedCS[1]);
             sumScore += score;
+            count++;
         }
-        int count = 0;
-        for (int i = 0; i < finalValue.length(); i++) {
-            if (finalValue.charAt(i) == ',') {
-                count++;
-            }
-        }
+
         context.write(
                 new Text(studentName + "(" + sumScore / count + ")"),
                 new Text(finalValue));
