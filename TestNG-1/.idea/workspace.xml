@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="A">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseCombiner_2ndExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer_2ndExample.java" />
+    <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java" />
     </list>
     <list id="f5791ac9-382b-4d65-b766-4f1ce32906bb" name="Rejected commit: Default" comment="Update Project Files">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties" afterPath="" />
@@ -2654,7 +2650,7 @@
       <workItem from="1474103356638" duration="2195000" />
       <workItem from="1474105897718" duration="93000" />
       <workItem from="1474106060225" duration="4925000" />
-      <workItem from="1474135500160" duration="4179000" />
+      <workItem from="1474135500160" duration="4221000" />
     </task>
     <task id="LOCAL-00001" summary="Regex Basics / Factory Pattern / Regex for DomainName">
       <created>1472727736996</created>
@@ -2936,7 +2932,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474136257647</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Fixed 2nd Example">
+      <created>1474218785057</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1474218785057</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2972,7 +2975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299599000" />
+    <option name="totallyTimeSpent" value="299641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3102,7 +3105,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Octave in Java" />
     <MESSAGE value="Pattern in Line" />
     <MESSAGE value="Avro Storage for WordCount and  Walk files in a dierctory" />
     <MESSAGE value="Update /Unstable Site for wordcount" />
@@ -3127,7 +3129,8 @@
     <MESSAGE value="Add Hadoop MapReduce Example." />
     <MESSAGE value="Add Hadoop MapReduce Example -- output" />
     <MESSAGE value="Update input and output path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update input and output path" />
+    <MESSAGE value="Fixed 2nd Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed 2nd Example" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
