@@ -32,20 +32,25 @@ public class SectionsByCourse {
         if (Files.exists(path)) {
             FileUtils.deleteDirectory(path.toFile());
         }
+
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "SectionsByCourse");
-        job.setJarByClass(SectionsByCourse.class);
 
+        job.setJarByClass(SectionsByCourse.class);
         job.setMapperClass(SectionsByCourseMapper.class);
-        job.setReducerClass(SectionsByCourseReducer.class);
+        job.setCombinerClass(SectionsByCourseCombiner_2ndExample.class);
+        job.setReducerClass(SectionsByCourseReducer_2ndExample.class);
+//        job.setReducerClass(SectionsByCourseReduce.class);
+
+        job.setInputFormatClass(TextInputFormat.class);
+        job.setOutputFormatClass(TextOutputFormat.class);
+
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setInputFormatClass(TextInputFormat.class);
-        job.setOutputFormatClass(TextOutputFormat.class);
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(Text.class);
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
 

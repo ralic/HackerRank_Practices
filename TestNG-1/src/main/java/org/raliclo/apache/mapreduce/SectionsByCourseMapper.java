@@ -6,7 +6,6 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-//import au.com.bytecode.opencsv.CSVParser;
 
 public class SectionsByCourseMapper extends
         Mapper<LongWritable, Text, Text, Text> {
@@ -25,7 +24,6 @@ public class SectionsByCourseMapper extends
                             new Text(courseName + "(" + studentnameScore[1] + ")"));
                 }
             }
-//            context.write(new Text(lines[0]), new IntWritable(1));
         }
     }
 }
