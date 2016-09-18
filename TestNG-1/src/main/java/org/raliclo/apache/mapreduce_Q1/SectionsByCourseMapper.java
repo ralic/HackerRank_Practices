@@ -1,4 +1,4 @@
-package org.raliclo.apache.mapreduce;
+package org.raliclo.apache.mapreduce_Q1;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -6,7 +6,6 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-//import au.com.bytecode.opencsv.CSVParser;
 
 public class SectionsByCourseMapper extends
         Mapper<LongWritable, Text, Text, Text> {
@@ -20,12 +19,9 @@ public class SectionsByCourseMapper extends
             for (int n = 1; n < items; n++) {
                 String[] studentnameScore = lines[n].split("[()]");
                 String studentName = studentnameScore[0];
-                if (studentnameScore.length == 2) {
-                    context.write(new Text(studentnameScore[0]),
-                            new Text(courseName + "(" + studentnameScore[1] + ")"));
-                }
+                context.write(new Text(studentnameScore[0]),
+                        new Text(courseName + "(" + studentnameScore[1] + ")"));
             }
-//            context.write(new Text(lines[0]), new IntWritable(1));
         }
     }
 }
