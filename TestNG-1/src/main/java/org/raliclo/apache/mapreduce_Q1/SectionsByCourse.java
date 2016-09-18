@@ -1,4 +1,4 @@
-package org.raliclo.apache.mapreduce;
+package org.raliclo.apache.mapreduce_Q1;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.hadoop.conf.Configuration;
@@ -23,9 +23,9 @@ public class SectionsByCourse {
         if (args.length == 0) {
             args = new String[2];
             args[0] = Paths.get("").toAbsolutePath().toString()
-                    .concat("/src/main/java/org/raliclo/apache/mapreduce/input");
+                    .concat("/src/main/java/org/raliclo/apache/mapreduce_Q1/input");
             args[1] = Paths.get("").toAbsolutePath().toString()
-                    .concat("/src//main/java/org/raliclo/apache/mapreduce/output");
+                    .concat("/src//main/java/org/raliclo/apache/mapreduce_Q1/output");
         }
 
         java.nio.file.Path path = Paths.get(args[1]);
@@ -38,9 +38,10 @@ public class SectionsByCourse {
 
         job.setJarByClass(SectionsByCourse.class);
         job.setMapperClass(SectionsByCourseMapper.class);
-        job.setCombinerClass(SectionsByCourseCombiner_2ndExample.class);
-        job.setReducerClass(SectionsByCourseReducer_2ndExample.class);
-//        job.setReducerClass(SectionsByCourseReduce.class);
+        job.setReducerClass(SectionsByCourseReducer.class);
+
+//        job.setCombinerClass(SectionsByCourseCombiner_2ndExample.class);
+//        job.setReducerClass(SectionsByCourseReducer_2ndExample.class);
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);

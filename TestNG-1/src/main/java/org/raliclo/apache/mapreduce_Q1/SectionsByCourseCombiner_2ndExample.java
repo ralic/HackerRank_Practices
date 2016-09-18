@@ -1,11 +1,11 @@
-package org.raliclo.apache.mapreduce;
+package org.raliclo.apache.mapreduce_Q1;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class SectionsByCourseReducer extends
+public class SectionsByCourseCombiner_2ndExample extends
         Reducer<Text, Text, Text, Text> {
 
     @Override
@@ -23,14 +23,8 @@ public class SectionsByCourseReducer extends
             int score = Integer.parseInt(splitedCS[1]);
             sumScore += score;
         }
-        int count = 0;
-        for (int i = 0; i < finalValue.length(); i++) {
-            if (finalValue.charAt(i) == ',') {
-                count++;
-            }
-        }
         context.write(
-                new Text(studentName + "(" + sumScore / count + ")"),
-                new Text(finalValue));
+                new Text(studentName),
+                new Text(finalValue + " " + sumScore));
     }
 }
