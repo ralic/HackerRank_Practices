@@ -8,7 +8,7 @@ import java.text.NumberFormat;
 import java.util.Date;
 import java.util.concurrent.CyclicBarrier;
 
-public class SpectralNorm {
+public class SpectralNorm_Java {
 
     private static final NumberFormat formatter = new DecimalFormat("#.000000000");
 
