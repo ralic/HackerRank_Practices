@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /* The Computer Language Benchmarks Game
  http://benchmarksgame.alioth.debian.org/
@@ -8,7 +8,6 @@
  Ported, modified, and parallelized by Roman Pletnev
  */
 
-
 var rd = require('readline'), cp = require('child_process');
 
 function RefNum(num) {
@@ -17,10 +16,10 @@ function RefNum(num) {
 
 RefNum.prototype.toString = function () {
     return this.num.toString();
-}
+};
 
 function frequency(seq, length) {
-    var freq = new Map(), n = seq.length - length + 1, key, cur, i = 0;
+    let freq = new Map(), n = seq.length - length + 1, key, cur, i = 0;
     for (; i < n; ++i) {
         key = seq.substr(i, length);
         cur = freq.get(key);
@@ -30,30 +29,29 @@ function frequency(seq, length) {
 }
 
 function sort(seq, length) {
-    var f = frequency(seq, length), keys = Array.from(f.keys()),
+    let f = frequency(seq, length), keys = Array.from(f.keys()),
         n = seq.length - length + 1, res = '';
-    keys.sort((a, b) = > f.get(b) - f.get(a)
-)
+    keys.sort((a, b) => f.get(b) - f.get(a)
+    )
     ;
-    for (var key of keys) res +=
+    for (let key of keys) res +=
         key.toUpperCase() + ' ' + (f.get(key) * 100 / n).toFixed(3) + '\n';
     res += '\n';
     return res;
 }
 
 function find(seq, s) {
-    var f = frequency(seq, s.length);
+    let f = frequency(seq, s.length);
     return (f.get(s) || 0) + "\t" + s.toUpperCase() + '\n';
 }
 
 function master() {
-    var beginT = new Date()
-    var workers = [];
-    for (var i = 1; i < 5; ++i) workers.push(
+    let workers = [];
+    for (let i = 1; i < 5; ++i) workers.push(
         cp.fork(__filename, [], {silent: true, env: {workerId: i}}));
-    for (var w of workers) process.stdin.pipe(w.stdin);
-    var jobs = workers.length, results = [];
-    var messageHandler = function (i) {
+    for (let w of workers) process.stdin.pipe(w.stdin);
+    let jobs = workers.length, results = [];
+    let messageHandler = function (i) {
         return function (message) {
             results[i] = message;
             if (!(--jobs)) {
@@ -62,21 +60,21 @@ function master() {
             }
         };
     };
-    for (var i = 0; i < workers.length; ++i) {
+    for (let i = 0; i < workers.length; ++i) {
         workers[i].on('message', messageHandler(i));
     }
 }
 
 function worker() {
-    var seq = '', reading = false;
-    var lineHandler = function (line) {
+    let seq = '', reading = false;
+    let lineHandler = function (line) {
         if (reading) {
             if (line[0] !== '>') seq += line;
         } else reading = line.substr(0, 6) === '>THREE';
     };
     rd.createInterface(process.stdin, process.stdout)
         .on('line', lineHandler).on('close', function () {
-        var res = '';
+        let res = '';
         switch (process.env.workerId) {
             case '1':
                 res += sort(seq, 1);

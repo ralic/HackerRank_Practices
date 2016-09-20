@@ -50,6 +50,7 @@ buildscript {
 
         // Google Platform Support
         classpath 'com.google.appengine:gradle-appengine-plugin:1.9.42'
+
     }
 }
 
@@ -63,12 +64,14 @@ plugins {
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
-    id "org.golang.mobile.bind" version "0.2.6"
+//    id "me.tatarka.retrolambda" version "3.3.0"
+
 /*
     Scalatest Report Support
     // Uncomment to see Scalatest Report Format, Comment to see TestNG Report
-    //    id "com.github.maiflai.scalatest" version "0.14"
+        id "com.github.maiflai.scalatest" version "0.14"
  */
+    id "com.github.maiflai.scalatest" version "0.14"
 
 //     XCode Support https://github.com/openbakery/gradle-xcodePlugin/releases
 //    id "org.openbakery.xcode-plugin" version "0.14.0"
@@ -81,7 +84,6 @@ plugins {
 //    https://github.com/j2objc-contrib/j2objc-gradle/blob/master/FAQ.md#how-do-i-call-finalconfigure
 
 }
-
 
 //apply plugin: "com.github.j2objccontrib.j2objcgradle"
 
@@ -110,7 +112,7 @@ tree.each { file ->
         def newfolder = "" + relativePath(file).substring(jsSrcDir.length(), (relativePath(file).length() - file.name.length()))
 //        println("${buildDir}/javascript"+newfolder)
 //        println(file.properties)
-        source = file.absolutePath;
+        source = file.absolutePath
         dest = "${buildDir}/min-closure.js" + newfolder + "min.${file.name}"
 //        dest = file.parent + "/min.${file.name}"
         // ** ALERT ** Turn it off if code not running.
@@ -445,7 +447,7 @@ dependencies {
 
     // For Hadoop Basic Development Environment
 //    def HadoopVer = "2.7.3"
-    def HadoopVer ='3.0.0-alpha1'
+    def HadoopVer = '3.0.0-alpha1'
     compile "org.apache.hadoop:hadoop-main:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-common:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-client:${HadoopVer}"
@@ -810,74 +812,74 @@ apply plugin: "cpp"
 apply plugin: "assembler"
 //apply plugin: "objective-cpp"
 //apply plugin: "objective-c"
-
-model {
-    components {
-//        platforms {
-//            macOS {
-//                architecture "x86_64"
-//                operatingSystem "osx"
+//
+//model {
+//    components {
+////        platforms {
+////            macOS {
+////                architecture "x86_64"
+////                operatingSystem "osx"
+////            }
+////        }
+//        main(NativeExecutableSpec) {
+////            targetPlatform macOS  // Error : Incubating.
+//            sources {
+//                c {
+//                    source {
+//                        srcDir "src/main/clang"
+//                        include "**/*.c"
+//                    }
+//                    exportedHeaders {
+//                        srcDir "src/include"
+//                    }
+//                }
+//                cpp {
+//                    source {
+//                        srcDir "src/main/cpp"
+//                        include "**/*.cpp"
+//                    }
+//                }
+//
+//                //https://docs.gradle.org/current/dsl/org.gradle.language.assembler.AssemblerSourceSet.html
+//                //Note: This property is incubating and may change in a future version of Gradle.
+//                asm {
+//                    source {
+//                        srcDirs "src/main/asm"
+//                        include "**/*.s"
+//                    }
+//                }
+//            }
+//            binaries.all {
+//                // Prerequsite : Know about "Preprocessor, source, compiler, linker , assembler "
+//                //https://courses.cs.washington.edu/courses/cse378/97au/help/compilation.html
+//                // Define a preprocessor macro for every binary
+//                cppCompiler.define "NDEBUG"
+//
+//                // Define toolchain-specific source, compiler and linker, assembler options
+//                if (toolChain in Gcc) {
+//                    sources {
+//                        platformAsm(AssemblerSourceSet) {
+//                            source.srcDir "src/main/asm/gcc"
+//                        }
+//                    }
+//                    assembler.args "-g"
+//                    cppCompiler.args "-O2", "-fno-access-control"
+//                    linker.args "-Xlinker", "-S"
+//                }
+//                if (toolChain in VisualCpp) {
+//                    sources {
+//                        platformAsm(AssemblerSourceSet) {
+//                            source.srcDir "src/main/asm/visualcpp"
+//                        }
+//                    }
+//                    assembler.args "/Zi"
+//                    cppCompiler.args "/Zi"
+//                    linker.args "/DEBUG"
+//                }
 //            }
 //        }
-        main(NativeExecutableSpec) {
-//            targetPlatform macOS  // Error : Incubating.
-            sources {
-                c {
-                    source {
-                        srcDir "src/main/clang"
-                        include "**/*.c"
-                    }
-                    exportedHeaders {
-                        srcDir "src/include"
-                    }
-                }
-                cpp {
-                    source {
-                        srcDir "src/main/cpp"
-                        include "**/*.cpp"
-                    }
-                }
-
-                //https://docs.gradle.org/current/dsl/org.gradle.language.assembler.AssemblerSourceSet.html
-                //Note: This property is incubating and may change in a future version of Gradle.
-                asm {
-                    source {
-                        srcDirs "src/main/asm"
-                        include "**/*.s"
-                    }
-                }
-            }
-            binaries.all {
-                // Prerequsite : Know about "Preprocessor, source, compiler, linker , assembler "
-                //https://courses.cs.washington.edu/courses/cse378/97au/help/compilation.html
-                // Define a preprocessor macro for every binary
-                cppCompiler.define "NDEBUG"
-
-                // Define toolchain-specific source, compiler and linker, assembler options
-                if (toolChain in Gcc) {
-                    sources {
-                        platformAsm(AssemblerSourceSet) {
-                            source.srcDir "src/main/asm/gcc"
-                        }
-                    }
-                    assembler.args "-g"
-                    cppCompiler.args "-O2", "-fno-access-control"
-                    linker.args "-Xlinker", "-S"
-                }
-                if (toolChain in VisualCpp) {
-                    sources {
-                        platformAsm(AssemblerSourceSet) {
-                            source.srcDir "src/main/asm/visualcpp"
-                        }
-                    }
-                    assembler.args "/Zi"
-                    cppCompiler.args "/Zi"
-                    linker.args "/DEBUG"
-                }
-            }
-        }
-    }
-}
+//    }
+//}
 
 // FindBugs Plugin
 //apply plugin: "findbugs"
@@ -903,7 +905,6 @@ generateGrammarSource {
 // Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
 apply plugin: "application"
 apply plugin: "spring-boot"
-applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
 bootRun {
     addResources = true
 }
@@ -980,7 +981,7 @@ task compile << {
 // Compile / Test / Read report
 task NGreport(type: Exec, dependsOn: [test]) {
     executable "open"
-    args "./build/reports/tests/test/index.html"
+    args[0] "./build/reports/tests/test/index.html"
 }
 
 task runEasy(type: JavaExec) {
@@ -1157,4 +1158,14 @@ task compileTest(dependsOn: compile) << {
 //    xcodeProjectDir "../ios"  //  suggested directory name
 //    xcodeTargetsIos "IOS-APP"  // greplace with your iOS targets
 //    finalConfigure()          // Must be last call to configuration
+//}
+//
+//retrolambda {
+//    jdk System.getenv("JAVA8_HOME")
+//    oldJdk System.getenv("JAVA6_HOME")
+//    oldJdk ""
+//    javaVersion JavaVersion.VERSION_1_6
+//    jvmArgs '-arg1', '-arg2'
+//    defaultMethods false
+//    incremental true
 //}
