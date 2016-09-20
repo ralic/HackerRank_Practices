@@ -41,9 +41,9 @@ buildscript {
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
         classpath "com.fasterxml.jackson.core:jackson-core:2.8.0"
         classpath "net.serenity-bdd:serenity-gradle-plugin:1.1.9" // Support Serenity BDD
-// Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
-//        github("layerhq", "maven-private", "master", "releases")
-//        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
+        // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
+        //        github("layerhq", "maven-private", "master", "releases")
+        //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
 
         // JavaFX Port for Mobile
         classpath "org.javafxports:jfxmobile-plugin:1.0.8"
@@ -63,6 +63,7 @@ plugins {
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
     id "com.commercehub.gradle.plugin.avro" version "0.9.0"
+    id "org.golang.mobile.bind" version "0.2.6"
 /*
     Scalatest Report Support
     // Uncomment to see Scalatest Report Format, Comment to see TestNG Report
@@ -525,7 +526,7 @@ dependencies {
     // http://www.win.tue.nl/~lrahman/iot/files/LeshanTutorial.pdf
     // http://stackoverflow.com/questions/30424457/what-are-the-major-differences-between-http-and-coap
     compile "org.eclipse.californium:californium-core:2.0.0-M1"
-    compile "de.uzl.itm:ncoap-core:1.8.3-SNAPSHOT"
+//    compile "de.uzl.itm:ncoap-core:1.8.3-SNAPSHOT"
     compile "org.eclipse.leshan:leshan-all:0.1.11-M12"
 
     // C10K Problem
@@ -1003,6 +1004,15 @@ task runCount(type: JavaExec) {
 task compileTest(dependsOn: compile) << {
     println "compiling unit tests"
 }
+
+//gradleVersion = 3.0
+//useMavenLocal = true
+//// task to add gradle wrapper files.
+//task("wrapper", type: Wrapper) {
+//    gradleVersion = project.gradleVersion
+//    distributionUrl = "https://services.gradle.org/distributions/" +
+//            "gradle-${gradleVersion}-all.zip"
+//}
 
 //gradle dist -x test ==> This will exclude [test]
 //task dist(dependsOn: [compile, test]) << {

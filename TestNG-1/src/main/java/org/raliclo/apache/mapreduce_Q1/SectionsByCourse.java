@@ -25,7 +25,7 @@ public class SectionsByCourse {
             args[0] = Paths.get("").toAbsolutePath().toString()
                     .concat("/src/main/java/org/raliclo/apache/mapreduce_Q1/input");
             args[1] = Paths.get("").toAbsolutePath().toString()
-                    .concat("/src//main/java/org/raliclo/apache/mapreduce_Q1/output");
+                    .concat("/src/main/java/org/raliclo/apache/mapreduce_Q1/output");
         }
 
         java.nio.file.Path path = Paths.get(args[1]);

@@ -81,5 +81,5 @@ process.stdin.on("data", function (input) {
 process.stdin.on("end", function () {
     var beginT = new Date();
     processData(_input)
-    console.log("Time Elapsed:" + (new Date() - beginT));
+    console.log("Time Elapsed:" + (new Date() - beginT) + "msec");
 });

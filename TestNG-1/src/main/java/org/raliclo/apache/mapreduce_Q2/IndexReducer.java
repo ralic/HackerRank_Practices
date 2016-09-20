@@ -14,7 +14,9 @@ public class IndexReducer extends
 
         String finalText = "";
         for (Text item : filenameCounts) {
-            finalText = finalText.concat(item.toString()).concat(",");
+            finalText = finalText
+                    .concat(item.toString())
+                    .concat(",");
         }
 
         context.write(

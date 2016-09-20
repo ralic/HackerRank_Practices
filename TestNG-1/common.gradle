@@ -5,8 +5,13 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
-String mavenGroupId = 'org.ralic'
-String mavenVersion = '1.2-SNAPSHOT'
+
+
+mavenGroupId = 'org.ralic'
+mavenVersion = '1.2-SNAPSHOT'
+group = mavenGroupId
+version = mavenVersion
+mavenArtifactId = name
 
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
@@ -21,10 +26,7 @@ dependencies {
     // Adding dependencies here will add the dependencies to each subproject.
 }
 
-String mavenArtifactId = name
 
-group = mavenGroupId
-version = mavenVersion
 
 task sourcesJar(type: Jar, dependsOn: classes, description: 'Creates a jar from the source files.') {
     classifier = 'sources'
