@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="Added Golang Support Again">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" afterPath="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/golang.iml" afterPath="$PROJECT_DIR$/src/main/golang/golang.iml" />
     </list>
     <list id="f5791ac9-382b-4d65-b766-4f1ce32906bb" name="Rejected commit: Default" comment="Update Project Files">
@@ -116,8 +116,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="297" column="14" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
+            <state relative-caret-position="-210">
+              <caret line="299" column="18" lean-forward="true" selection-start-line="299" selection-start-column="18" selection-end-line="299" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -974,7 +974,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/SpringQRCode/RestAPI/QRCodeRest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRCode/QRCodeDataFormat.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/RobotHand/RobotHand.java" />
@@ -1025,6 +1024,7 @@
         <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/k-nucleotide.js" />
         <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" />
       </list>
     </option>
   </component>
@@ -1152,6 +1152,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BenchmarkGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1212,7 +1304,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.k-nucleotide.js">
+  <component name="RunManager" selected="Go Single File.go run spectral-norm.go">
     <configuration default="false" name="Spectral_Norm_Scala (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1277,6 +1369,12 @@
       <method />
     </configuration>
     <configuration default="false" name="k-nucleotide.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="k-nucleotide.js" working-dir="$PROJECT_DIR$/src/main/javascript/BenchmarkGame">
+      <method />
+    </configuration>
+    <configuration default="false" name="go run spectral-norm.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -2135,7 +2233,7 @@
       </RunnerSettings>
       <method />
     </configuration>
-    <list size="13">
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Application.SpectralNorm_Java" />
       <item index="1" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala" />
       <item index="2" class="java.lang.String" itemvalue="Groovy.:NGreport" />
@@ -2149,13 +2247,15 @@
       <item index="10" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaObj" />
       <item index="11" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaApp" />
       <item index="12" class="java.lang.String" itemvalue="Node.js.k-nucleotide.js" />
+      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run spectral-norm.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.k-nucleotide.js" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaObj" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run spectral-norm.go" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.k-nucleotide.js" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaObj" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -2253,14 +2353,7 @@
       <workItem from="1474409968836" duration="1646000" />
       <workItem from="1474411745139" duration="10378000" />
       <workItem from="1474428115484" duration="159000" />
-      <workItem from="1474428315478" duration="926000" />
-    </task>
-    <task id="LOCAL-00004" summary="Update License File">
-      <created>1472965816458</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1472965816458</updated>
+      <workItem from="1474428315478" duration="1370000" />
     </task>
     <task id="LOCAL-00005" summary="Update info">
       <created>1472966598557</created>
@@ -2598,7 +2691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474429137124</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added Golang Support Again">
+      <created>1474429264815</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1474429264816</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2634,7 +2734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337905000" />
+    <option name="totallyTimeSpent" value="338349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2647,10 +2747,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32612056" sideWeight="0.38772213" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35703245" sideWeight="0.30129242" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2667,11 +2767,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.4838449" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3580247" sideWeight="0.7027464" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35703245" sideWeight="0.6987076" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32302937" sideWeight="0.68416804" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30448222" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32612056" sideWeight="0.61227787" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35541195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.61227787" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35541195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -2768,7 +2868,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Update Test Report Format" />
     <MESSAGE value="Stable Update&#10;" />
     <MESSAGE value="Update Gradle bootRun, bootRepackage" />
     <MESSAGE value="Stable Update" />
@@ -2793,7 +2892,8 @@
     <MESSAGE value="Output for mapreduce programming" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Stable Update, No JavaFX Port , Golang support." />
-    <option name="LAST_COMMIT_MESSAGE" value="Stable Update, No JavaFX Port , Golang support." />
+    <MESSAGE value="Added Golang Support Again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Golang Support Again" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2897,13 +2997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/io/LongWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseCombiner_2ndExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -3098,13 +3191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/Basic/hello.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/fasta-redux.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -3226,10 +3312,26 @@
     </entry>
     <entry file="jar:///usr/local/Cellar/gradle/3.0/libexec/lib/gradle-core-3.0.jar!/org/gradle/api/Project.class" />
     <entry file="jar:///usr/local/Cellar/gradle/3.0/libexec/lib/gradle-core-3.0.jar!/org/gradle/api/DomainObjectCollection.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/golang/Basic/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/BenchmarkGame/spectral-norm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="297" column="14" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
+        <state relative-caret-position="-210">
+          <caret line="299" column="18" lean-forward="true" selection-start-line="299" selection-start-column="18" selection-end-line="299" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -3318,7 +3420,6 @@
             <option name="proportions">
               <list>
                 <option value="0.24166666" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

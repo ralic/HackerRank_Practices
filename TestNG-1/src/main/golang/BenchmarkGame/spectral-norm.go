@@ -3,10 +3,10 @@ package main
 
 import (
 	"flag"
-	"strconv"
-	"runtime"
 	"fmt"
 	"math"
+	"runtime"
+	"strconv"
 	"time"
 )
 
@@ -64,7 +64,7 @@ func main() {
 	if flag.NArg() > 0 {
 		n, _ = strconv.Atoi(flag.Arg(0))
 	} else {
-		n=5500
+		n = 5500
 	}
 	runtime.GOMAXPROCS(nCPU)
 
@@ -84,5 +84,5 @@ func main() {
 	}
 	fmt.Printf("%0.9f\n", math.Sqrt(vBv / vv))
 	elapsed := time.Since(start)
-	fmt.Println("Time Elapsed:",elapsed)
+	fmt.Println("Time Elapsed:", elapsed)
 }
