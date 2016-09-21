@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming-kafka_2.11/1.6.2/dfe4bc0332e19bd9b13419a922fc68531a8d4f72/spark-streaming-kafka_2.11-1.6.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming-kafka_2.11/1.6.2/fc9b2917c4b4abc1cf1e815b26f523c7dda064d4/spark-streaming-kafka_2.11-1.6.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-streaming-kafka_2.11/1.6.2/6009a4eca7a08fa90ee649dd5626ab7cc778a2e2/spark-streaming-kafka_2.11-1.6.2-sources.jar!/" />
     </SOURCES>

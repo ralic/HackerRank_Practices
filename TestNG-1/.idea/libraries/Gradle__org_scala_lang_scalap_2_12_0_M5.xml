@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scalap/2.12.0-M5/e8a9e7ff856614fd1f757925f8c3918ce9bb4c9b/scalap-2.12.0-M5.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scalap/2.12.0-M5/eac39cb34dca3af02018115e37dd452f0387b4b/scalap-2.12.0-M5-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scalap/2.12.0-M5/d611da11f3d9e1d413876c2ba84ac683953ef2f0/scalap-2.12.0-M5-sources.jar!/" />
     </SOURCES>

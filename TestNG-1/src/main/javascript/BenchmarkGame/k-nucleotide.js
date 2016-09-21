@@ -8,7 +8,7 @@
  Ported, modified, and parallelized by Roman Pletnev
  */
 
-var rd = require('readline'), cp = require('child_process');
+let rd = require('readline'), cp = require('child_process');
 
 function RefNum(num) {
     this.num = num;
@@ -19,21 +19,21 @@ RefNum.prototype.toString = function () {
 };
 
 function frequency(seq, length) {
-    let freq = new Map(), n = seq.length - length + 1, key, cur, i = 0;
+    let freq = new Map(), n = seq.length - length + 1,
+        i = 0;
     for (; i < n; ++i) {
-        key = seq.substr(i, length);
-        cur = freq.get(key);
+        let key = seq.substr(i, length);
+        let cur = freq.get(key);
         cur === undefined ? freq.set(key, new RefNum(1)) : ++cur.num;
     }
     return freq;
 }
 
 function sort(seq, length) {
-    let f = frequency(seq, length), keys = Array.from(f.keys()),
+    let f = frequency(seq, length),
+        keys = Array.from(f.keys()),
         n = seq.length - length + 1, res = '';
-    keys.sort((a, b) => f.get(b) - f.get(a)
-    )
-    ;
+    keys.sort((a, b) => f.get(b) - f.get(a));
     for (let key of keys) res +=
         key.toUpperCase() + ' ' + (f.get(key) * 100 / n).toFixed(3) + '\n';
     res += '\n';

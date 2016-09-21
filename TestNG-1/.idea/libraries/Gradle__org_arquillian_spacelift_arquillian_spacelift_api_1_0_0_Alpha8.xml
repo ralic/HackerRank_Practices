@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.spacelift/arquillian-spacelift-api/1.0.0.Alpha8/f7bee9b1c46ed9ea41d41471f25df1567e601127/arquillian-spacelift-api-1.0.0.Alpha8.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.spacelift/arquillian-spacelift-api/1.0.0.Alpha8/60fc61a5728cd40959ce8eebf6cc1fb571770098/arquillian-spacelift-api-1.0.0.Alpha8-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.spacelift/arquillian-spacelift-api/1.0.0.Alpha8/707ed6bc833ee54b487b6c0e3de9984e4f568ee5/arquillian-spacelift-api-1.0.0.Alpha8-sources.jar!/" />
     </SOURCES>

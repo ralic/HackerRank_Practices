@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-log4j-appender/0.10.0.1/ee40a4d50830e2cc7d6dfd2586cfb2ed8fb187f6/kafka-log4j-appender-0.10.0.1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-log4j-appender/0.10.0.1/d09601efe58d797067555f1fa2b635b7481cc71/kafka-log4j-appender-0.10.0.1-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-log4j-appender/0.10.0.1/a6c4e6d66ec54e2ef355f8658e3d57884cec1b54/kafka-log4j-appender-0.10.0.1-sources.jar!/" />
     </SOURCES>

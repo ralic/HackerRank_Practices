@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api/2.1.0/d7c60a84858d9293171284b071611a2c3d10ff84/shrinkwrap-resolver-api-2.1.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api/2.1.0/f0584fc3b00f2b064af0748bb17dc2395cc024f2/shrinkwrap-resolver-api-2.1.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-api/2.1.0/8d8606530c9de298a9a4e56afe324cf982ddf907/shrinkwrap-resolver-api-2.1.0-sources.jar!/" />
     </SOURCES>

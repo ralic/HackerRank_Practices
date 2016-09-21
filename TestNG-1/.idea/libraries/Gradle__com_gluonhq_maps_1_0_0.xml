@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/maps/1.0.0/2b17192ee8faeb7d476dd17bbeeb2aa16853ff9a/maps-1.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/maps/1.0.0/46832ea7e4652ddae1778af9c65b86861686c527/maps-1.0.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/maps/1.0.0/1c65e3a79f5d43c2817514272fc95ceedb158bc8/maps-1.0.0-sources.jar!/" />
     </SOURCES>

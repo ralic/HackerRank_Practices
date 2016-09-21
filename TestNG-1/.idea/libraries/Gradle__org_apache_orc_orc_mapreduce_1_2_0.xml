@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-mapreduce/1.2.0/7fb2c6c698c90bb7dc19f2dac3a153c6b55f02b9/orc-mapreduce-1.2.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-mapreduce/1.2.0/ba23f94db3a040159c2879bb73ca4e74e02ff144/orc-mapreduce-1.2.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.orc/orc-mapreduce/1.2.0/c7a0549c7fe5a699758602bc9ad1d8ee6e65f2c3/orc-mapreduce-1.2.0-sources.jar!/" />
     </SOURCES>

@@ -1,4 +1,4 @@
-package Basic
+package Basic_Object_Class
 
 /**
   * Created by raliclo on 8/30/16.
@@ -6,16 +6,16 @@ package Basic
   */
 
 
-object Point {
+object PointObj {
   def main(args: Array[String]) {
-    val pt = new Point(10, 20);
+    val pt = new PointClass(10, 20);
 
     // Move to a new location
     pt.move(10, 10);
   }
 }
 
-class Point(val xc: Int, val yc: Int) {
+class PointClass(val xc: Int, val yc: Int) {
   var x: Int = xc
   var y: Int = yc
 

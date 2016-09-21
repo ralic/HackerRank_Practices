@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-hadoop-producer/0.8.2.2/685aa50923298cd77a5ec3b147561fb293fc0573/kafka-hadoop-producer-0.8.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-hadoop-producer/0.8.2.2/8099352015ab6647a4f0847c9069c99f4136964f/kafka-hadoop-producer-0.8.2.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-hadoop-producer/0.8.2.2/48bb0e2169f65a44fa31cc26fbf3e253f88f3ef1/kafka-hadoop-producer-0.8.2.2-sources.jar!/" />
     </SOURCES>

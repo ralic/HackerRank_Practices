@@ -9,8 +9,9 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.concurrent.duration._
 
+// Note , the app may have problem.
 
-object Spectral_Norm_Scala extends App {
+object Spectral_Norm_ScalaApp extends App {
   val n = if (args.length > 0) args(0).toInt else 5500
   val start = System.currentTimeMillis
   val u, v, tmp = Array.fill(n)(1.0)

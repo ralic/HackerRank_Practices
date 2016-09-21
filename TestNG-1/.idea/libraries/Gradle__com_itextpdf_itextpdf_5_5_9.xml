@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.9/af7e24e11af3aeb7f25dfe342b050dd1618f2a54/itextpdf-5.5.9.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.9/453015595b30cda42d2e4c9d0bc2f90efbcf8a2d/itextpdf-5.5.9-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.itextpdf/itextpdf/5.5.9/287955811c52cf0218f3f5266e51f6b797b3164f/itextpdf-5.5.9-sources.jar!/" />
     </SOURCES>
