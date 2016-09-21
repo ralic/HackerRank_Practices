@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-nd4j-common/0.0.0.17/85b0ad33d40f8b5cf08f2b9bcb89cf9b1b8c9569/canova-nd4j-common-0.0.0.17.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-nd4j-common/0.0.0.17/36ff8c7e0befd7841711e3361c4fad71425b6bee/canova-nd4j-common-0.0.0.17-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-nd4j-common/0.0.0.17/21d2c1b48308c225b4aba202f88d7ba3031550fa/canova-nd4j-common-0.0.0.17-sources.jar!/" />
     </SOURCES>

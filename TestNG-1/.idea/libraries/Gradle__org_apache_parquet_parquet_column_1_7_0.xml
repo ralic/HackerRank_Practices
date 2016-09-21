@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.parquet/parquet-column/1.7.0/87b549ad6981c2484cf2c800dae17dde027b6c3d/parquet-column-1.7.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.parquet/parquet-column/1.7.0/4cec26ff2e0f1e1aa56d5f8a60f0f8995240207b/parquet-column-1.7.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.parquet/parquet-column/1.7.0/c4bb4a47769b733fb0712b41732ed3bbdc40c975/parquet-column-1.7.0-sources.jar!/" />
     </SOURCES>

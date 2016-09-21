@@ -4,15 +4,14 @@ package BenchmarkGame
   * Created by raliclo on 8/29/16.
   * Project Name : TestNG-1
   */
-class spectral_norm {
-
-}
 
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent._
 import scala.concurrent.duration._
 
-object spectral_norm extends App {
+// Note , the app may have problem.
+
+object Spectral_Norm_ScalaApp extends App {
   val n = if (args.length > 0) args(0).toInt else 5500
   val start = System.currentTimeMillis
   val u, v, tmp = Array.fill(n)(1.0)
@@ -27,11 +26,11 @@ object spectral_norm extends App {
   val threads = Runtime.getRuntime.availableProcessors
   val chunkSize = 1 + n / threads
   val chunks = (0 until threads) map { t => (chunkStart(t), chunkEnd(t)) }
+
+  printf("%.09f\n", work(chunks))
   val totalTime = System.currentTimeMillis - start
 
   def chunkStart(t: Int) = t * chunkSize
-
-  printf("%.09f\n", work(chunks))
 
   def chunkEnd(t: Int) = ((t + 1) * chunkSize) min n
 
@@ -79,5 +78,6 @@ object spectral_norm extends App {
     }
     math.sqrt(vbv / vv)
   }
+
   println("Elapsed time: %1d ms".format(totalTime))
 }

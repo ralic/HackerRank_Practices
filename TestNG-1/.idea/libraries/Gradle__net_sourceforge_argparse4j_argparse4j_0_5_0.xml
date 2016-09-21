@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.5.0/701046e9aaaa4a23d45b2d21e3d865426ffb571f/argparse4j-0.5.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.5.0/40dfa1fac3537d7a3c922944a32a5cb90609c194/argparse4j-0.5.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.argparse4j/argparse4j/0.5.0/fa8058101fe584a985352c7d6e2125cf9befcf00/argparse4j-0.5.0-sources.jar!/" />
     </SOURCES>

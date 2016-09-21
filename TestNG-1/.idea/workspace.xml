@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0a4f08-1df6-4e6b-93ff-d36a78b4f5ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/golang.iml" afterPath="$PROJECT_DIR$/src/main/golang/golang.iml" />
     </list>
     <list id="f5791ac9-382b-4d65-b766-4f1ce32906bb" name="Rejected commit: Default" comment="Update Project Files">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/cache.properties" afterPath="" />
@@ -11,9 +13,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshots.bin" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/3.0-20160712001602+0000/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_badlogicgames_gdx_gdx_1_9_3.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_0_0_beta_1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterPath="" />
@@ -47,6 +47,7 @@
     <ignored path="$PROJECT_DIR$/build/javafxports/" />
     <ignored path="$PROJECT_DIR$/build/packedBinaries/" />
     <ignored path="$PROJECT_DIR$/build/retrolambda/" />
+    <ignored path="$PROJECT_DIR$/build/src/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,23 +56,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TestNG-1$LeonardoPrimeFactors.coverage" NAME="LeonardoPrimeFactors Coverage Results" MODIFIED="1472890885110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.raliclo.HackerRank_Competitions.Contests.AdInfinitum16.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TestNG-1$SectionsByCourse.coverage" NAME="SectionsByCourse Coverage Results" MODIFIED="1474108988831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.raliclo.apache.mapreduce.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestNG-1$LeonardoPrimeFactors.coverage" NAME="LeonardoPrimeFactors Coverage Results" MODIFIED="1472890885110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.raliclo.HackerRank_Competitions.Contests.AdInfinitum16.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestNG-1$ScalaObjectClass.coverage" NAME="ScalaObjectClass Coverage Results" MODIFIED="1473406078867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Basic.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestNG-1$Cucumber_Steps_Java8Test_in_TestNG_1_test.coverage" NAME="Cucumber_Steps_Java8Test in TestNG-1_test Coverage Results" MODIFIED="1472800955210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TestNG-1$spectral_norm.coverage" NAME="spectral-norm Coverage Results" MODIFIED="1473328296538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
+    <SUITE FILE_PATH="coverage/TestNG-1$spectral_norm.coverage" NAME="spectral-norm Coverage Results" MODIFIED="1474403172866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/python/BenchMarkGame" />
     <SUITE FILE_PATH="coverage/TestNG-1$BackendApplication.coverage" NAME="BackendApplication Coverage Results" MODIFIED="1473328356985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.raliclo.backend.*</FILTER>
     </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -104,34 +113,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SectionsByCourse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionsByCourseMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionsByCourseReducer_2ndExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer_2ndExample.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
+              <caret line="297" column="14" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,37 +196,6 @@
                 <option name="name" value="compileTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="apkDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes ios resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processIosResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="ios" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes desktop resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processDesktopResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the desktop Scala source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDesktopScala" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dex" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="collectMultiDexComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jar" />
@@ -253,10 +211,6 @@
                 <option name="name" value="requireJs" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processAndroidResourcesDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs tests on the JUnit Platform." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="junitPlatformTest" />
@@ -267,33 +221,14 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Converts all java 8 class files to java 6 or 7" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileRetrolambda" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates desktop Avro protocol definition files from IDL files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDesktopAvroProtocol" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'TestNG-1'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileRetrolambdaEmbedded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles desktop classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="desktopClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -308,11 +243,6 @@
                 <option name="name" value="minifiy8_src/main/javascript/BookingFE/Contest/TheGPSCoordination.js" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates embedded Avro Java source files from schema/protocol definition files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateEmbeddedAvroJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Create a lock file in build/&lt;configured name&gt;" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateLock" />
@@ -322,37 +252,14 @@
                 <option name="name" value="minifiy7_src/main/javascript/BookingFE/Contest/TheElevatorSuperstition.js" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates desktop Avro Java source files from schema/protocol definition files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDesktopAvroJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="shrinkMultiDexComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'TestNG-1'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyJarToEmbeddedPlatform" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a release Android apk containing the JavaFX application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="androidRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles desktop Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDesktopJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
@@ -370,29 +277,9 @@
                 <option name="name" value="jshint" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles android Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileAndroidJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates ios Avro protocol definition files from IDL files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateIosAvroProtocol" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Launch the application on an iPad simulator." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="launchIPadSimulator" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Move the generated lock file into the project directory" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="saveLock" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles android classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="androidClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Bundles the project as a distribution." />
@@ -410,19 +297,9 @@
                 <option name="name" value="jsdoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Compiles the embedded Scala source." />
+                <option name="description" value="Sets up folder structure needed for the karma plugin" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileEmbeddedScala" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes the ios Antlr grammars." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateIosGrammarSource" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes android resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processAndroidResources" />
+                <option name="name" value="karmaInit" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
@@ -434,22 +311,9 @@
                 <option name="name" value="minifiy10_src/main/javascript/BookingFE/Contest/TheTrainScheduling.js" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="apkRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeAndroidResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles embedded Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileEmbeddedJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates main Avro Java source files from schema/protocol definition files." />
@@ -457,19 +321,19 @@
                 <option name="name" value="generateAvroJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates ios Avro Java source files from schema/protocol definition files." />
+                <option name="description" value="Executes karma tests in watch mode" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateIosAvroJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles ios classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="iosClasses" />
+                <option name="name" value="karmaWatch" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Convert Java properties files for use with JavaScript" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="props2js" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs dependencies needed for running karma tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="karmaDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -499,18 +363,9 @@
                 <option name="name" value="clearReports" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileRetrolambdaTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Processes the main Antlr grammars." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateGrammarSource" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the android Scala source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileAndroidScala" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'TestNG-1'." />
@@ -528,16 +383,6 @@
                 <option name="name" value="npmSetup" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles embedded classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="embeddedClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Links executable 'main:executable'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="linkMainExecutable" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -545,11 +390,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="runEasy" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Launch the application on a connected android device." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="androidInstall" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -566,25 +406,9 @@
                 <option name="name" value="npmInstall" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="validateSigningRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Compiles the main Scala source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileScala" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="zipalignDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="validateSigningDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileRetrolambdaMain" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a JVM application" />
@@ -597,21 +421,6 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Processes the embedded Antlr grammars." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateEmbeddedGrammarSource" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs a development image of executable 'main:executable'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="installMainExecutable" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates embedded Avro protocol definition files from IDL files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateEmbeddedAvroProtocol" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Download and install a local node/npm version." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="nodeSetup" />
@@ -621,31 +430,13 @@
                 <option name="name" value="compile" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates android Avro Java source files from schema/protocol definition files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateAndroidAvroJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeAndroidAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="startScripts" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeClassesIntoJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="runCountSite" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes the android Antlr grammars." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateAndroidGrammarSource" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the main distributions" />
@@ -656,10 +447,6 @@
                 <option name="description" value="Runs the unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createMainDexList" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
@@ -677,10 +464,6 @@
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="zipalignRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
@@ -690,13 +473,9 @@
                 <option name="name" value="minifiy9_src/main/javascript/BookingFE/Contest/TheTemperatureConfiguration.js" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Refreshes the generated karma config file" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileRetrolambdaAndroid" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Launch the application on a remote embedded platform." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="runEmbedded" />
+                <option name="name" value="karmaRefresh" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Bundles the project as a distribution." />
@@ -707,29 +486,6 @@
                 <option name="description" value="Combine many JavaScript files into one" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="combineJs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates android Avro protocol definition files from IDL files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateAndroidAvroProtocol" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes the desktop Antlr grammars." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="generateDesktopGrammarSource" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles ios Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileIosJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="validateManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createDefaultIOSLauncher" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes the test Antlr grammars." />
@@ -744,11 +500,6 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a debug Android apk containing the JavaFX application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="android" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
@@ -771,10 +522,6 @@
                 <option name="name" value="saveGlobalLock" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="copyEmbeddedDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare the gh-pages changes locally" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareGhPages" />
@@ -790,29 +537,9 @@
                 <option name="name" value="aggregate" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles executable 'main:executable'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mainExecutable" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Generates test Avro Java source files from schema/protocol definition files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateTestAvroJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates an iOS ipa containing the JavaFX application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="createIpa" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Launch the application on an iPhone simulator." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="launchIPhoneSimulator" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the ios Scala source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileIosScala" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -824,19 +551,9 @@
                 <option name="name" value="html2js" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Launch the application on a connected ios device." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="launchIOSDevice" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Generates main Avro protocol definition files from IDL files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateAvroProtocol" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs this program as a JVM application for debugging" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="debug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -868,8 +585,9 @@
                 <option name="name" value="gzipJs" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Executes karma tests" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="embeddedJar" />
+                <option name="name" value="karmaRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -886,8 +604,18 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates the karma config file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="karmaGenerateConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="NGreport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the generated karma config file and removes the dependencies" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="karmaClean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -908,18 +636,9 @@
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processAndroidResourcesRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'TestNG-1'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes embedded resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processEmbeddedResources" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -930,7 +649,7 @@
       <map>
         <entry key="$USER_HOME$/IdeaProjects/poi" value="2936662776000" />
         <entry key="$PROJECT_DIR$/../../#LeetCode_Practices/TestNG-1" value="4406368076000" />
-        <entry key="$PROJECT_DIR$" value="4420902982000" />
+        <entry key="$PROJECT_DIR$" value="4422185677000" />
         <entry key="$PROJECT_DIR$/../../LeetCode_Practices/TestNG-1" value="4416929943000" />
         <entry key="$PROJECT_DIR$/../../VRdevelop/openmapfx" value="7349367025000" />
       </map>
@@ -956,11 +675,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.0/2e2620e9fa5a421df98f58ae4e2a6ce115ed048f/jackson-core-2.8.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.0/eeed20590bf2a6e367e6e5ce33f44d353881fa23/jackson-core-2.8.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-gradle-plugin/1.1.9/8586fdf0bb972e30e9769d4ae6d4d27d9767a7e1/serenity-gradle-plugin-1.1.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javafxports/jfxmobile-plugin/1.0.8/7910346f1c839621b96aba67daed251c8bc54580/jfxmobile-plugin-1.0.8.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/gradle-appengine-plugin/1.9.42/3e2afb385f1f4e9ca2bf59da4f251139bc8d6b40/gradle-appengine-plugin-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.eriwen/gradle-js-plugin/2.14.1/170c770cb42f6fdee7bdf4579131d63cbad8eec2/gradle-js-plugin-2.14.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moowork.gradle/gradle-node-plugin/0.13/336e6b964f13b13ae83474c95797c3947271a161/gradle-node-plugin-0.13-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.moowork.gradle/gradle-node-plugin/0.13/d0c389f5ae768a0a7cb152bcb22e9c49dbd739e1/gradle-node-plugin-0.13.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.craigburke.gradle/karma-gradle/1.4.3/9ab0f7142d6adb05d1e873f1878f8c1d5d2038ec/karma-gradle-1.4.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.commercehub.gradle.plugin/gradle-avro-plugin/0.9.0/62de75db29b0b94c2d135a308dfc04be91d9fb85/gradle-avro-plugin-0.9.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0-M2/b86699b26cf9ddb32d0516aebe9b7e37a84ce5f5/junit-platform-console-1.0.0-M2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0-M2/e5976edd133c6966f56471d37bf89f86f86df62c/junit-platform-console-1.0.0-M2.jar" />
@@ -990,9 +709,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.10/e6fc2dc8fe2512efa0e78a2c0ae52ea1d724106d/groovy-all-2.3.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.1.9/8597d02ff44ae8762939a8dc87a2794530a984f6/serenity-core-1.1.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.1.9/f7ecb76b113efeb45e2bc7325db1c8a9ee05535e/serenity-core-1.1.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.1.0/522472f1302bfd203089d31fe1eb08b789f28f2f/gradle-1.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.robovm/robovm-dist-compiler/1.8.0/f99c689af5bfb405c65bfb0d97a0bc679db236d4/robovm-dist-compiler-1.8.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.tatarka/gradle-retrolambda/3.0.1/3334ce8473b25c73018791fe8ae089aec29f9d35/gradle-retrolambda-3.0.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-local-endpoints/1.9.42/9a36fa948866b9f747a98196788d8d46636f4379/appengine-local-endpoints-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/gradle-appengine-builder-model/0.1.0/30ac981a2bd9a49823f026662534136217ef7c7f/gradle-appengine-builder-model-0.1.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.javascript/closure-compiler/v20160208/5a2f4be6cf41e27ed7119d26cb8f106300d87d91/closure-compiler-v20160208.jar" />
@@ -1072,7 +788,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bdacf4f82ce9b29cd474bfde2e91eeb0ca623d28/config-1.2.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/jsoup-1.8.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/1.1.0/8bffc0f7a182f540c6876279eb0ae36d8b5e046/gradle-core-1.1.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-tools-sdk/1.9.42/bf3cec2fc9a9ed8f4de36e17fc61c44a8d9df935/appengine-tools-sdk-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-endpoints/1.9.42/5c25efed254f8f9846d04b156e68283055efd320/appengine-endpoints-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/21599814ad9a605b86f3e6381571beccd861a32/servlet-api-2.5-sources.jar" />
@@ -1133,9 +848,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.30/c440b30a944ba199751551aee393f8aa03b3c327/jcommander-1.30.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.1.3.GA/64499e907f19e5e1b3fdc02f81440c1832fe3545/jboss-logging-3.1.3.GA.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.0.0/434efef28c81162b17c540e634cffa3bd9b09b4c/classmate-1.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/1.1.0/4a93937fea291dda4429a8edac37941f823b63a0/builder-1.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/24.1.0/b290f4004a5629272c418817af2899532074484/lint-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/5.1/672d43cbfde4765080e5bea19c51a2cc45dfc00/proguard-gradle-5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-api-1.0-sdk/1.9.42/c972bc847992e5512eb4338a38cc2392e56760f6/appengine-api-1.0-sdk-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/dda6e29e9450d82e04d7fc9d686d96b93c94116/paranamer-2.7-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.paranamer/paranamer/2.7/3ed64c69e882a324a75e890024c32a28aff0ade8/paranamer-2.7.jar" />
@@ -1164,31 +876,12 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.2.11.v20150529/5f547da1eb601c2a4697ecfeb425f8f6961800c3/jetty-util-9.2.11.v20150529.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.11.v20150529/8d13b907fcc1bc190901f6842752fc6be8d406cf/jetty-io-9.2.11.v20150529.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.2.11.v20150529/3df0afdd4a9cf3ba9b6fe48226cc8917ee2a14f5/websocket-common-9.2.11.v20150529.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/1.1.0/2d6509052ec50b7a4656c43a92a6550c88dc7a97/builder-model-1.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/1.1.0/3d7a12067241871da8e3b8068d04115b8d674fc0/builder-test-api-1.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/24.1.0/b018c7d1b32bb94513df6f86e4d0172e05c88502/sdklib-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/24.1.0/3a9865958bd5cffe94bfcd2e4982bec361b20132/sdk-common-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/24.1.0/9286b07233acf19ab794ca2a3c2d34e322fe686c/common-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/24.1.0/a832aa3ca2490f2f136031e677d28fdadaa5dfdd/manifest-merger-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/24.1.0/4bc7008e373e3ebf21bfce712ce608958b33ed5f/ddmlib-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/24.1.0/c394f6a07698272eda27e91007f9ec409bc7a9d7/lint-checks-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.4/fe0a961ce7cca03dd3c9b3775c0133229e8231a6/ecj-4.4.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/5.1/dc606dd778fe4685be16d5a171782ccfe0ef5637/proguard-base-5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/2.46.0/729394bd92eca8a3749fc8ace1b3304c8ed0ae07/selenium-remote-driver-2.46.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/efd2543e352e55ce5a685eed6db8af028b737905/commons-exec-1.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.2.11.v20150529/ded6ab7af4989e92efe5f602a57e231dc1ffa319/websocket-api-9.2.11.v20150529.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/24.1.0/c46621fcff318b446a44c2c6a8955fad55943d9d/annotations-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/24.1.0/63415f186b7b45f484b4f30e397d896161a2007e/layoutlib-api-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/24.1.0/4b9aacb441f6606c1db38e9439835051c9de949d/dvlib-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/24.1.0/9a6402908bd51daff42be25133460d41ebf87aa5/lint-api-24.1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.46.0/7c0cbf344f94b821954b0fb2a11fc3f0852d4195/selenium-api-2.46.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.3/528b6f8bde3157f17530aa366631f2aad2a6cf9/lombok-ast-0.2.3.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -1281,30 +974,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarHeaders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarHeader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarEntryTimings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarEntry.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarEntries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarDatabaseConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCustomFields.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCookies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCookie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarContent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCacheRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/AbstractNameValueComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/tools/HarFileWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/test/AllTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/test/HarFileReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/test/HarFileWriterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/test/ISO8601DateFormatterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/test/HarJDBCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/post/HarPostTextLine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/post/HarPostTextLines.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/tools/HarFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/SpringQRCode/RestAPI/QRCodeRest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRCode/QRCodeDataFormat.java" />
@@ -1320,18 +989,42 @@
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/RestAPI/QRCodeRest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/raliclo/apache/QRCodeDataFormatTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/output/part-r-00000" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseCombiner_WrongExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer_WrongExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer_2ndExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/MapReduceIndexing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/Index_MR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file0.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file1.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file3.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexCombiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/output/IndexMapper2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMapper2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMainJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourse.java" />
+        <option value="$PROJECT_DIR$/common.gradle" />
+        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/spectral-norm.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/spectral_norm.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Basic/ScalaObjectClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/Spectral_Norma_Scala.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Basic/Point.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Basic/PointClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/Spectral_Norma_ScalaClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/javascript/BenchmarkGame/k-nucleotide.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1345,8 +1038,10 @@
     <treeState />
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/src/main/javascript/IoT/ZeroMQ/node_modules" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -1378,6 +1073,9 @@
             <id>CorrectnessLintAndroid</id>
           </State>
           <State>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
+          </State>
+          <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
@@ -1404,7 +1102,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>JsonDuplicatePropertyKeys</id>
+            <id>ECMAScript 6 migration aidsJavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -1454,226 +1152,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raliclo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raliclo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapreduce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raliclo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapreduce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raliclo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapreduce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raliclo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.24166666" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="GO_FMT" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
@@ -1682,8 +1174,12 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/raliclo/apache" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.5.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.raliclo.WordCountWeb.RestAPI.dataApp" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.raliclo.WordCountWeb.src" />
     </key>
@@ -1694,6 +1190,20 @@
       <recent name="org.raliclo.apache.camelexample" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce" />
+      <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelexample/zx" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.raliclo.apache.mapreduce_Q2.output" />
+      <recent name="org.raliclo.apache.mapreduce_Q2" />
+      <recent name="org.raliclo.WordCountWeb.RestAPI.impl" />
+      <recent name="org.raliclo.WordCountWeb.RestAPI.service" />
+      <recent name="org.raliclo.WordCountWeb.src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -1701,36 +1211,42 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/Data" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce" />
-      <recent name="$PROJECT_DIR$/input" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelexample/zx" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.raliclo.WordCountWeb.RestAPI.impl" />
-      <recent name="org.raliclo.WordCountWeb.RestAPI.service" />
-      <recent name="org.raliclo.WordCountWeb.src" />
-      <recent name="org.raliclo.Files_Path_Operation" />
-      <recent name="LeetCode" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="org.raliclo.WordCountWeb.RestAPI.dataApp" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.SectionsByCourse">
-    <configuration default="false" name="SectionsByCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.k-nucleotide.js">
+    <configuration default="false" name="Spectral_Norm_Scala (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.raliclo.apache.mapreduce.*" />
+          <option name="PATTERN" value="BenchmarkGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.raliclo.apache.mapreduce.SectionsByCourse" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.Spectral_Norm_Scala" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Spectral_Norm_ScalaObj" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BenchmarkGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.Spectral_Norm_ScalaObj" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1738,21 +1254,29 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TestNG-1_main" />
       <envs />
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-      </RunnerSettings>
       <method />
     </configuration>
-    <configuration default="false" name="QRCodeRest (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Spectral_Norm_ScalaApp" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.raliclo.apache.camelQRcode.RestAPI.*" />
+          <option name="PATTERN" value="BenchmarkGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.raliclo.apache.camelQRcode.RestAPI.QRCodeRest" />
-      <module name="TestNG-1" />
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.Spectral_Norm_ScalaApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="k-nucleotide.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="k-nucleotide.js" working-dir="$PROJECT_DIR$/src/main/javascript/BenchmarkGame">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1993,6 +1517,26 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2069,6 +1613,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -2098,6 +1648,13 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
@@ -2154,28 +1711,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
-      <module name="" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-      </RunnerSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaScriptRunConfiguration" factoryName="Scala Script">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="consoleargs" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-      </RunnerSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2189,9 +1724,6 @@
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
       <envs />
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-      </RunnerSettings>
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
@@ -2432,6 +1964,52 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="SpectralNorm_Java" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BenchmarkGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.SpectralNorm_Java" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Spectral_Norm_Scala" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="BenchmarkGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="BenchmarkGame.Spectral_Norm_Scala" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+      </RunnerSettings>
+      <method />
+    </configuration>
     <configuration default="false" name=":NGreport" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="TestNG-1" />
       <setting name="path" value="file://$PROJECT_DIR$/build.gradle" />
@@ -2557,26 +2135,32 @@
       </RunnerSettings>
       <method />
     </configuration>
-    <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.:NGreport" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.myMinify" />
-      <item index="2" class="java.lang.String" itemvalue="Groovy.bootRun" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ScalaTest.ShouldBeTest" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.Spring_WordCountSite" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.SimpleTest" />
-      <item index="7" class="java.lang.String" itemvalue="Application.SectionsByCourse" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.QRCodeRest (1)" />
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Application.SpectralNorm_Java" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala" />
+      <item index="2" class="java.lang.String" itemvalue="Groovy.:NGreport" />
+      <item index="3" class="java.lang.String" itemvalue="Groovy.myMinify" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.bootRun" />
+      <item index="5" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="6" class="java.lang.String" itemvalue="ScalaTest.ScalaTest.ShouldBeTest" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.Spring_WordCountSite" />
+      <item index="8" class="java.lang.String" itemvalue="TestNG.SimpleTest" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala (1)" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaObj" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaApp" />
+      <item index="12" class="java.lang.String" itemvalue="Node.js.k-nucleotide.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SectionsByCourse" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.QRCodeRest (1)" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.k-nucleotide.js" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Spectral_Norm_ScalaObj" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Spectral_Norm_Scala (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1474105293894" />
+    <option name="lastUpdateTimestamp" value="1474428030103" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2650,28 +2234,26 @@
       <workItem from="1474103356638" duration="2195000" />
       <workItem from="1474105897718" duration="93000" />
       <workItem from="1474106060225" duration="4925000" />
-      <workItem from="1474135500160" duration="4277000" />
-    </task>
-    <task id="LOCAL-00001" summary="Regex Basics / Factory Pattern / Regex for DomainName">
-      <created>1472727736996</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1472727736996</updated>
-    </task>
-    <task id="LOCAL-00002" summary="PrimeFactors, SolveEquations">
-      <created>1472955681219</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1472955681219</updated>
-    </task>
-    <task id="LOCAL-00003" summary="PrimeFactors update output">
-      <created>1472955830583</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1472955830583</updated>
+      <workItem from="1474135500160" duration="18720000" />
+      <workItem from="1474260611121" duration="2417000" />
+      <workItem from="1474357216852" duration="3497000" />
+      <workItem from="1474404431794" duration="86000" />
+      <workItem from="1474404627359" duration="1370000" />
+      <workItem from="1474406121748" duration="80000" />
+      <workItem from="1474406281127" duration="1459000" />
+      <workItem from="1474407872036" duration="47000" />
+      <workItem from="1474407956122" duration="64000" />
+      <workItem from="1474408054627" duration="38000" />
+      <workItem from="1474408129849" duration="327000" />
+      <workItem from="1474408493358" duration="432000" />
+      <workItem from="1474408959446" duration="88000" />
+      <workItem from="1474409052576" duration="278000" />
+      <workItem from="1474409334141" duration="359000" />
+      <workItem from="1474409765461" duration="114000" />
+      <workItem from="1474409968836" duration="1646000" />
+      <workItem from="1474411745139" duration="10378000" />
+      <workItem from="1474428115484" duration="159000" />
+      <workItem from="1474428315478" duration="926000" />
     </task>
     <task id="LOCAL-00004" summary="Update License File">
       <created>1472965816458</created>
@@ -2946,7 +2528,77 @@
       <option name="project" value="LOCAL" />
       <updated>1474218807865</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Fixed 2nd Example">
+      <created>1474218866169</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1474218866169</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Change Folder">
+      <created>1474219970444</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1474219970444</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Cleaner code for counting.">
+      <created>1474220337136</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1474220337136</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Q2 preliminary anser">
+      <created>1474225825039</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1474225825039</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Updated Configurations">
+      <created>1474407062940</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1474407062940</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Output for mapreduce programming">
+      <created>1474407122433</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1474407122433</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Updates">
+      <created>1474412831610</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1474412831610</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Updates">
+      <created>1474413396813</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1474413396814</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Stable Update, No JavaFX Port , Golang support.">
+      <created>1474419512313</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1474419512317</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Stable Update, No JavaFX Port , Golang support.">
+      <created>1474429137122</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1474429137124</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2982,7 +2634,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299697000" />
+    <option name="totallyTimeSpent" value="337905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2995,31 +2647,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32302937" sideWeight="0.3117932" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32612056" sideWeight="0.38772213" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="AdbCommander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37867078" sideWeight="0.82794833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49030694" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39412674" sideWeight="0.6954766" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39258114" sideWeight="0.74878836" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.4838449" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44513136" sideWeight="0.78352183" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32302937" sideWeight="0.6882068" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3580247" sideWeight="0.7027464" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32302937" sideWeight="0.68416804" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30448222" sideWeight="0.48707592" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.74636513" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3457189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32612056" sideWeight="0.61227787" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35541195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -3032,6 +2684,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.49195403" order="2" side_tool="false" content_ui="combo" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.49676898" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.52164006" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout>
@@ -3078,6 +2731,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processed" value="true" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="ScalaTestRunConfiguration" />
+  </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
@@ -3112,13 +2768,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Pattern in Line" />
-    <MESSAGE value="Avro Storage for WordCount and  Walk files in a dierctory" />
-    <MESSAGE value="Update /Unstable Site for wordcount" />
-    <MESSAGE value="Stable Rest API server site" />
-    <MESSAGE value="Addd Application Properties" />
-    <MESSAGE value="Update Data Type to Long,&#10;&#10;&#10;TODO : fix errors in hibernate FlushMode error." />
-    <MESSAGE value="Completed Rest API" />
     <MESSAGE value="Update Test Report Format" />
     <MESSAGE value="Stable Update&#10;" />
     <MESSAGE value="Update Gradle bootRun, bootRepackage" />
@@ -3137,7 +2786,14 @@
     <MESSAGE value="Add Hadoop MapReduce Example -- output" />
     <MESSAGE value="Update input and output path" />
     <MESSAGE value="Fixed 2nd Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed 2nd Example" />
+    <MESSAGE value="Change Folder" />
+    <MESSAGE value="Cleaner code for counting." />
+    <MESSAGE value="Q2 preliminary anser" />
+    <MESSAGE value="Updated Configurations" />
+    <MESSAGE value="Output for mapreduce programming" />
+    <MESSAGE value="Updates" />
+    <MESSAGE value="Stable Update, No JavaFX Port , Golang support." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stable Update, No JavaFX Port , Golang support." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3225,8 +2881,14 @@
           <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMapper.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="201" />
+      <option name="time" value="232" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3235,322 +2897,342 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarPostDataParam.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/io/LongWritable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="116" column="80" lean-forward="false" selection-start-line="116" selection-start-column="80" selection-end-line="116" selection-end-column="80" />
+        <state relative-caret-position="184">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/lib/HarTimeStamp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseCombiner_2ndExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="75" column="99" lean-forward="false" selection-start-line="75" selection-start-column="99" selection-end-line="75" selection-end-column="99" />
+        <state relative-caret-position="330">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/TestNG_PermUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseReducer_2ndExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core/2.17.3/54d6af8cf232c2e1b36d9c8bd2cdeebd59bee153/camel-core-2.17.3-sources.jar!/org/apache/camel/component/mock/MockEndpoint.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="111" column="37" lean-forward="true" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="41" column="86" lean-forward="false" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/output/_temporary/0/_temporary/attempt_local940729968_0001_r_000000_0/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file0.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRCode/FrameQR/FrameQRApp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/CodeMaster/numberOfTriangles.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/input/file2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/QRCode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/output/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/MatrixToImageWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/ImageType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/MapContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/QRCodeDataFormat.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/InputSplit.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="254">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/Parameters.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/lib/input/FileSplit.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2794">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="124">
+          <caret line="1059" column="13" lean-forward="false" selection-start-line="1059" selection-start-column="13" selection-end-line="1059" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/camelQRcode/RestAPI/QRCodeRest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="120">
+          <caret line="437" column="13" lean-forward="false" selection-start-line="437" selection-start-column="13" selection-end-line="437" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/Job.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/output/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="204" column="31" lean-forward="true" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/InputFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="33" />
+        <state relative-caret-position="63">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMainJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/lib/output/TextOutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapred/JobConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1732" column="42" lean-forward="true" selection-start-line="1732" selection-start-column="42" selection-end-line="1732" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-core/1.2.1/3e5874122a26a735162a380627210779b41bfd59/hadoop-core-1.2.1.jar!/org/apache/hadoop/conf/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/2.7.3/11b1d1c8729248fab8a695aded40e46d072b3db5/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/util/ConfigUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/2.7.3/b64dd1cba02d336f65ec8026e2077fccdba113b6/hadoop-common-2.7.3-sources.jar!/org/apache/hadoop/conf/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6217">
-          <caret line="687" column="31" lean-forward="false" selection-start-line="687" selection-start-column="31" selection-end-line="687" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-core/1.2.1/3e5874122a26a735162a380627210779b41bfd59/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/JobConf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2565">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-core/1.2.1/3e5874122a26a735162a380627210779b41bfd59/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/BenchmarkGame/Mandelbrot.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/org/raliclo/Spring_backend/dao/CommentDao.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/org/raliclo/OctaveAns/OctaveAns.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/org/raliclo/JavaFX_Mobile/JavaFX.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/org/raliclo/RobotHand/RobotHand.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/org/raliclo/JavaSEApplication.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/Java8/SubSetConcept.class" />
-    <entry file="file://$PROJECT_DIR$/build/retrolambda/main/Java8/LongestIncreasingSubsequenceArrays.class" />
-    <entry file="file://$PROJECT_DIR$/build/log/rolling.log">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexMapper2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q2/IndexCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        <state relative-caret-position="195">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/Course0.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/input/Course0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/common.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/BenchMarkGame/spectral-norm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/python.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/min-closure.js/BenchmarkGame/min.spectral-norm.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/Basic/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/fasta-redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/binary-trees.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="867" column="53" lean-forward="false" selection-start-line="867" selection-start-column="53" selection-end-line="867" selection-end-column="53" />
-          <folding />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapreduce/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/conf/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="192" column="13" lean-forward="false" selection-start-line="192" selection-start-column="13" selection-end-line="192" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/io/LongWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="19" lean-forward="true" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseCombiner_2ndExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/output/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce/SectionsByCourseReducer_2ndExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/mandelbrot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/nbody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/spectral-norm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="78" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaHelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="890" column="25" lean-forward="false" selection-start-line="890" selection-start-column="25" selection-end-line="890" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BenchmarkGame/SpectralNorm_Java.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Spark_GraphX/Spark_GraphX.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/classes/main/BenchmarkGame/Mandelbrot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/74e23902953f0a7db379d3d9f189106247f737d4/scala-library-2.12.0-M5-sources.jar!/scala/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="38" column="6" lean-forward="false" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/BenchmarkGame/k-nucleotide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Basic_Object_Class/ScalaObjectClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Basic_Object_Class/PointClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/Cellar/gradle/3.0/libexec/lib/gradle-core-3.0.jar!/org/gradle/api/Project.class" />
+    <entry file="jar:///usr/local/Cellar/gradle/3.0/libexec/lib/gradle-core-3.0.jar!/org/gradle/api/DomainObjectCollection.class" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="297" column="14" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3595,7 +3277,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Python</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3619,7 +3301,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>IntelliJ IDEA IU-162.1628.40</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -3631,11 +3313,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TestNG-1</last-edited>
+          <last-edited>golang|TestNG-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.24166666" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-yarn_2.11/2.0.0/2b612fcda7b8780e62926bc63e900c662af58b6e/spark-yarn_2.11-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-yarn_2.11/2.0.0/a84618effde2d631ce90ca70327cd6e383765741/spark-yarn_2.11-2.0.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-yarn_2.11/2.0.0/f20099d88862bb2ef1dc11dc5d31770f45344dad/spark-yarn_2.11-2.0.0-sources.jar!/" />
     </SOURCES>

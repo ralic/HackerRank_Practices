@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-data-image/0.0.0.17/ad48a010afc20f39a689b51f865609976c0117b0/canova-data-image-0.0.0.17.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/canova-data-image/0.0.0.17/fb787553afa5ea95f2bcfe50a1d6ae3d89ae44ae/canova-data-image-0.0.0.17-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>

@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.8/109852ba81725a1ca29cc9aa0688455bd7be4b0f/janino-2.7.8.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.8/7d6ae22aaf3741a89e8fc75ee96d5d978d0aa65e/janino-2.7.8-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.8/70a377c52fa7d733cbfc1f94cded7b101bc5bc4b/janino-2.7.8-sources.jar!/" />
     </SOURCES>

@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-core/3.1.0-beta1/f62b2637b01033152c0938c2dd36228e430767b4/jme3-core-3.1.0-beta1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-core/3.1.0-beta1/412bb91fe1a55983978a90f59f93795fb375b6f1/jme3-core-3.1.0-beta1-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jmonkeyengine/jme3-core/3.1.0-beta1/73f8150a279ea0b7b4d33748a35ab402405dd6f5/jme3-core-3.1.0-beta1-sources.jar!/" />
     </SOURCES>

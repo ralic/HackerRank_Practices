@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/6.0_ALPHA/ec4d186ad9f00839ff6c9ff4a6a849497db6b3d6/asm-debug-all-6.0_ALPHA.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/6.0_ALPHA/ebda595f0c2c7a20af36f54af40ba0198c59cc33/asm-debug-all-6.0_ALPHA-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/6.0_ALPHA/8a00f9c4c09c7f41b62500b7672d06fa18bc3eab/asm-debug-all-6.0_ALPHA-sources.jar!/" />
     </SOURCES>

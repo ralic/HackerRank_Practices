@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-core/0.1.11-M12/d703a760fdb50ad780bac97b02f4360e86227f83/leshan-core-0.1.11-M12.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-core/0.1.11-M12/4c3403dbec6d72a5ac32897a80327d630deb4264/leshan-core-0.1.11-M12-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-core/0.1.11-M12/1720f47e77f639f24950f5680cc924ee567e4b84/leshan-core-0.1.11-M12-sources.jar!/" />
     </SOURCES>

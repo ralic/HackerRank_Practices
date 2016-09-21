@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.detro/phantomjsdriver/1.2.0/c8c269468edbcfb6e911e875447f1f151c4c85ca/phantomjsdriver-1.2.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.detro/phantomjsdriver/1.2.0/71f5e73443c290072af5f1d1303f8077132a561/phantomjsdriver-1.2.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.detro/phantomjsdriver/1.2.0/eee8e0fa12f155a5aa353736338f420237a45f5b/phantomjsdriver-1.2.0-sources.jar!/" />
     </SOURCES>

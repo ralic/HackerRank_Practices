@@ -1,10 +1,21 @@
-package Basic
+package Basic_Object_Class
 
 /**
   * Created by raliclo on 8/30/16.
   * Project Name : Default (Template) Project
   */
-class Point(val xc: Int, val yc: Int) {
+
+
+object PointObj {
+  def main(args: Array[String]) {
+    val pt = new PointClass(10, 20);
+
+    // Move to a new location
+    pt.move(10, 10);
+  }
+}
+
+class PointClass(val xc: Int, val yc: Int) {
   var x: Int = xc
   var y: Int = yc
 
@@ -13,14 +24,5 @@ class Point(val xc: Int, val yc: Int) {
     y = y + dy
     println("Point x location : " + x);
     println("Point y location : " + y);
-  }
-}
-
-object Demo {
-  def main(args: Array[String]) {
-    val pt = new Point(10, 20);
-
-    // Move to a new location
-    pt.move(10, 10);
   }
 }

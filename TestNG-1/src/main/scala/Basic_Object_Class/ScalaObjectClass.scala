@@ -1,4 +1,4 @@
-package Basic
+package Basic_Object_Class
 
 ///**
 //  * Created by raliclo on 8/22/16.
@@ -29,26 +29,6 @@ You either have to import them explicitly, or prefix them with the class/object 
 */
 
 
-class ScalaObjectClass {
-
-  def proto2(x: Int) = proto1(x)
-
-  // Methods
-  // class ScalaClass can see private members of object ScalaClass
-  // Shared with Class
-  // Prefix to call
-  def proto1(x: Int) = ScalaObjectClass.func1(x) // Same as func1 in object
-
-  //  Import and use
-
-  def proto3(x: ScalaObjectClass, y: Int): Int = {
-    return x.o * y
-  }
-
-  // Variables
-  private def o = 2
-}
-
 object ScalaObjectClass {
   def main(args: Array[String]) {
     //    println("Hello, world! Test Run #12345 ")
@@ -78,4 +58,25 @@ object ScalaObjectClass {
     import x._
     x.o * o // fully specified and imported
   }
+}
+
+
+class ScalaObjectClass {
+
+  def proto2(x: Int) = proto1(x)
+
+  // Methods
+  // class ScalaClass can see private members of object ScalaClass
+  // Shared with Class
+  // Prefix to call
+  def proto1(x: Int) = ScalaObjectClass.func1(x) // Same as func1 in object
+
+  //  Import and use
+
+  def proto3(x: ScalaObjectClass, y: Int): Int = {
+    return x.o * y
+  }
+
+  // Variables
+  private def o = 2
 }

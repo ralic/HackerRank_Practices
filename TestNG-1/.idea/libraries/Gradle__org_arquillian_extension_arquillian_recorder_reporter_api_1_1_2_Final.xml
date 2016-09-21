@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-reporter-api/1.1.2.Final/a45d9c059e33b5da3b2b79e8e95b68fa50858f98/arquillian-recorder-reporter-api-1.1.2.Final.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-reporter-api/1.1.2.Final/4ac907f6c3c382747b8bad6feb0d97cbd2021bb9/arquillian-recorder-reporter-api-1.1.2.Final-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-reporter-api/1.1.2.Final/def46a746c00a983fbf5b36365ca4f30a109c8d5/arquillian-recorder-reporter-api-1.1.2.Final-sources.jar!/" />
     </SOURCES>

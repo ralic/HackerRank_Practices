@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-core/1.7.0/f7dfede85c4ac610aa5324deb46f3804e0f2d552/ignite-core-1.7.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-core/1.7.0/e8abd94c49b482a991bc7677266131298e1496bb/ignite-core-1.7.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-core/1.7.0/b618ee7881d4953ad7d75c6f155815c5c1bb5108/ignite-core-1.7.0-sources.jar!/" />
     </SOURCES>

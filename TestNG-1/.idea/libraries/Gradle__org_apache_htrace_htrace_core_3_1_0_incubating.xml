@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.htrace/htrace-core/3.1.0-incubating/f73606e7c9ede5802335c290bf47490ad6d51df3/htrace-core-3.1.0-incubating.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.htrace/htrace-core/3.1.0-incubating/eea53df251f258ed5dccfd13c727b561e6745f34/htrace-core-3.1.0-incubating-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.htrace/htrace-core/3.1.0-incubating/8235eca5e9cae7e0a1cd7e239fb6af24bc96e163/htrace-core-3.1.0-incubating-sources.jar!/" />
     </SOURCES>

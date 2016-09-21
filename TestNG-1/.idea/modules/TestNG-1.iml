@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="TestNG-1" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 2.7.10 (/usr/bin/python)" />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../..">
@@ -10,17 +15,22 @@
       <excludeFolder url="file://$MODULE_DIR$/../../build/classes" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/distributions" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/exe" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/javafxports" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/log" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/min-closure.js" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/resources" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/retrolambda" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/scripts" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build/test-results" />
       <excludeFolder url="file://$MODULE_DIR$/../../build/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/../../input" />
       <excludeFolder url="file://$MODULE_DIR$/../../nbproject" />
-      <excludeFolder url="file://$MODULE_DIR$/../../output" />
+      <excludeFolder url="file://$MODULE_DIR$/../../test-output" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Python 2.7.10 (/usr/bin/python) interpreter library" level="application" />
   </component>
 </module>

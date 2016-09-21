@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco.javacpp-presets/leptonica/1.73-1.2/9fb1a0408ffbad180280d32308cb66f33daafbc6/leptonica-1.73-1.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco.javacpp-presets/leptonica/1.73-1.2/9a05a3cffe977fad021977626af5f53609bb1aee/leptonica-1.73-1.2-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bytedeco.javacpp-presets/leptonica/1.73-1.2/4605fdb49d0b9121c7d5c9c3c1577acc121faa8/leptonica-1.73-1.2-sources.jar!/" />
     </SOURCES>

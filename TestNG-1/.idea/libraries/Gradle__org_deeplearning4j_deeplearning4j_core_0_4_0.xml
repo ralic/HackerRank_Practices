@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-core/0.4.0/94ab62bd77089f58a0c8dca6b5b7bfdedc5c3de7/deeplearning4j-core-0.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-core/0.4.0/ce387c79585ed1a64b742807eedcec33354de468/deeplearning4j-core-0.4.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-core/0.4.0/41d3045855ffd6c35047c4f9a226cb2045ba4999/deeplearning4j-core-0.4.0-sources.jar!/" />
     </SOURCES>

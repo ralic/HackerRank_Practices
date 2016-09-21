@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/2.6/b0d5a52db3b08e247dad16f76dbaa0fcb6e2874d/wagon-file-2.6.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/2.6/28f7a7da089811abb123dc3aa11992646456cc10/wagon-file-2.6-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.wagon/wagon-file/2.6/74f41440657bc4d858d2f7a787c532fc92f8cd36/wagon-file-2.6-sources.jar!/" />
     </SOURCES>

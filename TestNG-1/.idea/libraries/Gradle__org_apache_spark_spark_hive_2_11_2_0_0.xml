@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-hive_2.11/2.0.0/345f7e7871333f93272fc5ef35c0af93fe87f146/spark-hive_2.11-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-hive_2.11/2.0.0/bb2e93a38091432fa7a5e410199e56e5464bb8f/spark-hive_2.11-2.0.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-hive_2.11/2.0.0/25b6c1fafee752af78b5d7607e501b154b5676f8/spark-hive_2.11-2.0.0-sources.jar!/" />
     </SOURCES>

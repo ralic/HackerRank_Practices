@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.0.0/e7fd48d3b50f515916b7db51bf7f842d27842ee0/spark-catalyst_2.11-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.0.0/c2ac64aac08f9944307d3173b71417e1f30d433c/spark-catalyst_2.11-2.0.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.11/2.0.0/3c627026cca02fcbe8abf309d24ae2c0820fcff7/spark-catalyst_2.11-2.0.0-sources.jar!/" />
     </SOURCES>
