@@ -58,13 +58,15 @@ plugins {
 
     /*
         Javascript Support
-        Support Nodejs and javascript combine
+        Support Nodejs, Javscript, and Karma/Jasmine
         https://github.com/HappyCodeDay/gradle-node-plugin
         https://github.com/HappyCodeDay/gradle-js-plugin
+        https://github.com/HappyCodeDay/karma-gradle
     */
 
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
+    id 'com.craigburke.karma' version '1.4.3'
 
     /*  Golang Support
     The plugin provides the following gradle tasks:
@@ -183,13 +185,20 @@ apply plugin: "org.ajoberstar.github-pages"
 //apply plugin: "nebula.ospackage" // Support RPM package
 
 // Pick IDE appropriate for you
-//apply plugin: "idea"
-//idea {
-//    module {
-//        downloadJavadoc = true //false //
-//        downloadSources = true //false //
-//    }
-//}
+
+/*
+     Golang Support
+    https://github.com/go-lang-plugin-org/go-lang-idea-plugin
+    https://plugins.jetbrains.com/plugin/5047?pr=idea
+*/
+
+apply plugin: "idea"
+idea {
+    module {
+        downloadJavadoc = true //false //
+        downloadSources = true //false //
+    }
+}
 
 //apply plugin: "eclipse"
 //eclipse {
@@ -824,7 +833,7 @@ task compile << {
 // Compile / Test / Read report
 task NGreport(type: Exec, dependsOn: [test]) {
     executable "open"
-    args {"./build/reports/tests/test/index.html"}
+    args "./build/reports/tests/test/index.html"
 }
 
 task runEasy(type: JavaExec) {
@@ -1192,3 +1201,20 @@ TODO Complete the configuration & Support
 //        html.stylesheet resources.text.fromFile("config/xsl/findbugs-custom.xsl")
 //    }
 //}
+
+
+/*  Karma Jasmine Support
+    1) Old: http://stackoverflow.com/questions/32341673/automate-jasmine-test-in-gradle
+    2) New: https://github.com/craigburke/karma-gradle
+ */
+
+
+karma {
+    basePath = 'src/karmajasmine' // <1>
+    colors = true // <2>
+    profile 'angularJS' // <3>
+
+    browsers = ['PhantomJS'] // <4>
+    frameworks = ['jasmine'] // <5>
+    reporters = ['junit'] // <6>
+}
