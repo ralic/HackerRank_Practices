@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/connect-runtime/0.10.0.1/4e65eb2078da25065b142d54e833ea13b6188c2e/connect-runtime-0.10.0.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/connect-runtime/0.10.0.1/c0b43192f47a66ae74636a0413e27078e799004f/connect-runtime-0.10.0.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/connect-runtime/0.10.0.1/df8017097080a4ca67a60fe362b63584b676ea6e/connect-runtime-0.10.0.1-sources.jar!/" />
     </SOURCES>

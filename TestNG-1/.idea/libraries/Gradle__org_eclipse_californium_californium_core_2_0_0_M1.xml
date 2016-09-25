@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/californium-core/2.0.0-M1/80a723e2fa34aa580991dff75c94c1f733708ab8/californium-core-2.0.0-M1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/californium-core/2.0.0-M1/9d910289ad928344875b8ede81a59c7c32316297/californium-core-2.0.0-M1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/californium-core/2.0.0-M1/bea5cbb7608b904a0ca1d395769e14c31e516260/californium-core-2.0.0-M1-sources.jar!/" />
     </SOURCES>

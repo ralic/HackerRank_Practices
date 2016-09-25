@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-test-tags_2.11/1.6.2/d1b6760a03ff8f01aaa56a9cdc38fa0c029aeae5/spark-test-tags_2.11-1.6.2.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-test-tags_2.11/1.6.2/12966ac403fec8e8c6e28f5efef505a622a0bf67/spark-test-tags_2.11-1.6.2-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-test-tags_2.11/1.6.2/55d1210835031ee042c862b393e133789160c778/spark-test-tags_2.11-1.6.2-sources.jar!/" />
     </SOURCES>

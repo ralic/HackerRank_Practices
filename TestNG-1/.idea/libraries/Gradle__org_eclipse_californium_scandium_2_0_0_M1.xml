@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/scandium/2.0.0-M1/357c08eaa4c14142b01899517bab91fbf51c29a7/scandium-2.0.0-M1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/scandium/2.0.0-M1/d54ca92f44409d049396900a1d0f1d340a8be432/scandium-2.0.0-M1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/scandium/2.0.0-M1/7a04fdcd5218d699a3d4b3a0b1a0f72db5dc9df/scandium-2.0.0-M1-sources.jar!/" />
     </SOURCES>

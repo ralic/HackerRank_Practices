@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-core/1.1.11.Final/e67720a1599e6213176f9c3d3bab741d330cc484/arquillian-junit-core-1.1.11.Final.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-core/1.1.11.Final/a5ded6bf176cdad820520841deb3fc85f2d8a8bb/arquillian-junit-core-1.1.11.Final-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.arquillian.junit/arquillian-junit-core/1.1.11.Final/ec65b2fed011f6a248ae320d2c979ff74b1054e8/arquillian-junit-core-1.1.11.Final-sources.jar!/" />
     </SOURCES>

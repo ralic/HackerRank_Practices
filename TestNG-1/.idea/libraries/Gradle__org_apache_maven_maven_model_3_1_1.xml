@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.1.1/ccf79a1a63ef35de038a4226a952175c4e9f4f59/maven-model-3.1.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.1.1/dbb91f02e31a5ebad4b7a7d365163cd6501d3126/maven-model-3.1.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.1.1/d7c2d1023ad16f83e322d9e8bfad763861e4632d/maven-model-3.1.1-sources.jar!/" />
     </SOURCES>

@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-scaleout-api/0.4.0/22678cc87bcd6ace5b507e7d4012ca0bbed1eb3b/deeplearning4j-scaleout-api-0.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-scaleout-api/0.4.0/df9810b828b478b948bfd0dd22e3c4b2a50aef38/deeplearning4j-scaleout-api-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.deeplearning4j/deeplearning4j-scaleout-api/0.4.0/8456e96d6d262201adce8a4509e18c1709f49e24/deeplearning4j-scaleout-api-0.4.0-sources.jar!/" />
     </SOURCES>

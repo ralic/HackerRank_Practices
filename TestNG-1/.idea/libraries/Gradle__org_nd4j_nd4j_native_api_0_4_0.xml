@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/nd4j-native-api/0.4.0/51bb0a1421497edb823d5c0eee15c3929b48ab/nd4j-native-api-0.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/nd4j-native-api/0.4.0/ffcc44b18ed7a697f24136629bdb13824f587733/nd4j-native-api-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.nd4j/nd4j-native-api/0.4.0/7c17f1f232ba3ee03a72996fb42289653372456d/nd4j-native-api-0.4.0-sources.jar!/" />
     </SOURCES>

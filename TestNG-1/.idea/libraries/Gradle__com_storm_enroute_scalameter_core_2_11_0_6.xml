@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.storm-enroute/scalameter-core_2.11/0.6/429611cd9f0a98f9bb2e40ea2d4a0bb80ea6a64a/scalameter-core_2.11-0.6.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.storm-enroute/scalameter-core_2.11/0.6/b85100f6ac479d7208fbc6e8e306342cfb43421c/scalameter-core_2.11-0.6-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.storm-enroute/scalameter-core_2.11/0.6/42a93971148ff09c5dbcd25ab0f7069d4f4dc4fc/scalameter-core_2.11-0.6-sources.jar!/" />
     </SOURCES>

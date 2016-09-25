@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/test-interface/1.0/a3f14d010c4cb32071f863d97291df31603b521/test-interface-1.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/test-interface/1.0/c2cc99a6b15a42ea4e3b3ad299730febf54a775d/test-interface-1.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-sbt/test-interface/1.0/d44b23e9e3419ad0e00b91bba764a48d43075000/test-interface-1.0-sources.jar!/" />
     </SOURCES>

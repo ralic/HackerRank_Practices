@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-repl_2.11/2.0.0/5b44b03faafcc1be82963ebba11ce5038e53843a/spark-repl_2.11-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-repl_2.11/2.0.0/e55278c3377b9d830d7310e5321e32cb059ae536/spark-repl_2.11-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-repl_2.11/2.0.0/a36a49f669fe96c24f2e6ceb2a7339c4766cb7a0/spark-repl_2.11-2.0.0-sources.jar!/" />
     </SOURCES>

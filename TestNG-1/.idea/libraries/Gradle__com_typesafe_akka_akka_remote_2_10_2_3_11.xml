@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-remote_2.10/2.3.11/9aed4ee314df6f54079bb4befdd77050e567b9d/akka-remote_2.10-2.3.11.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-remote_2.10/2.3.11/ca7787d3145aca171a59ed1db65c798c02b71ec7/akka-remote_2.10-2.3.11-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-remote_2.10/2.3.11/bc305cbbff95c34b9f80db503d849bf441492df4/akka-remote_2.10-2.3.11-sources.jar!/" />
     </SOURCES>

@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datanucleus/datanucleus-rdbms/4.1.7/2c28e8381ac6614f8dc0298abf24054ff5e6df8c/datanucleus-rdbms-4.1.7.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datanucleus/datanucleus-rdbms/4.1.7/9955ef90cdc4f93e5d477c9c719ab937fa2587fd/datanucleus-rdbms-4.1.7-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datanucleus/datanucleus-rdbms/4.1.7/19fc65ec887864cd152d2a467532e01afabb9f55/datanucleus-rdbms-4.1.7-sources.jar!/" />
     </SOURCES>

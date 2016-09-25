@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joshelser/dropwizard-metrics-hadoop-metrics2-reporter/0.1.0/9f1f34dd4fbe213168f4f879924c33f647730283/dropwizard-metrics-hadoop-metrics2-reporter-0.1.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joshelser/dropwizard-metrics-hadoop-metrics2-reporter/0.1.0/728335bd4bdc2babaca668991dd33f458575761/dropwizard-metrics-hadoop-metrics2-reporter-0.1.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.joshelser/dropwizard-metrics-hadoop-metrics2-reporter/0.1.0/1d2e47b82892afbd595ad9001ae700942f157a97/dropwizard-metrics-hadoop-metrics2-reporter-0.1.0-sources.jar!/" />
     </SOURCES>

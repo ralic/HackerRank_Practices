@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-spi/1.1.2.Final/dba9e5a0d9e3995d8e333e97aa63627a3cbeb47a/arquillian-recorder-spi-1.1.2.Final.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-spi/1.1.2.Final/11bbe47d70f24cf6c4b6d1d0ffa136f4376171bc/arquillian-recorder-spi-1.1.2.Final-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.extension/arquillian-recorder-spi/1.1.2.Final/1f0ce68f7c38082c3f82c7d397fdecc3abd40c4/arquillian-recorder-spi-1.1.2.Final-sources.jar!/" />
     </SOURCES>

@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-down-common/2.0.0/ad73abc0ce08616652aa84ef8e5e56fc2989e14d/charm-down-common-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-down-common/2.0.0/7c4e10390918770bea7c363f3708a2618a2252ed/charm-down-common-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gluonhq/charm-down-common/2.0.0/64ea914eceeea46f353fb55a9d94d4a3f22cf0f3/charm-down-common-2.0.0-sources.jar!/" />
     </SOURCES>
