@@ -1214,3 +1214,8 @@ TODO Complete the configuration & Support
     1) Old: http://stackoverflow.com/questions/32341673/automate-jasmine-test-in-gradle
     2) New: https://github.com/craigburke/karma-gradle
  */
+
+// Simplify or Skip distZip/disTar unless necessary
+apply plugin: 'distribution'
+distZip.enabled = false
+distTar.enabled = false
