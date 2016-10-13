@@ -47,12 +47,11 @@ public class Q4Reducer_v2 extends
         Path hdfile = new Path("./src//main/java/org/raliclo/apache/mapreduce_Q4_2/output/" +
                 filePrefix + "_" + year + ".txt");
 
-//        System.out.println(fs.getUri());
         /*
-            Create of DataStream to hadoop file system.
+            Create Corresponding DataStream to hadoop file system.
          */
-        FSDataOutputStream fsOutStream = null;
-        fsOutStream = fs.create(hdfile);
+        //        System.out.println(fs.getUri());
+        FSDataOutputStream fsOutStream = fs.create(hdfile);
 
         /*
             Write the Data Stream.
