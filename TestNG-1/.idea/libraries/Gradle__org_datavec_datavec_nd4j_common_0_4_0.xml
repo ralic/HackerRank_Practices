@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-nd4j-common/0.4.0/7feb60988a8c1c0f6401f797d2b848d2d293ae6f/datavec-nd4j-common-0.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-nd4j-common/0.4.0/2a9dc4e21684e5ada148d8898216396f5651fd1/datavec-nd4j-common-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-nd4j-common/0.4.0/1aeef537584d9d7cc1da81ef658a0bec1bfb7cb6/datavec-nd4j-common-0.4.0-sources.jar!/" />
     </SOURCES>

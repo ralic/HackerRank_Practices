@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-api/0.9.0.M2/97662c999c6b2fbf2ee50e814a34639c1c1d22de/aether-api-0.9.0.M2.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-api/0.9.0.M2/5db510f9c5772a442a3877e94dc09e55f69db134/aether-api-0.9.0.M2-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.aether/aether-api/0.9.0.M2/4a7cc44cc78e4574b59f2d9ed4a93e4a450147d7/aether-api-0.9.0.M2-sources.jar!/" />
     </SOURCES>

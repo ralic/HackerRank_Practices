@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-client-cf/0.1.11-M12/22b7e8a2a244169be5c9763abc5400b45bd921ab/leshan-client-cf-0.1.11-M12.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-client-cf/0.1.11-M12/aa1ba0bff97b376dd69aa31f1bf704f64d3918ed/leshan-client-cf-0.1.11-M12-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.leshan/leshan-client-cf/0.1.11-M12/76a9d3ef99cbe391a7afb7b6b090accc8f033404/leshan-client-cf-0.1.11-M12-sources.jar!/" />
     </SOURCES>

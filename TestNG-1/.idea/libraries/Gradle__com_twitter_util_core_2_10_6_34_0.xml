@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-core_2.10/6.34.0/16e02ebb18337cde79249258d03eace0b4eacf33/util-core_2.10-6.34.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-core_2.10/6.34.0/bfaef6dcd9b6313bc474532da58bc73ed0e2ab6b/util-core_2.10-6.34.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter/util-core_2.10/6.34.0/9e429effde514f2fb7c1f406896dbd3b34d31086/util-core_2.10-6.34.0-sources.jar!/" />
     </SOURCES>

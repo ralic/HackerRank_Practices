@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-registry/2.7.1/640014928215054df53fb6c71475f4b36b3c182a/hadoop-yarn-registry-2.7.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-registry/2.7.1/ec9a7746fb370ab4eb61308f091bb1241dab79e/hadoop-yarn-registry-2.7.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-yarn-registry/2.7.1/cef3ea10426e6c79dca254660e4bbf221eb09691/hadoop-yarn-registry-2.7.1-sources.jar!/" />
     </SOURCES>

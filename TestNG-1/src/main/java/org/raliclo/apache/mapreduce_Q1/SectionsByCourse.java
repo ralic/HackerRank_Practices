@@ -34,7 +34,7 @@ public class SectionsByCourse {
         }
 
         Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "IndexMainJob");
+        Job job = Job.getInstance(conf, "Q3MainJob");
 
         job.setJarByClass(SectionsByCourse.class);
         job.setMapperClass(SectionsByCourseMapper.class);

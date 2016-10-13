@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12.0-M5/1.0.5/f0f85b4b3b9af2a61f6c9ab67c32ce6fa067f47f/scala-xml_2.12.0-M5-1.0.5.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12.0-M5/1.0.5/c924cfa7be479de76f392db446fc1461e59cf76d/scala-xml_2.12.0-M5-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.12.0-M5/1.0.5/210c74e7f936d8a90cf9027a2f86cf436a671d0a/scala-xml_2.12.0-M5-1.0.5-sources.jar!/" />
     </SOURCES>

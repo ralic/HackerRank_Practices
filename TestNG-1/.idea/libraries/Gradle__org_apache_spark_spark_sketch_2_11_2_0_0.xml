@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sketch_2.11/2.0.0/34d31dd8512d79e5992a352ec421ab938ab463f2/spark-sketch_2.11-2.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sketch_2.11/2.0.0/86d060101496a00431d147599b98534de12da5c8/spark-sketch_2.11-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-sketch_2.11/2.0.0/5bba03c2309b97ffae7e6b50769629d00376ea4/spark-sketch_2.11-2.0.0-sources.jar!/" />
     </SOURCES>

@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.2/997dba365753d7da93255781fb17ee40fbca79bc/pdfbox-2.0.2.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.2/c4ed3ab20195c03e8f70391bab57409a31c40bea/pdfbox-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/2.0.2/24312dc75e0c02669894357130420161e172906b/pdfbox-2.0.2-sources.jar!/" />
     </SOURCES>

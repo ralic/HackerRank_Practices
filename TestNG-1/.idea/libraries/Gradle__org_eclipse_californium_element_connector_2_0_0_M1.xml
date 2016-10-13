@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/element-connector/2.0.0-M1/88cc1a80cc18eaef0b63d71986ed7bf67416d862/element-connector-2.0.0-M1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/element-connector/2.0.0-M1/e0fe40647ae25f76898b9e3a929530c2bfcc1890/element-connector-2.0.0-M1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.californium/element-connector/2.0.0-M1/29c945e00c20800d2e2e00d9103e29e047b52cc6/element-connector-2.0.0-M1-sources.jar!/" />
     </SOURCES>

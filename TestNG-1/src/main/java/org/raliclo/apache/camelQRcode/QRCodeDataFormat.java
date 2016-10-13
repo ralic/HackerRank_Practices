@@ -54,7 +54,7 @@ public class QRCodeDataFormat implements DataFormat {
     /**
      * The default parameters.
      */
-    private Parameters params;
+    public Parameters params;
 
     /**
      * If true, the header parameters of a message will be used to configure

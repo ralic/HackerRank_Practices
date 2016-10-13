@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-sslengine/6.1.26/60367999cee49a3b09fa86bdcb52310b6c896014/jetty-sslengine-6.1.26.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-sslengine/6.1.26/9c3de92b4fbb16a9ce28264c6e9e990c12a581b9/jetty-sslengine-6.1.26-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty-sslengine/6.1.26/624e2a4d675835bbeb3ab4d54fd60c8842a99d7f/jetty-sslengine-6.1.26-sources.jar!/" />
     </SOURCES>

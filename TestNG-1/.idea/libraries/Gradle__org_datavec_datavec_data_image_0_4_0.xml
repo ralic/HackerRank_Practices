@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-data-image/0.4.0/de191a15ad9201fb0802ee305da6178884b23247/datavec-data-image-0.4.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-data-image/0.4.0/7637da334a225fe86434306b90aacfb034b4250a/datavec-data-image-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-data-image/0.4.0/936af99e34daf9cf3dc84db8aae5f1bae2cc4f00/datavec-data-image-0.4.0-sources.jar!/" />
     </SOURCES>

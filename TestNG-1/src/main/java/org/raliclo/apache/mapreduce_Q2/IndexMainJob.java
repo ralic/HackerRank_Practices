@@ -40,7 +40,7 @@ public class IndexMainJob {
         job.setMapperClass(IndexMapper.class);
         job.setMapperClass(IndexMapper2.class);
 
-//        job.setCombinerClass(IndexCombiner.class);
+        job.setCombinerClass(IndexCombiner.class);
         job.setReducerClass(IndexReducer.class);
 
         job.setInputFormatClass(TextInputFormat.class);
