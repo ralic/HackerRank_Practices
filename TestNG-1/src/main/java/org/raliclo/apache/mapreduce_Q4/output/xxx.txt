@@ -1,5 +1,0 @@
-scalable 6
-as 12
-Learning 9
-Peter 10
-can 11
