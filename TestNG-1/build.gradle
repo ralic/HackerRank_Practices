@@ -357,7 +357,7 @@ dependencies {
     // MySQL Connector support
     compile "mysql:mysql-connector-java:6.0.3"
 
-    def SpringVer = "1.4.0.RELEASE"
+    def SpringVer = "2.0.0.BUILD-SNAPSHOT"
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
             {

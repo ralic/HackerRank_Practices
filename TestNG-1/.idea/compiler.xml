@@ -19,10 +19,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TestNG-1_android" target="1.8" />
-      <module name="TestNG-1_desktop" target="1.8" />
-      <module name="TestNG-1_embedded" target="1.8" />
-      <module name="TestNG-1_ios" target="1.8" />
       <module name="TestNG-1_main" target="1.8" />
       <module name="TestNG-1_test" target="1.8" />
     </bytecodeTargetLevel>
