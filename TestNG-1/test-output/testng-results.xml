@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+    <reporter-output>
+    </reporter-output>
+    <suite name="Command line suite" duration-ms="77" started-at="2016-09-21T00:05:31Z"
+           finished-at="2016-09-21T00:05:31Z">
+        <groups>
+        </groups>
+        <test name="Command line test" duration-ms="77" started-at="2016-09-21T00:05:31Z"
+              finished-at="2016-09-21T00:05:31Z">
+            <class name="ScalaTest.SimpleTest">
+                <test-method status="PASS" signature="initialize()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="initialize" is-config="true" duration-ms="10" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- initialize -->
+                <test-method status="PASS" signature="verifyEasy()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="verifyEasy" duration-ms="12" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- verifyEasy -->
+                <test-method status="PASS" signature="verifyException()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="verifyException" duration-ms="2" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- verifyException -->
+                <test-method status="PASS" signature="initialize()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="initialize" is-config="true" duration-ms="0" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- initialize -->
+                <test-method status="PASS" signature="verifyFun()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="verifyFun" duration-ms="3" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- verifyFun -->
+                <test-method status="PASS" signature="initialize()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="initialize" is-config="true" duration-ms="0" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- initialize -->
+                <test-method status="PASS" signature="initialize()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="initialize" is-config="true" duration-ms="0" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- initialize -->
+                <test-method status="PASS" signature="verifyShould()[pri:0, instance:ScalaTest.SimpleTest@58fb9daa]"
+                             name="verifyShould" duration-ms="2" started-at="2016-09-20T17:05:31Z"
+                             finished-at="2016-09-20T17:05:31Z">
+                    <reporter-output>
+                    </reporter-output>
+                </test-method> <!-- verifyShould -->
+            </class> <!-- ScalaTest.SimpleTest -->
+        </test> <!-- Command line test -->
+    </suite> <!-- Command line suite -->
+</testng-results>

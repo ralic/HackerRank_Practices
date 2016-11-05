@@ -357,7 +357,7 @@ dependencies {
     // MySQL Connector support
     compile "mysql:mysql-connector-java:6.0.3"
 
-    def SpringVer = "2.0.0.BUILD-SNAPSHOT"
+    def SpringVer = "1.4.1.RELEASE"
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
             {
@@ -366,7 +366,10 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
     testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
 
-//    compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+    // def SpringVer = "2.0.0.BUILD-SNAPSHOT"
+    // compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+    // testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+
 //    compile "org.springframework.boot:spring-boot:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
 //    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"

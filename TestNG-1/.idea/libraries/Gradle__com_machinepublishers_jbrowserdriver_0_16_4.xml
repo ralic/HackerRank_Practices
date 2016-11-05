@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.machinepublishers:jbrowserdriver:0.16.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.machinepublishers/jbrowserdriver/0.16.4/55a5ff9798774585c5aff0c65dbc831134d1c558/jbrowserdriver-0.16.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.machinepublishers/jbrowserdriver/0.16.4/e729c250209653812cc7f74e72968a480be2cf13/jbrowserdriver-0.16.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.machinepublishers/jbrowserdriver/0.16.4/bef0a2e604376476f36a41582686c99540e173c9/jbrowserdriver-0.16.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
