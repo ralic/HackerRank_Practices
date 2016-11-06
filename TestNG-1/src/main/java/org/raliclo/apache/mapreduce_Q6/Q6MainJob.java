@@ -51,7 +51,7 @@ public class Q6MainJob {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "Q6MainJob");
 
-        job.setNumReduceTasks(9);
+        job.setNumReduceTasks(2);
         job.setJarByClass(Q6MainJob.class);
         job.setMapperClass(Q6Mapper.class);
 
