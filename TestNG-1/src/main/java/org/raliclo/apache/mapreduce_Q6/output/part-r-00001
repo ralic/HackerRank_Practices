@@ -1,9 +1,19 @@
-CS,CS480,Larry,5	8.0
-CS,CS480,Tim,5	6.4
-CS,CS480,Tom,4	5.75
-CS,CS526,Jimmy,5	9.4
-CS,CS526,Peter,5	9.4
-CS,CS532,Tom,5	7.8
-CS,CS536,Peter,5	9.4
-CS,CS557,Peter,5	9.0
-CS,CS570,Peter,5	9.4
+CS526,Jimmy,5	9.4
+   Overall Average :9.4	
+
+CS480,Larry,5	8.0
+   Overall Average :8.0	
+
+CS526,Peter,5	9.4
+CS536,Peter,5	9.4
+CS557,Peter,5	9.0
+CS570,Peter,5	9.4
+   Overall Average :9.3	
+
+CS480,Tim,5	6.4
+   Overall Average :6.4	
+
+CS480,Tom,4	5.75
+CS532,Tom,5	7.8
+   Overall Average :6.775	
+

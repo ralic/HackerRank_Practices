@@ -14,16 +14,25 @@ public class Q6MySorting extends WritableComparator {
         super(Text.class, true);
     }
 
+
+// BUS,BUS532,Lily,5	7.8
+
+
     @SuppressWarnings("rawtypes")
     @Override
     public int compare(WritableComparable w1, WritableComparable w2) {
-        String k1 = w1.toString();
-        String k2 = w2.toString();
+        String[] k1 = w1.toString().split(",");
+        String[] k2 = w2.toString().split(",");
 
-        int result = k1.compareTo(k2);
-        if (0 == result) {
-            result = -1 * k1.compareTo(k2);
+        // k[1] courseName
+        // k[2] studentName
+        if (k1[2].compareTo(k2[2]) > 0) {
+            return 1;
+        } else if (k1[2].compareTo(k2[2]) < 0) {
+            return -1;
+        } else {
+            return k1[1].compareTo(k2[1]);
         }
-        return result;
+
     }
 }

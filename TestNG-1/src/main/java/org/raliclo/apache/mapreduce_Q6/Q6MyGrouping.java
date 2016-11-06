@@ -15,8 +15,8 @@ public class Q6MyGrouping extends WritableComparator {
     @SuppressWarnings("rawtypes")
     @Override
     public int compare(WritableComparable w1, WritableComparable w2) {
-        String k1 = w1.toString().split(",")[1];
-        String k2 = w2.toString().split(",")[1];
+        String k1 = w1.toString().split(",")[2];
+        String k2 = w2.toString().split(",")[2];
 
         return k1.compareTo(k2);
     }

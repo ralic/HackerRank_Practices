@@ -57,8 +57,8 @@ public class Q6MainJob {
 
 
         job.setPartitionerClass(Q6Partitioner.class);
-        job.setGroupingComparatorClass(Q6MyGrouping.class);
         job.setSortComparatorClass(Q6MySorting.class);
+        job.setGroupingComparatorClass(Q6MyGrouping.class);
         job.setReducerClass(Q6Reducer.class);
 
         job.setInputFormatClass(TextInputFormat.class);

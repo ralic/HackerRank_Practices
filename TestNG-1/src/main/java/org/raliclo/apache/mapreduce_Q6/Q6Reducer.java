@@ -26,14 +26,27 @@ public class Q6Reducer extends
     protected void reduce(Text courseName, Iterable<Text> datas,
                           Context context) throws IOException, InterruptedException {
 
+        int overallCount = 0;
+        Double overallSum = 0.0;
+
         /*
             Write the Data Stream.
          */
         for (Text item : datas) {
+            overallCount++;
+            overallSum += Double.parseDouble(item.toString());
 
-            context.write(courseName, item);
+            /*
+            Take out courseName
+             */
+            int firstCommon = courseName.find(",");
+
+            context.write(new Text(
+                    courseName.toString().substring(firstCommon + 1, courseName.getLength())
+            ), item);
         }
 
+        context.write(new Text("   Overall Average :" + overallSum / overallCount), new Text("\n"));
 
     }
 }
