@@ -20,5 +20,4 @@ process.stdin.on("end", function () {
     let beginT = new Date();
     processData(_input);
     console.log("Time Elapsed:" + (new Date() - beginT));
-
 });
