@@ -24,17 +24,14 @@ func main() {
 			line1 := strings.Split(scanner.Text(), " ")
 			fmt.Println(line1)
 		}
-		i++
-		fmt.Println(line1)
-		if (i > 0) {
-			//d, _ := strconv.Atoi(line1[0])
-			array := strings.Split(scanner.Text(), " ")
-			//for d > 0 {
-			//	d--
-			//	rotate(array)
-			//}
-			fmt.Print(array)
+		if (i == 1 ) {
+			break
 		}
+		i++
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "reading standard input:", err)
 	}
 
 
