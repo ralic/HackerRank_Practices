@@ -27,7 +27,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Date;
 
 public class Q7MainJob {
 
@@ -35,9 +34,6 @@ public class Q7MainJob {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws Exception {
-
-        Date begin = new Date();
-
 
         if (args.length == 0) {
             args = new String[3];
@@ -82,7 +78,6 @@ public class Q7MainJob {
         FileOutputFormat.setOutputPath(job1, new Path(args[1]));
 
         System.exit(job1.waitForCompletion(true) ? 0 : 1);
-        System.out.println("Time Elapsed:" + (new Date().getTime() - begin.getTime()));
 
     }
 

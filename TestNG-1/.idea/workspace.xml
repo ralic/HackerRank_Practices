@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Map_Reduce Q7, semiconductor , yield failures, Monthly_yield_fails , Data_Cleaning.">
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Update Performance Reporting">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="">
@@ -2476,8 +2475,8 @@
       <file leaf-file-name="Q7MainJob.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -3750,7 +3749,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q5MainJob">
+  <component name="RunManager" selected="Application.Q7MainJob">
     <configuration default="false" name="go run Arrays_LeftRotation.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$" />
@@ -4542,8 +4541,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q5MainJob" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Q7MainJob" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q7MainJob" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q5MainJob" />
         <item index="2" class="java.lang.String" itemvalue="Application.DetectTheDomainName" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation_2.go" />
         <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation.go" />
@@ -4574,7 +4573,7 @@
       <workItem from="1478387493163" duration="15216000" />
       <workItem from="1478813431592" duration="46860000" />
       <workItem from="1479155346300" duration="6679000" />
-      <workItem from="1479165745711" duration="1027000" />
+      <workItem from="1479165745711" duration="1176000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -4730,11 +4729,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479166397084</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update Performance Reporting">
+      <created>1479166796825</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1479166796825</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73433000" />
+    <option name="totallyTimeSpent" value="73582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
@@ -4811,7 +4817,8 @@
     <MESSAGE value="Removed Q5 Combiner" />
     <MESSAGE value="Map_Reduce Q7, semiconductor , yield failures, Monthly_yield_fails" />
     <MESSAGE value="Map_Reduce Q7, semiconductor , yield failures, Monthly_yield_fails , Data_Cleaning." />
-    <option name="LAST_COMMIT_MESSAGE" value="Map_Reduce Q7, semiconductor , yield failures, Monthly_yield_fails , Data_Cleaning." />
+    <MESSAGE value="Update Performance Reporting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Performance Reporting" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -5204,8 +5211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="107">
+          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
           <folding />
         </state>
       </provider>
