@@ -20,7 +20,6 @@ import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
@@ -31,6 +30,8 @@ import java.nio.file.StandardOpenOption;
 public class Q5Reducer extends
         Reducer<Text, Text, Text, Text> {
 
+    static Configuration conf = new Configuration();
+    //        conf.set("fs.default.name", "hdfs://localhost:9000");
     static Path hdfile;
 
     @Override
@@ -39,12 +40,8 @@ public class Q5Reducer extends
         /*
             Access the file system
          */
-        Configuration conf = new Configuration();
-//        conf.set("fs.default.name", "hdfs://localhost:9000");
-        FileSystem fs = FileSystem.get(conf);
 
-        Job.getInstance().getConfiguration()
-                .set("mapreduce.output.basename", "TEST");
+        FileSystem fs = FileSystem.get(conf);
 
         int count = 0;
         double sumScore = 0;
