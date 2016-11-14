@@ -6,28 +6,35 @@ import (
 	"os"
 	"fmt"
 	"strings"
-	"time"
+	"strconv"
 )
-
-var line1 []string
 
 func main() {
 	// Performance Timer
-	start := time.Now()
+
+
+	//start := time.Now()
 	// Other Code
 	scanner := bufio.NewScanner(os.Stdin)
-	var i int = 0
-
+	var lines []string
 	for scanner.Scan() {
-		//var line1 []string
-		if (i == 0) {
-			line1 := strings.Split(scanner.Text(), " ")
-			fmt.Println(line1)
+		lines = append(lines, scanner.Text())
+	}
+
+	line1 := strings.Split(lines[0], " ")
+	line2 := strings.Split(lines[1], " ")
+	//fmt.Println(line1)
+	fmt.Println(line2)
+	repeats, _ := strconv.Atoi(line1[1])
+
+	for i := 0; i < repeats; i++ {
+		rotate(line2)
+		if i == (repeats - 1) {
+			//fmt.Println(line2)
+			for j := 0; j < len(line2); j++ {
+				fmt.Print(line2[j] + " ")
+			}
 		}
-		if (i == 1 ) {
-			break
-		}
-		i++
 	}
 
 	if err := scanner.Err(); err != nil {
@@ -36,15 +43,17 @@ func main() {
 
 
 	// Performance Report
-	elapsed := time.Since(start)
-	fmt.Println("Time Elapsed:", elapsed)
+	//elapsed := time.Since(start)
+	//fmt.Println("Time Elapsed:", elapsed)
 }
 
 func rotate(test []string) []string {
-	swap := test[0];
-	for i := 1; i < len(test) - 1; i++ {
+	//fmt.Println(test)
+	var swap = test[0];
+	//fmt.Println(len(test))
+	for i := 1; i < len(test); i++ {
 		test[i - 1] = test[i]
 	}
-	test[len(test)] = swap
+	test[len(test) - 1] = swap
 	return test
 }
