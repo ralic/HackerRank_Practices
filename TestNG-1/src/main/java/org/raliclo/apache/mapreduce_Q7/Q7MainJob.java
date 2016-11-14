@@ -40,8 +40,7 @@ public class Q7MainJob {
             args[0] = Paths.get("").toAbsolutePath().toString()
                     .concat("/src/main/java/org/raliclo/apache/mapreduce_Q7/input");
             args[1] = Paths.get("").toAbsolutePath().toString()
-                    .concat("/src//main/java/org/raliclo/apache/mapreduce_Q7/o" +
-                            "utput");
+                    .concat("/src//main/java/org/raliclo/apache/mapreduce_Q7/output");
         }
 
         java.nio.file.Path path = Paths.get(args[1]);

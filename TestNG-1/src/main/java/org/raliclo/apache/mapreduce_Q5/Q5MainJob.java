@@ -54,6 +54,7 @@ public class Q5MainJob {
         job.setNumReduceTasks(5);
         job.setJarByClass(Q5MainJob.class);
         job.setMapperClass(Q5Mapper.class);
+        job.setPartitionerClass(Q5Partitioner.class);
         job.setReducerClass(Q5Reducer.class);
 
         job.setInputFormatClass(TextInputFormat.class);
