@@ -49,27 +49,27 @@ public class Q7MainJob {
         }
 
         Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "Q7MainJob");
+        Job job1 = Job.getInstance(conf, "Q7MainJob");
 
-        job.setNumReduceTasks(2);
-        job.setJarByClass(Q7MainJob.class);
-        job.setMapperClass(Q7Mapper.class);
+        job1.setNumReduceTasks(3);
+        job1.setJarByClass(Q7MainJob.class);
+        job1.setMapperClass(Q7Mapper.class);
 
-//        job.setPartitionerClass(Q7Partitioner.class);
-//        job.setSortComparatorClass(Q7MySorting.class);
-//        job.setGroupingComparatorClass(Q7MyGrouping.class);
-//        job.setReducerClass(Q7Reducer.class);
+//        job1.setPartitionerClass(Q7Partitioner.class);
+//        job1.setSortComparatorClass(Q7MySorting.class);
+//        job1.setGroupingComparatorClass(Q7MyGrouping.class);
+        job1.setReducerClass(Q7Reducer.class);
 
-        job.setInputFormatClass(TextInputFormat.class);
-        job.setOutputFormatClass(TextOutputFormat.class);
+        job1.setInputFormatClass(TextInputFormat.class);
+        job1.setOutputFormatClass(TextOutputFormat.class);
 
-        job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(Text.class);
+        job1.setOutputKeyClass(Text.class);
+        job1.setOutputValueClass(Text.class);
 
-        FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
+        FileInputFormat.addInputPath(job1, new Path(args[0]));
+        FileOutputFormat.setOutputPath(job1, new Path(args[1]));
 
-        System.exit(job.waitForCompletion(true) ? 0 : 1);
+        System.exit(job1.waitForCompletion(true) ? 0 : 1);
 
     }
 
