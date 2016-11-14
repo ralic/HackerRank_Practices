@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Arrays_LeftRotation in golang  : Updated scanner using fmt. REmot">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Upgrade Golang to 1.7.3">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation.go" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation.go" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/images/jasmine-horizontal.png" />
@@ -2462,13 +2462,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Arrays_LeftRotation_2.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
+      <file leaf-file-name="Arrays_LeftRotation.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding>
-                <element signature="e#79#111#0" expanded="true" />
+                <element signature="e#79#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3322,7 +3322,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/exercise/ex1_C2F.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/exercise/ex1_C2Fexample.scala" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation.go" />
-        <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
       </list>
     </option>
   </component>
@@ -3636,6 +3635,28 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="golang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3715,7 +3736,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview" />
       <recent name="$PROJECT_DIR$/src/main/scala/IBM20161110" />
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/format" />
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/input" />
@@ -3727,7 +3747,27 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run Arrays_LeftRotation_2.go">
+  <component name="RunManager" selected="Go Single File.go run Arrays_LeftRotation.go">
+    <configuration default="false" name="ex2_matchString" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="IBM20161110.lesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="IBM20161110.exercise.ex2_matchString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="lesson4_List" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -3785,12 +3825,6 @@
       <RunnerSettings RunnerId="JProfiler">
         <option name="WINDOW" value="false" />
       </RunnerSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="go run Arrays_LeftRotation_2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -4504,19 +4538,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.lesson4_List" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ex1_C2Fexample" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.Build Arrays_LeftRotation.go and run" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation_2.go" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ex2_matchString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.lesson4_List" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ex1_C2Fexample" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Application.Build Arrays_LeftRotation.go and run" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation_2.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.Build Arrays_LeftRotation.go and run" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ex1_C2Fexample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.lesson4_List" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run Arrays_LeftRotation.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Application.Build Arrays_LeftRotation.go and run" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ex1_C2Fexample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.lesson4_List" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ex2_matchString" />
       </list>
     </recent_temporary>
   </component>
@@ -4542,7 +4576,7 @@
       <updated>1478314088374</updated>
       <workItem from="1478314090533" duration="3651000" />
       <workItem from="1478387493163" duration="15216000" />
-      <workItem from="1478813431592" duration="22012000" />
+      <workItem from="1478813431592" duration="20609000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -4642,18 +4676,11 @@
       <option name="project" value="LOCAL" />
       <updated>1479079890572</updated>
     </task>
-    <task id="LOCAL-00015" summary="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9">
-      <created>1479110377095</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1479110377095</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40879000" />
+    <option name="totallyTimeSpent" value="39476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -4722,8 +4749,7 @@
     <MESSAGE value="IBM Scala Boot Camp" />
     <MESSAGE value="IBM Scala Boot Camp -- 20161110 , Lesson 1,2,3,4 and Examples 1,2" />
     <MESSAGE value="Upgrade Golang to 1.7.3" />
-    <MESSAGE value="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade Golang to 1.7.3" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -4740,6 +4766,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6MySorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6Reducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -5088,6 +5121,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/bufio/scan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -5104,11 +5145,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/bufio/scan.go">
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="389" column="17" selection-start-line="389" selection-start-column="16" selection-end-line="389" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="-359">
+          <caret line="547" column="5" selection-start-line="547" selection-start-column="5" selection-end-line="547" selection-end-column="5" />
+          <folding>
+            <element signature="e#177#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5118,24 +5161,6 @@
           <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#79#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="499" column="0" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#79#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
