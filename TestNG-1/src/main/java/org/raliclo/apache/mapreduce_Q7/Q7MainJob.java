@@ -36,16 +36,24 @@ public class Q7MainJob {
     public static void main(String[] args) throws Exception {
 
         if (args.length == 0) {
-            args = new String[2];
+            args = new String[3];
             args[0] = Paths.get("").toAbsolutePath().toString()
                     .concat("/src/main/java/org/raliclo/apache/mapreduce_Q7/input");
             args[1] = Paths.get("").toAbsolutePath().toString()
                     .concat("/src//main/java/org/raliclo/apache/mapreduce_Q7/output");
+            args[2] = Paths.get("").toAbsolutePath().toString()
+                    .concat("/src//main/java/org/raliclo/apache/mapreduce_Q7/records");
         }
 
         java.nio.file.Path path = Paths.get(args[1]);
+        java.nio.file.Path path2 = Paths.get(args[2]);
+
         if (Files.exists(path)) {
             FileUtils.deleteDirectory(path.toFile());
+        }
+
+        if (Files.exists(path2)) {
+            FileUtils.deleteDirectory(path2.toFile());
         }
 
         Configuration conf = new Configuration();

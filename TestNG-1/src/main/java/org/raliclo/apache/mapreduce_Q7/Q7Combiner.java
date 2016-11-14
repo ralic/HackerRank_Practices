@@ -24,15 +24,9 @@ public class Q7Combiner extends
         Reducer<Text, Text, Text, Text> {
 
     @Override
-    protected void reduce(Text words, Iterable<Text> wordFreq,
+    protected void reduce(Text lines, Iterable<Text> datas,
                           Context context) throws IOException, InterruptedException {
 
-        // remove duplication of key.
-        Integer count = 0;
-        for (Text item : wordFreq) {
-            count = count + Integer.parseInt(item.toString());
-        }
 
-        context.write(words, new Text(count.toString()));
     }
 }

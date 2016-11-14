@@ -22,13 +22,17 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class Q7Reducer extends
         Reducer<Text, Text, Text, Text> {
@@ -36,14 +40,12 @@ public class Q7Reducer extends
     static Configuration conf = new Configuration();
     //        conf.set("fs.default.name", "hdfs://localhost:9000");
     // Print Yield Fails
-    static Path yieldLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/output/" +
+    static Path yieldLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
             "Yield_Fails.txt");
-    static Path monthLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/output/" +
+    static Path monthLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
             "Monthly_Yield_Fails.txt");
     static HashMap<String, Integer> freqhashMap = new HashMap();
-    static String[] goldenData;
-    static int[] removeData;
-    static boolean goldenFind = false;
+    static String[] flags;
 
     {
         try {
@@ -58,10 +60,22 @@ public class Q7Reducer extends
         }
     }
 
-    @Override
-    protected void setup(Context context)
-            throws IOException,
-            InterruptedException {
+    {
+        try {
+            Configuration conf = new Configuration();
+            FileSystem fs = FileSystem.get(conf);
+            Path fileRecords = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
+                    "fileRecords.txt");
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(
+                            Files.newInputStream(Paths.get(fileRecords.toString()),
+                                    StandardOpenOption.READ)));
+            ArrayList<String> input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
+            reader.close();
+            flags = input.get(0).split(" ");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     @Override
@@ -70,7 +84,12 @@ public class Q7Reducer extends
 
         for (Text item : datas) {
             String[] data = item.toString().split(" ");
-
+            String postData = "";
+            for (int i = 0; i < data.length; i++) {
+                if (flags[i].equals("1")) {
+                    postData += (data[i] + " ");
+                }
+            }
             /*
                 Output as yieldLossFile
              */
@@ -99,12 +118,15 @@ public class Q7Reducer extends
             /*
                 Fill in data back to stream.
              */
-            context.write(lineN, item);
+            context.write(lineN, new Text(postData));
         }
     }
 
     @Override
     protected void cleanup(Context context) {
+        /*
+            Generate Monthly Yield Loss File
+         */
         freqhashMap.forEach((k, v) -> {
             byte[] dataBytes = (k.toString() + " " + v.toString() + "\n").getBytes();
             try {
