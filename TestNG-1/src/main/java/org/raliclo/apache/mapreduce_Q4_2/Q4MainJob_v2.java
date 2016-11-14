@@ -51,11 +51,10 @@ public class Q4MainJob_v2 {
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "Q4MainJob");
 
-        job.setNumReduceTasks(1);
+        job.setNumReduceTasks(3);
         job.setJarByClass(Q4MainJob_v2.class);
         job.setMapperClass(Q4Mapper_v2.class);
         job.setReducerClass(Q4Reducer_v2.class);
-
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
@@ -65,7 +64,6 @@ public class Q4MainJob_v2 {
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
 

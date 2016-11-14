@@ -58,7 +58,7 @@ public class Q4Reducer_v2 extends
          */
         for (Text item : datas) {
 //            fsOutStream.writeUTF(year + " " + item.toString());
-//            fsout.writeUTF("hello world");
+//            fsOutStream.writeUTF("hello world");
             byte[] data = (item.toString() + "\n").getBytes();
             fsOutStream.write(data, 0, data.length);
         }
