@@ -92,10 +92,10 @@ public class Q5Reducer extends
         }
 
         Files.write(Paths.get(hdfile.toString()),
-                ("------\t------\t-------\n").toString().getBytes(),
+                ("------\t------\t-------\n").getBytes(),
                 StandardOpenOption.APPEND);
         Files.write(Paths.get(hdfile.toString()),
-                ("Overall\t      \t" + (sumScore / count) + "\n\n").toString().getBytes(),
+                ("Overall\t      \t" + (sumScore / count) + "\n\n").getBytes(),
                 StandardOpenOption.APPEND);
     }
 }
