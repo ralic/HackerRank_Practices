@@ -9,9 +9,8 @@ import (
 
 func main() {
 	// Performance Timer
-
-
 	start := time.Now()
+
 	// Other Code
 	var words, repeats int
 	if _, err := fmt.Scan(&words, &repeats); err != nil {

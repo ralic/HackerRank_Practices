@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Arrays_LeftRotation in golang  : Updated scanner using fmt. REmot">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Updates">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/images/jasmine-horizontal.png" />
@@ -2465,8 +2465,8 @@
       <file leaf-file-name="Arrays_LeftRotation_2.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="e#79#111#0" expanded="true" />
               </folding>
@@ -4542,7 +4542,7 @@
       <updated>1478314088374</updated>
       <workItem from="1478314090533" duration="3651000" />
       <workItem from="1478387493163" duration="15216000" />
-      <workItem from="1478813431592" duration="22012000" />
+      <workItem from="1478813431592" duration="22234000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -4649,11 +4649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479110377095</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Arrays_LeftRotation in golang  : Updated scanner using fmt. Remove usage of rotate function">
+      <created>1479112306990</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1479112306991</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40879000" />
+    <option name="totallyTimeSpent" value="41101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -4723,7 +4730,8 @@
     <MESSAGE value="IBM Scala Boot Camp -- 20161110 , Lesson 1,2,3,4 and Examples 1,2" />
     <MESSAGE value="Upgrade Golang to 1.7.3" />
     <MESSAGE value="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9" />
+    <MESSAGE value="Arrays_LeftRotation in golang  : Updated scanner using fmt. Remove usage of rotate function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays_LeftRotation in golang  : Updated scanner using fmt. Remove usage of rotate function" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -5132,8 +5140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#79#111#0" expanded="true" />
           </folding>
