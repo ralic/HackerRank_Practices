@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Code Update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/._SUCCESS.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/.part-r-00000.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/.part-r-00001.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/.part-r-00002.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/_SUCCESS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/.Monthly_Yield_Fails.txt.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/.Yield_Fails.txt.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/.fileRecords.txt.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/part-r-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/part-r-00001" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/part-r-00002" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/Monthly_Yield_Fails.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/Yield_Fails.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/fileRecords.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/Monthly_Yield_Fails.txt" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/records/Monthly_Yield_Fails.txt" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/images/jasmine-horizontal.png" />
@@ -2475,12 +2464,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q7Reducer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Q7Reducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="107">
+              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2495,24 +2486,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q7Mapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q7Mapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+            <state relative-caret-position="-476">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q5Reducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -3365,10 +3346,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5MainJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/Yield_Fails.txt" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Combiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" />
       </list>
     </option>
   </component>
@@ -4724,7 +4705,7 @@
       <workItem from="1478387493163" duration="15216000" />
       <workItem from="1478813431592" duration="46860000" />
       <workItem from="1479155346300" duration="6679000" />
-      <workItem from="1479165745711" duration="3183000" />
+      <workItem from="1479165745711" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -4908,18 +4889,25 @@
       <option name="project" value="LOCAL" />
       <updated>1479168836680</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Code Update">
+      <created>1479168954409</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1479168954409</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75589000" />
+    <option name="totallyTimeSpent" value="77638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40557274" sideWeight="0.21567044" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34055728" sideWeight="0.5226171" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4930,18 +4918,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3978328" sideWeight="0.7358643" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3978328" sideWeight="0.72617126" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32662538" sideWeight="0.37479806" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34055728" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34055728" sideWeight="0.47738287" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40557274" sideWeight="0.7843296" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40557274" sideWeight="0.7843296" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37151703" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
@@ -5025,8 +5013,38 @@
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="106" />
+      <option name="time" value="111" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -5035,21 +5053,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/output/part-r-00005" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/FilterOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-mapreduce-client-core/3.0.0-alpha1/da41828bb36fcacf1ebe3d9360ff87eb35df243b/hadoop-mapreduce-client-core-3.0.0-alpha1.jar!/org/apache/hadoop/mapred/ReduceTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -5342,14 +5345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -5363,17 +5358,9 @@
         <state relative-caret-position="120">
           <caret line="139" column="20" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="20" />
           <folding>
-            <element signature="e#4935#4936#0" expanded="true" />
-            <element signature="e#4954#4955#0" expanded="true" />
+            <element signature="e#4935#4936#0" expanded="false" />
+            <element signature="e#4954#4955#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5393,10 +5380,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/fs/FSDataOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="1154" column="5" selection-start-line="1154" selection-start-column="5" selection-end-line="1154" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/file/attribute/FileAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+        <state relative-caret-position="-476">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -5496,8 +5525,8 @@
     <option name="map">
       <map>
         <entry key="flags" value="0" />
-        <entry key="mode" value="1" />
-        <entry key="regex" value="&quot;([0-9]{2})/[0-9]{2}/[0-9]{4}" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="&quot;([0-9]{2})/([0-9]{2})/[0-9]{4}" />
         <entry key="text" value="&quot;05/10/2008" />
       </map>
     </option>
