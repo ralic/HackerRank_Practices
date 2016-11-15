@@ -37,19 +37,20 @@ import java.util.stream.Collectors;
 public class Q7Mapper extends
         Mapper<LongWritable, Text, Text, Text> {
 
-    static Path hdfile;
-    static ArrayList<String> input;
-    static int lines = 0;
-
-    static String[] goldenData;
-    static int[] finalRecord;
+    ArrayList<String> input;
+    int lines = 0;
+    String[] goldenData;
+    int[] finalRecord;
     // 0 = unkonwn, -1 = NaN , -2 = difference , n = repeating
 
     {
+        /*
+            Load smaller file as data for merging.
+         */
         try {
             Configuration conf = new Configuration();
             FileSystem fs = FileSystem.get(conf);
-            hdfile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/format/" +
+            Path hdfile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/format/" +
                     "secom_labels.data");
             /*
                 Store smaller data set in a ArrayList (input)
@@ -59,6 +60,7 @@ public class Q7Mapper extends
                     new InputStreamReader(fsIntputStream.getWrappedStream()));
             input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
             reader.close();
+            System.out.println();
 //            System.out.println(fsIntputStream.readUTF());
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -94,13 +96,13 @@ public class Q7Mapper extends
         recordWriter();
     }
 
-    protected void arrayCheck(String[] input) {
-        for (int i = 0; i < input.length; i++) {
+    protected void arrayCheck(String[] newLineArray) {
+        for (int i = 0; i < newLineArray.length; i++) {
             if (finalRecord[i] >= 0) {
-                if (input[i].equals("NaN")) {
+                if (newLineArray[i].equals("NaN")) {
                     finalRecord[i] = -1;
                     break;
-                } else if (!goldenData[i].equals(input[i])) {
+                } else if (!goldenData[i].equals(newLineArray[i])) {
                     finalRecord[i] = -2;
                     break;
                 } else {

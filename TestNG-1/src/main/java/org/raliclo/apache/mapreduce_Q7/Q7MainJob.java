@@ -62,10 +62,6 @@ public class Q7MainJob {
         job1.setNumReduceTasks(3);
         job1.setJarByClass(Q7MainJob.class);
         job1.setMapperClass(Q7Mapper.class);
-
-//        job1.setPartitionerClass(Q7Partitioner.class);
-//        job1.setSortComparatorClass(Q7MySorting.class);
-//        job1.setGroupingComparatorClass(Q7MyGrouping.class);
         job1.setReducerClass(Q7Reducer.class);
 
         job1.setInputFormatClass(TextInputFormat.class);
