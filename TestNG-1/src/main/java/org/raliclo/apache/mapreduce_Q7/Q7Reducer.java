@@ -49,7 +49,7 @@ public class Q7Reducer extends
 
     {
         /*
-            Create Emply file place holder for yieldloss and monthloss
+            Create Empty file place holder for yieldloss and monthloss
          */
         try {
             FileSystem fs = FileSystem.get(conf);
@@ -65,6 +65,11 @@ public class Q7Reducer extends
 
     {
         try {
+            /*
+                A3. Read fileRecords for column flags
+                flag = 1 : keep
+                flag = 0 : delete
+             */
             Configuration conf = new Configuration();
             FileSystem fs = FileSystem.get(conf);
             Path fileRecords = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
