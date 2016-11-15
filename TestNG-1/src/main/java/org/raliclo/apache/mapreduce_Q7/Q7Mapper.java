@@ -17,6 +17,7 @@ package org.raliclo.apache.mapreduce_Q7;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
+import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -26,6 +27,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -33,21 +37,30 @@ import java.util.stream.Collectors;
 public class Q7Mapper extends
         Mapper<LongWritable, Text, Text, Text> {
 
-    static Path hdfile;
-    static ArrayList<String> input;
+    ArrayList<String> input;
     int lines = 0;
+    String[] goldenData;
+    int[] finalRecord;
+    // 0 = unkonwn, -1 = NaN , -2 = difference , n = repeating
 
     {
+        /*
+            Load smaller file as data for merging.
+         */
         try {
             Configuration conf = new Configuration();
             FileSystem fs = FileSystem.get(conf);
-            hdfile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/format/" +
+            Path hdfile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/format/" +
                     "secom_labels.data");
+            /*
+                Store smaller data set in a ArrayList (input)
+             */
             FSDataInputStream fsIntputStream = fs.open(hdfile);
             BufferedReader reader = new BufferedReader(
                     new InputStreamReader(fsIntputStream.getWrappedStream()));
             input = reader.lines().collect(Collectors.toCollection(ArrayList::new));
             reader.close();
+            System.out.println();
 //            System.out.println(fsIntputStream.readUTF());
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -55,13 +68,70 @@ public class Q7Mapper extends
     }
 
     @Override
+    protected void setup(Context context) {
+
+    }
+
+    @Override
     protected void map(LongWritable key, Text value, Context context)
             throws IOException, InterruptedException {
 
-//        System.out.println(input.get(lines));
-//        System.out.println();
-        context.write(new Text(String.valueOf(lines)), new Text(input.get(lines) + " " + value));
+
+        String newLine = input.get(lines) + " " + value;
+
+        if (lines == 0) {
+            goldenData = newLine.split(" ");
+            finalRecord = new int[goldenData.length];
+        } else {
+            arrayCheck(newLine.split(" "));
+        }
+
+        context.write(new Text(String.valueOf(lines)), new Text(newLine));
         lines++;
+    }
+
+
+    @Override
+    protected void cleanup(Context context) throws IOException {
+        recordWriter();
+    }
+
+    protected void arrayCheck(String[] newLineArray) {
+        for (int i = 0; i < newLineArray.length; i++) {
+            if (finalRecord[i] >= 0) {
+                if (newLineArray[i].equals("NaN")) {
+                    finalRecord[i] = -1;
+                    break;
+                } else if (!goldenData[i].equals(newLineArray[i])) {
+                    finalRecord[i] = -2;
+                    break;
+                } else {
+                    finalRecord[i]++;
+                    break;
+                }
+            }
+        }
+    }
+
+    protected void recordWriter() throws IOException {
+        Configuration conf = new Configuration();
+        FileSystem fs = FileSystem.get(conf);
+        Path fileRecords = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
+                "fileRecords.txt");
+        FSDataOutputStream touchFile = fs.create(fileRecords);
+        touchFile.close();
+        for (int i = 0; i < finalRecord.length; i++) {
+            if (finalRecord[i] == -1 || finalRecord[i] == lines) {
+                Files.write(Paths.get(fileRecords.toString()),
+                        "0 ".getBytes(), // Delete
+                        StandardOpenOption.APPEND);
+            } else {
+                Files.write(Paths.get(fileRecords.toString()),
+                        "1 ".getBytes(), // Keep
+                        StandardOpenOption.APPEND);
+            }
+        }
+
     }
 }
 
