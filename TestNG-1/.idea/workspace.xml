@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Array_LeftRotation3">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_4.go" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Array_LeftRotation3 (using newReader to deal with large array) &amp;4 (using string to change input data type from fmt.Scan)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation_3.go" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation_3.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/images/jasmine-horizontal.png" />
@@ -2478,7 +2475,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_4.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -2487,8 +2484,8 @@
       <file leaf-file-name="Arrays_LeftRotation_2.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -3343,9 +3340,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation.go" />
-        <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation_3.go" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_4.go" />
+        <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
       </list>
     </option>
   </component>
@@ -4455,7 +4452,7 @@
       <workItem from="1478813431592" duration="46860000" />
       <workItem from="1479155346300" duration="6679000" />
       <workItem from="1479165745711" duration="7004000" />
-      <workItem from="1479379964653" duration="2716000" />
+      <workItem from="1479379964653" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -4667,11 +4664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479380473336</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Array_LeftRotation3 (using newReader to deal with large array) &amp;4 (using string to change input data type from fmt.Scan)">
+      <created>1479382739206</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1479382739206</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82126000" />
+    <option name="totallyTimeSpent" value="82380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -4695,11 +4699,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34055728" sideWeight="0.47738287" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40557274" sideWeight="0.7843296" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40557274" sideWeight="0.7843296" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37151703" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37151703" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4752,7 +4756,8 @@
     <MESSAGE value="Clean up code" />
     <MESSAGE value="Code Update" />
     <MESSAGE value="Array_LeftRotation3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array_LeftRotation3" />
+    <MESSAGE value="Array_LeftRotation3 (using newReader to deal with large array) &amp;4 (using string to change input data type from fmt.Scan)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array_LeftRotation3 (using newReader to deal with large array) &amp;4 (using string to change input data type from fmt.Scan)" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -5147,15 +5152,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
