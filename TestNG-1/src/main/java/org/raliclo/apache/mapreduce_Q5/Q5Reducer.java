@@ -30,12 +30,12 @@ import java.nio.file.StandardOpenOption;
 public class Q5Reducer extends
         Reducer<Text, Text, Text, Text> {
 
-    static Configuration conf = new Configuration();
+    Configuration conf = new Configuration();
     //        conf.set("fs.default.name", "hdfs://localhost:9000");
-    static Path hdfile;
+    Path hdfile;
 
     @Override
-    protected void reduce(Text name, Iterable<Text> datas,
+    protected void reduce(Text lines, Iterable<Text> datas,
                           Context context) throws IOException, InterruptedException {
         /*
             Access the file system
@@ -60,7 +60,7 @@ public class Q5Reducer extends
             //Peter	CS557_8.333333333333334_2015_MATH
             //        0      1               2    3
             String[] inItems = item.toString().split("_");
-            String data = name.toString() + "\t" + inItems[0] + "\t" + inItems[1];
+            String data = lines.toString() + "\t" + inItems[0] + "\t" + inItems[1];
             context.write(new Text(data.toString()), new Text());
             count++;
             sumScore += Double.parseDouble(inItems[1]);

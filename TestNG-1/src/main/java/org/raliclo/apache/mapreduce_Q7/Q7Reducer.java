@@ -37,17 +37,20 @@ import java.util.stream.Collectors;
 public class Q7Reducer extends
         Reducer<Text, Text, Text, Text> {
 
-    static Configuration conf = new Configuration();
+    Configuration conf = new Configuration();
     //        conf.set("fs.default.name", "hdfs://localhost:9000");
     // Print Yield Fails
-    static Path yieldLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
+    Path yieldLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
             "Yield_Fails.txt");
-    static Path monthLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
+    Path monthLossFile = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
             "Monthly_Yield_Fails.txt");
-    static HashMap<String, Integer> freqhashMap = new HashMap();
-    static String[] flags;
+    HashMap<String, Integer> freqhashMap = new HashMap();
+    String[] flags;
 
     {
+        /*
+            Create Empty file place holder for yieldloss and monthloss
+         */
         try {
             FileSystem fs = FileSystem.get(conf);
             FSDataOutputStream fsOutStream = fs.create(yieldLossFile);
@@ -62,6 +65,11 @@ public class Q7Reducer extends
 
     {
         try {
+            /*
+                A3. Read fileRecords for column flags
+                flag = 1 : keep
+                flag = 0 : delete
+             */
             Configuration conf = new Configuration();
             FileSystem fs = FileSystem.get(conf);
             Path fileRecords = new Path("./src/main/java/org/raliclo/apache/mapreduce_Q7/records/" +
@@ -83,6 +91,9 @@ public class Q7Reducer extends
                           Context context) throws IOException, InterruptedException {
 
         for (Text item : datas) {
+            /*
+                A3. Filter out columns to be removed using flags Array.
+             */
             String[] data = item.toString().split(" ");
             String postData = "";
             for (int i = 0; i < data.length; i++) {
@@ -91,23 +102,26 @@ public class Q7Reducer extends
                 }
             }
             /*
-                Output as yieldLossFile
+                A1. Generate yield loss file
              */
-//            System.out.println(data[0]);
 
             if (data[0].equals("1")) {
+                Configuration conf = new Configuration();
+                //        conf.set("fs.default.name", "hdfs://localhost:9000");
+                Path hdfile;
                 byte[] dataBytes = (item.toString() + "\n").getBytes();
 //                fsOutStream.write(dataBytes);
                 Files.write(Paths.get(yieldLossFile.toString()),
                         dataBytes,
                         StandardOpenOption.APPEND);
-
+            /*
+                A2. Calculate monthly yield loss.
+             */
                 String regex = "\"[0-9]{2}/([0-9]{2})/[0-9]{4}";
                 Pattern pattern = Pattern.compile(regex);
                 Matcher matcher = pattern.matcher(data[1]);
                 while (matcher.find()) {
                     String month = matcher.group(1);
-//                    System.out.println(month);
                     if (freqhashMap.containsKey(month)) {
                         freqhashMap.put(month, freqhashMap.get(month) + 1);
                     } else {
@@ -115,8 +129,9 @@ public class Q7Reducer extends
                     }
                 }
             }
+
             /*
-                Fill in data back to stream.
+                A3. Fill in data back to stream.
              */
             context.write(lineN, new Text(postData));
         }
@@ -125,9 +140,12 @@ public class Q7Reducer extends
     @Override
     protected void cleanup(Context context) {
         /*
-            Generate Monthly Yield Loss File
+            A2. Generate Monthly Yield Loss File
+                k : month
+                v : counts of frequency
          */
         freqhashMap.forEach((k, v) -> {
+
             byte[] dataBytes = (k.toString() + " " + v.toString() + "\n").getBytes();
             try {
                 Files.write(Paths.get(monthLossFile.toString()),
