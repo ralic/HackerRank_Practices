@@ -1,6 +1,5 @@
 //https://www.hackerrank.com/challenges/ctci-array-left-rotation
-//Emmanuel T Odeke @ github
-
+//
 package main
 
 import (
@@ -11,13 +10,12 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"time"
 )
 
 func main() {
 	// Performance Timer
 
-	start := time.Now()
+	//start := time.Now()
 	// Other Code
 	br := bufio.NewReader(os.Stdin)
 	var lines []string
@@ -52,8 +50,8 @@ func main() {
 	}
 
 	// Performance Report
-	elapsed := time.Since(start)
-	fmt.Println("Time Elapsed:", elapsed)
+	//elapsed := time.Since(start)
+	//fmt.Println("Time Elapsed:", elapsed)
 }
 
 func rotate(test []string) []string {
