@@ -1,34 +1,17 @@
 package IBM20161110.lesson
 
+package IBM20161110.lesson.lesson1_Samples0
 
 /**
-  * Created by raliclo on 8/30/16.
-  * Project Name : Default (Template) Project
+  * Created by raliclo on 18/11/2016.
+  * Project Name : TestNG-1
   */
-/*
- * Info: Name=Lo,WeiShun
- * Author: raliclo
- * Filename: IBM.scala
- * Date and Time: Nov 10, 2016 8:02:42 PM
- */
-/*
- * Copyright 2016 raliclo.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+class lesson_1_IBMScala {
+
+}
 
 
-object IBMScala {
+object lesson_1_IBMScala {
   def main(args: Array[String]) {
     println("Hello, world! Test Run @IBM ")
 
@@ -120,7 +103,6 @@ object IBMScala {
     val list5 = list1 ::: list3
     println("list1 ::: list3 " + list5)
     println(list1.++(list2) + "\n")
-
 
   }
 }

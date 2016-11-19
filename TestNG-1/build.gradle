@@ -28,6 +28,9 @@ buildscript {
             url "http://repo.spring.io/milestone"
         }
         maven {
+            url "http://com.jfrog.bintray"
+        }
+        maven {
             url "https://plugins.gradle.org/m2/"
         }
     }
@@ -147,7 +150,7 @@ tree.each { file ->
     dynamicTaskIndex++
 }
 
-task myMinify(dependsOn: dynamicTaskNames) << {
+task myMinify(dependsOn: dynamicTaskNames) {
     println("done.")
 }
 
@@ -353,6 +356,8 @@ dependencies {
     compile "com.machinepublishers:jbrowserdriver:0.16.4"
 //    compile "org.jboss.arquillian.extension:arquillian-phantom-driver:1.2.1.Final"
     compile "com.codeborne:phantomjsdriver:1.3.0"
+    compile "com.machinepublishers:jbrowserdriver:0.17.1"
+//    compile "org.jboss.arquillian.extension:2.1.1"
 
     // MySQL Connector support
     compile "mysql:mysql-connector-java:6.0.3"
@@ -538,12 +543,14 @@ dependencies {
     compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
 //    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
 
+    // JMonkey3
+    def jMonkeyVer = "3.1.0-beta1"
     // For JMonkey3 Game Development
     // https://jmonkeyengine.github.io/wiki/jme3/maven.html#gradle
     // http://docs.jmonkeyengine.org/jme3/virtualreality.html
-    compile "org.jmonkeyengine:jme3-core:3.1.0-beta1"
-    runtime "org.jmonkeyengine:jme3-desktop:3.1.0-beta1"
-    runtime "org.jmonkeyengine:jme3-lwjgl:3.1.0-beta1"
+    compile "org.jmonkeyengine:jme3-core:${jMonkeyVer}"
+    runtime "org.jmonkeyengine:jme3-desktop:${jMonkeyVer}"
+    runtime "org.jmonkeyengine:jme3-lwjgl:${jMonkeyVer}"
 
     // For Geo Location Integration
     compile "com.gluonhq:maps:1.0.0"
@@ -839,15 +846,25 @@ Task Definitions
 -REF: https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#N1014A
  */
 
-task compile << {
+task compile {
     println "[Info] Compiler started" // Emit additional message to :compile
 }
 
 // Compile / Test / Read report
-task NGreport(type: Exec, dependsOn: [test]) {
-    executable "open"
-    args "./build/reports/tests/test/index.html"
-}
+//task NGreport(type: Exec, dependsOn: [test]) {
+////https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
+//    workingDir './'
+////    commandLine './stop.sh'
+//
+//    //store the output instead of printing to the console:
+//    standardOutput = new ByteArrayOutputStream()
+//
+//    //extension method stopTomcat.output() can be used to obtain the output:
+//    ext.output = {
+//        return standardOutput.toString()
+//    }
+//    args "./build/reports/tests/test/index.html"
+//}
 
 task runEasy(type: JavaExec) {
     mainClassName = "org.raliclo.JavaSEApplication"
