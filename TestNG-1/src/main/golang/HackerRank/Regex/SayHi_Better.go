@@ -3,12 +3,10 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"time"
-	"bufio"
-	"io"
-	"os"
 	"regexp"
+	"bufio"
+	"os"
 )
 
 func main() {
@@ -18,37 +16,24 @@ func main() {
 	// Other Code
 	var numberLines int
 	fmt.Scan(&numberLines)
-
-	br := bufio.NewReader(os.Stdin)
-	var lines []string
-	for {
-		line, err := br.ReadString('\n')
-		if err == io.EOF {
-			break
-		}
-		if err != nil {
-			log.Fatal(err)
-		}
-		lines = append(lines, line)
-	}
-
-	//fmt.Println(numberLines)
-
+	scanner := bufio.NewScanner(os.Stdin)
+	var text string
 	for i := 0; i < numberLines; i++ {
-		//regex, _ := regexp.Compile("^[H|h][I|i]\\s[^D|^d]")
-		bool, _ := regexp.MatchString("^[Hh][Ii][ ][^Dd]", lines[i])
-		//bool2, _ := regexp.MatchString("[hH][iI][ ][^dD].*", lines[i])
+		scanner.Scan()
+		text = scanner.Text()
+		bool, _ := regexp.MatchString("^[Hh][Ii][ ][^Dd].*", text)
 		if (bool) {
-			fmt.Print(lines[i])
+			fmt.Println(text)
 		}
 	}
 
 	// Performance Report
 	elapsed := time.Since(start)
 	fmt.Println("\nTime Elapsed:", elapsed)
+
 }
 
-// Strange errors : Runtime Error @ Test Case  5/6/9
+// All Passed
 
 /* input
 7

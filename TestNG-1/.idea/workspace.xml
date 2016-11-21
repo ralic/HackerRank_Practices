@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Update PhantomJS screenshots.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Golang Regex">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi_Better.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_2.go" afterPath="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_2_Better.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go" afterPath="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
     <ignored path="TestNG-1.iws" />
@@ -60,13 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SayHi.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go">
+      <file leaf-file-name="SayHi_Better.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi_Better.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            <state relative-caret-position="27">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
-                <element signature="e#147#210#0" expanded="true" />
+                <element signature="e#147#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -811,8 +811,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6Mapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6MyGrouping.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/input/2016.txt" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6MainJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6/Q6MySorting.java" />
@@ -862,6 +860,8 @@
         <option value="$PROJECT_DIR$/src/test/java/advanced_Selenium/phantomjsTest.java" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation.go" />
         <option value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go" />
+        <option value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/asd.go" />
+        <option value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi2.go" />
       </list>
     </option>
   </component>
@@ -1159,36 +1159,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HackerRank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Regex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="golang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1260,27 +1230,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Single File.go run SayHi.go">
-    <configuration default="false" name="lesson_1_IBMScala" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="IBM20161110.lesson.IBM20161110.lesson.lesson1_Samples0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="IBM20161110.lesson.IBM20161110.lesson.lesson1_Samples0.lesson_1_IBMScala" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestNG-1_main" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run SayHi2.go">
     <configuration default="false" name="phantomjsTest.testPhantomJSDriver" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1384,6 +1334,12 @@
       <module name="golang" />
       <working_directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run SayHi2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi2.go" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -2094,19 +2050,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.lesson_1_IBMScala" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.phantomjsTest.testPhantomJSDriver" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.phantomjsTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.seleniumTest" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run SayHi.go" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.phantomjsTest.testPhantomJSDriver" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.phantomjsTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.seleniumTest" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run SayHi.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run SayHi2.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run SayHi.go" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.phantomjsTest.testPhantomJSDriver" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.seleniumTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.phantomjsTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.lesson_1_IBMScala" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run SayHi2.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run SayHi.go" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.phantomjsTest.testPhantomJSDriver" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.seleniumTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.phantomjsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -2137,7 +2093,7 @@
       <workItem from="1479165745711" duration="7004000" />
       <workItem from="1479379964653" duration="2970000" />
       <workItem from="1479383025037" duration="10215000" />
-      <workItem from="1479757644265" duration="2994000" />
+      <workItem from="1479757644265" duration="5813000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2377,7 +2333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479525666937</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Golang Regex">
+      <created>1479760666129</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1479760666129</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2413,11 +2376,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95589000" />
+    <option name="totallyTimeSpent" value="98408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34055728" sideWeight="0.5226171" order="7" side_tool="true" content_ui="tabs" />
@@ -2435,13 +2398,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34055728" sideWeight="0.47738287" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3400309" sideWeight="0.47738287" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4049459" sideWeight="0.7843296" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3709428" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2473,7 +2436,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Updates, Prepare for MR-Q5." />
     <MESSAGE value="Updates, Prepare for MR-Q5 new." />
     <MESSAGE value="Updates, Prepare for MR-Q5 new , OK for Mapper/ Partioner. Still need to complete Group/ Secondary Sort." />
     <MESSAGE value="Golang_ES6 Node.js setup." />
@@ -2498,7 +2460,8 @@
     <MESSAGE value="Clean up Array_Left_Rotation" />
     <MESSAGE value="Update PhantomJS &amp; ScreenShot" />
     <MESSAGE value="Update PhantomJS screenshots." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update PhantomJS screenshots." />
+    <MESSAGE value="Golang Regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Golang Regex" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2571,34 +2534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/format/secom_labels.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/input/secom.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="190" column="73" selection-start-line="190" selection-start-column="73" selection-end-line="190" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q5/Q5Reducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/fs/FSDataOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-common/3.0.0-alpha1/a3283fa3d56a0111519b0b358c7b5c2fb902656a/hadoop-common-3.0.0-alpha1-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -2660,13 +2595,6 @@
         <state relative-caret-position="388">
           <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_4.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -2861,36 +2789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/strconv/atoi.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="200" column="5" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -2905,18 +2807,86 @@
     </entry>
     <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/regexp/regexp.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="640" column="9" selection-start-line="640" selection-start-column="9" selection-end-line="640" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="437" column="5" selection-start-line="437" selection-start-column="5" selection-end-line="437" selection-end-column="5" />
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+        <state relative-caret-position="-108">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="e#147#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/time/sleep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/HackerRank/Regex/asd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_4.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation/Arrays_LeftRotation_2_Better.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi_Better.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3014,9 +2984,9 @@
     <option name="map">
       <map>
         <entry key="flags" value="0" />
-        <entry key="mode" value="0" />
-        <entry key="regex" value="&quot;([0-9]{2})/([0-9]{2})/[0-9]{4}" />
-        <entry key="text" value="&quot;05/10/2008" />
+        <entry key="mode" value="1" />
+        <entry key="regex" value="[H||h][I||i]\s[^D||^d].*" />
+        <entry key="text" value="bottom&#10;dominate weekly cancer challenge prisoner pollution clear&#10;grandmother&#10;closely pronounce make sick statement folding collection yes place&#10;lawyer fire language&#10;Hi penny blankly breath accuse successfully division&#10;Hi gamble give move previously annoyed" />
       </map>
     </option>
   </component>
