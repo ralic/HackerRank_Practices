@@ -5,38 +5,44 @@ package LeetCode;
  * Project Name : TestNG-1
  */
 
-public class Q2_AddTwoNumbers_NEW {
+public class Q2_AddTwoNumbers_V3_Better {
+
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        return helper(l1, l2, 0);
-    }
-
-    private static ListNode helper(ListNode l1, ListNode l2, int adder) {
-        if (l1 == null) return helper(l2, adder);
-        if (l2 == null) return helper(l1, adder);
-        ListNode node = new ListNode((l1.val + l2.val + adder) % 10);
-        node.next = helper(l1.next, l2.next, (l1.val + l2.val + adder) / 10);
-        return node;
-    }
-
-    private static ListNode helper(ListNode node, int adder) {
-        if (adder == 0) return node;
-        if (node == null) return new ListNode(adder);
-        node.next = helper(node.next, (node.val + adder) / 10);
-        node.val = (node.val + adder) % 10;
-        return node;
+        ListNode head1 = l1;
+        ListNode head2 = l2;
+        ListNode dummy = new ListNode(0);
+        ListNode head = dummy;
+        int carry = 0;
+        while (head1 != null || head2 != null || carry != 0) {
+            int val = carry;
+            if (head1 != null) {
+                val += head1.val;
+                head1 = head1.next;
+            }
+            if (head2 != null) {
+                val += head2.val;
+                head2 = head2.next;
+            }
+            ListNode tmp = new ListNode(val % 10);
+            carry = val / 10;
+            head.next = tmp;
+            head = head.next;
+        }
+        return dummy.next;
     }
 
     public static void main(String[] args) {
 
+
 // Case1
         ListNode l1 = new ListNode(2);
-        l1.next = new ListNode(4);
-        l1.next.next = new ListNode(3);
+        l1.next = new ListNode(9);
+        l1.next.next = new ListNode(4);
 
         ListNode l2 = new ListNode(5);
-        l2.next = new ListNode(6);
-        l2.next.next = new ListNode(4);
+        l2.next = new ListNode(9);
+        l2.next.next = new ListNode(5);
 
         // Timer for Speed Test
         long speedX = System.currentTimeMillis();

@@ -76,7 +76,7 @@ public class Q139_WordBreak {
         return f[len];
     }
 
-    // SLOWEST code
+    // SLOWEST code --> DO NOT USE.
     public static boolean wordBreak(String s, Set<String> wordDict) {
         HashMap<String, Boolean> checked = new HashMap();
         if (checked.containsKey(s)) {

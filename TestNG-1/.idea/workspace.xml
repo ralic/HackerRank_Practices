@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Golang Regex SayHi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/CommandRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q1_TwoSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_NEW.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/build/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/build/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/build/classes/leet/pkg1/twosum/Leet1TwoSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/lib/nblibraries.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-1-TwoSum/src/leet/pkg1/twosum/Leet1TwoSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/build/built-jar.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/build/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/build/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/build/classes/leet/pkg139/wordbreak/Leet139WordBreak.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-139-WordBreak/src/leet/pkg139/wordbreak/Leet139WordBreak.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/build/classes/leet/pkg2/add/two/numbers/Leet2AddTwoNumbers$ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/build/classes/leet/pkg2/add/two/numbers/Leet2AddTwoNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/lib/nblibraries.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/manifest.mf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Leet-2-Add Two Numbers/src/leet/pkg2/add/two/numbers/Leet2AddTwoNumbers.java" afterPath="" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="LeetCode 1/2/139">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V3_Better.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_Better.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_BrutalForce.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_NEW.java" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V2_Recursive.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
     <ignored path="TestNG-1.iws" />
@@ -93,7 +57,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="-1305">
               <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -841,18 +805,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/javascript/JSEditor/test.js" />
-        <option value="$PROJECT_DIR$/src/main/javascript/JSEditor/ES6_template.js" />
-        <option value="$PROJECT_DIR$/src/main/golang/Examples/StringSplit.go" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Extra/Q6MyKey.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/20161110_IBM_Bootcamp/Sample1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM2016110/Sample1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/ScalaHello2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ScalaHelloWorld.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/C2F.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/Sample1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/C2Fexample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/ExpressionBlocks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/lesson1_ExpressionBlocks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/lesson3_Functions.scala" />
@@ -889,9 +841,21 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/ObjectRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/CommandRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q1_TwoSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_NEW.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_Better.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak_Better.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V3_Better.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V2_Recursive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_BrutalForce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_Skilled.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_Better.java" />
+        <option value="$PROJECT_DIR$/src/main/Shell_Scripts/wordFrequency.sh" />
+        <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" />
+        <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" />
+        <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" />
       </list>
     </option>
   </component>
@@ -1163,33 +1127,7 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="Shell_Scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1213,6 +1151,16 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation" />
+      <recent name="$PROJECT_DIR$/src/main/scala/IBM20161110/exercise" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LeetCode" />
+      <recent name="org.raliclo.apache.mapreduce_Q5" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview" />
       <recent name="$PROJECT_DIR$/src/main/scala/IBM20161110" />
@@ -1220,43 +1168,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/input" />
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.raliclo.apache.mapreduce_Q5" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation" />
-      <recent name="$PROJECT_DIR$/src/main/scala/IBM20161110/exercise" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Q2_AddTwoNumbers_NEW">
-    <configuration default="false" name="go run SayHi2.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/HackerRank/Regex/SayHi2.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Q1_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Q1_TwoSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestNG-1_main" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Q4_MedianOfTwoSortedArrays_Better">
     <configuration default="false" name="Q2_AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1277,14 +1190,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Q139_WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Q2_AddTwoNumbers_V2_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Q139_WordBreak" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Q2_AddTwoNumbers_V2_Recursive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1297,14 +1210,54 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Q2_AddTwoNumbers_NEW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Q2_AddTwoNumbers_V3_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Q2_AddTwoNumbers_NEW" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Q2_AddTwoNumbers_V3_Better" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q4_MedianOfTwoSortedArrays_BrutalForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Q4_MedianOfTwoSortedArrays_BrutalForce" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TestNG-1_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q4_MedianOfTwoSortedArrays_Better" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Q4_MedianOfTwoSortedArrays_Better" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -2025,19 +1978,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run SayHi2.go" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q1_TwoSum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Q139_WordBreak" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_NEW" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_NEW" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Q1_TwoSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Q139_WordBreak" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run SayHi2.go" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -2068,7 +2021,7 @@
       <workItem from="1479165745711" duration="7004000" />
       <workItem from="1479379964653" duration="2970000" />
       <workItem from="1479383025037" duration="10215000" />
-      <workItem from="1479757644265" duration="13928000" />
+      <workItem from="1479757644265" duration="18304000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2322,7 +2275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479763492029</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="LeetCode 1/2/139">
+      <created>1479771642849</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1479771642849</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2358,7 +2318,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106523000" />
+    <option name="totallyTimeSpent" value="110899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -2418,7 +2378,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Updates, Prepare for MR-Q5 new , OK for Mapper/ Partioner. Still need to complete Group/ Secondary Sort." />
     <MESSAGE value="Golang_ES6 Node.js setup." />
     <MESSAGE value="Golang Setup Again" />
     <MESSAGE value="Preparation for CS570_Q7" />
@@ -2443,7 +2402,8 @@
     <MESSAGE value="Update PhantomJS screenshots." />
     <MESSAGE value="Golang Regex" />
     <MESSAGE value="Golang Regex SayHi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Golang Regex SayHi" />
+    <MESSAGE value="LeetCode 1/2/139" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 1/2/139" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2513,7 +2473,7 @@
           <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="154" />
+      <option name="time" value="156" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2522,58 +2482,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.7.3/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="181" column="5" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/exercise/ex1_C2Fexample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson1_Sample1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson1_Samples0/scala.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson3_Functions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson2_ExpressionBlocks.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson1_Sample0.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/Keys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -2846,38 +2754,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_NEW.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q382_LinkedListRandomNode_NEW.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="193">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak_Better.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state relative-caret-position="32">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q382_LinkedListRandomNode_NEW.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V3_Better.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V2_Recursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_BrutalForce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_Better.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="-1305">
           <caret line="360" column="0" selection-start-line="360" selection-start-column="0" selection-end-line="360" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
