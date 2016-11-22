@@ -6,7 +6,6 @@
 //import java.math.BigInteger;
 //import java.util.ArrayList;
 //import java.util.Scanner;
-//import java.util.stream.IntStream;
 //
 //public class Bonetrousle {
 //
@@ -23,22 +22,22 @@
 //
 //    public static void buybox(BigInteger target, BigInteger k, BigInteger b) {
 //        BigInteger max = k;
-//        while (b.subtract(BigInteger.ONE).compareTo(BigInteger.ZERO)==1) {
-//                max.add(k.subtract(BigInteger.ONE));
+//        while (b.subtract(BigInteger.ONE).compareTo(BigInteger.ZERO) == 1) {
+//            max.add(k.subtract(BigInteger.ONE));
 //        }
 //
 //        ArrayList<Integer> memo = new ArrayList<>();
-//        if (max < target) {
+//        if (max.compareTo(target) < 0) {
 //            System.out.println("-1");
 //            return;
 //        } else {
 //            selectnumber(kk, memo, b, target);
 //        }
 //
-//        for (int i=0;i<memo.size()-1;i++) {
-//            System.out.print(memo.get(i)+" ");
+//        for (int i = 0; i < memo.size() - 1; i++) {
+//            System.out.print(memo.get(i) + " ");
 //        }
-//        System.out.println(memo.get(memo.size()-1));
+//        System.out.println(memo.get(memo.size() - 1));
 //
 //    }
 //

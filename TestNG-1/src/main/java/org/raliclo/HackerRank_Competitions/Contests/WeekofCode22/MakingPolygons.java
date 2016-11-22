@@ -20,6 +20,24 @@ package org.raliclo.HackerRank_Competitions.Contests.WeekofCode22;/**
 
 //https://www.hackerrank.com/contests/w22/challenges/polygon-making
 
+/* Input
+2
+13 13
+ */
+
+/* Output
+2
+ */
+
+/* Input
+20
+100 3 1 5 5 5 9 9 1 7 4 7 1 6 4 6 1 6 6 1
+ */
+
+/* Output
+1
+ */
+
 import java.util.Scanner;
 
 public class MakingPolygons {

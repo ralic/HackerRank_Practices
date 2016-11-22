@@ -13,13 +13,18 @@
  * See the License for the specific language governing permissions and limitations under the License.
  */
 
-package org.raliclo.HackerRank_Competitions.Contests.C101Hack40;/**
+
+package org.raliclo.HackerRank_Competitions.Contests.C101Hack40;
+/**
  * Created by raliclo on 8/23/16.
  * Project Name : TestNG-1
  */
 
 import java.util.HashMap;
 import java.util.Scanner;
+
+// SOLVED
+//#https://www.hackerrank.com/contests/101hack40/challenges/designer-pdf-viewer
 
 public class DesignPDFViewer {
 
