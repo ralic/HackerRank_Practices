@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="LeetCode 1/2/139">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V3_Better.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_Better.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q4_MedianOfTwoSortedArrays_BrutalForce.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_NEW.java" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q2_AddTwoNumbers_V2_Recursive.java" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="LeetCode Shell Scripts.">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet192-wordFrequency.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet193-validPhoneNumbers.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet194-transportFile.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet195-tenthLine.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Q139_WordBreak.java" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
     <ignored path="TestNG-1.iws" />
@@ -1109,28 +1104,6 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestNG-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shell_Scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -2021,7 +1994,7 @@
       <workItem from="1479165745711" duration="7004000" />
       <workItem from="1479379964653" duration="2970000" />
       <workItem from="1479383025037" duration="10215000" />
-      <workItem from="1479757644265" duration="18304000" />
+      <workItem from="1479757644265" duration="18339000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2282,7 +2255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479771642849</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="LeetCode Shell Scripts.">
+      <created>1479776025509</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1479776025510</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2318,11 +2298,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110899000" />
+    <option name="totallyTimeSpent" value="110934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34055728" sideWeight="0.5226171" order="7" side_tool="true" content_ui="tabs" />
@@ -2347,7 +2327,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36996904" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2378,7 +2358,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Golang_ES6 Node.js setup." />
     <MESSAGE value="Golang Setup Again" />
     <MESSAGE value="Preparation for CS570_Q7" />
     <MESSAGE value="IBM Scala Boot Camp" />
@@ -2403,7 +2382,8 @@
     <MESSAGE value="Golang Regex" />
     <MESSAGE value="Golang Regex SayHi" />
     <MESSAGE value="LeetCode 1/2/139" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 1/2/139" />
+    <MESSAGE value="LeetCode Shell Scripts." />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode Shell Scripts." />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2804,7 +2784,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet193-validPhoneNumbers.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -2812,7 +2792,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet192-wordFrequency.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
@@ -2838,7 +2818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet194-transportFile.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
@@ -2846,7 +2826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet195-tenthLine.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
