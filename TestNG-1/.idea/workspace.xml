@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="LeetCode Shell Scripts.">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet192-wordFrequency.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet192-wordFrequency.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet193-validPhoneNumbers.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet194-transportFile.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" afterPath="$PROJECT_DIR$/src/main/bashShell/Leet195-tenthLine.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/Q142-LinkedListCycleII.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
@@ -49,7 +46,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1305">
@@ -61,15 +58,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Q142-LinkedListCycleII.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/LeetCode/Q142-LinkedListCycleII.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Package Object" />
         <option value="Go File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -800,7 +807,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/ExpressionBlocks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/lesson1_ExpressionBlocks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/lesson3_Functions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/ex2_matchString.scala" />
@@ -851,6 +857,7 @@
         <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet193-validPhoneNumbers.sh" />
         <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet194-transportFile.sh" />
         <option value="$PROJECT_DIR$/src/main/Shell_Scripts/Leet195-tenthLine.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/Q142-LinkedListCycleII.js" />
       </list>
     </option>
   </component>
@@ -1104,6 +1111,102 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestNG-1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1125,10 +1228,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/javascript/LeetCode" />
+      <recent name="$PROJECT_DIR$/src/main/javascript" />
       <recent name="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation" />
       <recent name="$PROJECT_DIR$/src/main/scala/IBM20161110/exercise" />
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7" />
-      <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q6" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="LeetCode" />
@@ -1142,27 +1246,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q4_MedianOfTwoSortedArrays_Better">
-    <configuration default="false" name="Q2_AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Q2_AddTwoNumbers" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TestNG-1_main" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.Q142-LinkedListCycleII.js">
     <configuration default="false" name="Q2_AddTwoNumbers_V2_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1241,6 +1325,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="TestNG-1_main" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q142-LinkedListCycleII.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/main/javascript/LeetCode/Q142-LinkedListCycleII.js" working-dir="$PROJECT_DIR$/src/main/java/LeetCode">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1951,19 +2038,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Q142-LinkedListCycleII.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Q142-LinkedListCycleII.js" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_Better" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V2_Recursive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Q4_MedianOfTwoSortedArrays_BrutalForce" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Q2_AddTwoNumbers_V3_Better" />
       </list>
     </recent_temporary>
   </component>
@@ -1994,7 +2081,7 @@
       <workItem from="1479165745711" duration="7004000" />
       <workItem from="1479379964653" duration="2970000" />
       <workItem from="1479383025037" duration="10215000" />
-      <workItem from="1479757644265" duration="18339000" />
+      <workItem from="1479757644265" duration="19132000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2262,7 +2349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479776025510</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="LeetCode Shell Scripts.">
+      <created>1479776049163</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1479776049163</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2298,7 +2392,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110934000" />
+    <option name="totallyTimeSpent" value="111727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -2462,13 +2556,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="415" column="22" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -2841,6 +2928,14 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/LeetCode/Q142-LinkedListCycleII.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
