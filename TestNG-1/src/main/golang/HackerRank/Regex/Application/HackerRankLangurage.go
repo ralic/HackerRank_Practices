@@ -30,8 +30,9 @@ func main() {
 	fmt.Println("\nTime Elapsed:", elapsed)
 }
 
+const validString string = "C:CPP:JAVA:PYTHON:PERL:PHP:RUBY:CSHARP:HASKELL:CLOJURE:BASH:SCALA:ERLANG:CLISP:LUA:BRAINFUCK:JAVASCRIPT:GO:D:OCAML:R:PASCAL:SBCL:DART:GROOVY:OBJECTIVEC"
+
 func validateLang(text string) {
-	var validString string = "C:CPP:JAVA:PYTHON:PERL:PHP:RUBY:CSHARP:HASKELL:CLOJURE:BASH:SCALA:ERLANG:CLISP:LUA:BRAINFUCK:JAVASCRIPT:GO:D:OCAML:R:PASCAL:SBCL:DART:GROOVY:OBJECTIVEC"
 	var setofValidString = strings.Split(validString, ":")
 
 	for j := 0; j < len(setofValidString); j++ {
