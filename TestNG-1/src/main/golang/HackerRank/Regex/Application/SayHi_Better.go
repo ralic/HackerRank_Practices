@@ -8,7 +8,7 @@ import (
 	"bufio"
 	"os"
 )
-
+//[Solved]
 func main() {
 	// Performance Timer
 	start := time.Now()

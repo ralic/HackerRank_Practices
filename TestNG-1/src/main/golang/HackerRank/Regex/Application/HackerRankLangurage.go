@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/hackerrank-language
 package main
 
 import (
@@ -9,6 +10,7 @@ import (
 	"strings"
 )
 
+//[Solved]
 func main() {
 	// Performance Timer
 	start := time.Now()
