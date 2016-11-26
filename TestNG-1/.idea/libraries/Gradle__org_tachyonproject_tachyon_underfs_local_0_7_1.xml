@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tachyonproject/tachyon-underfs-local/0.7.1/575e63d2605be85b1d1834bac024162f837e2235/tachyon-underfs-local-0.7.1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tachyonproject/tachyon-underfs-local/0.7.1/a94d08c8625862af1ec52a5574f0c6ef6006c841/tachyon-underfs-local-0.7.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.tachyonproject/tachyon-underfs-local/0.7.1/27162d7b35a228215b8931cc50958dc00db4d391/tachyon-underfs-local-0.7.1-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

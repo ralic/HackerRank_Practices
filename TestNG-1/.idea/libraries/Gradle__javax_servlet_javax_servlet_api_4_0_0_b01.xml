@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.0-b01/bd3242322f338c8a462199d49d48c864779a598f/javax.servlet-api-4.0.0-b01.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.0-b01/913e8e962995fa8ce7a8707771b474b53b642246/javax.servlet-api-4.0.0-b01-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.0-b01/c508cb5903b6b5c545b57806064eb2cbf8567808/javax.servlet-api-4.0.0-b01-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

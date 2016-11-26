@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.11.v20160721/1cbefc5d1196b9e1ca6f4cc36738998a6ebde8bf/jetty-security-9.3.11.v20160721.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.11.v20160721/25d8aa0d5ae28ff04bc74df1903bd402e8e0ab97/jetty-security-9.3.11.v20160721-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.11.v20160721/ebcfece7384ae36c26ceeba2fb909bea0f4541d2/jetty-security-9.3.11.v20160721-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

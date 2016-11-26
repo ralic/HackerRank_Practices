@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pig/pig/0.12.0/39118f6dea7d8a149a32223b447c50fb21c75c2/pig-0.12.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pig/pig/0.12.0/e893480c5f14dff221c5711a60611de0c4b29803/pig-0.12.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pig/pig/0.12.0/56825344bdc3a0355fb64093be58e7ae934953ad/pig-0.12.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

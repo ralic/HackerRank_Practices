@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-java-examples/0.8.0/b97efcbd43e0ed42f146ca3a012060d7d0a53405/kafka-java-examples-0.8.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-java-examples/0.8.0/bd3fa4a8b516d58f8278cc32add2ff2c1f5284de/kafka-java-examples-0.8.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-java-examples/0.8.0/141928fb07d7107d2714e949646a256b893f6aa/kafka-java-examples-0.8.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

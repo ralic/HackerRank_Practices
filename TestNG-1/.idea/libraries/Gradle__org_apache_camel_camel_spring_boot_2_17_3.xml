@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-spring-boot/2.17.3/de78d53e3871745f963e6e3e685eacc5b607bd73/camel-spring-boot-2.17.3.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-spring-boot/2.17.3/1dbc7b63d5ba6d4fc6694c679b822067c9aa4b93/camel-spring-boot-2.17.3-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-spring-boot/2.17.3/7acaafd9f6e0ecadd0e88cdd6823408f9327c6cf/camel-spring-boot-2.17.3-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.4.7/f5a2cdca4598ba59e9ab94d267bd20925ab368/groovy-swing-2.4.7.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.4.7/2151db3a0f58b7875e77254ad0a7ffae084b6925/groovy-swing-2.4.7-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.4.7/bb5de2403b87fe7c90dbafc27691ada551f1ac1d/groovy-swing-2.4.7-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

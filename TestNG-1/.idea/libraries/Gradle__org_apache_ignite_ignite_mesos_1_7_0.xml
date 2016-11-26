@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-mesos/1.7.0/507daec3273cc838d5085da9794a6d43b6df2a8f/ignite-mesos-1.7.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-mesos/1.7.0/77bb7e8e1188d2007b5d3fffdbaaa97571d4957b/ignite-mesos-1.7.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-mesos/1.7.0/5da51923f32097d19364f62f49ed8c3ff40983ed/ignite-mesos-1.7.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>
