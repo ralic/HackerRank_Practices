@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-iphone-driver/2.9.0/8ed2798603f1c3e73e54aa198bdab8ef9696c32a/selenium-iphone-driver-2.9.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-iphone-driver/2.9.0/4eb6ec90f949f7887bd4349020419fbbf0ebc36d/selenium-iphone-driver-2.9.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-iphone-driver/2.9.0/b35a0536236e02cb61596083a09ce62c49ac979b/selenium-iphone-driver-2.9.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

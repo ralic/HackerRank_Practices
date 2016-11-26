@@ -12,6 +12,7 @@ func main() {
 	start := time.Now()
 
 	// Other Code
+	// Other Code
 	var numberLines int
 	fmt.Scan(&numberLines)
 	// Reader -1
