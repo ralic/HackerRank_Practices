@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.ignite:ignite-spark_2.10:1.7.0">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-spark_2.10/1.7.0/496fad34911007b11a10f1ac8c891760a8024c15/ignite-spark_2.10-1.7.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

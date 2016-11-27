@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.kafka:kafka-java-examples:0.8.0">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-java-examples/0.8.0/b97efcbd43e0ed42f146ca3a012060d7d0a53405/kafka-java-examples-0.8.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

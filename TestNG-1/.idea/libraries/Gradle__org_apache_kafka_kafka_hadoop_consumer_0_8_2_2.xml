@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.kafka:kafka-hadoop-consumer:0.8.2.2">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-hadoop-consumer/0.8.2.2/717734b5fa82e4d494050913d5f8d5ca0f087ed1/kafka-hadoop-consumer-0.8.2.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

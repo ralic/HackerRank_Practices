@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.kafka:connect-runtime:0.10.0.1">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/connect-runtime/0.10.0.1/4e65eb2078da25065b142d54e833ea13b6188c2e/connect-runtime-0.10.0.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
