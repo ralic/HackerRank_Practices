@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.arquillian.cube:arquillian-cube-spi:1.0.0.Alpha14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.cube/arquillian-cube-spi/1.0.0.Alpha14/1eb509b8f7b95547ba4ae11c07fd8d7a704bef74/arquillian-cube-spi-1.0.0.Alpha14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.arquillian.cube/arquillian-cube-spi/1.0.0.Alpha14/17ae7f62e5f9649b9f3a9b561d8b7d73869adea1/arquillian-cube-spi-1.0.0.Alpha14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

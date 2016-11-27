@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wookietreiber:scala-chart_2.11:0.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wookietreiber/scala-chart_2.11/0.4.2/6cc329e2e33c19eb25a033dc5b246b49b51983d6/scala-chart_2.11-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wookietreiber/scala-chart_2.11/0.4.2/30e98db3d645cec72c21df3fd2b87136cd9f33b8/scala-chart_2.11-0.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wookietreiber/scala-chart_2.11/0.4.2/91271a1f20987dbfbda19c557d70883094e78141/scala-chart_2.11-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

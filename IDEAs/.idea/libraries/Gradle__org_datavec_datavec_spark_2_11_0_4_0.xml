@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.datavec:datavec-spark_2.11:0.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-spark_2.11/0.4.0/34e5b517b439afc2876fba63a34dc18b19e97e1f/datavec-spark_2.11-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-spark_2.11/0.4.0/9135a58166523b51edf82193ffe303bf4fc9ed21/datavec-spark_2.11-0.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.datavec/datavec-spark_2.11/0.4.0/33a561df5aa20e0f51297ef7e75e82be609dad64/datavec-spark_2.11-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

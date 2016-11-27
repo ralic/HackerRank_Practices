@@ -1,0 +1,60 @@
+Input files 0:
+
+Hadoop 5
+is 5
+
+Input files 1:
+
+Oh 1
+Peter 10
+Yellow 1
+a 1
+an 1
+as 12
+be 1
+can 11
+elephant 1
+fellow 1
+Learning 9
+scalable 6
+what 1
+yellow 1
+
+Output files 1 :
+scalable 6
+as 12
+Learning 9
+Peter 10
+can 11
+
+
+
+Question 2
+Write a map reduce program that partition employee data into 6 diffrerent fiels based on the year of joining the company that's specified in the employees.txt. Assume that the year of joining is from 2010 to 2015, for example :
+
+Input files 0:
+1|Peter|2010
+2|Tom|2015
+3|Nancy|2010
+4|Lily|2011
+5|Alan|2012
+6|Kevin|2012
+
+Output file 0:
+3|Nancy|2010
+1|Peter|2010
+
+
+Output file 1:
+4|Lily|2011
+
+Output file 2:
+6|Kevin|2012
+5|Alan|2012
+
+Output file 3:
+
+Output file 4:
+
+Output file 5:
+2|Tom|2015
