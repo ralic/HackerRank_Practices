@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-network-shuffle_2.10/1.5.2/b1c3ab5def5fca7d181f0e76a7fe26623b670682/spark-network-shuffle_2.10-1.5.2.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-network-shuffle_2.10/1.5.2/982cb46454f4d3bb3c3f28bbc67b378c8b26c856/spark-network-shuffle_2.10-1.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-network-shuffle_2.10/1.5.2/2c38d62d1ffbc67d157fc33b439f4056bc75db6/spark-network-shuffle_2.10-1.5.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

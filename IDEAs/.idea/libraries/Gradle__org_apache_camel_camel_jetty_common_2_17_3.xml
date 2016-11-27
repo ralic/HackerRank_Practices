@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-jetty-common/2.17.3/527a7cf4e5652309a4344cf338bf9c9326733556/camel-jetty-common-2.17.3.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-jetty-common/2.17.3/ff603ae10753c8fa5b800e7aaffc7c8e771e7a3f/camel-jetty-common-2.17.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-jetty-common/2.17.3/2a6f88672cb039ead72922924ea793a1261b74ce/camel-jetty-common-2.17.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-hibernate/1.0.0-RC3/f566eb5823f7fbd97da5641cb33fc884ddf7ba2b/ignite-hibernate-1.0.0-RC3.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-hibernate/1.0.0-RC3/570c62cc1c5649d0e307a1f0cf3b4b7ba2100df1/ignite-hibernate-1.0.0-RC3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-hibernate/1.0.0-RC3/c6c6cc1c4c6a30b1e64d4c3458d04dd09c111fb9/ignite-hibernate-1.0.0-RC3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

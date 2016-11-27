@@ -851,20 +851,20 @@ task compile {
 }
 
 // Compile / Test / Read report
-//task NGreport(type: Exec, dependsOn: [test]) {
-////https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
-//    workingDir './'
-////    commandLine './stop.sh'
-//
-//    //store the output instead of printing to the console:
-//    standardOutput = new ByteArrayOutputStream()
-//
-//    //extension method stopTomcat.output() can be used to obtain the output:
-//    ext.output = {
-//        return standardOutput.toString()
-//    }
-//    args "./build/reports/tests/test/index.html"
-//}
+task NGreport(type: Exec, dependsOn: [test]) {
+//https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
+    workingDir './'
+    commandLine 'open'
+
+    //store the output instead of printing to the console:
+    standardOutput = new ByteArrayOutputStream()
+
+    //extension method stopTomcat.output() can be used to obtain the output:
+    ext.output = {
+        return standardOutput.toString()
+    }
+    args "./build/reports/tests/test/index.html"
+}
 
 task runEasy(type: JavaExec) {
     mainClassName = "org.raliclo.JavaSEApplication"
@@ -884,7 +884,7 @@ task runCount(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
-task compileTest(dependsOn: compile) << {
+task compileTest(dependsOn: compile) {
     println "compiling unit tests"
 }
 
@@ -898,9 +898,6 @@ task compileTest(dependsOn: compile) << {
 //}
 
 //gradle dist -x test ==> This will exclude [test]
-//task dist(dependsOn: [compile, test]) << {
-//    println "building the distribution"
-//}
 
 // gradle projects ===> List all Projects in Tree
 // gradle tasks ===> List all tasks in Tree , same as tasks

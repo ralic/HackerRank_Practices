@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openpnp/opencv/2.4.11-2/bff3e6b1d339eb8fa6b4c3caf4f7f36946e0e54d/opencv-2.4.11-2.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openpnp/opencv/2.4.11-2/f7e539e4a9e8a68aac5c1334514fe461d63f80c5/opencv-2.4.11-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openpnp/opencv/2.4.11-2/42c1f17baf869ee34e2e47c135042996067612a1/opencv-2.4.11-2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

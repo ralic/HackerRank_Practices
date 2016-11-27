@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_main.iml" group="TestNG-1" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestNG-1_test.iml" group="TestNG-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" group="IDEAs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" group="IDEAs" />
       <module fileurl="file://$PROJECT_DIR$/src/main/golang/golang.iml" filepath="$PROJECT_DIR$/src/main/golang/golang.iml" group="TestNG-1" />
     </modules>
   </component>

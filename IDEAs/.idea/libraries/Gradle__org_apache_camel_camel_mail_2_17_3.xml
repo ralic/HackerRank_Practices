@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-mail/2.17.3/7ea7bcc6f2afa588c739bb96ebbe419f99633970/camel-mail-2.17.3.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-mail/2.17.3/7e26e848401f1aad577e9a008ee10bf7c61acac9/camel-mail-2.17.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-mail/2.17.3/57877376f56cca5dc27c8cb79c72d8509d3e16ea/camel-mail-2.17.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

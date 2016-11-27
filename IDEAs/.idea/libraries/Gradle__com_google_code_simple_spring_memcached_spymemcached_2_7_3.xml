@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.simple-spring-memcached/spymemcached/2.7.3/1ae59770f332d7f560a3f2894a4f14d9c3c38d62/spymemcached-2.7.3.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.simple-spring-memcached/spymemcached/2.7.3/5d8b8ce4636b5851e1ffb0f78d3cb45c27fce18f/spymemcached-2.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.simple-spring-memcached/spymemcached/2.7.3/2f99ff664f50072790d99527bddd02e4585ca4a/spymemcached-2.7.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

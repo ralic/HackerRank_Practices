@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.2.1/78e98099b87b4737203af1fcfb514954c4f479d9/javase-3.2.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.2.1/4bf427df6f7dfdd5dd508bdb0e8480f2b84a60ab/javase-3.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/javase/3.2.1/5d1cb27692edfc4535d127efd70aecd4f6945e7/javase-3.2.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

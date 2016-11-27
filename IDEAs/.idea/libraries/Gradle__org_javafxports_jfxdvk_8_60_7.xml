@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javafxports/jfxdvk/8.60.7/6ab694c11920420d6e752b52e65ff0110a074034/jfxdvk-8.60.7.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javafxports/jfxdvk/8.60.7/ab966ad8c3128f2354615efd277fe27688027f5f/jfxdvk-8.60.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.javafxports/jfxdvk/8.60.7/ab966ad8c3128f2354615efd277fe27688027f5f/jfxdvk-8.60.7-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

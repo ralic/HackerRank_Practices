@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/547a6847b5401fa707bbd1e08bea57febd7acd64/groovy-json-2.4.7-indy.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/eeebecb13f69735605744e829d8bb1d9ac4a86fa/groovy-json-2.4.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.4.7/67762aa4942516a50c831b18a114a6e89e46893b/groovy-json-2.4.7-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
