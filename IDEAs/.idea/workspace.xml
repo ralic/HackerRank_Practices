@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Add js code to get IPV6 address">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Add js code to proxy Google">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
     <ignored path="TestNG-1.iws" />
@@ -59,8 +59,8 @@
       <file leaf-file-name="proxyGoog.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            <state relative-caret-position="58">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2171,7 +2171,7 @@
       <workItem from="1480201757056" duration="1977000" />
       <workItem from="1480205580477" duration="31000" />
       <workItem from="1480205859837" duration="3192000" />
-      <workItem from="1480364205841" duration="4318000" />
+      <workItem from="1480364205841" duration="4981000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2502,7 +2502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480373449355</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Add js code to proxy Google">
+      <created>1480374489838</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1480374489838</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2538,7 +2545,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131358000" />
+    <option name="totallyTimeSpent" value="132021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
@@ -2614,7 +2621,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Arrays_LeftRotation in golang  : Updated scanner using fmt. Remove usage of rotate function" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Updates for Q5 , using Java.net.Files" />
     <MESSAGE value="Q5 results" />
@@ -2639,7 +2645,8 @@
     <MESSAGE value="[Golang]HackerRank Challenge for Regex [Solved]" />
     <MESSAGE value="Upload new settings" />
     <MESSAGE value="Add js code to get IPV6 address" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add js code to get IPV6 address" />
+    <MESSAGE value="Add js code to proxy Google" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add js code to proxy Google" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3050,8 +3057,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        <state relative-caret-position="58">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
