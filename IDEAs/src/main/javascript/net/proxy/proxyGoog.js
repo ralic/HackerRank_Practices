@@ -3,6 +3,11 @@
  * Following Code proxy localhost:3000 to www.google.com
  */
 // https://www.npmjs.com/package/http-proxy-middleware
+
+/* https://www.npmjs.com/package/http-proxy-middleware
+ npm install express http-proxy-middleware
+ */
+
 'use strict';
 
 
