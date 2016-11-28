@@ -1,46 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Upload new settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/getIPV6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/ipv6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/ipv6_2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/ipv6parse.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-ScalaTest.ShouldBeTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-ScalaTest.SimpleTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/Command line test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Command line suite/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.2.1/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" afterPath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" />
+    <list default="true" id="7aab07e9-31e1-447a-931a-f80c28d9297d" name="Default" comment="Add js code to get IPV6 address">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <list id="206a460a-a9f9-4524-a290-d7ee8055e2be" name="New changelist" comment="" />
     <ignored path="TestNG-1.iws" />
@@ -83,11 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10237">
-              <caret line="257" column="25" lean-forward="true" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+            <state relative-caret-position="244">
+              <caret line="1237" column="23" lean-forward="true" selection-start-line="1237" selection-start-column="23" selection-end-line="1237" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxyGoog.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -115,6 +88,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="raliclo@gmail.com &lt;raliclo@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
@@ -995,7 +973,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Array_LeftRotation_3.go" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_4.go" />
         <option value="$PROJECT_DIR$/src/main/golang/CrackingTheCodingInterview/Arrays_LeftRotation_2.go" />
         <option value="$PROJECT_DIR$/src/main/scala/IBM20161110/lesson/lesson1_Sample1.scala" />
@@ -1046,6 +1023,7 @@
         <option value="$PROJECT_DIR$/src/main/javascript/ipv6/getIPv6.js" />
         <option value="$PROJECT_DIR$/src/main/javascript/ipv6/test.js" />
         <option value="$PROJECT_DIR$/src/main/javascript/ipv6/getIPV6.js" />
+        <option value="$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js" />
       </list>
     </option>
   </component>
@@ -1405,14 +1383,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/format" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.getIPv6.js">
-    <configuration default="false" name="Build LineReaders.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/Examples/LineReaders.go" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.proxyGoog.js">
     <configuration default="false" name="mainHello" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="mainHello" />
@@ -1435,6 +1406,9 @@
       <method />
     </configuration>
     <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/src/main/javascript/ipv6/test.js" working-dir="$PROJECT_DIR$/src/main/javascript/ipv6">
+      <method />
+    </configuration>
+    <configuration default="false" name="proxyGoog.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="proxyGoog.js" working-dir="$PROJECT_DIR$/src/main/javascript/ipv6">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -2125,19 +2099,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.Build LineReaders.go and run" />
-      <item index="1" class="java.lang.String" itemvalue="Application.mainHello" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.ipv6parse.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.getIPv6.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="0" class="java.lang.String" itemvalue="Application.mainHello" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ipv6parse.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.getIPv6.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.proxyGoog.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.getIPv6.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.ipv6parse.js" />
-        <item index="3" class="java.lang.String" itemvalue="Application.mainHello" />
-        <item index="4" class="java.lang.String" itemvalue="Go Application.Build LineReaders.go and run" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.proxyGoog.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.getIPv6.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.ipv6parse.js" />
+        <item index="4" class="java.lang.String" itemvalue="Application.mainHello" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2197,7 +2171,7 @@
       <workItem from="1480201757056" duration="1977000" />
       <workItem from="1480205580477" duration="31000" />
       <workItem from="1480205859837" duration="3192000" />
-      <workItem from="1480364205841" duration="3249000" />
+      <workItem from="1480364205841" duration="4318000" />
     </task>
     <task id="LOCAL-00001" summary="Updates, Prepare for MR-Q5.">
       <created>1478314795455</created>
@@ -2521,7 +2495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480208891604</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Add js code to get IPV6 address">
+      <created>1480373449354</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1480373449355</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2557,7 +2538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130289000" />
+    <option name="totallyTimeSpent" value="131358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
@@ -2616,6 +2597,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -2630,7 +2614,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Arrays_LeftRotation in golang --- Issue : Cannot handle Test case 6/8/9" />
     <MESSAGE value="Arrays_LeftRotation in golang  : Updated scanner using fmt. Remove usage of rotate function" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Updates for Q5 , using Java.net.Files" />
@@ -2655,7 +2638,8 @@
     <MESSAGE value="[Golang]HackerRank Challenge for Regex" />
     <MESSAGE value="[Golang]HackerRank Challenge for Regex [Solved]" />
     <MESSAGE value="Upload new settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload new settings" />
+    <MESSAGE value="Add js code to get IPV6 address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add js code to get IPV6 address" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2736,13 +2720,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/CommandRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -3065,8 +3042,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10237">
-          <caret line="257" column="25" lean-forward="true" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+        <state relative-caret-position="244">
+          <caret line="1237" column="23" lean-forward="true" selection-start-line="1237" selection-start-column="23" selection-end-line="1237" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/javascript/ipv6/proxyGoog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding />
         </state>
       </provider>
