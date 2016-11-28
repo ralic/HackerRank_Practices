@@ -7,8 +7,6 @@ const addresses = Object.keys(interfaces)
     .filter((iface) => iface.family === 'IPv6' && !iface.internal)
     .map((iface) => iface.address);
 
-console.log(addresses);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-const ipv6_local = addresses[addresses.length - 1];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-console.log(ipv6_local);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+console.log(addresses);
+const ipv6_local = addresses[addresses.length - 1];
+console.log(ipv6_local);
