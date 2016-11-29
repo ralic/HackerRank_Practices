@@ -8,13 +8,19 @@ var options = {
 
 
 let portProxy = function (port, addr, api) {
-    console.log("[Port]" + port);
-    options.target = addr;
-    let app = new express();
-    app.use(api, proxy(options));
-    app.listen(port);
+    try {
+        console.log("[Port]" + port);
+        options.target = addr;
+        let app = new express();
+        app.use(api, proxy(options));
+        app.listen(port);
+    } catch (er) {
+        console.log(er)
+    }
 };
 
-portProxy(3000, 'https://www.facebook.com', '/');
-portProxy(3001, 'https://www.google.com', '/');
+portProxy(3001, 'https://www.facebook.com', '/');
 portProxy(3002, 'https://npu-cs557-nodejs-express.herokuapp.com', '/');
+// portProxy(80, 'https://www.google.com', '/');
+
+
