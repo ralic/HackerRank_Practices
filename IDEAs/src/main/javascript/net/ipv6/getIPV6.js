@@ -17,7 +17,7 @@ let getIPV6 = function () {
     const ipv6_local = addresses[addresses.length - 1];
 
     console.log(ipv6_local);
-};;;
+};
 
 let nanoT1 = process.hrtime();
 getIPV6();

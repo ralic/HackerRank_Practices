@@ -6,6 +6,17 @@ var options = {
     ws: true
 };
 
+const interfaces = require('os').networkInterfaces();
+const addresses = Object.keys(interfaces)
+    .reduce((results, name) => results.concat(interfaces[name]), [])
+    .filter((iface) => iface.family === 'IPv6' && !iface.internal)
+    .map((iface) => iface.address);
+
+const ipv6_local = addresses[addresses.length - 2];
+const ipv6host = "http://[" + ipv6_local + "]";
+// const link = `<a href="${ipv6host}">${ipv6host}</a>`;
+
+console.log("[IPV6 Hostname]: " + ipv6host);
 
 let portProxy = function (port, addr, api) {
     try {
@@ -19,8 +30,18 @@ let portProxy = function (port, addr, api) {
     }
 };
 
+process.on('uncaughtException', function (err) {
+    if (err.errno === 'EADDRINUSE') {
+        console.log("Bug");
+    } else {
+    }
+    console.log(err);
+    console.log("[uncaughtException] Program Continued ");;;
+    // process.exit(1);
+});
+
 portProxy(3001, 'https://www.facebook.com', '/');
 portProxy(3002, 'https://npu-cs557-nodejs-express.herokuapp.com', '/');
-// portProxy(80, 'https://www.google.com', '/');
+portProxy(80, 'https://www.google.com', '/');
 
 
