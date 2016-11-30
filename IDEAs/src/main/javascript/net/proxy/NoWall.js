@@ -1,3 +1,5 @@
+// npm install express http-proxy-middleware
+
 var express = require('express');
 var proxy = require('http-proxy-middleware');
 
@@ -23,7 +25,7 @@ let portProxy = function (port, addr, api) {
         console.log("[Port]" + port);
         options.target = addr;
         let app = new express();
-        app.use(api, proxy(options));
+        app.use(api, proxy('**', options));
         app.listen(port);
     } catch (er) {
         console.log(er)
@@ -34,9 +36,9 @@ process.on('uncaughtException', function (err) {
     if (err.errno === 'EADDRINUSE') {
         console.log("Bug");
     } else {
+        console.log(err);
+        console.log("[uncaughtException] Program Continued ");
     }
-    console.log(err);
-    console.log("[uncaughtException] Program Continued ");;;
     // process.exit(1);
 });
 

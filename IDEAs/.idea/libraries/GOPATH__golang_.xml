@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;golang&gt;">
     <CLASSES>
+      <root url="file:///usr/local/opt/go/libexec/bin/src/golang.org" />
       <root url="file:///usr/local/opt/go/libexec/bin/src/github.com" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="file:///usr/local/opt/go/libexec/bin/src/golang.org" />
       <root url="file:///usr/local/opt/go/libexec/bin/src/github.com" />
     </SOURCES>
     <excluded>
