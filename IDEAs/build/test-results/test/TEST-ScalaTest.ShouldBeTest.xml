@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ScalaTest.ShouldBeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-08T04:59:53" hostname="tastypotinc.private" time="0.865">
+  <properties/>
+  <testcase name="verifyEasy" classname="ScalaTest.ShouldBeTest" time="0.729"/>
+  <testcase name="verifyException" classname="ScalaTest.ShouldBeTest" time="0.016"/>
+  <testcase name="verifyFun" classname="ScalaTest.ShouldBeTest" time="0.109"/>
+  <testcase name="verifyShould" classname="ScalaTest.ShouldBeTest" time="0.006"/>
+  <system-out><![CDATA[ListBuffer(sweet)
+ScalaTest is fun!
+ListBuffer()
+ListBuffer()
+ListBuffer(fun)
+ListBuffer()
+lb should beSucceeded
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
