@@ -4,8 +4,6 @@
     <bytecodeTargetLevel>
       <module name="IDEAs_main" target="1.8" />
       <module name="IDEAs_test" target="1.8" />
-      <module name="TestNG-1_main" target="1.8" />
-      <module name="TestNG-1_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
