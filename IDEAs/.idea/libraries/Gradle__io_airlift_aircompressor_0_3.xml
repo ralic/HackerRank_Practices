@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.3/d2367c4419df1fbf4b186a07f81a70fc30c1031f/aircompressor-0.3.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.3/1b9d937526264689195936152a33dcc28113e607/aircompressor-0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.3/2e7c2bdc318d761d3834d5d28e48273f0db7c8c9/aircompressor-0.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

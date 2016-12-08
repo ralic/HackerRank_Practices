@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gridgain/ignite-shmem/1.0.0/1874ee7f7fa2c7f4bc0c458f5dd1e3a3876418e9/ignite-shmem-1.0.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gridgain/ignite-shmem/1.0.0/23a0b8482aa303bfc125f6e71e943825cff86221/ignite-shmem-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.gridgain/ignite-shmem/1.0.0/ecfa2478af45e2b4059a3a97686308041d220031/ignite-shmem-1.0.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

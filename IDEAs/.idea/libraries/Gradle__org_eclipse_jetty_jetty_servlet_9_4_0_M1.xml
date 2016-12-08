@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.0.M1/da7eefa29055e98596c5c195e299ff0b75b98a65/jetty-servlet-9.4.0.M1.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.0.M1/3a0427331ff03ad35d368590c3d19b303935bfe1/jetty-servlet-9.4.0.M1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.0.M1/307433b605626531799293cf6cdbf00345b80942/jetty-servlet-9.4.0.M1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

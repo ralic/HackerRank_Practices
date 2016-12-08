@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tinkerpop/gremlin-shaded/3.2.2/c4443c270678830b289b61d60c29dffd95ee9ea8/gremlin-shaded-3.2.2.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tinkerpop/gremlin-shaded/3.2.2/96b8725fcccf637e447156327142baf5f582db1d/gremlin-shaded-3.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tinkerpop/gremlin-shaded/3.2.2/b11a029c7db3a959e964197150956a1deb4554b1/gremlin-shaded-3.2.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

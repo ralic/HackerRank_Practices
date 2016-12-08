@@ -24,26 +24,21 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
-        maven {
-            url "http://repo.spring.io/milestone"
-        }
-        maven {
-            url "http://com.jfrog.bintray"
-        }
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
+        maven { url "http://com.jfrog.bintray" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://repo.spring.io/milestone" }
+        maven { url "http://repo.spring.io/snapshot" }
     }
     dependencies {
-        classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M2" // Support JUNIT-5
+        classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3" // Support JUNIT-5
         classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.3.0" // Support Dynamic version in dependency
         //        classpath "gradle.plugin.com.netflix.nebula:gradle-ospackage-plugin:3.6.1" // Support RPM Package.
         classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE" // Support Spring Boot
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
         classpath "org.ajoberstar:gradle-git:1.5.1" // Support Gradle-Git
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
-        classpath "com.fasterxml.jackson.core:jackson-core:2.8.0"
-        classpath "net.serenity-bdd:serenity-gradle-plugin:1.1.9" // Support Serenity BDD
+        classpath "com.fasterxml.jackson.core:jackson-core:2.8.5"
+        classpath "net.serenity-bdd:serenity-gradle-plugin:1.1.42" // Support Serenity BDD
         // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
         //        github("layerhq", "maven-private", "master", "releases")
         //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
@@ -150,9 +145,11 @@ tree.each { file ->
     dynamicTaskIndex++
 }
 
+
 task myMinify(dependsOn: dynamicTaskNames) {
-    println("done.")
+    println("jsScripts Minified.")
 }
+
 
 // Declare your sources
 javascript.source {
@@ -271,26 +268,15 @@ compileTestScala {
  */
 
 junitPlatform {
-    platformVersion "1.0.0-M2"
-//    logManager "org.apache.logging.log4j.jul.LogManager"
-    engines {
-        include "junit-jupiter", "junit-vintage"
-        //        exclude "custom-engine"
-    }
-    includeClassNamePattern ".*Test"
-//    tags {
-//        include "fast", "smoke"
-//        exclude "slow","ci"
-//    }
-    //    reportsDir "build/test-results/junit-platform" // this is the default
+    platformVersion "1.0.0-M3"
     enableStandardTestTask true
 }
 
 
 ext.junit4Version = "4.12"
 ext.junitVintageVersion = "4.12.0-M2"
-ext.junitPlatformVersion = "1.0.0-M2"
-ext.junitJupiterVersion = "5.0.0-M2"
+ext.junitPlatformVersion = "1.0.0-M3"
+ext.junitJupiterVersion = "5.0.0-M3"
 ext.log4JVersion = "2.5"
 
 /*
@@ -317,12 +303,36 @@ dependencies {
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
 
     // Apache Tika Support ( Image meta file. for GMAP)
-    compile "org.apache.tika:tika-parent:1.13"
+   compile "org.apache.tika:tika:1.14"
+   compile "org.apache.tika:tika-core:1.14"
+////    compile "org.apache.tika:tika-parent:1.14"
+//    compile "org.apache.tika:tika-parsers:1.14"
+//    compile "org.apache.tika:tika-app:1.14"
+//    compile "org.apache.tika:tika-xmp:1.14"
+//
+//    runtime "org.apache.tika:tika-core:1.14"
+//    runtime 'org.apache.tika:tika-parsers:1.14'
+
+    // Vaadin U & I Framework
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-client
+    compile group: 'com.vaadin', name: 'vaadin-client', version: '7.7.5'
+//    compile "com.vaadin:vaadin:7.0.0.alpha3"
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-themes
+    compile group: 'com.vaadin', name: 'vaadin-themes', version: '7.7.5'
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-server
+    compile group: 'com.vaadin', name: 'vaadin-server', version: '7.7.5'
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-spring
+    compile group: 'com.vaadin', name: 'vaadin-spring', version: '1.1.1'
+
+    // VertX for Web design
+    // https://mvnrepository.com/artifact/io.vertx/vertx-core
+    compile group: 'io.vertx', name: 'vertx-core', version: '3.3.3'
 
     // JSON, YAML support
-    compile "com.fasterxml.jackson.core:jackson-core:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-databind:2.8.0" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-annotations:2.8.0" // YAML or JSON format
+    def jackson="2.8.5"
+    compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
@@ -591,8 +601,8 @@ dependencies {
     testCompile "org.arquillian.spacelift:arquillian-spacelift:1.0.0.Alpha8"
 
     // Support Serenity BDD
-    testCompile "net.serenity-bdd:serenity-core:1.1.9"
-    testCompile "net.serenity-bdd:serenity-junit:1.1.9"
+    testCompile "net.serenity-bdd:serenity-core:1.1.42"
+    testCompile "net.serenity-bdd:serenity-junit:1.1.42"
     testCompile "org.assertj:assertj-core:3.5.2"
 //    testCompile "org.slf4j:slf4j-simple:1.7.7"
 
@@ -851,20 +861,17 @@ task compile {
 }
 
 // Compile / Test / Read report
-//task NGreport(type: Exec, dependsOn: [test]) {
-////https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
-//    workingDir './'
-////    commandLine './stop.sh'
-//
-//    //store the output instead of printing to the console:
-//    standardOutput = new ByteArrayOutputStream()
-//
-//    //extension method stopTomcat.output() can be used to obtain the output:
-//    ext.output = {
-//        return standardOutput.toString()
-//    }
-//    args "./build/reports/tests/test/index.html"
-//}
+task NGreport(type: Exec, dependsOn: [test]) {
+//https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
+    workingDir './'
+    commandLine 'open'
+    //store the output instead of printing to the console:
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        return standardOutput.toString()
+    }
+    args "./build/reports/tests/test/index.html"
+}
 
 task runEasy(type: JavaExec) {
     mainClassName = "org.raliclo.JavaSEApplication"
@@ -882,10 +889,6 @@ task runCount(type: JavaExec) {
     mainClassName = "org.raliclo.WordCountWeb.src.WordCountAvro"
     main = mainClassName
     classpath = sourceSets.main.runtimeClasspath
-}
-
-task compileTest(dependsOn: compile) << {
-    println "compiling unit tests"
 }
 
 //gradleVersion = 3.0
@@ -1239,3 +1242,4 @@ TODO Complete the configuration & Support
 apply plugin: 'distribution'
 distZip.enabled = false
 distTar.enabled = false
+jar.enabled = false
