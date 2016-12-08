@@ -1,0 +1,1 @@
+'use strict';var nanoT1=process.hrtime(),express=require("express"),proxy=require("http-proxy-middleware"),options={target:"https://www.google.com",changeOrigin:!0,ws:!0,pathRewrite:{},router:{}},googleProxy=proxy(options),app=new express;app.use("/",googleProxy);app.listen(3E3);

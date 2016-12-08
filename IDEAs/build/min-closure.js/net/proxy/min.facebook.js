@@ -1,0 +1,1 @@
+'use strict';var nanoT1=process.hrtime(),express=require("express"),proxy=require("http-proxy-middleware"),options={target:"https://www.facebook.com/",changeOrigin:!0,ws:!0,pathRewrite:{},router:{"dev.localhost:3000":"http://localhost:8000"}},fbProxy=proxy(options),app=new express;app.use("/",fbProxy);app.listen(8080);console.log(app);

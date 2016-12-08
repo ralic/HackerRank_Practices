@@ -74,7 +74,7 @@ public abstract class AbstractNameValueComment {
      * @throws JsonParseException
      * @throws IOException
      */
-    public AbstractNameValueComment(JsonParser jp) throws JsonParseException,
+    public AbstractNameValueComment(JsonParser jp) throws
             IOException {
     }
 
@@ -86,7 +86,7 @@ public abstract class AbstractNameValueComment {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeStartObject();
         g.writeStringField("name", name);

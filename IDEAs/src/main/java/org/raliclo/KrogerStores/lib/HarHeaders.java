@@ -61,7 +61,7 @@ public class HarHeaders {
      * @throws IOException
      */
     public HarHeaders(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         headers = new ArrayList<HarHeader>();
 
         // Read the content of the pages element
@@ -125,7 +125,7 @@ public class HarHeaders {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeArrayFieldStart("headers");
         for (HarHeader header : headers)

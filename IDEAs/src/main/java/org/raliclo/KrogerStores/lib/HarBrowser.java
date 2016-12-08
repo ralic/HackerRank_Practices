@@ -84,7 +84,7 @@ public class HarBrowser {
      * @throws IOException
      */
     public HarBrowser(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"browser\" element");
@@ -171,7 +171,7 @@ public class HarBrowser {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeObjectFieldStart("browser");
         g.writeStringField("name", name);

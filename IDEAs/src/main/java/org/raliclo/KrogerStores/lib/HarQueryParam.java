@@ -94,7 +94,7 @@ public class HarQueryParam extends AbstractNameValueComment {
      * @throws IOException
      */
     public HarQueryParam(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         super(jp);
 
         // Read the content of the log element
@@ -146,7 +146,7 @@ public class HarQueryParam extends AbstractNameValueComment {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeStartObject();
         g.writeStringField("name", getName());

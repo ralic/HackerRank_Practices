@@ -107,7 +107,7 @@ public class HarCacheRequest {
      * @throws IOException
      */
     public HarCacheRequest(JsonParser jp, boolean isBefore,
-                           List<HarWarning> warnings) throws JsonParseException, IOException {
+                           List<HarWarning> warnings) throws IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             if ("null".equals(jp.getText()))
@@ -250,7 +250,7 @@ public class HarCacheRequest {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         if (eTag == null) { // If mandatory field is null, it was a null object
             g.writeNullField(getObjectTag());

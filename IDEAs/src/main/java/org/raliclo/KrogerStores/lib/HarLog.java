@@ -85,7 +85,7 @@ public class HarLog {
      * @throws JsonParseException
      */
     public HarLog(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         if (jp.nextToken() == JsonToken.END_OBJECT)
             throw new JsonParseException(jp, "Empty file");
 
@@ -171,7 +171,7 @@ public class HarLog {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeObjectFieldStart("log");
         g.writeStringField("version", version);

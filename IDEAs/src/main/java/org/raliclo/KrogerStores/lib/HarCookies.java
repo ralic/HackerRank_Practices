@@ -56,7 +56,7 @@ public class HarCookies {
      * @throws IOException
      */
     public HarCookies(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         cookies = new ArrayList<HarCookie>();
 
         // Read the content of the pages element
@@ -98,10 +98,10 @@ public class HarCookies {
                 cookie.setPath(rs.getString(4));
                 cookie.setDomain(rs.getString(5));
                 cookie.setExpires(rs.getTimestamp(6));
-                boolean httpOnly = rs.getInt(7) == 1 ? true : false;
+                boolean httpOnly = rs.getInt(7) == 1;
                 if (!rs.wasNull())
                     cookie.setHttpOnly(httpOnly);
-                boolean secure = rs.getInt(8) == 1 ? true : false;
+                boolean secure = rs.getInt(8) == 1;
                 if (!rs.wasNull())
                     cookie.setSecure(secure);
                 cookie.setComment(rs.getString(9));
@@ -134,7 +134,7 @@ public class HarCookies {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeArrayFieldStart("cookies");
         for (HarCookie cookie : cookies)

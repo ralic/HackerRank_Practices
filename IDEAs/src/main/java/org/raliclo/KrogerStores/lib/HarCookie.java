@@ -106,7 +106,7 @@ public class HarCookie {
      * @throws IOException
      */
     public HarCookie(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"cookies\" element");
@@ -180,7 +180,7 @@ public class HarCookie {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeStartObject();
         g.writeStringField("name", name);

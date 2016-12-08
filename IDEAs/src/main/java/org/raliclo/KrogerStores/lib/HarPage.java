@@ -82,7 +82,7 @@ public class HarPage {
      * @throws IOException
      */
     public HarPage(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"pages\" element");
@@ -196,7 +196,7 @@ public class HarPage {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeStartObject();
         g.writeStringField("startedDateTime",

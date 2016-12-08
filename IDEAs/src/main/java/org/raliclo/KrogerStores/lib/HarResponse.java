@@ -119,7 +119,7 @@ public class HarResponse {
      * @throws JsonParseException
      * @throws IOException
      */
-    public HarResponse(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarResponse(JsonParser jp, List<HarWarning> warnings) throws IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"response\" element");
@@ -266,7 +266,7 @@ public class HarResponse {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException, IOException {
+    public void writeHar(JsonGenerator g) throws IOException {
         g.writeObjectFieldStart("response");
         g.writeNumberField("status", status);
         g.writeStringField("statusText", statusText);

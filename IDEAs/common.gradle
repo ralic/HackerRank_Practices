@@ -16,7 +16,7 @@ mavenArtifactId = name
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 repositories {
-    mavenCentral();
+    mavenCentral()
     // You may define additional repositories, or even remove "mavenCentral()".
     // Read more about repositories here:
     //   http://www.gradle.org/docs/current/userguide/dependency_management.html#sec:repositories
@@ -30,7 +30,8 @@ dependencies {
 
 task sourcesJar(type: Jar, dependsOn: classes, description: 'Creates a jar from the source files.') {
     classifier = 'sources'
-    from sourceSets.main.allSource
+    final def newtask = from(sourceSets.main.allSource)
+    newtask
 }
 
 artifacts {
@@ -46,11 +47,12 @@ configure(install.repositories.mavenInstaller) {
     }
 }
 
-task createFolders(description: 'Creates the source folders if they do not exist.') doLast {
-    sourceSets*.allSource*.srcDirs*.each { File srcDir ->
+//noinspection GroovyAssignabilityCheck
+final srcfolders = task(createFolders(description: 'Creates the source folders if they do not exist.')).doLast({
+    sourceSets*.allSource*.srcDirs*.each { Set srcDir ->
         if (!srcDir.isDirectory()) {
             println "Creating source folder: ${srcDir}"
             srcDir.mkdirs()
         }
     }
-}
+})

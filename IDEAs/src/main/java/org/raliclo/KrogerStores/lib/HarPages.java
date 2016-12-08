@@ -57,7 +57,7 @@ public class HarPages {
      * @throws IOException
      */
     public HarPages(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         pages = new ArrayList<HarPage>();
 
         // Read the content of the pages element
@@ -116,7 +116,7 @@ public class HarPages {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeArrayFieldStart("pages");
         for (HarPage page : pages)

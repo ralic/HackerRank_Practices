@@ -4,12 +4,8 @@ package advanced_Selenium;
  * Project Name : TestNG-1
  */
 
-import net.serenitybdd.core.annotations.findby.By;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.testng.annotations.Test;
 
@@ -58,7 +54,7 @@ public class phantomjsTest {
          */
         String screennBase64data = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BASE64);
         System.out.println("Base 64 String Length" + screennBase64data.length());
-        FileUtils.writeStringToFile(new File("./selenium-shots/image-base-64.txt"), screennBase64data);
+        FileUtils.writeStringToFile(new File("./selenium-shots/image-base-64.txt"), screennBase64data, "UTF-8", true);
 
 
         /*

@@ -22,10 +22,10 @@ package Spark_GraphX
 //
 //
 //// $example on$
-import org.apache.spark.graphx.GraphLoader
+//import org.apache.spark.graphx.GraphLoader
 
 // $example off$
-import org.apache.spark.sql.SparkSession
+//import org.apache.spark.sql.SparkSession
 
 /**
   * Suppose I want to build a graph from some text files, restrict the graph

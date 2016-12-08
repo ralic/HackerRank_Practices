@@ -52,7 +52,7 @@ public class HarFileReader {
      * @throws JsonParseException if a parsing error occurs
      * @throws IOException        if an IO error occurs
      */
-    public HarLog readHarFile(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarLog readHarFile(JsonParser jp, List<HarWarning> warnings) throws IOException {
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "File does not start with {");
         }
@@ -74,7 +74,7 @@ public class HarFileReader {
      * @throws JsonParseException if a parsing error occurs
      * @throws IOException        if an IO error occurs
      */
-    public HarLog readHarFile(File file) throws JsonParseException, IOException {
+    public HarLog readHarFile(File file) throws IOException {
         return readHarFile(file, null);
     }
 
@@ -89,7 +89,7 @@ public class HarFileReader {
      * @throws JsonParseException if a parsing error occurs
      * @throws IOException        if an IO error occurs
      */
-    public HarLog readHarFile(File file, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarLog readHarFile(File file, List<HarWarning> warnings) throws IOException {
         JsonFactory f = new JsonFactory();
         JsonParser jp = f.createParser(file);
         if (jp.nextToken() != JsonToken.START_OBJECT) {
@@ -115,7 +115,7 @@ public class HarFileReader {
      * @throws JsonParseException if a parsing error occurs
      * @throws IOException        if an IO error occurs
      */
-    public HarLog readHarFile(InputStream stream, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarLog readHarFile(InputStream stream, List<HarWarning> warnings) throws IOException {
         JsonFactory f = new JsonFactory();
         JsonParser jp = f.createParser(stream);
         if (jp.nextToken() != JsonToken.START_OBJECT) {

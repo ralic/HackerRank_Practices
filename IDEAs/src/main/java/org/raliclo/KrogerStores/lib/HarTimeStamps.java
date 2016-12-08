@@ -53,7 +53,7 @@ public class HarTimeStamps {
      * @throws JsonParseException
      * @throws IOException
      */
-    public HarTimeStamps(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarTimeStamps(JsonParser jp, List<HarWarning> warnings) throws IOException {
         pageTimings = new ArrayList<HarTimeStamp>();
 
         // Read the content of the pages element

@@ -108,9 +108,29 @@ Node.js All script minify
  */
 // http://stackoverflow.com/questions/36978782/gradle-minify-all-javascript
 // https://docs.gradle.org/current/userguide/working_with_files.html
+
 import com.eriwen.gradle.js.tasks.MinifyJsTask
 
-def jsSrcDir = "src/main/javascript"
+// Declare your sources
+
+def jsSrcDir = "src/main/jsSrcDir"
+
+javascript.source {
+    dev {
+        js {
+            srcDir jsSrcDir
+            include "*.js"
+            exclude "*.min.js"
+        }
+    }
+    prod {
+        js {
+            srcDir jsSrcDir
+            include "*.min.js"
+        }
+    }
+}
+
 def dynamicTaskNames = []
 def dynamicTaskIndex = 1
 
@@ -145,11 +165,9 @@ tree.each { file ->
     dynamicTaskIndex++
 }
 
-
 task myMinify(dependsOn: dynamicTaskNames) {
     println("jsScripts Minified.")
 }
-
 
 // Declare your sources
 javascript.source {
@@ -233,7 +251,8 @@ repositories {
   This section is to resolve slf4j and log4j"s StackOverFlow Exception
   REF: http://buransky.com/programming/exclude-log4j-to-use-slf4j-with-logback-in-a-gradle-project/
  */
-configurations.all {
+//noinspection GroovyAssignabilityCheck
+def excludes = configurations.all {
     exclude group: "org.slf4j", module: "slf4j-log4j12"
     exclude group: "org.slf4j", module: "slf4j-simple"
 //    exclude group: "ch.qos.logback", module: "logback-classic"
@@ -247,8 +266,7 @@ configurations.all {
     exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
     exclude group: "org.apache.calcite", module: "calcite-avatica"
 }
-
-
+excludes
 
 apply plugin: "org.junit.platform.gradle.plugin"
 compileTestJava {
@@ -303,8 +321,8 @@ dependencies {
 //    compile "com.github.graalvm:fastr:graal-vm-0.13"
 
     // Apache Tika Support ( Image meta file. for GMAP)
-   compile "org.apache.tika:tika:1.14"
-   compile "org.apache.tika:tika-core:1.14"
+    compile "org.apache.tika:tika:1.14"
+    compile "org.apache.tika:tika-core:1.14"
 ////    compile "org.apache.tika:tika-parent:1.14"
 //    compile "org.apache.tika:tika-parsers:1.14"
 //    compile "org.apache.tika:tika-app:1.14"
@@ -329,7 +347,7 @@ dependencies {
     compile group: 'io.vertx', name: 'vertx-core', version: '3.3.3'
 
     // JSON, YAML support
-    def jackson="2.8.5"
+    def jackson = "2.8.5"
     compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
     compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
     compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
@@ -865,12 +883,12 @@ task NGreport(type: Exec, dependsOn: [test]) {
 //https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
     workingDir './'
     commandLine 'open'
+    args './build/reports/tests/test/index.html'
     //store the output instead of printing to the console:
     standardOutput = new ByteArrayOutputStream()
     ext.output = {
         return standardOutput.toString()
     }
-    args "./build/reports/tests/test/index.html"
 }
 
 task runEasy(type: JavaExec) {

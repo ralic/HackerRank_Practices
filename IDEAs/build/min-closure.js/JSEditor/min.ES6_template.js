@@ -1,0 +1,1 @@
+'use strict';var processData=function(a){console.log(a)};process.stdin.resume();process.stdin.setEncoding("utf-8");var _input="";process.stdin.on("data",function(a){_input+=a});process.stdin.on("end",function(){console.log("Please enter data : ");var a=new Date;processData(_input);console.log("Time Elapsed:"+(new Date-a))});

@@ -58,7 +58,7 @@ public class HarEntries {
      * @throws IOException
      */
     public HarEntries(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         entries = new ArrayList<>();
 
         // Read the content of the entries element
@@ -126,7 +126,7 @@ public class HarEntries {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeArrayFieldStart("entries");
         for (HarEntry entry : entries)

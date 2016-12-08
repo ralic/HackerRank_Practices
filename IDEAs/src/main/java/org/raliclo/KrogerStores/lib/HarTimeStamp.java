@@ -58,7 +58,7 @@ public class HarTimeStamp {
      * @throws JsonParseException
      * @throws IOException
      */
-    public HarTimeStamp(JsonParser jp, List<HarWarning> warnings) throws JsonParseException, IOException {
+    public HarTimeStamp(JsonParser jp, List<HarWarning> warnings) throws IOException {
         // Read the content of the log element
         if (jp.getCurrentToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"pages\" element");

@@ -113,7 +113,7 @@ public class HarEntryTimings {
      * @throws IOException
      */
     public HarEntryTimings(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         // Read the content of the log element
         if (jp.nextToken() != JsonToken.START_OBJECT) {
             throw new JsonParseException(jp, "{ missing after \"timings\" element");
@@ -233,7 +233,7 @@ public class HarEntryTimings {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeObjectFieldStart("timings");
         if (blocked != null)

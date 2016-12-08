@@ -58,7 +58,7 @@ public class HarPostDataParams {
      * @throws IOException
      */
     public HarPostDataParams(JsonParser jp, List<HarWarning> warnings)
-            throws JsonParseException, IOException {
+            throws IOException {
         // Read the content of the pages element
         if (jp.nextToken() != JsonToken.START_ARRAY) {
             throw new JsonParseException(jp, "[ missing after \"params\" element "
@@ -118,7 +118,7 @@ public class HarPostDataParams {
      * @throws JsonGenerationException if the generator fails
      * @see HarFileWriter#writeHarFile(HarLog, java.io.File)
      */
-    public void writeHar(JsonGenerator g) throws JsonGenerationException,
+    public void writeHar(JsonGenerator g) throws
             IOException {
         g.writeArrayFieldStart("params");
         for (HarPostDataParam param : postDataParams)
