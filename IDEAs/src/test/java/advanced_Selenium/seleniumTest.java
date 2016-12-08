@@ -50,7 +50,7 @@ public class seleniumTest {
         System.out.println("[Info] List out all Elements founded~!");
         System.out.println("--------------------------------------");
         List<WebElement> elist = driver.findElements(
-                By.cssSelector("#rso > div> div > div:nth-child(1) > div > h3 > a"));
+                By.cssSelector("h3 > a"));
         System.out.println("--------------------------------------");
         System.out.println("Elements Amounts : " + elist.size());
         System.out.println("Element href attribute: " +
@@ -99,7 +99,7 @@ public class seleniumTest {
         System.out.println("[Info] List out all Elements founded~!");
         System.out.println("--------------------------------------");
         List<WebElement> elist = driver.findElements(
-                By.cssSelector("#rso >div>  div > div:nth-child(1) > div > h3 > a"));
+                By.cssSelector("h3 > a"));
         System.out.println("--------------------------------------");
         System.out.println("Elements Amounts : " + elist.size());
         System.out.println("Element href attribute: " + elist.get(0).getAttribute("href"));

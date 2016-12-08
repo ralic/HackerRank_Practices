@@ -39,6 +39,8 @@ buildscript {
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
         classpath "com.fasterxml.jackson.core:jackson-core:2.8.5"
         classpath "net.serenity-bdd:serenity-gradle-plugin:1.1.42" // Support Serenity BDD
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT'// Support Spring Boot
+
         // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
         //        github("layerhq", "maven-private", "master", "releases")
         //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
@@ -48,7 +50,8 @@ buildscript {
 
         // Google Platform Support
         classpath 'com.google.appengine:gradle-appengine-plugin:1.9.42'
-
+        // Scala.js Support
+        // classpath 'com.github.gtache:scalajs-plugin:0.2.0'
     }
 }
 
@@ -196,6 +199,7 @@ apply plugin: "antlr"
 apply plugin: "net.serenity-bdd.aggregator"
 apply plugin: "nebula.dependency-lock"
 apply plugin: "org.ajoberstar.github-pages"
+// apply plugin: 'scalajs-plugin'
 
 //apply plugin: "war" // Support Web Application Archive
 //apply plugin: "org.javafxports.jfxmobile"
@@ -242,8 +246,10 @@ repositories {
     maven { url "http://conjars.org/repo" }
     maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
     maven { url "https://jitpack.io" }
-//    maven { url "https://oss.sonatype.org/content/repositories/releases" }
-//    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "https://oss.sonatype.org/content/repositories/releases" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "https://repo.spring.io/milestone" }
+    maven { url "http://repo.spring.io/snapshot" }
 }
 
 /*
@@ -261,7 +267,7 @@ def excludes = configurations.all {
     exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
 //    exclude group: "org.eclipse.jetty", module: "jetty-server"
     exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
-    // TODO : To find out whether this aggregate is from Spring Boot"s, the jetty-all-7.6.0 ? makes Spring Boot Crashes.
+    // TODO : jetty-all-7.6.0 ? makes Spring Boot Crashes.
     exclude group: "org.eclipse.jetty", module: "jetty-webapp"
     exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
     exclude group: "org.apache.calcite", module: "calcite-avatica"
@@ -390,32 +396,91 @@ dependencies {
     // MySQL Connector support
     compile "mysql:mysql-connector-java:6.0.3"
 
-    def SpringVer = "1.4.1.RELEASE"
+//     def SpringVer = "1.4.1.RELEASE"
+//     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
+//     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
+//             {
+//                 exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
+//             }
+//     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
+//     testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
+
+//     // def SpringVer = "2.0.0.BUILD-SNAPSHOT"
+//     // compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+//     // testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+
+// //    compile "org.springframework.boot:spring-boot:${SpringVer}"
+// //    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
+// //    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
+// //    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
+// //    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
+// //    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
+
+// //    def SpringFullVer = "4.3.2.RELEASE"
+// //    compile "org.springframework:spring-core:${SpringFullVer}"
+// //    compile "org.springframework:spring-context:${SpringFullVer}"
+// //    compile "org.springframework:spring-orm:${SpringFullVer}"
+// //    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
+// //    compile "org.springframework.data:spring-data-hadoop:2.4.0.RELEASE"
+
+    def SpringVer = "2.0.0.BUILD-SNAPSHOT"
+
+    //http://repo.spring.io/snapshot/org/springframework/data/
+    //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
-            {
-                exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
-            }
+        // {exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"}
+    // compile("org.springframework.boot:spring-boot-starter-web")
     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
-    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+    
+    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"    
+    testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
 
-    // def SpringVer = "2.0.0.BUILD-SNAPSHOT"
-    // compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-    // testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+    compile "org.springframework.boot:spring-boot:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
 
-//    compile "org.springframework.boot:spring-boot:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
-//    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
+    def SpringFullVer = "5.0.0.BUILD-SNAPSHOT"
+    compile "org.springframework:spring-test:${SpringFullVer}"
+    compile "org.springframework:spring-core:${SpringFullVer}"
+    compile "org.springframework:spring-beans:${SpringFullVer}"
+    compile "org.springframework:spring-context:${SpringFullVer}"
+    
+//     compile "org.springframework:spring-expression:${SpringFullVer}"
+//     compile "org.springframework:spring-tx:${SpringFullVer}"
+//     compile "org.springframework:spring-oxm:${SpringFullVer}"
+//     compile "org.springframework:spring-web:${SpringFullVer}"
+//     compile "org.springframework:spring-webmvc:${SpringFullVer}"
+//     compile "org.springframework:spring-web-reactive:${SpringFullVer}"
+//     compile "org.springframework:spring-orm:${SpringFullVer}"
+//     compile "org.springframework.data:spring-data-commons:${SpringFullVer}"
+//     compile "org.springframework.data:spring-data-commons-dist:1.5.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-commons-core:1.5.0.BUILD-SNAPSHOT"
 
-//    def SpringFullVer = "4.3.2.RELEASE"
-//    compile "org.springframework:spring-core:${SpringFullVer}"
-//    compile "org.springframework:spring-context:${SpringFullVer}"
-//    compile "org.springframework:spring-orm:${SpringFullVer}"
-//    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
-//    compile "org.springframework.data:spring-data-hadoop:2.4.0.RELEASE"
+//     compile "org.springframework.data:spring-data-rest-parent:3.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-rest-core:3.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-rest-webmvc:3.0.0.BUILD-SNAPSHOT"
+
+//     compile "org.springframework.data:spring-data-commons:${SpringFullVer}"
+//     compile "org.springframework.data:spring-data-ldap:1.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-neo4j:5.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-solr:3.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-hadoop:2.4.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.data:spring-data-keyvalue:${SpringVer}"
+//     compile "org.springframework.data:spring-data-cassandra-parent:${SpringVer}"
+//     compile "org.springframework.data:spring-data-mongodb-parent:${SpringVer}"
+//     compile "org.springframework.data:spring-data-redis:${SpringVer}"
+//     compile "org.springframework.data:spring-data-oracle:${SpringVer}"
+//     compile "org.springframework.data:spring-data-jpa:${SpringVer}"
+// //    compile "org.springframework.social:spring-social:2.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.statemachine:spring-statemachine-boot:1.2.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.shell:spring-shell:1.2.0.BUILD-SNAPSHOT"
+//     compile "org.springframework:spring-websocket:5.0.0.BUILD-SNAPSHOT"
+//     compile "org.springframework.webflow:spring-webflow:2.4.5.BUILD-SNAPSHOT"
 
     // For HTTP2 Servers
     // http://unrestful.io/2015/10/10/http2-java-client-examples.html
@@ -654,7 +719,7 @@ dependencies {
     testRuntime "org.apache.logging.log4j:log4j-core:${log4JVersion}"
     testRuntime "org.apache.logging.log4j:log4j-jul:${log4JVersion}"
 
-    /*
+    /* Scala Support
     Configuring the Zinc compiler is not always required.
     https://docs.gradle.org/current/userguide/scala_plugin.html
 
@@ -665,13 +730,45 @@ dependencies {
     to ensure the correct Java compiler is used.
      */
 
-    // Scala Support
+
     compile "org.scala-lang:scalap:2.12.0-M5"
     compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
     testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
     testCompile "org.scalatest:scalatest_2.11:3.0.0"
     testRuntime "org.pegdown:pegdown:1.6.0"
+
+     /* Scalajs Support
+     https://github.com/gtache/scalajs-gradle
+     http://repo1.maven.org/maven2/org/scala-js/
+    */
+    // def scalajsVer = "0.6.13"
+    // compile "org.scala-js:scalajs-library_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-compiler_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scalajs-javalib-ex_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-compiler_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scalajs-test-interface_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-ir_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-ir_sjs0.6_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-tools_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-stubs_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-sbt-test-adapter_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-js-envs_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-js-envs-test-kit_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-java-time_sjs0.6_2.12:0.2.0"
+    // compile "org.scala-js:scalajs-java-logging_sjs0.6_2.12:0.1.0"
+    // compile "org.scala-js:scalajs-dom_sjs0.6_2.12.0-M4:0.9.1:"
+    // compile "org.scala-js:scalajs-cli_2.11:0.6.9"
+    // compile "org.scala-js:scalajs-tools_sjs0.6_2.12:${scalajsVer}"
+
+    // TODO There is bug for integrating junit/selenium in scala-js
+    // compile "org.scala-js:scalajs-junit-test-runtime_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-junit-test-plugin_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scala-junit-mixin-plugin_2.12.0-M5:0.1.0:"
+    // compile "org.scala-js:seleniumjsenv_2.12.0-M3:0.1.0"
+    // compile "org.scala-js:scalajs-env-selenium_2.12.0-M4:0.1.3"
+    // compile "org.eclipse.jetty:jetty-server:8.1.16.v20140903"
+    // compile "org.eclipse.jetty:jetty-websocket:8.1.16.v20140903"
 
     // For Kafka Development
     def KafkaVer = "0.10.0.1"
@@ -802,7 +899,8 @@ generateGrammarSource {
 
 // Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
 apply plugin: "application"
-apply plugin: "spring-boot"
+apply plugin: "org.springframework.boot"
+// apply plugin: "spring-boot"
 bootRun {
     addResources = true
 }
@@ -875,7 +973,7 @@ Task Definitions
  */
 
 task compile {
-    println "[Info] Compiler started" // Emit additional message to :compile
+    println "\n[Info] Compiler started" // Emit additional message to :compile
 }
 
 // Compile / Test / Read report
@@ -904,7 +1002,7 @@ task runCountSite(type: JavaExec) {
 }
 
 task runCount(type: JavaExec) {
-    mainClassName = "org.raliclo.WordCountWeb.src.WordCountAvro"
+    mainClassName = "org.raliclo.WordCountWeb.RestAPI.dataApp.WordCountAvro"
     main = mainClassName
     classpath = sourceSets.main.runtimeClasspath
 }

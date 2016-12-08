@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScalaTest.SimpleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-08T04:59:59" hostname="tastypotinc.private" time="0.75">
+<testsuite name="ScalaTest.SimpleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-08T09:03:40" hostname="tastypotinc.private" time="0.856">
   <properties/>
-  <testcase name="verifyEasy" classname="ScalaTest.SimpleTest" time="0.737"/>
-  <testcase name="verifyException" classname="ScalaTest.SimpleTest" time="0.004"/>
+  <testcase name="verifyEasy" classname="ScalaTest.SimpleTest" time="0.838"/>
+  <testcase name="verifyException" classname="ScalaTest.SimpleTest" time="0.006"/>
   <testcase name="verifyFun" classname="ScalaTest.SimpleTest" time="0.003"/>
-  <testcase name="verifyShould" classname="ScalaTest.SimpleTest" time="0.002"/>
+  <testcase name="verifyShould" classname="ScalaTest.SimpleTest" time="0.004"/>
   <system-out><![CDATA[ListBuffer(sweet !)
 ListBuffer(sweet !)
 Exception shall be from java.lang.StringIndexOutOfBoundsException: String index out of range: -1
