@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Java8_Tests.ClassTest.TestNG_PersonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-08T09:01:50" hostname="tastypotinc.private" time="0.049">
+<testsuite name="Java8_Tests.ClassTest.TestNG_PersonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-08T14:08:57" hostname="tastypotinc.private" time="0.05">
   <properties/>
   <testcase name="collect0" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.038"/>
   <testcase name="collect1" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.007"/>
-  <testcase name="collect2" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.001"/>
+  <testcase name="collect2" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.002"/>
   <testcase name="collect3" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.001"/>
-  <system-out><![CDATA[{chicago=[Java8_Tests.ClassTest.Person@548fb034, Java8_Tests.ClassTest.Person@48de993d], new york=[Java8_Tests.ClassTest.Person@747ce712, Java8_Tests.ClassTest.Person@68479558]}
+  <system-out><![CDATA[{chicago=[Java8_Tests.ClassTest.Person@29f223ab, Java8_Tests.ClassTest.Person@173fb364], new york=[Java8_Tests.ClassTest.Person@32f5c42a, Java8_Tests.ClassTest.Person@2b1abbd0]}
 {chicago=[raliclo], new york=[raliclo1, raliclo3]}
 {chicago=[raliclo, raliclo], new york=[raliclo1, raliclo3]}
-{raliclo1=[Java8_Tests.ClassTest.Person@747ce712], raliclo=[Java8_Tests.ClassTest.Person@548fb034, Java8_Tests.ClassTest.Person@48de993d], raliclo3=[Java8_Tests.ClassTest.Person@68479558]}
+{raliclo1=[Java8_Tests.ClassTest.Person@32f5c42a], raliclo=[Java8_Tests.ClassTest.Person@29f223ab, Java8_Tests.ClassTest.Person@173fb364], raliclo3=[Java8_Tests.ClassTest.Person@2b1abbd0]}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

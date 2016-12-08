@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Java8_Tests.ClassTest.TestNG_PermUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T09:01:47" hostname="tastypotinc.private" time="0.134">
+<testsuite name="Java8_Tests.ClassTest.TestNG_PermUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T14:08:53" hostname="tastypotinc.private" time="0.24">
   <properties/>
-  <testcase name="testUsage" classname="Java8_Tests.ClassTest.TestNG_PermUtilTest" time="0.134"/>
+  <testcase name="testUsage" classname="Java8_Tests.ClassTest.TestNG_PermUtilTest" time="0.24"/>
   <system-out><![CDATA[[1, 2, 3, 4, 5, 6, 7]
 [1, 2, 3, 4, 5, 7, 6]
 [1, 2, 3, 4, 6, 7, 5]

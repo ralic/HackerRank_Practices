@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScalaTest.testNGTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T09:03:44" hostname="tastypotinc.private" time="0.005">
+<testsuite name="ScalaTest.testNGTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T14:11:26" hostname="tastypotinc.private" time="0.004">
   <properties/>
-  <testcase name="verifyEasy" classname="ScalaTest.testNGTest" time="0.005"/>
+  <testcase name="verifyEasy" classname="ScalaTest.testNGTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

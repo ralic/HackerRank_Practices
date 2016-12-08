@@ -744,5 +744,6 @@
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.24" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hbase:hbase-hadoop2-compat:1.1.3" level="project" />
     <orderEntry type="library" name="Python 2.7.10 (/usr/bin/python) interpreter library" level="application" />
+    <orderEntry type="library" name="LeapMotion" level="application" />
   </component>
 </module>
