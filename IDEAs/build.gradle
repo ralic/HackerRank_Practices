@@ -303,6 +303,8 @@ compileTestScala {
 junitPlatform {
     platformVersion "1.0.0-M3"
     enableStandardTestTask true
+    reportsDir file('build/test-results/junit-platform')
+    enableStandardTestTask true
 }
 
 
@@ -310,7 +312,7 @@ ext.junit4Version = "4.12"
 ext.junitVintageVersion = "4.12.0-M2"
 ext.junitPlatformVersion = "1.0.0-M3"
 ext.junitJupiterVersion = "5.0.0-M3"
-ext.log4JVersion = "2.5"
+ext.log4JVersion = "2.7"
 
 /*
  [Dependencies] In this section you declare the dependencies for your production and test code
@@ -346,6 +348,7 @@ dependencies {
 //    runtime "org.apache.tika:tika-core:1.14"
 //    runtime 'org.apache.tika:tika-parsers:1.14'
 
+
     // Vaadin U & I Framework
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-client
     compile group: 'com.vaadin', name: 'vaadin-client', version: '7.7.5'
@@ -370,9 +373,6 @@ dependencies {
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
 
-    // Apache Log4J 2
-    compile "org.apache.logging.log4j:log4j-api:2.6.2" // Apache Log4J 2
-    compile "org.apache.logging.log4j:log4j-core:2.6.2" // Apache Log4J 2
 
     // For Selenium Development : Automation Web Browser Automation Test
     def SeleniumWebDrivers = "3.0.0-beta3"
@@ -414,10 +414,6 @@ dependencies {
 //     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
 //     testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
 
-//     // def SpringVer = "2.0.0.BUILD-SNAPSHOT"
-//     // compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-//     // testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-
 // //    compile "org.springframework.boot:spring-boot:${SpringVer}"
 // //    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
 // //    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
@@ -436,6 +432,7 @@ dependencies {
 
     //http://repo.spring.io/snapshot/org/springframework/data/
     //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
+
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
         // {exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"}
@@ -589,35 +586,22 @@ dependencies {
 //    compile "de.uzl.itm:ncoap-core:1.8.3-SNAPSHOT"
     compile "org.eclipse.leshan:leshan-all:0.1.11-M12"
 
-    // C10K Problem
-    // https://en.wikipedia.org/wiki/C10k_problem
-    // https://news.ycombinator.com/item?id=5127251
-    // http://shenfeng.me/600k-concurrent-connection-http-kit.html
-
-    // For Apache Camel
-    def CamelVer = "2.17.3"
-    compile "org.apache.camel:camel-core:${CamelVer}"
-    compile "org.apache.camel:camel-cdi:${CamelVer}"
-    compile "org.apache.camel:camel-test:${CamelVer}"
-    compile "org.apache.camel:camel-spring-boot:${CamelVer}"
-    compile "org.apache.camel:camel-jetty:${CamelVer}"
-    compile "org.apache.camel:camel-xstream:${CamelVer}"
-//    compile "org.apache.camel:camel-jackson:${CamelVer}"
-    compile "org.apache.camel:camel-mail:${CamelVer}"
-
     // Google Zxing QRCode Generator
     compile "com.google.zxing:zxing-parent:3.2.1"
     compile "com.google.zxing:javase:3.2.1"
 
     // For Spark Unit Test with SparkHive
     // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
-    compile "com.holdenkarau:spark-testing-base_2.11:2.0.0_0.4.4"
+    compile "com.holdenkarau:spark-testing-base_2.11:2.0.0_0.4.7"
 
     // For Mesos Development
-    compile "org.apache.mesos:mesos:1.0.0"
+    compile "org.apache.mesos:mesos:1.1.0"
+    compile "com.mesosphere.mesos.rx.java:mesos-rxjava:0.1.0"
 
     // For MS Document Process
-    compile "org.apache.poi:poi:3.15-beta2"
+    compile "org.apache.poi:poi:3.16-beta1"
+    compile "org.apache.poi:poi-ooxml:3.16-beta1"
+    compile "org.apache.poi:poi-scratchpad:3.16-beta1"
 
     // For Data Flow
     compile "org.apache.nifi:nifi:1.0.0-BETA"
@@ -625,9 +609,10 @@ dependencies {
     // For Deep Learning (ND4J,DL4J)
     // http://deeplearning4j.org/
     // http://nd4j.org/
-    compile "org.deeplearning4j:deeplearning4j-core:0.4.0"
-    compile "org.deeplearning4j:dl4j-spark_2.11:0.4.0"
-    compile "org.nd4j:nd4j-native-platform:0.4.0"
+    def deep4jVer = "0.7.1"
+    compile "org.deeplearning4j:deeplearning4j-parent:${deep4jVer}"
+    compile "org.deeplearning4j:deeplearning4j-core:${deep4jVer}"
+    compile "org.nd4j:nd4j-native-platform:${deep4jVer}"
 
     // For OpenCV Related & Computer Vision
     // OpenPNP http://openpnp.org/
@@ -662,32 +647,6 @@ dependencies {
     runtime "org.jmonkeyengine:jme3-desktop:${jMonkeyVer}"
     runtime "org.jmonkeyengine:jme3-lwjgl:${jMonkeyVer}"
 
-    // For Geo Location Integration
-    compile "com.gluonhq:maps:1.0.0"
-
-    // For Apache Commons Net and Email
-    compile "commons-net:commons-net:3.5"
-    compile "org.apache.commons:commons-email:1.4"
-//    compile "org.apache.commons:commons-io:2.4"
-//    compile "org.apache.commons:commons-Imaging:1.0-SNAPSHOT"
-//    compile "org.apache.commons:commons-collections4:4.1"
-
-    // For HTML Parser (Jsoup)
-    compile "org.jsoup:jsoup:1.9.2"
-
-    // For Virtual Reality
-
-    // For Hibernate
-    compile "org.hibernate:hibernate-core:5.2.2.Final"
-
-    // For Dependency Injection
-
-    // For Time and Date (Joda-Time)
-    compile "joda-time:joda-time:2.9.4"
-
-    // For H2 Datbase http://www.h2database.com/html/main.html
-    compile "com.h2database:h2:1.4.192"
-
 
     // For Virtual Reality / Oculus Rift
     // http://jogamp.org/jogl/www/
@@ -700,6 +659,45 @@ dependencies {
     runtime fileTree(dir: 'libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
     compile fileTree(dir: 'libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
     testCompile fileTree(dir: 'libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
+
+    // For Geo Location Integration
+    compile "com.gluonhq:maps:1.0.0"
+
+    // For Apache Commons Net and Email
+    compile "commons-net:commons-net:3.5"
+    compile "org.apache.commons:commons-email:1.4"
+    compile "commons-io:commons-io:2.5"
+//    compile "org.apache.commons:commons-Imaging:1.0-SNAPSHOT"
+    compile "org.apache.commons:commons-collections4:4.1"
+
+    // For Time and Date (Joda-Time)
+    compile "joda-time:joda-time:2.9.4"
+
+    // For H2 Datbase http://www.h2database.com/html/main.html
+    compile "com.h2database:h2:1.4.192"
+
+    // C10K Problem
+    // https://en.wikipedia.org/wiki/C10k_problem
+    // https://news.ycombinator.com/item?id=5127251
+    // http://shenfeng.me/600k-concurrent-connection-http-kit.html
+
+    // For Apache Camel
+    def CamelVer = "2.18.1"
+    compile "org.apache.camel:camel-core:${CamelVer}"
+    compile "org.apache.camel:camel-cdi:${CamelVer}"
+    compile "org.apache.camel:camel-test:${CamelVer}"
+    compile "org.apache.camel:camel-spring-boot:${CamelVer}"
+    compile "org.apache.camel:camel-jetty:${CamelVer}"
+    compile "org.apache.camel:camel-xstream:${CamelVer}"
+//    compile "org.apache.camel:camel-jackson:${CamelVer}"
+    compile "org.apache.camel:camel-mail:${CamelVer}"
+
+
+    // For HTML Parser (Jsoup)
+    compile "org.jsoup:jsoup:1.10.1"
+
+    // For Hibernate
+    compile "org.hibernate:hibernate-core:5.2.2.Final"
 
     // For Arquillian Test ( http://arquillian.org/modules/core-platform/ )
     testCompile "org.jboss.arquillian:arquillian-bom:1.1.11.Final"
@@ -743,6 +741,10 @@ dependencies {
     // JUnit Jupiter API and TestEngine implementation
     testCompile "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}"
     testRuntime "org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}"
+
+    // Apache Log4J 2
+    compile "org.apache.logging.log4j:log4j-api:${log4JVersion}" // Apache Log4J 2
+    compile "org.apache.logging.log4j:log4j-core:${log4JVersion}" // Apache Log4J 2
     testRuntime "org.apache.logging.log4j:log4j-core:${log4JVersion}"
     testRuntime "org.apache.logging.log4j:log4j-jul:${log4JVersion}"
 
@@ -758,11 +760,11 @@ dependencies {
      */
 
 
-    compile "org.scala-lang:scalap:2.12.0-M5"
-    compile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
+    compile "org.scala-lang:scalap:2.12.1"
+    compile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12
     testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
     testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
-    testCompile "org.scalatest:scalatest_2.11:3.0.0"
+    testCompile "org.scalatest:scalatest_2.12:3.0.1"
     testRuntime "org.pegdown:pegdown:1.6.0"
 
      /* Scalajs Support
@@ -833,20 +835,22 @@ dependencies {
     compile "org.apache.avro:avro:1.8.1"
 
     // For Optimized Row Colomun Storage
-    compile "org.apache.orc:orc:1.2.0"
-    compile "org.apache.orc:orc-core:1.2.0"
-    compile "org.apache.orc:orc-tools:1.2.0"
-    compile "org.apache.orc:orc-mapreduce:1.2.0"
+    def apachORCVer="1.2.2"
+    compile "org.apache.orc:orc:${apachORCVer}"
+    compile "org.apache.orc:orc-core:${apachORCVer}"
+    compile "org.apache.orc:orc-tools:${apachORCVer}"
+    compile "org.apache.orc:orc-mapreduce:${apachORCVer}"
 
     // For Parquet Support
     compile "com.twitter:parquet-format:2.2.0"
 
     // For Hive 2.0
-    compile "org.apache.hive:hive-exec:2.1.0"
-    compile "org.apache.hive:hive-orc:2.0.0"
-    compile "org.apache.hive:hive-serde:2.1.0"
-    compile "org.apache.hive:hive-metastore:2.1.0"
-    compile "org.apache.hive:hive-service:2.1.0"
+    def HiveVer="2.1.0"
+    compile "org.apache.hive:hive-exec:${HiveVer}"
+    compile "org.apache.hive:hive-orc:${HiveVer}"
+    compile "org.apache.hive:hive-serde:${HiveVer}"
+    compile "org.apache.hive:hive-metastore:${HiveVer}"
+    compile "org.apache.hive:hive-service:${HiveVer}"
 
     // For Ignite Support
     def IgniteVer = "1.7.0"
@@ -855,7 +859,7 @@ dependencies {
     compile "org.apache.ignite:ignite-spring:${IgniteVer}"
     compile "org.apache.ignite:ignite-tools:${IgniteVer}"
     compile "org.apache.ignite:ignite-rest-http:${IgniteVer}"
-    compile "org.apache.ignite:ignite-spark_2.10:${IgniteVer}"
+    compile "org.apache.ignite:ignite-spark:${IgniteVer}"
     compile "org.apache.ignite:ignite-kafka:${IgniteVer}"
     compile "org.apache.ignite:ignite-camel:${IgniteVer}"
     compile "org.apache.ignite:ignite-clients:${IgniteVer}"
@@ -869,27 +873,26 @@ dependencies {
     compile "org.ow2.asm:asm-analysis:6.0_ALPHA"
 
     // Google Guava Library
-    compile "com.google.guava:guava:19.0"
-    compile "com.google.guava:guava-parent:19.0"
-    compile "com.google.guava:guava-gwt:19.0"
-    compile "com.google.guava:guava-tests:19.0"
-    compile "com.google.guava:guava-testlib:19.0"
+    def guavaVer="20.0"
+    compile "com.google.guava:guava:${guavaVer}"
+    compile "com.google.guava:guava-parent:${guavaVer}"
+    compile "com.google.guava:guava-gwt:${guavaVer}"
+    compile "com.google.guava:guava-tests:${guavaVer}"
+    compile "com.google.guava:guava-testlib:${guavaVer}"
     compile "com.google.j2objc:j2objc-annotations:1.1"
 
     // Google Guice for Dependency Injection
-    compile "com.google.inject:guice:4.1.0" // Core
-    compile "com.google.inject:guice-parent:4.1.0"
-    compile "com.google.inject:guice-bom:4.1.0"
-    compile "com.google.inject:jdk8-tests:4.1.0"
+    def guiceVer="4.1.0"
+    compile "com.google.inject:guice:${guiceVer}" // Core
+    compile "com.google.inject:guice-parent:${guiceVer}"
+    compile "com.google.inject:guice-bom:${guiceVer}"
+    compile "com.google.inject:jdk8-tests:${guiceVer}"
 
     // Twitter Utilities
-    compile "com.twitter:util-core_2.10:6.34.0"
+    compile "com.twitter:util-core_2.11:6.34.0"
 
     // JWT Web Token support
-    compile "io.jsonwebtoken:jjwt:0.6.0"
-
-    // Vaadin U & I Framework
-    compile "com.vaadin:vaadin:7.0.0.alpha3"
+    compile "io.jsonwebtoken:jjwt:0.7.0"
 
     //https://orc.apache.org/
 //    compile "com.typesafe.zinc:zinc:0.3.11"

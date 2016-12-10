@@ -4,15 +4,15 @@ products:
    src/test/scala/ScalaTest/testNGTest.scala -> build/classes/test/ScalaTest/testNGTest.class
 binary dependencies:
    src/test/scala/ScalaTest/ShouldBeTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/test/scala/ScalaTest/ShouldBeTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/test/scala/ScalaTest/ShouldBeTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/test/scala/ScalaTest/ShouldBeTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-app_2.12.0-M5/3.0.0/f0a52393e035c4b10eba6443ea61c495b8ff9b03/scalatest-app_2.12.0-M5-3.0.0.jar
    src/test/scala/ScalaTest/ShouldBeTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.12/354eba9b34737190bad0a72dd5671683cfbae24d/testng-6.9.12.jar
    src/test/scala/ScalaTest/SimpleTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/test/scala/ScalaTest/SimpleTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/test/scala/ScalaTest/SimpleTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/test/scala/ScalaTest/SimpleTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-app_2.12.0-M5/3.0.0/f0a52393e035c4b10eba6443ea61c495b8ff9b03/scalatest-app_2.12.0-M5-3.0.0.jar
    src/test/scala/ScalaTest/SimpleTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.12/354eba9b34737190bad0a72dd5671683cfbae24d/testng-6.9.12.jar
    src/test/scala/ScalaTest/testNGTest.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/test/scala/ScalaTest/testNGTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/test/scala/ScalaTest/testNGTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/test/scala/ScalaTest/testNGTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-app_2.12.0-M5/3.0.0/f0a52393e035c4b10eba6443ea61c495b8ff9b03/scalatest-app_2.12.0-M5-3.0.0.jar
    src/test/scala/ScalaTest/testNGTest.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.12/354eba9b34737190bad0a72dd5671683cfbae24d/testng-6.9.12.jar
 source dependencies:

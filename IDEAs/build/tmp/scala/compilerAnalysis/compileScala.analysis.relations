@@ -26,25 +26,25 @@ products:
    src/main/scala/ScalaHelloWorld.scala -> build/classes/main/mainHello.class
 binary dependencies:
    src/main/scala/Basic_Object_Class/PointClass.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/Basic_Object_Class/PointClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/Basic_Object_Class/PointClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/Basic_Object_Class/ScalaObjectClass.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/Basic_Object_Class/ScalaObjectClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/Basic_Object_Class/ScalaObjectClass.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/BenchmarkGame/Spectral_Norm_ScalaApp.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/exercise/ex1_C2Fexample.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/exercise/ex1_C2Fexample.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/exercise/ex1_C2Fexample.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/exercise/ex2_matchString.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/exercise/ex2_matchString.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/exercise/ex2_matchString.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/lesson/lesson1_Sample0.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/lesson/lesson1_Sample0.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/lesson/lesson1_Sample0.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/lesson/lesson2_ExpressionBlocks.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/lesson/lesson2_ExpressionBlocks.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/lesson/lesson2_ExpressionBlocks.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/lesson/lesson3_Functions.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/lesson/lesson3_Functions.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/lesson/lesson3_Functions.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/IBM20161110/lesson/lesson4_List.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/IBM20161110/lesson/lesson4_List.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/IBM20161110/lesson/lesson4_List.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
    src/main/scala/ScalaHelloWorld.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
-   src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.0-M5/c24c40a71ff615877e28867030bf3bcc49704990/scala-library-2.12.0-M5.jar
+   src/main/scala/ScalaHelloWorld.scala -> /Users/raliclo/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.1/dd235d04037dc6f4b6090257872dd35359a563ce/scala-library-2.12.1.jar
 source dependencies:
 external dependencies:
 class names:

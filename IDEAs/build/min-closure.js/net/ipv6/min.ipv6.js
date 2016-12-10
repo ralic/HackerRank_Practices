@@ -1,1 +1,0 @@
-'use strict';var getLocalIPs=function(){var c,d,f,b={},g=require("os").networkInterfaces(),a;for(a in g){d=g[a];var e=0;for(f=d.length;e<f;e++)c=d[e],"IPv4"===c.family?(b[a]||(b[a]={}),b[a].IPv4=c.address):"IPv6"===c.family&&(b[a]||(b[a]={}),b[a].IPv6=c.address)}return b},ipv6ip=getLocalIPs().console.log(getLocalIPs());console.log(getLocalIPs());

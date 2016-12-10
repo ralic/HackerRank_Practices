@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="beginner.TestNG0" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T14:08:40" hostname="tastypotinc.private" time="0.004">
+<testsuite name="beginner.TestNG0" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-12-08T19:16:47" hostname="tastypotinc.private" time="0.006">
   <properties/>
-  <testcase name="testAdd" classname="beginner.TestNG0" time="0.004"/>
+  <testcase name="testAdd" classname="beginner.TestNG0" time="0.006"/>
   <system-out><![CDATA[--> TestNG is working fine
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -843,6 +843,7 @@
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.24" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hbase:hbase-hadoop2-compat:1.1.3" level="project" />
     <orderEntry type="library" name="LeapMotion" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.12.1" level="application" />
   </component>
   <component name="TestModuleProperties" production-module="IDEAs_main" />
 </module>
