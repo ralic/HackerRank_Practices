@@ -24,7 +24,7 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
-        maven { url "https://jitpack.io" }
+        maven { url 'https://jitpack.io' }
         maven { url "http://com.jfrog.bintray" }
         maven { url "https://plugins.gradle.org/m2/" }
         maven { url "https://repo.spring.io/milestone" }
@@ -51,7 +51,6 @@ buildscript {
         // ProGuard Support
         classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
 
-
         // Google Platform Support
         classpath 'com.google.appengine:gradle-appengine-plugin:1.9.42'
         // Scala.js Support
@@ -63,6 +62,10 @@ buildscript {
 
 plugins {
 
+    /* J trans C
+      id "com.jtransc" version "0.5.2"
+
+     */
     /*
         Javascript Support
         Support Nodejs, Javscript, and Karma/Jasmine
@@ -70,6 +73,7 @@ plugins {
         https://github.com/HappyCodeDay/gradle-js-plugin
         https://github.com/HappyCodeDay/karma-gradle
     */
+    id "com.jtransc" version "0.5.2"
 
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
@@ -258,7 +262,7 @@ repositories {
     maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
     maven { url "https://repo.spring.io/milestone" }
     maven { url "http://repo.spring.io/snapshot" }
-    flatDir { dirs 'libs/LeapSDK/lib'}
+    flatDir { dirs 'libs/LeapSDK/lib' }
 }
 
 /*
@@ -348,7 +352,6 @@ dependencies {
 //    runtime "org.apache.tika:tika-core:1.14"
 //    runtime 'org.apache.tika:tika-parsers:1.14'
 
-
     // Vaadin U & I Framework
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-client
     compile group: 'com.vaadin', name: 'vaadin-client', version: '7.7.5'
@@ -372,7 +375,6 @@ dependencies {
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
-
 
     // For Selenium Development : Automation Web Browser Automation Test
     def SeleniumWebDrivers = "3.0.0-beta3"
@@ -435,12 +437,12 @@ dependencies {
 
     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
-        // {exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"}
+    // {exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"}
     // compile("org.springframework.boot:spring-boot-starter-web")
     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
     compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-    
-    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"    
+
+    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
     testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
 
     compile "org.springframework.boot:spring-boot:${SpringVer}"
@@ -455,7 +457,7 @@ dependencies {
     compile "org.springframework:spring-core:${SpringFullVer}"
     compile "org.springframework:spring-beans:${SpringFullVer}"
     compile "org.springframework:spring-context:${SpringFullVer}"
-    
+
 //     compile "org.springframework:spring-expression:${SpringFullVer}"
 //     compile "org.springframework:spring-tx:${SpringFullVer}"
 //     compile "org.springframework:spring-oxm:${SpringFullVer}"
@@ -647,7 +649,6 @@ dependencies {
     runtime "org.jmonkeyengine:jme3-desktop:${jMonkeyVer}"
     runtime "org.jmonkeyengine:jme3-lwjgl:${jMonkeyVer}"
 
-
     // For Virtual Reality / Oculus Rift
     // http://jogamp.org/jogl/www/
     compile "org.jogamp.jogl:oculusvr:2.3.2"
@@ -691,7 +692,6 @@ dependencies {
     compile "org.apache.camel:camel-xstream:${CamelVer}"
 //    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-mail:${CamelVer}"
-
 
     // For HTML Parser (Jsoup)
     compile "org.jsoup:jsoup:1.10.1"
@@ -767,10 +767,10 @@ dependencies {
     testCompile "org.scalatest:scalatest_2.12:3.0.1"
     testRuntime "org.pegdown:pegdown:1.6.0"
 
-     /* Scalajs Support
-     https://github.com/gtache/scalajs-gradle
-     http://repo1.maven.org/maven2/org/scala-js/
-    */
+    /* Scalajs Support
+    https://github.com/gtache/scalajs-gradle
+    http://repo1.maven.org/maven2/org/scala-js/
+   */
     // def scalajsVer = "0.6.13"
     // compile "org.scala-js:scalajs-library_2.12:${scalajsVer}"
     // compile "org.scala-js:scalajs-compiler_2.12.1:${scalajsVer}"
@@ -835,7 +835,7 @@ dependencies {
     compile "org.apache.avro:avro:1.8.1"
 
     // For Optimized Row Colomun Storage
-    def apachORCVer="1.2.2"
+    def apachORCVer = "1.2.2"
     compile "org.apache.orc:orc:${apachORCVer}"
     compile "org.apache.orc:orc-core:${apachORCVer}"
     compile "org.apache.orc:orc-tools:${apachORCVer}"
@@ -845,7 +845,7 @@ dependencies {
     compile "com.twitter:parquet-format:2.2.0"
 
     // For Hive 2.0
-    def HiveVer="2.1.0"
+    def HiveVer = "2.1.0"
     compile "org.apache.hive:hive-exec:${HiveVer}"
     compile "org.apache.hive:hive-orc:${HiveVer}"
     compile "org.apache.hive:hive-serde:${HiveVer}"
@@ -873,7 +873,7 @@ dependencies {
     compile "org.ow2.asm:asm-analysis:6.0_ALPHA"
 
     // Google Guava Library
-    def guavaVer="20.0"
+    def guavaVer = "20.0"
     compile "com.google.guava:guava:${guavaVer}"
     compile "com.google.guava:guava-parent:${guavaVer}"
     compile "com.google.guava:guava-gwt:${guavaVer}"
@@ -882,7 +882,7 @@ dependencies {
     compile "com.google.j2objc:j2objc-annotations:1.1"
 
     // Google Guice for Dependency Injection
-    def guiceVer="4.1.0"
+    def guiceVer = "4.1.0"
     compile "com.google.inject:guice:${guiceVer}" // Core
     compile "com.google.inject:guice-parent:${guiceVer}"
     compile "com.google.inject:guice-bom:${guiceVer}"
