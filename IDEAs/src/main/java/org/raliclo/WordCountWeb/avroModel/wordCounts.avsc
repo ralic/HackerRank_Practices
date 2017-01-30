@@ -1,0 +1,1 @@
+{  "namespace": "fileWordCount.avro",  "type": "record",  "name": "Words",  "fields": [    {"name": "word", "type": "string"},    {"name": "counts", "type": "long"}  ]}

@@ -18,6 +18,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.stream.Collectors;
 
@@ -27,7 +28,7 @@ public class AvroParser {
     public static void main(String[] args) throws IOException {
 
         // Test Schema methods
-        String path = "/Users/raliclo/work/@Netbeans/HackerRank_Practices/TestNG-1/src/test/java/Avro_Tests/";
+        String path = Paths.get("").toAbsolutePath().toString() + "/test/java/Avro_Tests/";
         File f = new File(path + "user.avsc");
         Parser p = new Parser();
         Schema x = p.parse(f);
