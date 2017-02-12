@@ -1,0 +1,13 @@
+You are given a class of events of interest and the goal is to find all instances of that event in the text. This assignment involves doing one step of this process. We assume that the text is already parsed and the output is an event structure, as shown below. Your task is to determine whether each input event matches the desired event template.  For example, say we are interested in events of acquisition made by people. The template event could then be written as [ACQUIRE :agent PERSON]. Say the input sentence was “The consumer bought a toy” and the parer output for this sentence would be the event frame [PURCHASE :agent  CONSUMER :affected MANUFACTURED-OBJECT].  This test would succeed because PURCHASE is a subclass of ACQUIRE and CONSUMER is a subclass of PERSON. This this observed event has all the required properties in the template.Consider the reverse. If we are looking for a pattern [PURCHASE :agent  CONSUMER :affected MANUFACTURED-OBJECT] and receive  [ACQUIRE :agent PERSON], this would not succeed for two reasons. First the observation does not have an AFFECTED role as required by the pattern.  Second ACQUIRE is not a subclass of PURCHASE so we cannot prove it is a purchasing event.
+
+Your program should take two arguments, the ontology file and a test file. The test file is an xml file which contains a series of test cases (see testCases.xml).  Each test case presents you with 2 event templates, a pattern and a representation of some text. Your program should determine if the event pattern matches (i.e. subsumes/is entailed by) the event from the text.
+Your programs should take the form: a1.py <ontologyFile> <testCaseFile>. For our convenience, please name your program 'a1.py'.
+For example:
+a1.py trips-ont-dsl.xml testCases.xml
+Output:
+true
+false
+false
+true
+
+Python 3.x is preferred but 2.x is acceptable.
