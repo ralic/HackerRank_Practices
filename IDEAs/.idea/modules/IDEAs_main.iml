@@ -54,43 +54,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/Info.plist" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -117,6 +81,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeap.dylib" />
         </CLASSES>
         <JAVADOC />
@@ -135,6 +108,24 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.NET3.5.dll" />
         </CLASSES>
         <JAVADOC />
@@ -145,6 +136,15 @@
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapCSharp.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/Info.plist" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -751,14 +751,14 @@
     <orderEntry type="library" name="Gradle: org.attoparser:attoparser:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.1.v20170120" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-plus:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:5.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kerby:kerby-asn1:1.0.0-RC2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kerby:kerby-pkix:1.0.0-RC2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kerby:kerb-common:1.0.0-RC2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kerby:kerb-crypto:1.0.0-RC2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kerby:kerb-identity:1.0.0-RC2" level="project" />
@@ -796,8 +796,8 @@
     <orderEntry type="library" name="Gradle: org.jfree:jcommon:1.0.21" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-core:1.19" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-json:1.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
     <orderEntry type="library" name="Gradle: com.sun.jersey:jersey-server:1.19" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
     <orderEntry type="library" name="Gradle: net.java.dev.jets3t:jets3t:0.9.0" level="project" />

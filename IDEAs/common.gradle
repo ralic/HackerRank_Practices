@@ -8,7 +8,7 @@ apply plugin: 'maven'
 
 
 mavenGroupId = 'org.ralic'
-mavenVersion = '1.2-SNAPSHOT'
+mavenVersion = '1.3-SNAPSHOT'
 group = mavenGroupId
 version = mavenVersion
 mavenArtifactId = name
