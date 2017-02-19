@@ -120,7 +120,7 @@ public class QRCodeDataFormat implements DataFormat {
         String type = p.getType().toString();
         String charset = p.getCharset();
 
-        // set file name (<exchangeid>.<imagetype>)       
+        // set file name (<exchangeid>.<imagetype>)
         String filename = String.format("%s.%s", name, type.toLowerCase());
         exchange.getOut().setHeader(Exchange.FILE_NAME, filename);
 

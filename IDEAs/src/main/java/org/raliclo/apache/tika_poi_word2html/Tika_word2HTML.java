@@ -32,7 +32,6 @@ public class Tika_word2HTML {
         // Speed Testing
         System.out.println("Time spent :" + (System.currentTimeMillis() - speedX) + "msec");
 
-
     }
     //http://tika.apache.org/1.14/examples.html#Parsing_to_XHTML
 

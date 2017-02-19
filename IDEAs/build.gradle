@@ -27,18 +27,19 @@ buildscript {
         maven { url 'https://jitpack.io' }
         maven { url "http://com.jfrog.bintray" }
         maven { url "https://plugins.gradle.org/m2/" }
-        maven { url "https://repo.spring.io/milestone" }
+        maven { url "http://repo.spring.io/milestone" }
         maven { url "http://repo.spring.io/snapshot" }
+        maven { url "https://repository.cloudera.com/content/repositories/releases/" }
+        maven { url "http://repo.hortonworks.com/content/repositories/releases/" }
     }
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3" // Support JUNIT-5
         classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.3.0" // Support Dynamic version in dependency
         //        classpath "gradle.plugin.com.netflix.nebula:gradle-ospackage-plugin:3.6.1" // Support RPM Package.
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE" // Support Spring Boot
+//        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE" // Support Spring Boot
         classpath "io.spring.gradle:dependency-management-plugin:0.6.0.RELEASE"
         classpath "org.ajoberstar:gradle-git:1.5.1" // Support Gradle-Git
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
-        classpath "com.fasterxml.jackson.core:jackson-core:2.8.5"
         classpath "net.serenity-bdd:serenity-gradle-plugin:1.1.42" // Support Serenity BDD
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT'// Support Spring Boot
 //        classpath 'com.github.multi-os-engine:moe-plugin-gradle:moe-1.2.3'
@@ -62,10 +63,9 @@ buildscript {
 
 plugins {
 
-    /* J trans C
-      id "com.jtransc" version "0.5.2"
+//    J trans C
+    id "com.jtransc" version "0.5.2"
 
-     */
     /*
         Javascript Support
         Support Nodejs, Javscript, and Karma/Jasmine
@@ -73,8 +73,6 @@ plugins {
         https://github.com/HappyCodeDay/gradle-js-plugin
         https://github.com/HappyCodeDay/karma-gradle
     */
-    id "com.jtransc" version "0.5.2"
-
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
 
@@ -407,12 +405,10 @@ dependencies {
     // MySQL Connector support
     compile "mysql:mysql-connector-java:6.0.3"
 
-//     def SpringVer = "1.4.1.RELEASE"
+//     def SpringVer = "1.5.1.RELEASE"
 //     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
 //     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
-//             {
-//                 exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
-//             }
+//            { exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty" }
 //     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
 //     testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
 
@@ -430,42 +426,46 @@ dependencies {
 // //    compile "org.springframework.data:spring-data-solr:2.0.2.RELEASE"
 // //    compile "org.springframework.data:spring-data-hadoop:2.4.0.RELEASE"
 
-    def SpringVer = "2.0.0.BUILD-SNAPSHOT"
-
-    //http://repo.spring.io/snapshot/org/springframework/data/
-    //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
-
-    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
-    compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
-    // {exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"}
-    // compile("org.springframework.boot:spring-boot-starter-web")
-    compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-
-    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
-    testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
-
-    compile "org.springframework.boot:spring-boot:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
-    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
 
     def SpringFullVer = "5.0.0.BUILD-SNAPSHOT"
     compile "org.springframework:spring-test:${SpringFullVer}"
     compile "org.springframework:spring-core:${SpringFullVer}"
     compile "org.springframework:spring-beans:${SpringFullVer}"
     compile "org.springframework:spring-context:${SpringFullVer}"
+    compile "org.springframework:spring-expression:${SpringFullVer}"
+    compile "org.springframework:spring-tx:${SpringFullVer}"
+    compile "org.springframework:spring-oxm:${SpringFullVer}"
+    compile "org.springframework:spring-web:${SpringFullVer}"
+    compile "org.springframework:spring-webmvc:${SpringFullVer}"
+    compile "org.springframework:spring-web-reactive:${SpringFullVer}"
+    compile "org.springframework:spring-orm:${SpringFullVer}"
+//    compile "org.springframework.data:spring-data-commons:${SpringFullVer}"
 
-//     compile "org.springframework:spring-expression:${SpringFullVer}"
-//     compile "org.springframework:spring-tx:${SpringFullVer}"
-//     compile "org.springframework:spring-oxm:${SpringFullVer}"
-//     compile "org.springframework:spring-web:${SpringFullVer}"
-//     compile "org.springframework:spring-webmvc:${SpringFullVer}"
-//     compile "org.springframework:spring-web-reactive:${SpringFullVer}"
-//     compile "org.springframework:spring-orm:${SpringFullVer}"
-//     compile "org.springframework.data:spring-data-commons:${SpringFullVer}"
+    def SpringVer = "2.0.0.BUILD-SNAPSHOT"
+
+//    compile("org.springframework.boot:spring-boot-start-web")
+//    compile("org.springframework.boot:spring-boot-start-test")
+    //http://repo.spring.io/snapshot/org/springframework/data/
+    //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
+
+    compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
+    compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
+            { exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty" }
+    compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}")
+    compile("org.springframework.boot:spring-boot-starter-parent:${SpringVer}")
+//    compile("org.springframework.boot:spring-boot-start-test:${SpringVer}")
+
+    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
+    testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringVer}"
+    compile "org.springframework.boot:spring-boot:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
+    compile "org.springframework.boot:spring-boot-devtools:${SpringVer}"
+
 //     compile "org.springframework.data:spring-data-commons-dist:1.5.0.BUILD-SNAPSHOT"
 //     compile "org.springframework.data:spring-data-commons-core:1.5.0.BUILD-SNAPSHOT"
 
@@ -504,14 +504,19 @@ dependencies {
 
     // For Hadoop Basic Development Environment
 //    def HadoopVer = "2.7.3"
-    def HadoopVer = '3.0.0-alpha1'
+    def HadoopVer = '3.0.0-alpha2'
+
+    def HadoopVer_CDH = "1.2.1"
+//            "2.6.0-mr1-cdh5.10.0"
+    compile "org.apache.hadoop:hadoop-test:${HadoopVer_CDH}"
+    compile "org.apache.hadoop:hadoop-core:${HadoopVer_CDH}"
+    compile "org.apache.hadoop:hadoop-tools:${HadoopVer_CDH}" // Dist-cp support
+
     compile "org.apache.hadoop:hadoop-main:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-common:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-client:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-hdfs:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-annotations:${HadoopVer}"
-//    compile "org.apache.hadoop:hadoop-core:1.2.1"
-//    compile "org.apache.hadoop:hadoop-tools:1.2.1" // Dist-cp support
 
     // For Hadoop MapReduce Development Environment
     compile "org.apache.hadoop:hadoop-mapreduce-client-core:${HadoopVer}"
@@ -521,6 +526,7 @@ dependencies {
     compile "org.apache.hadoop:hadoop-mapreduce-client-shuffle:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-mapreduce-client-hs:${HadoopVer}" // MapReduce History Storage
     compile "org.apache.hadoop:hadoop-streaming:${HadoopVer}" // MapReduce Streaming
+    compile "org.apache.hadoop:hadoop-minikdc:${HadoopVer}" // MapReduce Streaming
 
     // For Hadoop YARN Development Environment
     compile "org.apache.hadoop:hadoop-yarn-common:${HadoopVer}"
@@ -537,9 +543,10 @@ dependencies {
     // Mini Cluster for Hadoop Test
     compile "org.apache.hadoop:hadoop-minicluster:${HadoopVer}"
     compile "org.apache.hadoop:hadoop-yarn-server-tests:${HadoopVer}"
-    compile "org.apache.hadoop:hadoop-test:1.2.1"
-    //http://attic.apache.org/projects/mrunit.html
+
+    //http://attic.apache.org/projects/mrunit.html  (Retired)
     //compile "org.apache.mrunit:mrunit:1.1.0:hadoop2"
+//    compile "org.apache.mrunit:mrunit:${HadoopVer}"
 
     // Cassandra
     // TODO : One of these makes Spring Boot/Tomcat crashes.
@@ -601,9 +608,10 @@ dependencies {
     compile "com.mesosphere.mesos.rx.java:mesos-rxjava:0.1.0"
 
     // For MS Document Process
-    compile "org.apache.poi:poi:3.16-beta1"
-    compile "org.apache.poi:poi-ooxml:3.16-beta1"
-    compile "org.apache.poi:poi-scratchpad:3.16-beta1"
+    def apachePOIVer = "3.16-beta1"
+    compile "org.apache.poi:poi:${apachePOIVer}"
+    compile "org.apache.poi:poi-ooxml:${apachePOIVer}"
+    compile "org.apache.poi:poi-scratchpad:${apachePOIVer}"
 
     // For Data Flow
     compile "org.apache.nifi:nifi:1.0.0-BETA"
@@ -630,9 +638,9 @@ dependencies {
 
     // For Game Development https://libgdx.badlogicgames.com/
     // For libGDX
-    compile "com.badlogicgames.gdx:gdx:1.9.4"
-    compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
-    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
 
     // MOE SUPPORT
 //- Gradle Core Plugins (not a core plugin, please see https://docs.gradle.org/3.2.1/userguide/standard_plugins.html for available core plugins)
@@ -641,7 +649,7 @@ dependencies {
 //    compile "com.github.multi-os-engine:moe-plugin-gradle:moe-1.2.3"
 
     // JMonkey3
-    def jMonkeyVer = "3.1.0-beta1"
+    def jMonkeyVer = "3.1.0-stable"
     // For JMonkey3 Game Development
     // https://jmonkeyengine.github.io/wiki/jme3/maven.html#gradle
     // http://docs.jmonkeyengine.org/jme3/virtualreality.html
@@ -690,7 +698,7 @@ dependencies {
     compile "org.apache.camel:camel-spring-boot:${CamelVer}"
     compile "org.apache.camel:camel-jetty:${CamelVer}"
     compile "org.apache.camel:camel-xstream:${CamelVer}"
-//    compile "org.apache.camel:camel-jackson:${CamelVer}"
+    compile "org.apache.camel:camel-jackson:${CamelVer}"
     compile "org.apache.camel:camel-mail:${CamelVer}"
 
     // For HTML Parser (Jsoup)
@@ -761,10 +769,15 @@ dependencies {
 
 
     compile "org.scala-lang:scalap:2.12.1"
-    compile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12
-    testCompile "org.scalatest:scalatest-app_2.12.0-M5:3.0.0"
-    testCompile "org.scala-lang:scala-library-all:2.12.0-M5" // for scala 2.12
-    testCompile "org.scalatest:scalatest_2.12:3.0.1"
+    compile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12.1
+    testCompile "org.scalatest:scalatest-app_2.12:3.2.0-SNAP3"
+    testCompile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12.1
+
+//    testCompile "org.scalatest:scalatest_2.12:3.0.0"
+//    testCompile "org.scalactic:scalactic_2.12.0-M5:3.0.0"
+//
+//    testCompile "org.scalatest:scalatest_2.11:3.0.1"
+//    testCompile "org.scalactic:scalactic_2.11:3.0.1"
     testRuntime "org.pegdown:pegdown:1.6.0"
 
     /* Scalajs Support
@@ -800,8 +813,10 @@ dependencies {
     // compile "org.eclipse.jetty:jetty-websocket:8.1.16.v20140903"
 
     // For Kafka Development
-    def KafkaVer = "0.10.0.1"
+    def KafkaVer = "0.10.1.1"
+//            "0.10.2.0-rc2"
     compile "org.apache.kafka:kafka_2.11:$KafkaVer"
+    compile "org.apache.kafka:kafka_2.12:$KafkaVer"
     compile "org.apache.kafka:kafka-streams:$KafkaVer"
     compile "org.apache.kafka:kafka-examples:$KafkaVer"
     compile "org.apache.kafka:kafka-tools:$KafkaVer"
@@ -812,11 +827,6 @@ dependencies {
     compile "org.apache.kafka:connect-file:$KafkaVer"
     compile "org.apache.kafka:connect-runtime:$KafkaVer"
     compile "org.apache.kafka:kafka-streams-examples:$KafkaVer"
-
-    ext.KafkaVerOld = "0.8.2.2"
-    compile "org.apache.kafka:kafka-hadoop-producer:$KafkaVerOld"
-    compile "org.apache.kafka:kafka-hadoop-consumer:$KafkaVerOld"
-    compile "org.apache.kafka:kafka-java-examples:0.8.0"
 
     // For PDF Support
     compile "org.apache.pdfbox:pdfbox:2.0.2" // PDF
@@ -930,7 +940,8 @@ generateGrammarSource {
 // Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
 apply plugin: "application"
 apply plugin: "org.springframework.boot"
-// apply plugin: "spring-boot"
+//apply plugin: "spring-boot"
+
 bootRun {
     addResources = true
 }
@@ -1007,17 +1018,17 @@ task compile {
 }
 
 // Compile / Test / Read report
-task NGreport(type: Exec, dependsOn: [test]) {
-//https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
-    workingDir './'
-    commandLine 'open'
-    args './build/reports/tests/test/index.html'
-    //store the output instead of printing to the console:
-    standardOutput = new ByteArrayOutputStream()
-    ext.output = {
-        return standardOutput.toString()
-    }
-}
+//task NGreport(type: Exec, dependsOn: [test]) {
+////https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
+//    workingDir './'
+//    commandLine 'open'
+//    args './build/reports/tests/test/index.html'
+//    //store the output instead of printing to the console:
+//    standardOutput = new ByteArrayOutputStream()
+//    ext.output = {
+//        return standardOutput.toString()
+//    }
+//}
 
 task runEasy(type: JavaExec) {
     mainClassName = "org.raliclo.JavaSEApplication"
