@@ -33,7 +33,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/Leap.py" />
@@ -51,7 +51,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
@@ -60,7 +60,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeap.dylib" />
@@ -78,7 +78,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
@@ -87,7 +87,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeap.dylib" />
@@ -105,7 +105,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
@@ -114,7 +114,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
@@ -141,7 +141,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/Info.plist" />
@@ -846,5 +846,7 @@
     <orderEntry type="library" name="Gradle: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1" level="project" />
+    <orderEntry type="library" name="LeapMotion" level="application" />
+    <orderEntry type="library" name="scala-sdk-2.12.1" level="application" />
   </component>
 </module>
