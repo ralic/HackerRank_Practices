@@ -2,33 +2,16 @@
 <module external.linked.project.id="IDEAs" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Python" name="Python">
-      <configuration sdkName="" />
+      <configuration sdkName="Python 3.6.0 (~/anaconda/bin/python3.6)" />
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../..">
       <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/classes" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/dependency-cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/min-closure.js" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/reports" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/resources" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/scripts" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/test-results" />
-      <excludeFolder url="file://$MODULE_DIR$/../../build/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/../../files" />
-      <excludeFolder url="file://$MODULE_DIR$/../../libs" />
-      <excludeFolder url="file://$MODULE_DIR$/../../node_modules" />
-      <excludeFolder url="file://$MODULE_DIR$/../../selenium-shots" />
-      <excludeFolder url="file://$MODULE_DIR$/../../target" />
-      <excludeFolder url="file://$MODULE_DIR$/../../test-output" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.12.1" level="application" />
-    <orderEntry type="library" name="LeapMotion" level="application" />
-    <orderEntry type="library" name="LeapMotion" level="application" />
+    <orderEntry type="library" name="Python 3.6.0 (~/anaconda/bin/python3.6) interpreter library" level="application" />
   </component>
 </module>
