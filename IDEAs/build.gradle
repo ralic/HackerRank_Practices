@@ -350,6 +350,9 @@ dependencies {
 //    runtime "org.apache.tika:tika-core:1.14"
 //    runtime 'org.apache.tika:tika-parsers:1.14'
 
+    // AWS Support
+    compile "com.amazonaws:aws-java-sdk-bom:1.11.93"
+
     // Vaadin U & I Framework
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-client
     compile group: 'com.vaadin', name: 'vaadin-client', version: '7.7.5'
