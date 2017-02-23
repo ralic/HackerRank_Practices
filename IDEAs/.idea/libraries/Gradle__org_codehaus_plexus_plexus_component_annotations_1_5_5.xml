@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: org.codehaus.plexus:plexus-component-annotations:1.5.5">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar!/" />
     </CLASSES>
     <JAVADOC />

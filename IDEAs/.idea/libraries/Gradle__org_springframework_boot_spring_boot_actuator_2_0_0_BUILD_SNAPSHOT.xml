@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.boot:spring-boot-actuator:2.0.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.0.BUILD-SNAPSHOT/aab3ab6551324bc2d7715444f0254a02421f82d3/spring-boot-actuator-2.0.0.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.0.0.BUILD-SNAPSHOT/eb828ce5a661a5f45fa255491df8700c34f7de01/spring-boot-actuator-2.0.0.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

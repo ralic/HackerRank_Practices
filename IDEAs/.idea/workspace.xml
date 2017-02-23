@@ -1,45 +1,578 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f9520f-6e9e-46f1-a193-8a97d7af47c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/piccolo2d-core-3.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/events/SVEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/events/SVEventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/events/SVEventType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVAbstractMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVCheckboxMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVEmptyMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVImageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVMenuBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVPopupMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVSubMenuItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/google/scrollview/ui/SVWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Java8/Map_Sort_Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/Avro_Tests/AvroParser.class" afterPath="$PROJECT_DIR$/build/classes/test/Avro_Tests/AvroParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/TestNG_TestConfig.class" afterPath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/TestNG_TestConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/LeapMotion/leapTest.class" afterPath="$PROJECT_DIR$/build/classes/test/LeapMotion/leapTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/advanced_Selenium/phantomjsTest.class" afterPath="$PROJECT_DIR$/build/classes/test/advanced_Selenium/phantomjsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/intermediate_MultiThreadTest/TestConfig.class" afterPath="$PROJECT_DIR$/build/classes/test/intermediate_MultiThreadTest/TestConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/WordCountWeb/RestAPI/SpringTestNG/RestAPI_Invocations_testNGTest.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/WordCountWeb/RestAPI/SpringTestNG/RestAPI_Invocations_testNGTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest$1.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/InlineImageWordToHtmlConverter.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/InlineImageWordToHtmlConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML_app.class" afterPath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML_app.class" />
+    <list default="true" id="ddebb88b-3c70-4a79-b7f8-24f27042d59f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ImageProcessing/Tess4J/eurotext.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_paranamer_2_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_8_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_dns_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_dns_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_0_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_cssparser_cssparser_0_9_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_neko_htmlunit_2_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_2_8_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_4_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_htmlunit_driver_2_24.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_3_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ImageProcessing/Tess4J/TesseractExample.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_paranamer_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_8_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_dns_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_dns_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_projectreactor_reactor_core_3_0_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_cssparser_cssparser_0_9_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sourceforge_htmlunit_neko_htmlunit_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_entitymanager_5_2_7_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_2_53_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_3_0_0_beta3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_log4j_over_slf4j_1_7_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jaffer_0_06_Apple_AFP.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Adder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Arithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic_Object_Class/PointClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic_Object_Class/PointObj$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic_Object_Class/PointObj.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic_Object_Class/ScalaObjectClass$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Basic_Object_Class/ScalaObjectClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Mandelbrot$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Mandelbrot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm_Java$Approximate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/SpectralNorm_Java.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Spectral_Norm_ScalaApp$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Spectral_Norm_ScalaApp$delayedInit$body.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/BenchmarkGame/Spectral_Norm_ScalaApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/CodeFights/test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/exercise/ex1_C2Fexample$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/exercise/ex1_C2Fexample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/exercise/ex2_matchString$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/exercise/ex2_matchString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/ExpressionBlocks$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/ExpressionBlocks.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/IBM20161110/lesson/lesson1_Samples0/lesson_1_IBMScala$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/IBM20161110/lesson/lesson1_Samples0/lesson_1_IBMScala$Node$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/IBM20161110/lesson/lesson1_Samples0/lesson_1_IBMScala$Node$4$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/IBM20161110/lesson/lesson1_Samples0/lesson_1_IBMScala.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/lesson3_Functions$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/lesson3_Functions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/lesson4_List$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/IBM20161110/lesson/lesson4_List.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/Map_Sort_Example.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/SubSetConcept$SubsetIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8/SubSetConcept.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/ClassTest/PermUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/ClassTest/Permute.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/ClassTest/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Java8_Tests/Spark_UnitTest/Spark_WordCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/JavaInheritanceII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/CommandRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q139_WordBreak.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q1_TwoSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers_V2_Recursive$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers_V2_Recursive.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers_V3_Better$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q2_AddTwoNumbers_V3_Better.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_NEW$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_NEW$Solution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_NEW.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_STD$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_STD$Solution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q382_LinkedListRandomNode_STD.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q4_MedianOfTwoSortedArrays_Better.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/LeetCode/Q4_MedianOfTwoSortedArrays_BrutalForce.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/ScalaHelloWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Security/getMD5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/mainHello$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/mainHello.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/CodeMaster/numberOfTriangles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/DirFileOps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/FileVisitorExample$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/FileVisitorExample$ProcessFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/FileVisitorExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/MemoryInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Files_Path_Operation/RunCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Algorithm/Exams/AsheleyLoveNumbers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Algorithm/Exams/Segment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Artificial_Intellegence/MatchingBookName_Descriptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/CamelCase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/DivisorExploration.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/HyperspaceTravel_Advanced$Point.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/HyperspaceTravel_Advanced.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/LeonardoPrimeFactors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/RussianPeasantExponentiation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/SolveEquations$Point.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/SolveEquations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/AdInfinitum16/XrangePancakes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Destination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$DestinationPair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions$Guest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/CouplingPassions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingBE/DestinationTogether.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/EventRaffle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories$Excursion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/GoodMemories.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour$CityPath.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/NorthernTour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Review.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile$Reviewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/BookingMobile/ReviewsMobile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/C101Hack40/DesignPDFViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/CookieParty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MakingPolygons.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/MatchingSets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/NumberofSequences.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WeekofCode22/SubmaskQueries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Abbreviation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/Bon_Appétit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/CombinationLock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/FlippingtheMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/Contests/WorldCodeSprint6/HardDiskDrives.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/LongestIncreasingSubsequenceArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome$StringHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/ShortPalindrome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Competitions/StringConstruction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Cake.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Do_Not_Terminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Do_Not_Terminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Do_Not_Terminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Food.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/FoodFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/JavaFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Advanced/Pizza.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigDecimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaBigInteger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/BigNumber/JavaPrimalityTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java1DArray_2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Java2DArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaArraylist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaBitSet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaDeque.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics$Printer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaGenerics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaHashset.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaPriorityQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/JavaSubArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/DataStructure/StudentQ.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/JavaExceptionHandling2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ExceptionHandling/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/HourRank13/CoprimeConundrum_Fast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/HourRank13/CoprimeConundrum_Slow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/HourRank13/LongestPalindromicSubsequence.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/HourRank13/SumVsXOR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/AVeryBigSum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/CompareTriplets.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/DiagonalDifference.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Do_Not_Terminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDatatypes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaDateTime.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaEndofFile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaInt2String.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaLoops2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaOutputFormatting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaSTDinSTDout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/JavaStaticInitializerBlock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/Java_If_Else.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/ReadLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Introduction/SimpleArraySum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/AdvancedArithmetic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Animal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/BiCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Bird.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Output.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate$Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Calculate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/CalculatingVolume.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate$ExitTrappedException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/DoNotTerminate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Hacker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaAbstractClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInheritanceI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInstanceofKeyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/JavaMethodOverriding2_Super_Keyword.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MotorCycle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyBook.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/MyCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Rockstar.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Soccer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Sports.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/JavaOOP/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaAnagrams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaRegex2DuplicateWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringReverse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringTokens.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/JavaStringsIntroduction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/PatternSyntaxChecker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/Solution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/TagContentExtractor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/Strings/myRegex.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_00HellowWorld.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_02Operators.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_03IntroToConditionalStatements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_04ClassvsInstance$Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_04ClassvsInstance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_05Loops.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/ThrityDaysOfCode/_06LetReview.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Java/_01DataType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Applications/DetectTheDomainName$PrintDomain.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Applications/DetectTheDomainName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchAnythingButNewLine$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchAnythingButNewLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchDigits$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchDigits.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchSpecificString$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchSpecificString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchWhitespace$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchWhitespace.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchWords$Regex_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/HackerRank_Regex/Introduction/MatchWords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/JavaFX_Mobile/JavaFX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/JavaSEApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/AbstractNameValueComment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarBrowser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCacheRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarContent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCookie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCookies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCreator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarCustomFields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarDatabaseConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarEntryTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarHeaders.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPageTimings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPages.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarPostDataParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryParam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarQueryString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarTimeStamps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/HarWarning.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/ISO8601DateFormatter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/post/HarPostTextLines.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/AllTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileReaderTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarFileWriterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/HarJDBCTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/test/ISO8601DateFormatterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/KrogerStores/lib/tools/HarFileWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/OctaveAns/OctaveAns.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/RobotHand/RobotHand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/BackendApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/config/CorsConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/config/JwtFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/controller/CommentResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/controller/PhotoController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/controller/PhotoResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/controller/UserResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/dao/CommentDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/dao/PhotoDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/impl/CommentServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/impl/PhotoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/model/Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/model/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/service/CommentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/service/PhotoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/Spring_backend/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/Spring_WordCountSite.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/controller/WordCountDBController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/controller/WordCountDBResources.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/dao/WordCountDBDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/dataApp/DataAppController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/dataApp/FreqResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/dataApp/WordCountAvro.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/impl/WordCountDBServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/model/WordCountDB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/RestAPI/service/WordCountDBService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/src/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/src/RunCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/WordCountWeb/src/SystemInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/ImageType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/MatrixToImageConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/MatrixToImageWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/Parameters.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/QRCode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/QRCodeDataFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/camelQRcode/RestAPI/QRCodeRest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q1/SectionsByCourse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q1/SectionsByCourseCombiner_2ndExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q1/SectionsByCourseMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q1/SectionsByCourseReducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q1/SectionsByCourseReducer_2ndExample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q2/IndexCombiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q2/IndexMainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q2/IndexMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q2/IndexMapper2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q2/IndexReducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q3/Q3Combiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q3/Q3MainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q3/Q3Mapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q3/Q3Reducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4/Q4Combiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4/Q4MainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4/Q4Mapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4/Q4Partitioner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4/Q4Reducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4_2/Q4Combiner_v2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4_2/Q4MainJob_v2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4_2/Q4Mapper_v2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q4_2/Q4Reducer_v2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q5/Q5MainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q5/Q5Mapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q5/Q5Partitioner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q5/Q5Reducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Extra/Q6MyInputFormat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Extra/Q6MyKey.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Extra/Q6MyRecordReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Extra/Q6MyValue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6Combiner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6MainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6Mapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6MyGrouping.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6MySorting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6Partitioner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q6/Q6Reducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q7/Q7MainJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q7/Q7Mapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/org/raliclo/apache/mapreduce_Q7/Q7Reducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Avro_Tests/AvroParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/Junit5_JupiterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/TestNG_PermUtilTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/TestNG_PersonTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/ClassTest/TestNG_TestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/Java8_Tests/Spark_UnitTest/SparkTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/LeapMotion/leapTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTest/ShouldBeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTest/SimpleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/ScalaTest/testNGTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/advanced_Selenium/phantomjsTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/advanced_Selenium/seleniumTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/backend/BackendApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/beginner/TestNG0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/intermediate_MultiThreadTest/MultiThreadTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/intermediate_MultiThreadTest/SimpleTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/intermediate_MultiThreadTest/TestConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/WordCountWeb/RestAPI/SpringJunit5/Spring_WordCountSite_JunitTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/WordCountWeb/RestAPI/SpringTestNG/RestAPI_Invocations_testNGTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/InlineImageWordToHtmlConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/org/raliclo/tika_poi_word2html/Tika_word2HTML_app.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PermUtilTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Java8_Tests.ClassTest.TestNG_PersonTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTest.ShouldBeTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTest.SimpleTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ScalaTest.testNGTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.phantomjsTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/advanced_Selenium.seleniumTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/beginner.TestNG0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.MultiThreadTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/intermediate_MultiThreadTest.SimpleTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.raliclo.WordCountWeb.RestAPI.SpringTestNG.RestAPI_Invocations_testNGTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.raliclo.tika_poi_word2html.Tika_word2HTML.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.raliclo.tika_poi_word2html.Tika_word2HTML_app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/Java8_Tests.ClassTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ScalaTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/advanced_Selenium.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/beginner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/intermediate_MultiThreadTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.raliclo.WordCountWeb.RestAPI.SpringTestNG.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.raliclo.tika_poi_word2html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/log4j2.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/configuration.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/test/log4j2.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/scripts/IDEAs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/scripts/IDEAs.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/junit-platform/TEST-junit-jupiter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PermUtilTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Java8_Tests.ClassTest.TestNG_PersonTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTest.ShouldBeTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTest.SimpleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ScalaTest.testNGTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.phantomjsTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-advanced_Selenium.seleniumTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-beginner.TestNG0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.MultiThreadTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-intermediate_MultiThreadTest.SimpleTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.raliclo.WordCountWeb.RestAPI.SpringTestNG.RestAPI_Invocations_testNGTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.raliclo.tika_poi_word2html.Tika_word2HTML.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.raliclo.tika_poi_word2html.Tika_word2HTML_app.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileScala.analysis.relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/scala/compilerAnalysis/compileTestScala.analysis.relations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1687109648068372941_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2008257025980835151_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4169678539644002340_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5358382849386775704_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_607400924122789422_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6621480530343375454_tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6713998539906503603_tmp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium-shots/screenshot.png" afterPath="$PROJECT_DIR$/selenium-shots/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium-shots/screenshot_life_fund_1.png" afterPath="$PROJECT_DIR$/selenium-shots/screenshot_life_fund_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium-shots/screenshot_life_fund_2.png" afterPath="$PROJECT_DIR$/selenium-shots/screenshot_life_fund_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/avroModel/wordCounts.avro" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/avroModel/wordCounts.avro" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_cli_commons_cli_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_cli_commons_cli_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_velocity_velocity_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_beanshell_bsh_2_0b4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_beanshell_bsh_2_0b4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sonatype_plexus_plexus_cipher_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sonatype_plexus_plexus_cipher_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_configuration_processor_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_actuator_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jetty_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jetty_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_oxm_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_oxm_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_0_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_0_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__oro_oro_2_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__oro_oro_2_0_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" afterPath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End.java" afterPath="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium-shots/image-base-64.txt" afterPath="$PROJECT_DIR$/selenium-shots/image-base-64.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Java8_Tests/Spark_UnitTest/SparkTest.java" afterPath="$PROJECT_DIR$/src/test/java/Java8_Tests/Spark_UnitTest/SparkTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
-    <ignored path="$PROJECT_DIR$/build/resources/" />
-    <ignored path="$PROJECT_DIR$/build/tmp/" />
     <ignored path="$PROJECT_DIR$/build/reports/" />
+    <ignored path="$PROJECT_DIR$/build/resources/" />
     <ignored path="$PROJECT_DIR$/build/scripts/" />
     <ignored path="$PROJECT_DIR$/build/test-results/" />
+    <ignored path="$PROJECT_DIR$/build/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +597,35 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Leet192-wordFrequency.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet192-wordFrequency.sh">
+    <leaf>
+      <file leaf-file-name="Junit5_JupiterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/Junit5_JupiterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="150">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackendApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/backend/BackendApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map_Sort_Example.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Java8/Map_Sort_Example.java">
+      <file leaf-file-name="TesseractExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ImageProcessing/Tess4J/TesseractExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,20 +634,6 @@
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>File</find>
-      <find>depend</find>
-      <find>maven</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -750,7 +1282,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4456178363000" />
+        <entry key="$PROJECT_DIR$" value="4456535845000" />
         <entry key="$PROJECT_DIR$/../../../usb/usb_drive" value="2974481786000" />
       </map>
     </option>
@@ -785,7 +1317,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/gradle-git/1.5.1/cabb51f6a7556b01fd3df6ed670c268e3b7d2c72/gradle-git-1.5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.layer/gradle-git-repo-plugin/2.0.2/2299b613eff175269e2578bc087ab727adecce6e/gradle-git-repo-plugin-2.0.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-gradle-plugin/1.1.42/6d3310b32b8ad6a4c9ee45376acfd2e7ad811445/serenity-gradle-plugin-1.1.42.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/97a2a346cd18679506991f04b3c3540f86842dc0/spring-boot-gradle-plugin-2.0.0.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/85b8fb813af7935272418bee8aacea9f3d3d1309/spring-boot-gradle-plugin-2.0.0.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/gradle-appengine-plugin/1.9.42/3e2afb385f1f4e9ca2bf59da4f251139bc8d6b40/gradle-appengine-plugin-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.jtransc/jtransc-gradle-plugin/0.5.2/4b1bd98fdbe489a2fd96667e85a75a01b6114f12/jtransc-gradle-plugin-0.5.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.eriwen/gradle-js-plugin/2.14.1/170c770cb42f6fdee7bdf4579131d63cbad8eec2/gradle-js-plugin-2.14.1.jar" />
@@ -813,7 +1345,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.4.4/b22748b6cf9a38c9777792175507a679043cdd64/groovy-all-2.4.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.1.42/6b9edf1b4de98ab68f2b026630962c9b0095ba74/serenity-core-1.1.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-junit/1.1.42/b79d0e2e75b589d6d0526fbcf4998843bed2b1f7/serenity-junit-1.1.42.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/faa7c9e6c0ee82f5485d08ec1c13e922fa2adabe/spring-boot-loader-tools-2.0.0.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/1adb6ab54331af0886f38d6c9f6d6efccec7971d/spring-boot-loader-tools-2.0.0.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-local-endpoints/1.9.42/9a36fa948866b9f747a98196788d8d46636f4379/appengine-local-endpoints-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/gradle-appengine-builder-model/0.1.0/30ac981a2bd9a49823f026662534136217ef7c7f/gradle-appengine-builder-model-0.1.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jtransc/jtransc-main/0.5.2/e5f26a19b6508da17e8ccc837c4a8a4f52b1b45/jtransc-main-0.5.2.jar" />
@@ -869,7 +1401,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/jsoup-1.8.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.0/edd65a2b792755f58f11134e76485a928aab4c97/jimfs-1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.0.BUILD-SNAPSHOT/82fb8148e8b1dffb8ea6f8907277b77b67232e45/spring-core-5.0.0.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.0.BUILD-SNAPSHOT/2ed653fb5c5bedda601d2f14a46817c6015aedbf/spring-core-5.0.0.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-tools-sdk/1.9.42/bf3cec2fc9a9ed8f4de36e17fc61c44a8d9df935/appengine-tools-sdk-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.appengine/appengine-endpoints/1.9.42/5c25efed254f8f9846d04b156e68283055efd320/appengine-endpoints-1.9.42.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
@@ -1077,26 +1609,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7MainJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Reducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q7/Q7Mapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LeapMotion/leapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/apache/tika_poi_word2html/Tika_word2HTML.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/InlineImageWordToHtmlConverter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Word2HTML.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Tika_word2HTML_app.java" />
-        <option value="$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Tika_word2HTML.java" />
-        <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/Spring_backend/BackendApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/TestNG_PersonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Security/getMD5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/CodeMaster/numberOfTriangles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Java8_Tests/Spark_UnitTest/SparkTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java8/MapExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Java8/Map_Sort_Example.java" />
+        <option value="$PROJECT_DIR$/src/test/java/backend/BackendApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ImageProcessing/Tess4J/TesseractExample.java" />
       </list>
     </option>
   </component>
@@ -1105,12 +1619,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -1134,6 +1642,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1159,22 +1670,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IDEAs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IDEAs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1192,7 +1689,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1214,7 +1711,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1222,7 +1719,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
+              <option name="myItemId" value="ImageProcessing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tess4J" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1240,7 +1741,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1248,103 +1749,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8" />
+              <option name="myItemId" value="ImageProcessing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IDEAs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IDEAs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.16015625" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="GO_FMT" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/src/test/java/org/raliclo" />
-      <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/com" />
-      <recent name="$PROJECT_DIR$/src/main" />
-      <recent name="$PROJECT_DIR$/libs" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Map_Sort_Example">
-    <configuration default="false" name="go run StringSplit.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/main/golang" />
-      <filePath value="$PROJECT_DIR$/src/main/golang/Examples/StringSplit.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="numberOfTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TesseractExample">
+    <configuration default="false" name="Junit5_JupiterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.raliclo.CodeMaster.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.raliclo.CodeMaster.numberOfTriangles" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IDEAs_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Spark_WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java8_Tests.Spark_UnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java8_Tests.Spark_UnitTest.Spark_WordCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IDEAs_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SparkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java8_Tests.Spark_UnitTest.*" />
+          <option name="PATTERN" value="Java8_Tests.ClassTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="IDEAs_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Java8_Tests.Spark_UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="Java8_Tests.Spark_UnitTest.SparkTest" />
+      <option name="PACKAGE_NAME" value="Java8_Tests.ClassTest" />
+      <option name="MAIN_CLASS_NAME" value="Java8_Tests.ClassTest.Junit5_JupiterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1359,14 +1809,66 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="Map_Sort_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BackendApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="backend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Java8.Map_Sort_Example" />
+      <module name="IDEAs_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="backend" />
+      <option name="MAIN_CLASS_NAME" value="backend.BackendApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TesseractExample.main(java.lang.String[])" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ImageProcessing.Tess4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="IDEAs_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ImageProcessing.Tess4J" />
+      <option name="MAIN_CLASS_NAME" value="ImageProcessing.Tess4J.TesseractExample" />
+      <option name="METHOD_NAME" value="main(java.lang.String[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TesseractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ImageProcessing.Tess4J.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ImageProcessing.Tess4J.TesseractExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1375,7 +1877,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="IDEAs_main" />
+      <module name="IDEAs_test" />
       <envs />
       <method />
     </configuration>
@@ -1660,21 +2162,21 @@
       <method />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/main/golang" />
-      <filePath value="$PROJECT_DIR$/src/main/golang" />
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <method />
     </configuration>
     <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/main/golang" />
-      <filePath value="$PROJECT_DIR$/src/main/golang" />
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="golang" />
-      <working_directory value="$PROJECT_DIR$/src/main/golang" />
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
       <method />
@@ -1701,7 +2203,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JRubyCucumberRunConfigurationType" factoryName="JRuby Cucumber">
@@ -1984,12 +2485,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -2145,25 +2640,23 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run StringSplit.go" />
-      <item index="1" class="java.lang.String" itemvalue="Application.numberOfTriangles" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Spark_WordCount" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SparkTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Map_Sort_Example" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Junit5_JupiterTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BackendApplicationTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TesseractExample.main(java.lang.String[])" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TesseractExample" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Map_Sort_Example" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SparkTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Spark_WordCount" />
-        <item index="3" class="java.lang.String" itemvalue="Application.numberOfTriangles" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run StringSplit.go" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.TesseractExample" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TesseractExample.main(java.lang.String[])" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BackendApplicationTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Junit5_JupiterTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1487508522123" />
+    <option name="lastUpdateTimestamp" value="1487867179857" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2171,119 +2664,68 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0f9520f-6e9e-46f1-a193-8a97d7af47c1" name="Default" comment="" />
-      <created>1487501049832</created>
+      <changelist id="ddebb88b-3c70-4a79-b7f8-24f27042d59f" name="Default" comment="" />
+      <created>1487867058050</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1487501049832</updated>
-      <workItem from="1487501055135" duration="6668000" />
-      <workItem from="1487508658029" duration="1801000" />
-      <workItem from="1487576381643" duration="14201000" />
-      <workItem from="1487857987501" duration="988000" />
+      <updated>1487867058050</updated>
+      <workItem from="1487867059875" duration="669000" />
     </task>
-    <task id="LOCAL-00001" summary="Update for Gradle Files">
-      <created>1487508355237</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1487508355237</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShouldBeTest_verifyEasy - 2017.02.19 at 03h 34m 09s.xml">
-      <configuration name="ShouldBeTest.verifyEasy" configurationId="TestNG" />
+    <history-entry file="BackendApplicationTests - 2017.02.23 at 08h 35m 13s.xml">
+      <configuration name="BackendApplicationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SparkTest - 2017.02.23 at 05h 46m 18s.xml">
-      <configuration name="SparkTest" configurationId="JUnit" />
+    <history-entry file="TesseractExample_main(java_lang_String[]) - 2017.02.23 at 08h 35m 37s.xml">
+      <configuration name="TesseractExample.main(java.lang.String[])" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23658000" />
+    <option name="totallyTimeSpent" value="669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32098764" sideWeight="0.14458804" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49676898" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.68497574" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32098764" sideWeight="0.85541195" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33178294" sideWeight="0.63247174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35379645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.48707592" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.11153263" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4817906" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924962" sideWeight="0.8884674" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.4969651" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.6487102" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -2291,23 +2733,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Update for Gradle Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for Gradle Files" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/Q382_LinkedListRandomNode_NEW.java</url>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2315,365 +2742,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/mapreduce_Q1/SectionsByCourseCombiner_2ndExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/Junit5_JupiterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/apache/tika_poi_word2html/Tika_word2HTML.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/fs/UnixException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cucumber_Steps_Java8Test/StepsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cucumber_Steps_Java8Test/Cucumber_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Word2HTML.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Tika_word2HTML_app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/InlineImageWordToHtmlConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/tika_poi_word2html/Tika_word2HTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/WordCountWeb/RestAPI/SpringJunit5/Spring_WordCountSite_JunitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/Spring_backend/BackendApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="851" column="44" lean-forward="false" selection-start-line="851" selection-start-column="44" selection-end-line="851" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/apache/camelQRcode/QRCodeDataFormatTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/TestNG_PermUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/raliclo/WordCountWeb/RestAPI/SpringTestNG/RestAPI_Invocations_testNGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/WordCountWeb/RestAPI/Spring_WordCountSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/ClassTest/TestNG_PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/backend/BackendApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Security/getMD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/Examples/LineReaders.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q382_LinkedListRandomNode_STD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-636">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#2536#0" expanded="false" />
-            <element signature="e#1426#1427#0" expanded="false" />
-            <element signature="e#1457#1458#0" expanded="false" />
-            <element signature="e#1493#1494#0" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1819#1820#0" expanded="false" />
-            <element signature="e#1859#1860#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/CodeMaster/numberOfTriangles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q382_LinkedListRandomNode_NEW.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2376#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-            <element signature="e#1567#1568#0" expanded="false" />
-            <element signature="e#1619#1620#0" expanded="false" />
-            <element signature="e#1727#1728#0" expanded="false" />
-            <element signature="e#1767#1768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/golang/Examples/StringSplit.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/OctaveAns/OctaveAns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-441">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/KrogerStores/request/stores.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17385">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Applications/DetectTheDomainName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.0.0/c4d04336c142f10eb7e172155f022f86b6d11dd3/spark-core_2.11-2.0.0.jar!/org/apache/spark/SparkConf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Java8_Tests/Spark_UnitTest/SparkTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ImageProcessing/Tess4J/TesseractExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/google/scrollview/ui/Makefile.am" />
-    <entry file="file://$PROJECT_DIR$/src/main/com/google/scrollview/ScrollView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="400" column="0" lean-forward="true" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/ClassTest/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/ClassTest/PermUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/ClassTest/Permute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8_Tests/Spark_UnitTest/Spark_WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchStart_End.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchSpecificString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/raliclo/HackerRank_Regex/Introduction/MatchAnythingButNewLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/visa/vdp/utils/MethodTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/visa/vdp/utils/BasicAuthHeaderGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/visa/vdp/utils/VisaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/visa/vdp/utils/VisaAPIClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2615">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/visa/vdp/utils/XPayTokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet193-validPhoneNumbers.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bashShell/Leet192-wordFrequency.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/Q1_TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java8/Map_Sort_Example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2721,7 +2812,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Go 1.8</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2733,7 +2824,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IDEAs_main|IDEAs</last-edited>
+          <last-edited>IDEAs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2743,9 +2834,20 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20251939" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: ant:ant:1.6.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
