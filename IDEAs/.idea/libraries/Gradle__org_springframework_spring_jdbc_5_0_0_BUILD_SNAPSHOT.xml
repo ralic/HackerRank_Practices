@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework:spring-jdbc:5.0.0.BUILD-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.0.0.BUILD-SNAPSHOT/71e572218122ec0a42caa97977b4881d1cc8279/spring-jdbc-5.0.0.BUILD-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

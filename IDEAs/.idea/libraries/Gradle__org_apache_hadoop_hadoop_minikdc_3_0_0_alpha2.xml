@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.hadoop:hadoop-minikdc:3.0.0-alpha2">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.hadoop/hadoop-minikdc/3.0.0-alpha2/1b8010aee1111d2643733d96e83b0a99e51ef6a4/hadoop-minikdc-3.0.0-alpha2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

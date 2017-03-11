@@ -245,8 +245,8 @@ idea {
 Big Jar setup
  */
 jar {
-    baseName = "TestNG-Projects"
-    version = "1.3.0-SNAPSHOT"
+    baseName = "RE-TI-R-ED-Projects"
+    version = "1.4.0-SNAPSHOT"
 }
 
 repositories {
@@ -1540,4 +1540,4 @@ TODO Complete the configuration & Support
 apply plugin: 'distribution'
 distZip.enabled = false
 distTar.enabled = false
-jar.enabled = false
+//jar.enabled = false
