@@ -617,6 +617,34 @@ dependencies {
     // For Mesos Development
     compile "org.apache.mesos:mesos:1.1.0"
     compile "com.mesosphere.mesos.rx.java:mesos-rxjava:0.1.0"
+    compile "com.groupon.mesos:jesos:1.4"
+
+
+    def alluxioVer = "1.4.0"
+    // For Alluxio Development
+//    compile "org.alluxio:alluxio-core-common:${alluxioVer}"
+//    compile "org.alluxio:alluxio-core-server:${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-local: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-hdfs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-core-client-internal: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-s3: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-keyvalue-common: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-shell: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-keyvalue-client: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-oss: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-gcs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-glusterfs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-core: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs:${alluxioVer}"
+//    compile "org.alluxio:alluxio-assemblies:${alluxioVer}"
+//    compile "org.alluxio:alluxio-integration-mesos:${alluxioVer}"
+    compile "org.alluxio:alluxio-core-client: ${alluxioVer}"
+    compile "org.alluxio:alluxio-parent:${alluxioVer}"
+    compile "org.alluxio:alluxio-keyvalue:${alluxioVer}"
+    compile "org.alluxio:alluxio-integration:${alluxioVer}"
+    compile "org.alluxio:alluxio-examples:${alluxioVer}"
+//    testcompile "org.alluxio:alluxio-minicluster: ${alluxioVer}"
+//    testcompile "org.alluxio:alluxio-tests:${alluxioVer}"
 
     // For MS Document Process
     def apachePOIVer = "3.16-beta1"
@@ -722,7 +750,8 @@ dependencies {
     testCompile "org.jboss.arquillian:arquillian-bom:1.1.11.Final"
     testCompile "org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6"
 
-    // For Arquillian Cube ( Docker or Kubernetes Testing , http://arquillian.org/blog/2016/08/18/arquillian-cube-1-0-0-Alpha14/ )
+    // For Arquillian Cube
+    // ( Docker or Kubernetes Testing , http://arquillian.org/blog/2016/08/18/arquillian-cube-1-0-0-Alpha14/ )
     testCompile "org.arquillian.cube:arquillian-cube-requirement:1.0.0.Alpha14"
     testCompile "org.arquillian.extension:arquillian-recorder:1.1.2.Final"
     testCompile "org.arquillian.spacelift:arquillian-spacelift:1.0.0.Alpha8"
