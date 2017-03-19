@@ -362,15 +362,16 @@ dependencies {
     compile "com.amazonaws:aws-java-sdk-bom:1.11.93"
 
     // Vaadin U & I Framework
+    def vaadinVer="8.0.2"
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-client
-    compile group: 'com.vaadin', name: 'vaadin-client', version: '7.7.5'
+    compile "com.vaadin:vaadin-client:${vaadinVer}"
 //    compile "com.vaadin:vaadin:7.0.0.alpha3"
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-themes
-    compile group: 'com.vaadin', name: 'vaadin-themes', version: '7.7.5'
+    compile "com.vaadin:vaadin-themes:${vaadinVer}"
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-server
-    compile group: 'com.vaadin', name: 'vaadin-server', version: '7.7.5'
+    compile "com.vaadin:vaadin-server:${vaadinVer}"
 // https://mvnrepository.com/artifact/com.vaadin/vaadin-spring
-    compile group: 'com.vaadin', name: 'vaadin-spring', version: '1.1.1'
+    compile "com.vaadin:vaadin-spring:2.0.0"
 
     // VertX for Web design
     // https://mvnrepository.com/artifact/io.vertx/vertx-core
@@ -386,8 +387,8 @@ dependencies {
     antlr "org.antlr:antlr4:4.5.3" // use ANTLR version 4
 
     // For Selenium Development : Automation Web Browser Automation Test
-    def SeleniumWebDrivers = "3.0.0-beta3"
-    def SeleniumMobileDrivers = "2.9.0"
+    def SeleniumWebDrivers = "3.3.1"
+    def SeleniumMobileDrivers = "2.39.0"
 
 //    compile "org.seleniumhq.selenium:selenium:2.0rc2"
     compile "org.seleniumhq.selenium:selenium-java:${SeleniumWebDrivers}"
@@ -638,7 +639,7 @@ dependencies {
 //    compile "org.alluxio:alluxio-underfs:${alluxioVer}"
 //    compile "org.alluxio:alluxio-assemblies:${alluxioVer}"
 //    compile "org.alluxio:alluxio-integration-mesos:${alluxioVer}"
-    compile "org.alluxio:alluxio-core-client: ${alluxioVer}"
+    compile "org.alluxio:alluxio-core-client:${alluxioVer}"
     compile "org.alluxio:alluxio-parent:${alluxioVer}"
     compile "org.alluxio:alluxio-keyvalue:${alluxioVer}"
     compile "org.alluxio:alluxio-integration:${alluxioVer}"
@@ -647,18 +648,18 @@ dependencies {
 //    testcompile "org.alluxio:alluxio-tests:${alluxioVer}"
 
     // For MS Document Process
-    def apachePOIVer = "3.16-beta1"
+    def apachePOIVer = "3.16-beta2"
     compile "org.apache.poi:poi:${apachePOIVer}"
     compile "org.apache.poi:poi-ooxml:${apachePOIVer}"
     compile "org.apache.poi:poi-scratchpad:${apachePOIVer}"
 
     // For Data Flow
-    compile "org.apache.nifi:nifi:1.0.0-BETA"
+    compile "org.apache.nifi:nifi:1.1.2"
 
     // For Deep Learning (ND4J,DL4J)
     // http://deeplearning4j.org/
     // http://nd4j.org/
-    def deep4jVer = "0.7.1"
+    def deep4jVer = "0.8.0"
     compile "org.deeplearning4j:deeplearning4j-parent:${deep4jVer}"
     compile "org.deeplearning4j:deeplearning4j-core:${deep4jVer}"
     compile "org.nd4j:nd4j-native-platform:${deep4jVer}"
@@ -1116,14 +1117,12 @@ task runLeap(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
-//gradleVersion = 3.0
-//useMavenLocal = true
-//// task to add gradle wrapper files.
-//task("wrapper", type: Wrapper) {
-//    gradleVersion = project.gradleVersion
-//    distributionUrl = "https://services.gradle.org/distributions/" +
-//            "gradle-${gradleVersion}-all.zip"
-//}
+def gradleVersion = "3.4.1"
+// task to add gradle wrapper files.
+task("wrapper", type: Wrapper) {
+    distributionUrl = "https://services.gradle.org/distributions/" +
+            "gradle-${gradleVersion}-all.zip"
+}
 
 //gradle dist -x test ==> This will exclude [test]
 //task dist(dependsOn: [compile, test]) << {
