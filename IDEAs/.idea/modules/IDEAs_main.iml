@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="IDEAs:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/apache/camelQRcode/RestAPI/QRCodeRest.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/WordCountWeb/RestAPI/Spring_WordCountSite.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/Spring_backend/config/CorsConfig.java</file>
+          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/Spring_backend/BackendApplication.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../build/classes/main" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$/../../build/generated-main-avro-java">
       <sourceFolder url="file://$MODULE_DIR$/../../build/generated-main-avro-java" isTestSource="false" />
     </content>
@@ -39,7 +50,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/Leap.py" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -48,7 +59,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -57,7 +68,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.NET3.5.dll" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -66,7 +77,70 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeapCSharp.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -84,52 +158,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET3.5.dll" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapCSharp.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET4.0.dll" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -147,7 +176,187 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET3.5.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/Leap.py" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.NET3.5.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapCSharp.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -165,7 +374,322 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeapCSharp.dylib" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET4.0.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -180,11 +704,62 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr4:4.5.3" level="project" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr4:4.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:21.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-gwt:21.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-tests:21.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-testlib:21.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mysql:mysql-connector-java:6.0.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:ios-sdk:zip:8.60.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:dalvik-sdk:zip:8.60.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:jfxdvk:8.60.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-classic:1.1.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-classic:1.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tika:tika-core:1.14" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin:vaadin-client:8.0.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin:vaadin-themes:8.0.2" level="project" />
@@ -206,9 +781,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.seleniumhq.selenium:selenium-iphone-driver:2.39.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.seleniumhq.selenium:selenium-android-driver:2.39.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.seleniumhq.selenium:selenium-htmlunit-driver:2.39.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.codeborne:phantomjsdriver:1.4.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.machinepublishers:jbrowserdriver:0.17.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.codeborne:phantomjsdriver:1.3.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: mysql:mysql-connector-java:6.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-test:5.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-core:5.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-beans:5.0.0.BUILD-SNAPSHOT" level="project" />
@@ -219,24 +793,74 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-web:5.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-webmvc:5.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-web-reactive:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-websocket:5.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-orm:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-commons:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-jdbc-core:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-jpa:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-batch:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-boot:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-hive:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-pig:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-hbase:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-config:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-spark:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-sqoop2:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-util:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-cluster-tests:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-build-tests:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.webflow:spring-webflow:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-rest-core:3.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-rest-webmvc:3.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-ldap:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-acl:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-aspects:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-core:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-web:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-remoting:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-cas:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-config:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-crypto:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-data:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-openid:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-messaging:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-taglibs:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-4-jc:war:1.0.0-BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-4-xml:war:1.0.0-BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.kerberos:spring-security-kerberos-client:1.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.kerberos:spring-security-kerberos-core:1.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.kerberos:spring-security-kerberos-test:1.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.kerberos:spring-security-kerberos-web:1.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.oauth:spring-security-oauth:2.1.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.oauth:spring-security-oauth2:2.1.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.oauth:sparklr2:war:2.1.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security.oauth:tonr2:war:2.1.1.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-test:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-facebook-web:3.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-facebook:3.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-linkedin:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-twitter:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-core:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-config:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-security:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.social:spring-social-web:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-security:2.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-jetty:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-configuration-processor:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-devtools:2.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-all:5.0.0.Alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-all:4.1.9.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-server:9.4.0.M1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.0.M1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-util:9.4.0.M1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.0.M1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:4.0.0-b01" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:4.0.0-b03" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-test:1.2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-core:1.2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-tools:1.2.1" level="project" />
@@ -263,6 +887,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-minicluster:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-yarn-server-tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.zookeeper:zookeeper:3.4.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.geode:gemfire-core:1.0.0-incubating.M1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-core_2.11:2.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-sql_2.11:2.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-mllib_2.11:2.0.0" level="project" />
@@ -333,17 +958,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kafka:kafka-streams-examples:0.10.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.pdfbox:pdfbox:2.0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.itextpdf:itextpdf:5.5.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro:1.8.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.orc:orc-core:1.3.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.orc:orc-tools:1.3.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.orc:orc-mapreduce:1.3.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:parquet-format:2.2.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-exec:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-orc:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-serde:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-metastore:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-service:2.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-core:1.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-mesos:1.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-spring:1.9.0" level="project" />
@@ -358,21 +977,24 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm-all:6.0_ALPHA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm-debug-all:6.0_ALPHA" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm-analysis:6.0_ALPHA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:21.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-gwt:21.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-tests:21.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-testlib:21.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.inject:guice:4.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.inject:jdk8-tests:4.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:util-core_2.12:6.42.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.jsonwebtoken:jjwt:0.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr4-runtime:4.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-desktop:3.1.0-stable" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:ST4:4.0.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-lwjgl:3.1.0-stable" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin:vaadin-shared:8.0.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.gwt:gwt-elemental:2.8.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-desktop:3.1.0-stable" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mockito:mockito-core:2.5.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-lwjgl:3.1.0-stable" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin:vaadin-sass-compiler:0.9.13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.googlecode.gentyref:gentyref:1.2.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-common:4.1.8.Final" level="project" />
@@ -395,7 +1017,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jna:jna-platform:4.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sourceforge.htmlunit:htmlunit:2.25" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.httpcomponents:httpclient-cache:4.5.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.zeroturnaround:zt-process:1.3" level="project" />
@@ -405,39 +1026,70 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor:reactor-core:3.0.6.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.reactivestreams:reactive-streams:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-jdbc:5.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor.addons:reactor-test:3.0.6.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.retry:spring-retry:1.2.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.aspectj:aspectjrt:1.8.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-messaging:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-core:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-context-support:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-common:tests:3.0.0-alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.batch:spring-batch-core:4.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-distcp:2.7.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-hdfs:tests:3.0.0-alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-jobclient:tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-client:tests:3.0.0-alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-yarn-server-web-proxy:tests:3.0.0-alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.sqoop:sqoop-client:1.99.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-hadoop-test:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.webflow:spring-binding:2.5.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.atteo:evo-inflector:1.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.ldap:spring-ldap-core:2.3.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jasig.cas.client:cas-client-core:3.4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.openid4java:openid4java-nodeps:0.9.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.easytesting:fest-assert:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-core-api:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-protocol-shared:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-mavibot-partition:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptor-kerberos:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-protocol-ldap:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-all:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-protocol-kerberos:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-ldif-partition:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-jdbm-partition:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.webjars:bootstrap:3.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor.addons:reactor-test:3.0.6.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hibernate:hibernate-validator:5.4.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-jpa:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-aspects:5.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.thymeleaf:thymeleaf-spring5:3.0.3.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-actuator:2.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-test:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.0.0.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jayway.jsonpath:json-path:2.2.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.assertj:assertj-core:3.6.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.skyscreamer:jsonassert:1.4.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.thymeleaf:thymeleaf-spring5:3.0.3.M1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-config:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-web:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-servlets:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:javax-websocket-server-impl:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jasper:apache-el:8.0.33" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.boot:spring-boot-actuator:2.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-io:9.4.2.v20170220" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-security:9.4.2.v20170220" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ftpserver:ftplet-api:1.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.mina:mina-core:2.0.0-M5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ftpserver:ftpserver-core:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ftpserver:ftpserver-deprecated:1.0.0-M2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: xmlenc:xmlenc:0.52" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:jetty:6.1.26" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:jetty-util:6.1.26" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:jsp-api-2.1:6.1.14" level="project" />
@@ -456,21 +1108,16 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jcraft:jsch:0.1.51" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.curator:curator-client:2.7.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.curator:curator-recipes:2.7.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.htrace:htrace-core4:4.1.0-incubating" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.zookeeper:zookeeper:tests:3.4.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerb-simplekdc:1.0.0-RC2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-common:tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-hdfs-client:3.0.0-alpha2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-jobclient:tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-util-ajax:9.3.11.v20160721" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-daemon:commons-daemon:1.0.13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty:3.10.5.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:hpack:0.11.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.fusesource.leveldbjni:leveldbjni-all:1.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.inject.extensions:guice-servlet:4.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-yarn-server-web-proxy:tests:3.0.0-alpha2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-hdfs:tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.xml.bind:jaxb-api:2.2.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-client:1.19" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey.contribs:jersey-guice:1.19" level="project" />
@@ -483,15 +1130,34 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.nimbusds:nimbus-jose-jwt:3.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.curator:curator-framework:2.7.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-yarn-server-tests:tests:3.0.0-alpha2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jgroups:jgroups:3.6.6.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.2.v20170220" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mx4j:mx4j-tools:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: it.unimi.dsi:fastutil:7.0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-jul:2.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-modeler:commons-modeler:2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.geode:gemfire-joptsimple:1.0.0-incubating.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.activation:activation:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-jcl:2.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.fusesource.jansi:jansi:1.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.mail:javax.mail-api:1.5.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mx4j:mx4j-remote:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mx4j:mx4j:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.geode:gemfire-json:1.0.0-incubating.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.shell:spring-shell:1.1.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.geode:gemfire-common:1.0.0-incubating.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase:0.94.27" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jna:jna:4.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-mapred:hadoop2:1.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:chill_2.11:0.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:chill-java:0.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.xbean:xbean-asm5-shaded:4.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-client:tests:3.0.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-launcher_2.11:2.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.ning:compress-lzf:1.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.jpountz.lz4:lz4:1.3.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.roaringbitmap:RoaringBitmap:0.5.11" level="project" />
@@ -520,7 +1186,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:parquet-hadoop-bundle:1.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.spark-project.hive:hive-exec:1.2.1.spark2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.spark-project.hive:hive-metastore:1.2.1.spark2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.calcite:calcite-core:1.2.0-incubating" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jodd:jodd-core:3.5.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-core:3.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libfb303:0.9.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.fommil.netlib:core:1.1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.twitter4j:twitter4j-stream:4.0.4" level="project" />
@@ -538,7 +1207,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.github.nicolasstucki:multisets_2.11:0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalacheck:scalacheck_2.11:1.13.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains:annotations:15.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.11.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.iq80.leveldb:leveldb-api:0.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.iq80.leveldb:leveldb:0.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.alluxio:alluxio-core-common:1.4.0" level="project" />
@@ -570,7 +1238,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.nd4j:nd4j-native:linux-ppc64le:0.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.gluonhq:charm-down-common:2.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.mail:javax.mail:1.5.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.activation:activation:1.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-spring:2.18.2" level="project" />
@@ -581,13 +1248,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javassist:javassist:3.21.0-GA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss:jandex:2.0.3.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml:classmate:1.3.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jna:jna:4.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.rococoa:rococoa-core:0.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang.modules:scala-xml_2.12:1.0.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4" level="project" />
@@ -598,48 +1263,19 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.rocksdb:rocksdbjni:4.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kafka:kafka_2.10:0.10.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sourceforge.argparse4j:argparse4j:0.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-servlets:9.4.2.v20170220" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.reflections:reflections:0.9.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.pdfbox:fontbox:2.0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.tukaani:xz:1.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.airlift:aircompressor:0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-storage-api:2.2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.esotericsoftware:kryo-shaded:3.0.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-ant:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-llap-tez:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-shims:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-1.2-api:2.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr-runtime:3.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:ST4:4.0.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ant:ant:1.9.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.curator:apache-curator:pom:2.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-all:2.4.9" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.iq80.snappy:snappy:0.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-common:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-service-rpc:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sf.opencsv:opencsv:2.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.parquet:parquet-hadoop-bundle:1.8.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javolution:javolution:5.5.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-client:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jolbox:bonecp:0.8.0.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.derby:derby:10.13.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-api-jdo:4.2.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-rdbms:4.1.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.jdo:jdo-api:3.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:javax.jdo:3.2.0-m3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: co.cask.tephra:tephra-api:0.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: co.cask.tephra:tephra-core:0.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: co.cask.tephra:tephra-hbase-compat-1.0:0.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-llap-server:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sf.jpam:jpam:1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jamon:jamon-runtime:2.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.cache:cache-api:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.gridgain:ignite-shmem:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jodd:jodd-lagarto:3.4.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ant:ant:1.8.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat:tomcat-servlet-api:8.0.23" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-continuation:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.2.v20170220" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-core_2.11:3.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-indexing:1.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-log4j:1.9.0" level="project" />
@@ -647,16 +1283,13 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ignite:ignite-hibernate:1.0.0-RC3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.simple-spring-memcached:spymemcached:2.7.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm-tree:6.0_ALPHA" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.15" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:util-function_2.12:6.42.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.gwt:gwt-user:2.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.bytebuddy:byte-buddy:1.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.bytebuddy:byte-buddy-agent:1.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.objenesis:objenesis:2.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.w3c.css:sac:1.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl:2.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.w3c.css:sac:1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.vaadin.external.flute:flute:1.3.0.gg2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec:4.1.8.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-codec-socks:4.1.8.Final" level="project" />
@@ -670,7 +1303,36 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.2.v20170220" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.zeroturnaround:zt-exec:1.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jna:jna:3.0.9" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.ibm.jbatch:com.ibm.jbatch-tck-spi:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.batch:spring-batch-infrastructure:4.0.0.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.sqoop:sqoop-common:1.99.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.easytesting:fest-util:1.1.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-core-constants:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-i18n:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-i18n:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-asn1-api:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-client-api:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-codec-core:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-aci:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-util:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-model:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-util:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sf.ehcache:ehcache-core:2.4.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-kerberos-codec:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.mavibot:mavibot:1.0.0-M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-core-avl:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-xdbm-partition:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-core:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.jdbm:apacheds-jdbm1:2.0.0-M2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-asn1-ber:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-codec-api:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-codec:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-sp:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: bouncycastle:bcprov-jdk15:140" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-pool:commons-pool:1.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-core-shared:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.webjars:jquery:1.9.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.11" level="project" />
@@ -678,15 +1340,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.validation:validation-api:sources:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.aspectj:aspectjweaver:1.8.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.11" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.data:spring-data-commons:2.0.0.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.minidev:json-smart:2.2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.thymeleaf:thymeleaf:3.0.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework.security:spring-security-core:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-annotations:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:javax-websocket-client-impl:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.websocket:javax.websocket-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.minidev:json-smart:2.2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-digester:commons-digester:2.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:servlet-api:2.5-20081211" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:servlet-api-2.5:6.1.14" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: ant:ant:1.6.5" level="project" />
@@ -700,9 +1356,13 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: de.ruedigermoeller:fst:2.24" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-csv:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:1.7.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:tests:1.7.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging-api:1.0.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mx4j:mx4j-jmx:2.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: cglib:cglib:2.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.stephenc.high-scale-lib:high-scale-lib:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jruby:jruby-complete:1.6.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jamon:jamon-runtime:2.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.annotation:javax.annotation-api:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.25.1" level="project" />
@@ -712,11 +1372,22 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.parquet:parquet-format:2.3.0-incubating" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.parquet:parquet-jackson:1.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalanlp:breeze-macros_2.11:0.11.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.sf.opencsv:opencsv:2.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.rwl:jtransforms:2.4.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.spire-math:spire_2.11:0.7.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jpmml:pmml-schema:1.2.15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javolution:javolution:5.5.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: log4j:apache-log4j-extras:1.2.17" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.googlecode.javaewah:JavaEWAH:0.3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.iq80.snappy:snappy:0.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jolbox:bonecp:0.8.0.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.derby:derby:10.13.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-api-jdo:3.2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-rdbms:3.2.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.jdo:jdo-api:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.calcite:calcite-linq4j:1.2.0-incubating" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.hydromatic:eigenbase-properties:1.1.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.twitter4j:twitter4j-core:4.0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tinkerpop:gremlin-shaded:3.2.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javatuples:javatuples:1.2" level="project" />
@@ -733,8 +1404,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.californium:scandium:2.0.0-M2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.leshan:leshan-client-core:1.0.0-M1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-sbt:test-interface:1.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.xnio:xnio-api:3.3.6.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.xnio:xnio-nio:3.3.6.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.dropwizard.metrics:metrics-ganglia:3.1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: info.ganglia.gmetric4j:gmetric4j:1.0.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jamesmurty.utils:java-xmlbuilder:0.4" level="project" />
@@ -764,38 +1433,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-jetty-common:2.18.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: xmlpull:xmlpull:1.1.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: xpp3:xpp3_min:1.1.4c" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: cglib:cglib:2.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.esotericsoftware:minlog:1.3.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.velocity:velocity:1.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-llap-client:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive.shims:hive-shims-common:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive.shims:hive-shims-0.23:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive.shims:hive-shims-scheduler:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:stringtemplate:3.2.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.logging.log4j:log4j-web:2.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.joshelser:dropwizard-metrics-hadoop-metrics2-reporter:0.1.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-annotations:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-common:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-common:tests:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-protocol:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.htrace:htrace-core:3.1.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jruby.jcodings:jcodings:1.0.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jruby.joni:joni:2.1.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.github.stephenc.findbugs:findbugs-annotations:1.3.9-1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.transaction:jta:1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.transaction:transaction-api:1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.inject.extensions:guice-assistedinject:3.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-common:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-core:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-discovery-api:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-discovery-core:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-zookeeper:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hive:hive-llap-common:2.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.slider:slider-core:0.90.2-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-hadoop2-compat:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-server:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-hadoop-compat:1.1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ant:ant-launcher:1.8.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-tags_2.10:2.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.twitter:chill_2.10:0.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.netty:netty:3.2.0.Final" level="project" />
@@ -803,23 +1442,39 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.jsinterop:jsinterop-annotations:1.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.jsinterop:jsinterop-annotations:sources:1.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: xalan:serializer:2.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.2.v20170220" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.batch:javax.batch-api:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-admin:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-authn:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-authz:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-changelog:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-collective:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-event:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-exception:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-journal:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-normalization:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-operational:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-referral:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-schema:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-subtree:2.0.0-M15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-trigger:2.0.0-M15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.11" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.attoparser:attoparser:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.unbescape:unbescape:1.1.4.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-plus:9.4.2.v20170220" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm-commons:5.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerby-asn1:1.0.0-RC2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerby-pkix:1.0.0-RC2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerb-common:1.0.0-RC2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerb-crypto:1.0.0-RC2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerb-identity:1.0.0-RC2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: asm:asm:3.3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.parquet:parquet-generator:1.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.spire-math:spire-macros_2.11:0.7.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.jcabi:jcabi-log:0.14" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-console:2.4.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.leshan:leshan-core:1.0.0-M1" level="project" />
@@ -876,17 +1531,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:macosx-x86_64:0.2.19-1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86:0.2.19-1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86_64:0.2.19-1.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: asm:asm:3.3.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.twill:twill-api:0.6.0-incubating" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.13" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.13" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hadoop:hadoop-yarn-registry:2.7.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-procedure:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.hbase:hbase-prefix-tree:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mortbay.jetty:jetty-sslengine:6.1.26" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.lmax:disruptor:3.3.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.10:2.2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.2.v20170220" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-trigger:1.0.0-M20" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerby-util:1.0.0-RC2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-swing:2.4.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.9" level="project" />
@@ -895,46 +1542,45 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-core:1.19" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-json:1.19" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-server:1.19" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jets3t:jets3t:0.9.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math3:3.4.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-httpclient:commons-httpclient:3.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jets3t:jets3t:0.9.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.11:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: jline:jline:2.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math3:3.4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.11:3.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalactic:scalactic_2.11:3.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.protobuf:protobuf-java:2.6.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.squareup.okio:okio:1.6.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-cli:commons-cli:1.3.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-compress:1.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-compress:1.8.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jettison:jettison:1.3.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-compiler:2.12.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-library:2.12.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-reflect:2.12.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.101tec:zkclient:0.9" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.datanucleus:datanucleus-core:4.1.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.calcite:calcite-core:1.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.calcite:calcite-linq4j:1.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.hydromatic:eigenbase-properties:1.1.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.janino:janino:2.7.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: jline:jline:2.12" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libthrift:0.9.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libfb303:0.9.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-compiler:5.5.23" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jsp-api:2.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-runtime:5.5.23" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ant:ant-launcher:1.9.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-catalyst_2.11:2.1.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr4-runtime:4.5.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.janino:janino:2.7.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-network-common_2.11:2.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.spark:spark-network-shuffle_2.11:2.1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.lucene:lucene-core:3.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.mina:mina-core:2.0.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: net.minidev:accessors-smart:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libthrift:0.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-compiler:5.5.23" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jsp-api:2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:servlet-api:2.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-runtime:5.5.23" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:1.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:tests:1.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.velocity:velocity:1.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-ast_2.11:3.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-scalap_2.11:3.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-common:2.25.1" level="project" />
@@ -946,17 +1592,484 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-configuration:commons-configuration:1.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco:javacpp:1.3.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: it.unimi.dsi:fastutil:6.5.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.janino:commons-compiler:3.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

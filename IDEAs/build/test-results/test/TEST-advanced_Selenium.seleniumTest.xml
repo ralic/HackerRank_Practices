@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="advanced_Selenium.seleniumTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-03-20T01:00:59" hostname="tastypotinc.private" time="16.785">
+  <properties/>
+  <testcase name="testChromeDriver" classname="advanced_Selenium.seleniumTest" time="8.252"/>
+  <testcase name="testFirefoxDriver" classname="advanced_Selenium.seleniumTest" time="8.531"/>
+  <system-out><![CDATA[
+[Info] List out all Elements founded~!
+--------------------------------------
+--------------------------------------
+Elements Amounts : 10
+Element href attribute: https://sites.google.com/a/chromium.org/chromedriver/
+
+
+[Info] You shall be searching ChromeDriver on google using Chrome~!
+
+
+[Info] List out all Elements founded~!
+--------------------------------------
+--------------------------------------
+Elements Amounts : 10
+Element href attribute: https://github.com/SeleniumHQ/selenium/wiki/FirefoxDriver
+
+
+[Info] You shall be searching FireFoxDriver on google using FireFox~!
+
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 7631
+Only local connections are allowed.
+Mar 19, 2017 6:01:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+1489971667988	geckodriver	INFO	Listening on 127.0.0.1:29433
+1489971668027	mozprofile::profile	INFO	Using profile path /var/folders/d6/lnrxqp194zn2c1g3_02j1pdh0000gn/T/rust_mozprofile.He66VXcDTTyl
+1489971668029	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1489971668034	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56611
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1489971668940	Marionette	INFO	Listening on port 56611
+Mar 19, 2017 6:01:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://assets-cdn.github.com/assets/frameworks-f595606838fa8089d82001c6b4da7f6ba33f31dde48065e00390143b90dab642.js, line 1: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+]]></system-err>
+</testsuite>

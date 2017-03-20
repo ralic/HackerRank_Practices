@@ -306,11 +306,11 @@ dependencies {
     // Apache Tika Support ( Image meta file. for GMAP)
     compile "org.apache.tika:tika:1.14"
     compile "org.apache.tika:tika-core:1.14"
-////    compile "org.apache.tika:tika-parent:1.14"
+    
+//    compile "org.apache.tika:tika-parent:1.14"
 //    compile "org.apache.tika:tika-parsers:1.14"
 //    compile "org.apache.tika:tika-app:1.14"
 //    compile "org.apache.tika:tika-xmp:1.14"
-//
 //    runtime "org.apache.tika:tika-core:1.14"
 //    runtime 'org.apache.tika:tika-parsers:1.14'
 
@@ -415,14 +415,14 @@ dependencies {
     compile "org.springframework.data:spring-data-jdbc-core:${SpringDataCoreVer}"
 //    compile "org.springframework.data:spring-data-jdbc-ext:${SpringDataCoreVer}" //  POM file not available.
 //    compile "org.springframework.data:spring-data-gemfire:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-elasticsearch:${SpringElasticSearchVer}"
-    compile "org.springframework.data:spring-data-ldap:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-solr:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-keyvalue:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-cassandra-parent:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-mongodb-parent:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-redis:${SpringDataCoreVer}"
-    compile "org.springframework.data:spring-data-oracle:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-elasticsearch:${SpringElasticSearchVer}"
+    // compile "org.springframework.data:spring-data-ldap:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-solr:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-keyvalue:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-cassandra-parent:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-mongodb-parent:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-redis:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-oracle:${SpringDataCoreVer}"
     compile "org.springframework.data:spring-data-jpa:${SpringDataCoreVer}"
 //    compile "org.springframework.data:spring-data-rest-example:${SpringDataCoreVer}" // Need pivotal gemfire
 //    compile "org.springframework.data:spring-data-geode:1.1.0.BUILD-SNAPSHOT" // Need pivotal gemfire
@@ -858,10 +858,10 @@ dependencies {
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
-    // testCompile dependency to testCompile "org.testng:testng:6.11" and add
+    // testCompile dependency to testCompile "org.testng:testng:6.9.12" and add
     // "test.useTestNG()" to your build script.
 
-    testCompile "org.testng:testng:6.11"
+    testCompile "org.testng:testng:6.9.12" // 6.11
     //    testCompile "com.google.inject:guice:4.1.0"
 
     //    testCompile ("org.uncommons:reportng:1.1.4") {

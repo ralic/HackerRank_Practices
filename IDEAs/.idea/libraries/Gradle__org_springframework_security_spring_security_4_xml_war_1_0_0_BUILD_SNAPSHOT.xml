@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.security:spring-security-4-xml:war:1.0.0-BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-4-xml/1.0.0-BUILD-SNAPSHOT/d9d846ec2a94cb62c3bcb884ce377925e21720b7/spring-security-4-xml-1.0.0-BUILD-SNAPSHOT.war!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
