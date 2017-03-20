@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Java8_Tests.ClassTest.TestNG_PersonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-03-20T01:01:40" hostname="tastypotinc.private" time="0.06">
+  <properties/>
+  <testcase name="collect0" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.036"/>
+  <testcase name="collect1" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.011"/>
+  <testcase name="collect2" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.002"/>
+  <testcase name="collect3" classname="Java8_Tests.ClassTest.TestNG_PersonTest" time="0.006"/>
+  <system-out><![CDATA[{chicago=[Java8_Tests.ClassTest.Person@7d7facb6, Java8_Tests.ClassTest.Person@24090184], new york=[Java8_Tests.ClassTest.Person@73b637f9, Java8_Tests.ClassTest.Person@397019ad]}
+{chicago=[raliclo], new york=[raliclo1, raliclo3]}
+{chicago=[raliclo, raliclo], new york=[raliclo1, raliclo3]}
+{raliclo1=[Java8_Tests.ClassTest.Person@73b637f9], raliclo=[Java8_Tests.ClassTest.Person@7d7facb6, Java8_Tests.ClassTest.Person@24090184], raliclo3=[Java8_Tests.ClassTest.Person@397019ad]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
