@@ -88,8 +88,7 @@ object SpectralNorm_scala {
 
   private class Approximate(var _u: Array[Double], var _v: Array[Double], var _tmp: Array[Double], var range_begin: Int, var range_end: Int) extends Thread {
     start()
-    //    private var m_vBv: Double = 0
-    //    private var m_vv: Double = 0
+
     var m_vBv: Double = 0
     var m_vv: Double = 0
 
