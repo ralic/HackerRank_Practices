@@ -13,6 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger
 // Break out of a loop in scala like java
 //http://stackoverflow.com/questions/2742719/how-do-i-break-out-of-a-loop-in-scala
 import scala.util.control.Breaks._
+// TODO NEW import for "break" keyword
 
 object Mandelbrot {
   private[BenchmarkGame] var out: Array[Array[Byte]] = null
@@ -68,12 +69,25 @@ object Mandelbrot {
   private[BenchmarkGame] def putLine(y: Int, line: Array[Byte]) {
     var xb: Int = 0
     while (xb < line.length) {
+
+      // TODO Add prefix for toByte function.
+      // Original Code
+      /*
       line(xb) = getByte(xb * 8, y).toByte {
         xb += 1;
         xb - 1
       }
     }
   }
+  */
+      // New Code
+      line(xb) = getByte(xb * 8, y).toByte // { // // TODO Remove extra block scope
+      xb += 1;
+      xb - 1
+    }
+  }
+
+  // }    // TODO Remove extra block scope
 
   @throws[Exception]
   def main(args: Array[String]) {
@@ -95,10 +109,13 @@ object Mandelbrot {
       }
     }
     yCt = new AtomicInteger
-    out = new Array[Array[Byte]](N, (N + 7) / 8)
+    //     Fix Incorrect 2D array initialization
+    //     out = new Array[Array[Byte]](N, (N + 7) / 8)   <---- Original incorrect code generation.
+    out = new Array[Array[Byte]](N)((N + 7) / 8)
     val pool: Array[Thread] = new Array[Thread](2 * Runtime.getRuntime.availableProcessors)
-//    var i: Int = 0
-    i=0;
+    //   TODO Change the translated code
+    // var i: Int = 0   // Original
+    i = 0; // NEW
     while (i < pool.length) {
       pool(i) = new Thread() {
         override def run() {
@@ -117,14 +134,16 @@ object Mandelbrot {
     for (t <- pool) t.join()
     val stream: OutputStream = new BufferedOutputStream(System.out)
     stream.write(("P4\n" + N + " " + N + "\n").getBytes)
-//    var i: Int = 0
-    i=0;
+    //   TODO Change the translated code
+    //    var i: Int = 0   // Original
+    i = 0; // NEW
     while (i < N) {
-      stream.write(out(i)) {
-        i += 1;
-        i - 1
-      }
+      stream.write(out(i)) //{// TODO Remove extra block scope
+      i += 1;
+      i - 1
     }
+    // }  // TODO Remove extra block scope
+
     stream.close()
     System.out.println("Time Elapsed:" + (new Date().getTime - begin.getTime))
   }
