@@ -4,7 +4,6 @@ package BenchmarkGame;
  * Project Name : TestNG-1
  */
 
-
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Date;
@@ -35,10 +34,10 @@ public class SpectralNorm_Java {
 
         // get available processor, then set up syn object
         int nthread = Runtime.getRuntime().availableProcessors();
+        Approximate[] ap = new Approximate[nthread];
         Approximate.barrier = new CyclicBarrier(nthread);
 
         int chunk = n / nthread;
-        Approximate[] ap = new Approximate[nthread];
 
         for (int i = 0; i < nthread; i++) {
             int r1 = i * chunk;
@@ -52,7 +51,6 @@ public class SpectralNorm_Java {
         for (int i = 0; i < nthread; i++) {
             try {
                 ap[i].join();
-
                 vBv += ap[i].m_vBv;
                 vv += ap[i].m_vv;
             } catch (Exception e) {
@@ -88,8 +86,7 @@ public class SpectralNorm_Java {
             start();
         }
 
-/* return element i,j of infinite matrix A */
-
+        /* return element i,j of infinite matrix A */
         private final static double eval_A(int i, int j) {
             int div = (((i + j) * (i + j + 1) >>> 1) + i + 1);
             return 1.0 / div;
@@ -108,9 +105,7 @@ public class SpectralNorm_Java {
             }
         }
 
-
-/* multiply vector v by matrix A, each thread evaluate its range only */
-
+        /* multiply vector v by matrix A, each thread evaluate its range only */
         private final void MultiplyAv(final double[] v, double[] Av) {
             for (int i = range_begin; i < range_end; i++) {
                 double sum = 0;
@@ -121,9 +116,7 @@ public class SpectralNorm_Java {
             }
         }
 
-
-/* multiply vector v by matrix A transposed */
-
+        /* multiply vector v by matrix A transposed */
         private final void MultiplyAtv(final double[] v, double[] Atv) {
             for (int i = range_begin; i < range_end; i++) {
                 double sum = 0;
@@ -134,9 +127,7 @@ public class SpectralNorm_Java {
             }
         }
 
-
-/* multiply vector v by matrix A and then by matrix A transposed */
-
+        /* multiply vector v by matrix A and then by matrix A transposed */
         private final void MultiplyAtAv(final double[] v, double[] tmp, double[] AtAv) {
             try {
                 MultiplyAv(v, tmp);
