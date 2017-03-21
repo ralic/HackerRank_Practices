@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Mandelbrot {
+public class Mandelbrot_Java {
 
     static byte[][] out;
     static AtomicInteger yCt;

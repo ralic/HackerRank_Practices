@@ -1,7 +1,9 @@
-package BenchmarkGame;/**
+package BenchmarkGame;
+/**
  * Created by raliclo on 8/24/16.
  * Project Name : TestNG-1
  */
+
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -86,7 +88,8 @@ public class SpectralNorm_Java {
             start();
         }
 
-        /* return element i,j of infinite matrix A */
+/* return element i,j of infinite matrix A */
+
         private final static double eval_A(int i, int j) {
             int div = (((i + j) * (i + j + 1) >>> 1) + i + 1);
             return 1.0 / div;
@@ -105,7 +108,9 @@ public class SpectralNorm_Java {
             }
         }
 
-        /* multiply vector v by matrix A, each thread evaluate its range only */
+
+/* multiply vector v by matrix A, each thread evaluate its range only */
+
         private final void MultiplyAv(final double[] v, double[] Av) {
             for (int i = range_begin; i < range_end; i++) {
                 double sum = 0;
@@ -116,7 +121,9 @@ public class SpectralNorm_Java {
             }
         }
 
-        /* multiply vector v by matrix A transposed */
+
+/* multiply vector v by matrix A transposed */
+
         private final void MultiplyAtv(final double[] v, double[] Atv) {
             for (int i = range_begin; i < range_end; i++) {
                 double sum = 0;
@@ -127,7 +134,9 @@ public class SpectralNorm_Java {
             }
         }
 
-        /* multiply vector v by matrix A and then by matrix A transposed */
+
+/* multiply vector v by matrix A and then by matrix A transposed */
+
         private final void MultiplyAtAv(final double[] v, double[] tmp, double[] AtAv) {
             try {
                 MultiplyAv(v, tmp);
