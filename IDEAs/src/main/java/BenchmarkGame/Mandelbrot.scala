@@ -44,13 +44,13 @@ object Mandelbrot {
               Zi2 = nZi2
               if (Zr1 * Zr1 + Zi1 * Zi1 > 4) {
                 b |= 2
-                if (b == 3) break //todo: break is not supported
+                if (b == 3) break //todo: break is not supported --- Fixed by add import
               }
               if (Zr2 * Zr2 + Zi2 * Zi2 > 4) {
                 b |= 1
                 if (b == 3) {
                   break
-                } //todo: break is not supported
+                } //todo: break is not supported --- Fixed by add import
               }
             }
           }
@@ -97,7 +97,8 @@ object Mandelbrot {
     yCt = new AtomicInteger
     out = new Array[Array[Byte]](N, (N + 7) / 8)
     val pool: Array[Thread] = new Array[Thread](2 * Runtime.getRuntime.availableProcessors)
-    var i: Int = 0
+//    var i: Int = 0
+    i=0;
     while (i < pool.length) {
       pool(i) = new Thread() {
         override def run() {
@@ -116,7 +117,8 @@ object Mandelbrot {
     for (t <- pool) t.join()
     val stream: OutputStream = new BufferedOutputStream(System.out)
     stream.write(("P4\n" + N + " " + N + "\n").getBytes)
-    var i: Int = 0
+//    var i: Int = 0
+    i=0;
     while (i < N) {
       stream.write(out(i)) {
         i += 1;

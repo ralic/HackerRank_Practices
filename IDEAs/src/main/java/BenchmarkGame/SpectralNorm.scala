@@ -11,6 +11,10 @@ import java.util.Date
 import java.util.concurrent.CyclicBarrier
 
 
+// Break out of a loop in scala like java
+//http://stackoverflow.com/questions/2742719/how-do-i-break-out-of-a-loop-in-scala
+import scala.util.control.Breaks._
+
 object SpectralNorm {
   private val formatter: NumberFormat = new DecimalFormat("#.000000000")
 
