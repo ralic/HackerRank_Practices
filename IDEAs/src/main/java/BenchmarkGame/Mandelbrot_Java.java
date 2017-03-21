@@ -76,7 +76,9 @@ public class Mandelbrot_Java {
             pool[i] = new Thread() {
                 public void run() {
                     int y;
-                    while ((y = yCt.getAndIncrement()) < out.length) putLine(y, out[y]);
+                    while ((y = yCt.getAndIncrement()) < out.length) {
+                        putLine(y, out[y]);
+                    }
                 }
             };
         for (Thread t : pool) t.start();

@@ -109,9 +109,9 @@ object Mandelbrot {
       }
     }
     yCt = new AtomicInteger
-    //     Fix Incorrect 2D array initialization
-    //     out = new Array[Array[Byte]](N, (N + 7) / 8)   <---- Original incorrect code generation.
-    out = new Array[Array[Byte]](N)((N + 7) / 8)
+//         Fix Incorrect 2D array initialization
+         out = new Array[Array[Byte]](N, (N + 7) / 8)  //  <---- Original incorrect code generation.
+//    out = new Array[Array[Byte]](N)((N + 7) / 8)
     val pool: Array[Thread] = new Array[Thread](2 * Runtime.getRuntime.availableProcessors)
     // Original Code
     //    var i: Int = 0   // TODO Change multiple i variable declaration to reassignment.
@@ -120,9 +120,21 @@ object Mandelbrot {
       pool(i) = new Thread() {
         override def run() {
           var y: Int = 0
-          while ((y = yCt.getAndIncrement) < out.length) {
-            putLine(y, out(y))
+          /* Original Code  // TODO Assignment of numeric variable failed.
+          while ((y = yCt.getAndIncrement)< out.length) {
+            {
+              putLine(y, out(y))
+            }
           }
+          */
+
+          // New Code  // Fixed by adding .## for numeric comparison
+          while ((y = yCt.getAndIncrement).## < out.length) {
+            {
+              putLine(y, out(y))
+            }
+          }
+
         }
       }
       {
