@@ -113,9 +113,9 @@ object Mandelbrot {
     //     out = new Array[Array[Byte]](N, (N + 7) / 8)   <---- Original incorrect code generation.
     out = new Array[Array[Byte]](N)((N + 7) / 8)
     val pool: Array[Thread] = new Array[Thread](2 * Runtime.getRuntime.availableProcessors)
-    //   TODO Change the translated code
-    // var i: Int = 0   // Original
-    i = 0; // NEW
+    // Original Code
+    //    var i: Int = 0   // TODO Change multiple i variable declaration to reassignment.
+    i = 0; // NEW : Changed multiple i variable declaration to reassignment.
     while (i < pool.length) {
       pool(i) = new Thread() {
         override def run() {
@@ -135,15 +135,24 @@ object Mandelbrot {
     val stream: OutputStream = new BufferedOutputStream(System.out)
     stream.write(("P4\n" + N + " " + N + "\n").getBytes)
     //   TODO Change the translated code
-    //    var i: Int = 0   // Original
-    i = 0; // NEW
+    // Original Code
+    /*    var i: Int = 0   // TODO Change multiple i variable declaration to reassignment.
+    i = 0;
     while (i < N) {
-      stream.write(out(i)) //{// TODO Remove extra block scope
+      stream.write(out(i)) {// TODO Remove extra block scope
       i += 1;
       i - 1
     }
-    // }  // TODO Remove extra block scope
-
+     }  // TODO Remove extra block scope
+    */
+    // NEW Code
+    i = 0; // Changed multiple i variable declaration to reassignment.
+    while (i < N) {
+      stream.write(out(i)) // {   //  Removed extra block scope
+      i += 1;
+      i - 1
+    }
+    // }// Removed extra block scope
     stream.close()
     System.out.println("Time Elapsed:" + (new Date().getTime - begin.getTime))
   }
