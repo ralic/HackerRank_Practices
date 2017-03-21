@@ -36,9 +36,7 @@ object SpectralNorm_scala {
     // get available processor, then set up syn object
     val nthread: Int = Runtime.getRuntime.availableProcessors
 
-    // Scala drop static, so the barrier cannot be use.
-    // http://stackoverflow.com/questions/7302206/why-doesnt-scala-have-static-members-inside-a-class
-    // Use of Reflection to assign
+    // Scala drop static, so the barrier shall be a "var"
     Approximate.barrier = new CyclicBarrier(nthread)
 
     val chunk: Int = n / nthread
