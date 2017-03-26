@@ -134,7 +134,7 @@ public class FB_API_Tests {
         GeoLocation center = new GeoLocation(37.76, -122.427);
         int distance = 1000;
 
-        results = facebook.searchPlaces("coffee", center, distance, );
+        results = facebook.searchPlaces("coffee", center, distance);
         System.out.println(results);
 //        Search for Checkins
 // you or your friend's latest checkins, or checkins where you or your friends have been tagged
@@ -205,7 +205,7 @@ public class FB_API_Tests {
 
 //        You can attach a binary data to batch request as follows:
 
-        batch = new BatchRequests<BatchReques();
+        batch = new BatchRequests<>();
         Media file = new Media(new File("...image.png"));
         BatchAttachment attachment = new BatchAttachment("file", file);
         batch.add(new BatchRequest(RequestMethod.POST, "me/photos")

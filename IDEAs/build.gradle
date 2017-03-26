@@ -657,11 +657,11 @@ dependencies {
      */
 
     def SparkVer = "2.1.0"
-    compile("org.apache.spark:spark-core_2.11:${SparkVer}")
-            {
-                exclude group: "com.fasterxml.jackson.module",
-                        module: "jackson-module-scala_2.11"
-            }
+   compile("org.apache.spark:spark-core_2.11:${SparkVer}")
+           {
+               exclude group: "com.fasterxml.jackson.module",
+                       module: "jackson-module-scala_2.11"
+           }
     compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
     compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
     compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
@@ -673,19 +673,19 @@ dependencies {
 
     compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
 
-    def SparkVerOld = "1.6.2"
-    compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+   def SparkVerOld = "1.6.2"
+   compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
 
     // JSON, YAML support
-    def jackson = "2.9.0.pr1"
+    def jackson = "2.9.0.pr2"
     compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
     compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
     compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
     // Jackson Scala Version
-    compile "com.fasterxml.jackson.module:jackson-module-scala_2.11::${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.module:jackson-module-scala_2.11:${jackson}" // YAML or JSON format
 
     // ZeroMQ vs Kafka vs RabbitMQ
     // https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
