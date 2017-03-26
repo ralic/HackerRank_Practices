@@ -74,6 +74,7 @@ public class FB_API_Tests {
 
         String shortLivedToken = "your-short-lived-token";
         AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
+        System.out.println(extendedToken);
 //        Publishing a message
 //        You can publish a message via Facebook.postStatusMessage() method.
 

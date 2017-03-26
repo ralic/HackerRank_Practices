@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.security.oauth:sparklr2:war:2.1.1.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/sparklr2/2.1.1.BUILD-SNAPSHOT/eb22172aa04bf65989640b4eb75c5a8e6ce4a273/sparklr2-2.1.1.BUILD-SNAPSHOT.war!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/sparklr2/2.1.1.BUILD-SNAPSHOT/80b3129682af670bb7c78b08098dac5e94bdf75d/sparklr2-2.1.1.BUILD-SNAPSHOT.war!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

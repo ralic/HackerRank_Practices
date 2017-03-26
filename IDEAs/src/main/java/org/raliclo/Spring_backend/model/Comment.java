@@ -1,6 +1,7 @@
 package org.raliclo.Spring_backend.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import org.codehaus.jackson.annotate.JsonIgnore;
 
 import javax.persistence.*;
 
