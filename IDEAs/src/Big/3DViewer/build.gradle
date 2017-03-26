@@ -1,9 +1,0 @@
-
-
-apply plugin:'application'
-
-mainClassName = "com.Java9_Examples.experiments.jfx3dviewer.Jfx3dViewerApp"
-
-jar {
-    manifest.attributes("Main-Class": mainClassName)
-}
