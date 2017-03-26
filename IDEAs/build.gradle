@@ -26,6 +26,7 @@ buildscript {
         jcenter()
         maven { url "http://repo.spring.io/snapshot" }
         maven { url "http://repo.spring.io/milestone" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
         maven { url 'https://jitpack.io' }
         maven { url "http://com.jfrog.bintray" }
         maven { url "https://plugins.gradle.org/m2/" }
@@ -45,10 +46,11 @@ buildscript {
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
         classpath "net.serenity-bdd:serenity-gradle-plugin:1.2.3-rc.7" // Support Serenity BDD
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT'// Support Spring Boot
-//        classpath 'com.github.multi-os-engine:moe-plugin-gradle:moe-1.2.3'
+//        classpath 'com.github.multi-os-engine:moe-plugin-gradle:+'
         // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
-        //        github("layerhq", "maven-private", "master", "releases")
-        //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master","releases")
+
+//        github("layerhq", "maven-private", "master", "releases")
+//        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master", "releases")
 
         // JavaFX Port for Mobile
 //        classpath "org.javafxports:jfxmobile-plugin:1.0.8"
@@ -56,12 +58,15 @@ buildscript {
 //        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
 
         // Google Platform Support
-        classpath 'com.google.appengine:gradle-appengine-plugin:1.9.49'
+        classpath 'com.google.appengine:gradle-appengine-plugin:+'
         // Scala.js Support
         // classpath 'com.github.gtache:scalajs-plugin:0.2.0'
         classpath fileTree(dir: 'libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
 
+        // Proguard Support
+        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
     }
+
 }
 
 plugins {
@@ -131,12 +136,10 @@ apply plugin: "base"
 apply plugin: "java"
 apply plugin: "maven"
 apply plugin: "scala"
-apply plugin: "git-repo"
 apply plugin: "antlr"
 apply plugin: "net.serenity-bdd.aggregator"
 apply plugin: "nebula.dependency-lock"
 apply plugin: "org.ajoberstar.github-pages"
-//apply plugin: 'add.proguard'
 // apply plugin: 'scalajs-plugin'
 
 //apply plugin: "war" // Support Web Application Archive
@@ -158,7 +161,11 @@ idea {
         downloadSources = true //false //
     }
 }
+apply plugin: 'git-repo'
 
+//repositories {
+//    git("com.github.multi-os-engine", "moe-plugin-gradle", "master", "releases")
+//}
 //apply plugin: "eclipse"
 //eclipse {
 //    classpath {
@@ -216,6 +223,7 @@ def excludes = configurations.all {
     exclude group: "com.google.common", module: "base"
     exclude group: "org.springframework.boot", module: "spring-boot-starter-undertow"
     exclude group: "io.undertow", module: "undertow-core"
+//    exclude group: "com.fasterxml.jackson.module", module: "spark_core"
 }
 
 apply plugin: "org.junit.platform.gradle.plugin"
@@ -306,16 +314,13 @@ dependencies {
     // Apache Tika Support ( Image meta file. for GMAP)
     compile "org.apache.tika:tika:1.14"
     compile "org.apache.tika:tika-core:1.14"
-    
+
 //    compile "org.apache.tika:tika-parent:1.14"
 //    compile "org.apache.tika:tika-parsers:1.14"
 //    compile "org.apache.tika:tika-app:1.14"
 //    compile "org.apache.tika:tika-xmp:1.14"
 //    runtime "org.apache.tika:tika-core:1.14"
 //    runtime 'org.apache.tika:tika-parsers:1.14'
-
-    // AWS Support
-    compile "com.amazonaws:aws-java-sdk-bom:1.11.93"
 
     // Vaadin U & I Framework
     def vaadinVer = "8.0.2"
@@ -332,12 +337,6 @@ dependencies {
     // VertX for Web design
     // https://mvnrepository.com/artifact/io.vertx/vertx-core
     compile group: 'io.vertx', name: 'vertx-core', version: '3.3.3'
-
-    // JSON, YAML support
-    def jackson = "2.8.5"
-    compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
-    compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
 
     // Antlr Support
     antlr "org.antlr:antlr4:4.6" // use ANTLR version 4
@@ -428,7 +427,7 @@ dependencies {
 //    compile "org.springframework.data:spring-data-geode:1.1.0.BUILD-SNAPSHOT" // Need pivotal gemfire
 
     // Spring Hadoop Core
-    def SpringHadoopCoreVer = "2.5.0.BUILD-SNAPSHOT"
+    def SpringHadoopCoreVer = "2.5.0.M1"
     compile "org.springframework.data:spring-data-hadoop:${SpringHadoopCoreVer}"
     compile "org.springframework.data:spring-data-hadoop-batch:${SpringHadoopCoreVer}"
     compile "org.springframework.data:spring-data-hadoop-boot:${SpringHadoopCoreVer}"
@@ -441,7 +440,7 @@ dependencies {
     compile "org.springframework.data:spring-data-hadoop-util:${SpringHadoopCoreVer}"
     compile "org.springframework.data:spring-data-hadoop-cluster-tests:${SpringHadoopCoreVer}"
     compile "org.springframework.data:spring-data-hadoop-build-tests:${SpringHadoopCoreVer}"
-    compile "org.springframework.webflow:spring-webflow:${SpringHadoopCoreVer}"
+//    compile "org.springframework.webflow:spring-webflow:2.4.0.M1"
 
     // Spring Rest Core
     def SpringRestVer = "3.0.0.BUILD-SNAPSHOT"
@@ -516,17 +515,17 @@ dependencies {
     testCompile fileTree(dir: 'libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist', include: { '**/*.jar' })
 
 //    compile "org.springframework.social:spring-social:${SpringDataCoreVer}"
-    compile "org.springframework.social:spring-social-facebook-web:${SpringRestVer}" //3.0
-    compile "org.springframework.social:spring-social-facebook:${SpringRestVer}" //3.0
-
-    compile "org.springframework.social:spring-social-linkedin:${SpringDataCoreVer}" //2.0
-    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}" //2.0
-    compile "org.springframework.social:spring-social-core:${SpringDataCoreVer}" //2.0
-    compile "org.springframework.social:spring-social-config:${SpringDataCoreVer}"//2.0
-    compile "org.springframework.social:spring-social-security:${SpringDataCoreVer}"//2.0
-    compile "org.springframework.social:spring-social-web:${SpringDataCoreVer}"
-    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}"
-
+//    compile "org.springframework.social:spring-social-facebook-web:${SpringRestVer}" //3.0
+//    compile "org.springframework.social:spring-social-facebook:${SpringRestVer}" //3.0
+//
+//    compile "org.springframework.social:spring-social-linkedin:${SpringRestVer}" //2.0
+//    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}" //2.0
+//    compile "org.springframework.social:spring-social-core:${SpringDataCoreVer}" //2.0
+//    compile "org.springframework.social:spring-social-config:${SpringDataCoreVer}"//2.0
+//    compile "org.springframework.social:spring-social-security:${SpringDataCoreVer}"//2.0
+//    compile "org.springframework.social:spring-social-web:${SpringDataCoreVer}"
+//    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}"
+//
 //    compile "org.springframework.social:spring-social-github:${SpringSecurityOthers}" // 1.0
 //    compile "org.springframework.social:spring-social-connect-web:${SpringSecurityOthers}" // 1.0
 //    compile "org.springframework.social:spring-social-connect:${SpringSecurityOthers}" // 1.0
@@ -657,8 +656,12 @@ dependencies {
      *     For Spark Development
      */
 
-    def SparkVer = "2.0.0"
-    compile "org.apache.spark:spark-core_2.11:${SparkVer}"
+    def SparkVer = "2.1.0"
+   compile("org.apache.spark:spark-core_2.11:${SparkVer}")
+           {
+               exclude group: "com.fasterxml.jackson.module",
+                       module: "jackson-module-scala_2.11"
+           }
     compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
     compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
     compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
@@ -670,11 +673,19 @@ dependencies {
 
     compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
 
-    def SparkVerOld = "1.6.2"
-    compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
-    compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+   def SparkVerOld = "1.6.2"
+   compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
+   compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+
+    // JSON, YAML support
+    def jackson = "2.9.0.pr2"
+    compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
+    // Jackson Scala Version
+    compile "com.fasterxml.jackson.module:jackson-module-scala_2.11:${jackson}" // YAML or JSON format
 
     // ZeroMQ vs Kafka vs RabbitMQ
     // https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
@@ -817,7 +828,7 @@ dependencies {
     // http://shenfeng.me/600k-concurrent-connection-http-kit.html
 
     // For Apache Camel
-    def CamelVer = "2.18.2"
+    def CamelVer = "2.18.3"
     compile "org.apache.camel:camel-core:${CamelVer}"
     compile "org.apache.camel:camel-cdi:${CamelVer}"
     compile "org.apache.camel:camel-test:${CamelVer}"
@@ -885,12 +896,6 @@ dependencies {
     compile "org.apache.logging.log4j:log4j-core:${log4JVersion}" // Apache Log4J 2
     testRuntime "org.apache.logging.log4j:log4j-core:${log4JVersion}"
     testRuntime "org.apache.logging.log4j:log4j-jul:${log4JVersion}"
-
-    /*
-    USB Access via JNA
-    https://github.com/derabbink/libusb4j
-     */
-//    compile "com.abbink:libusb4j:0.0.1-SNAPSHOT"
 
     /*
      Leptonica Image Processing library via JNA
@@ -1031,6 +1036,13 @@ dependencies {
     compile "com.google.inject:guice-bom:${guiceVer}"
     compile "com.google.inject:jdk8-tests:${guiceVer}"
 
+    // AWS Support
+    compile "com.amazonaws:aws-java-sdk-bom:1.11.93"
+
+    // Facebook Support
+    // http://facebook4j.github.io/en/index.html
+    compile "org.facebook4j:facebook4j-core:2.4.8"
+
     // Twitter Utilities
     compile "com.twitter:util-core_2.12:6.42.0"
 
@@ -1043,6 +1055,13 @@ dependencies {
 //    zinc "com.typesafe.zinc:zinc:0.3.11"
 
     //https://mvnrepository.com/open-source
+
+    /*
+    USB Access via JNA
+     */
+//    compile "org.usb4java:usb4java:1.2.1-SNAPSHOT"
+//    compile "org.usb4java:usb4java-javax:1.2.1-SNAPSHOT"
+
 }
 
 /*
@@ -1071,6 +1090,7 @@ generateGrammarSource {
  */
 
 // Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
+apply plugin: 'add.proguard'
 apply plugin: "application"
 apply plugin: "org.springframework.boot"
 //apply plugin: "spring-boot"

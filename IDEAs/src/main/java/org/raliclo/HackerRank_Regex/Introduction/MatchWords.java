@@ -32,8 +32,8 @@ public class MatchWords {
 
     static class Regex_Test {
 
-        public void checker(String Regex_Pattern) {
 
+        public void checker(String Regex_Pattern) {
             Scanner Input = new Scanner(System.in);
             String Test_String = Input.nextLine();
             Pattern p = Pattern.compile(Regex_Pattern);

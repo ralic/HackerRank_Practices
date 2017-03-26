@@ -1,4 +1,5 @@
-package BenchmarkGame;/**
+package BenchmarkGame;
+/**
  * Created by raliclo on 8/24/16.
  * Project Name : TestNG-1
  */
@@ -33,10 +34,10 @@ public class SpectralNorm_Java {
 
         // get available processor, then set up syn object
         int nthread = Runtime.getRuntime().availableProcessors();
+        Approximate[] ap = new Approximate[nthread];
         Approximate.barrier = new CyclicBarrier(nthread);
 
         int chunk = n / nthread;
-        Approximate[] ap = new Approximate[nthread];
 
         for (int i = 0; i < nthread; i++) {
             int r1 = i * chunk;
@@ -50,7 +51,6 @@ public class SpectralNorm_Java {
         for (int i = 0; i < nthread; i++) {
             try {
                 ap[i].join();
-
                 vBv += ap[i].m_vBv;
                 vv += ap[i].m_vv;
             } catch (Exception e) {
