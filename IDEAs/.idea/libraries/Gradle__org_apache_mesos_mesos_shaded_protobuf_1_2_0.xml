@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.mesos:mesos:shaded-protobuf:1.2.0">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.mesos/mesos/1.2.0/5da922d9bbe369986f50b358abba1f56e04a7fcf/mesos-1.2.0-shaded-protobuf.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
