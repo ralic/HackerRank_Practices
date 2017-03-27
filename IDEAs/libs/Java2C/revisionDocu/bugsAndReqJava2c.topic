@@ -1,0 +1,49 @@
+==TODO Java2C==
+@ident=Java2C
+.
+===Detect bugs and requirements===
+@ident=TODO
+.
+
+
+====Detect bugs and requirements of the translation process====
+@ident=bugsTranslator
+
+* calling of methods from super-superclasses or from interfaces of superclasses were wrong anyway. In access to method table the nested method table is absent:
+at ex. ,,mtthis->Ifc_Test.processIfcMethod(...),, is produced, correct is ,,mtthis->ImplIfc_Test.Ifc_Test.processIfcMethod(...),, It should be able to fix with small effort! - 2011-01-02: It may be fixed now- to test.
+* ,,apppend_L_StringBuffer(..., ObjectJc*),, is not implemented yet, the call of ,,toString(...),, from any Object is not tested.
+* for-loop-variant using iterator isn't implemented yet.
+* The [] for array type should be arranged also after the indentifier, not only after the type. Support 'long array[]', not only 'long[] array'. This bug isn't fixed yet.
+* If StringJc is generated in the reflection, it isn't an enhanced reference!
+
+* bug100514a: (new TestgarbageCollector()).test(); doesn't work
+
+* unnamed inner classes (anonymous) - only one class is admissibile - because algorithm to build the name.     
+
+
+====Detect bugs and requirements in the appearance of generated C-Code====
+@ident=genCCode
+
+This part describes, which changes should be done in the form of generated C-Code
+
+* bug_genCC912_01 If StringJc is generated in the reflection, it isn't an enhanced reference! ?check whether is fixed?
+
+
+
+====Detect bugs and requirements of CRuntimeJavalike====
+@ident=bugsCRJ
+
+
+* The Linux implementation for the OSAL-Layer is not ready yet. 
+
+====Detect bugs and requirements of the whole presentation====
+@ident=bugsDownload
+
+* Some Linux-shell-scripts to translated are present, but they are not tested in the current version.
+
+====View to the near future====
+@ident=future
+* LinkedList etc. (Container) should be implemented in the near future. Some basics for that are done. A ConcurrentLinkedQueue is present in the CRuntimeJavalike, it works since 2007. But it isn't full integrated in Java2C.
+* The garbage collector should be tested explicitely, still to do. I assume, it works.
+
+

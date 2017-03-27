@@ -23,7 +23,7 @@
 <p>Security is an ever-moving target, and it&#8217;s important to pursue a comprehensive, system-wide approach. In security circles we encourage you to adopt "layers of security", so that each layer tries to be as secure as possible in its own right, with successive layers providing additional security. The "tighter" the security of each layer, the more robust and safe your application will be. At the bottom level you&#8217;ll need to deal with issues such as transport security and system identification, in order to mitigate man-in-the-middle attacks. Next you&#8217;ll generally utilise firewalls, perhaps with VPNs or IP security to ensure only authorised systems can attempt to connect. In corporate environments you may deploy a DMZ to separate public-facing servers from backend database and application servers. Your operating system will also play a critical part, addressing issues such as running processes as non-privileged users and maximising file system security. An operating system will usually also be configured with its own firewall. Hopefully somewhere along the way you&#8217;ll be trying to prevent denial of service and brute force attacks against the system. An intrusion detection system will also be especially useful for monitoring and responding to attacks, with such systems able to take protective action such as blocking offending TCP/IP addresses in real-time. Moving to the higher layers, your Java Virtual Machine will hopefully be configured to minimize the permissions granted to different Java types, and then your application will add its own problem domain-specific security configuration. Spring Security makes this latter area - application security - much easier.</p>
 <p>Of course, you will need to properly address all security layers mentioned above, together with managerial factors that encompass every layer. A non-exhaustive list of such managerial factors would include security bulletin monitoring, patching, personnel vetting, audits, change control, engineering management systems, data backup, disaster recovery, performance benchmarking, load monitoring, centralised logging, incident response procedures etc.</p>
 <p>With Spring Security being focused on helping you with the enterprise application security layer, you will find that there are as many different requirements as there are business problem domains. A banking application has different needs from an ecommerce application. An ecommerce application has different needs from a corporate sales force automation tool. These custom requirements make application security interesting, challenging and rewarding.</p>
-<p>Please read <a class="xref" href="#getting-started" title="1.&nbsp;Getting Started">Chapter&nbsp;1, <i>Getting Started</i></a>, in its entirety to begin with. This will introduce you to the framework and the namespace-based configuration system with which you can get up and running quite quickly. To get more of an understanding of how Spring Security works, and some of the classes you might need to use, you should then read <a class="xref" href="#overall-architecture" title="Part&nbsp;II.&nbsp;Architecture and Implementation">Part&nbsp;II, &#8220;Architecture and Implementation&#8221;</a>. The remaining parts of this guide are structured in a more traditional reference style, designed to be read on an as-required basis. We&#8217;d also recommend that you read up as much as possible on application security issues in general. Spring Security is not a panacea which will solve all security issues. It is important that the application is designed with security in mind from the start. Attempting to retrofit it is not a good idea. In particular, if you are building a web application, you should be aware of the many potential vulnerabilities such as cross-site scripting, request-forgery and session-hijacking which you should be taking into account from the start. The OWASP web site (<a class="ulink" href="http://www.owasp.org/" target="_top">http://www.owasp.org/</a>) maintains a top ten list of web application vulnerabilities as well as a lot of useful reference information.</p>
+<p>Please read <a class="xref" href="#getting-started" title="1.&nbsp;Getting Started">Chapter&nbsp;1, <i>Getting Started</i></a>, in its entirety to begin with. This will introduce you to the framework and the namespace-based configuration system with which you can get up and running quite quickly. To get more of an understanding of how Spring Security works, and some of the classes you might need to use, you should then read <a class="xref" href="#overall-architecture" title="Part&nbsp;II.&nbsp;Architecture and Implementation">Part&nbsp;II, &#8220;Architecture and Implementation&#8221;</a>. The remaining parts of this guide are structured in a more traditional reference style, designed to be read on an as-required basis. We&#8217;d also recommend that you read up as much as possible on application security issues in general. Spring Security is not a panacea which will solve all security issues. It is important that the application is designed with security in mind from the start. Attempting to retrofit it is not a good idea. In particular, if you are building a web application, you should be aware of the many potential vulnerabilities such as cross-WordPress.site scripting, request-forgery and session-hijacking which you should be taking into account from the start. The OWASP web WordPress.site (<a class="ulink" href="http://www.owasp.org/" target="_top">http://www.owasp.org/</a>) maintains a top ten list of web application vulnerabilities as well as a lot of useful reference information.</p>
 <p>We hope that you find this reference guide useful, and we welcome your feedback and <a class="link" href="#jira" title="8.1&nbsp;Issue Tracking">suggestions</a>.</p>
 <p>Finally, welcome to the Spring Security <a class="link" href="#community" title="8.&nbsp;Spring Security Community">community</a>.</p>
 </div>
@@ -343,7 +343,7 @@ Below you can find the highlights of this release.</p>
 </li><li class="listitem">
 <a class="ulink" href="https://github.com/spring-projects/spring-security/issues/3949" target="_top">#3949</a> - Add <a class="link" href="#mvc-authentication-principal" title="37.3&nbsp;@AuthenticationPrincipal">bean reference support to @AuthenticationPrincipal</a>.
 </li><li class="listitem">
-<a class="ulink" href="https://github.com/spring-projects/spring-security/pull/3978" target="_top">#3978</a> - Support for Standford WebAuth and Shibboleth using the newly added <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/4.2.x-SNAPSHOT/apidocs/org/springframework/security/web/authentication/preauth/RequestAttributeAuthenticationFilter.html" target="_top">RequestAttributeAuthenticationFilter</a>.
+<a class="ulink" href="https://github.com/spring-projects/spring-security/pull/3978" target="_top">#3978</a> - Support for Standford WebAuth and Shibboleth using the newly added <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/4.2.x-SNAPSHOT/apidocs/org/springframework/security/web/authentication/preauth/RequestAttributeAuthenticationFilter.html" target="_top">RequestAttributeAuthenticationFilter</a>.
 </li><li class="listitem">
 <a class="ulink" href="https://github.com/spring-projects/spring-security/issues/4076" target="_top">#4076</a> - Document <a class="link" href="#appendix-proxy-server" title="43.&nbsp;Proxy Server Configuration">Proxy Server</a> Configuration
 </li><li class="listitem">
@@ -355,7 +355,7 @@ Below you can find the highlights of this release.</p>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="configuration-improvements" href="#configuration-improvements"></a>3.2&nbsp;Configuration Improvements</h2></div></div></div>
 
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="https://github.com/spring-projects/spring-security/pull/3956" target="_top">#3956</a> - Central configuration of the <a class="ulink" href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html#m3to4-role-prefixing" target="_top">default role prefix</a>. See the issue for details.
+<a class="ulink" href="https://github.com/spring-projects/spring-security/pull/3956" target="_top">#3956</a> - Central configuration of the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html#m3to4-role-prefixing" target="_top">default role prefix</a>. See the issue for details.
 </li><li class="listitem">
 <a class="ulink" href="https://github.com/spring-projects/spring-security/issues/4102" target="_top">#4102</a> - Custom default configuration in <code class="literal">WebSecurityConfigurerAdapter</code>. See <a class="xref" href="#jc-custom-dsls" title="5.10&nbsp;Custom DSLs">Section&nbsp;5.10, &#8220;Custom DSLs&#8221;</a>
 </li><li class="listitem">
@@ -627,7 +627,7 @@ Allows users to authenticate with HTTP Basic authentication
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="jc-logout" href="#jc-logout"></a>5.5&nbsp;Handling Logouts</h2></div></div></div>
 
-<p>When using the <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html" target="_top">WebSecurityConfigurerAdapter</a></code>, logout capabilities are automatically applied. The default is that accessing the URL <code class="literal">/logout</code> will log the user out by:</p>
+<p>When using the <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html" target="_top">WebSecurityConfigurerAdapter</a></code>, logout capabilities are automatically applied. The default is that accessing the URL <code class="literal">/logout</code> will log the user out by:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 Invalidating the HTTP Session
 </li><li class="listitem">
@@ -653,13 +653,13 @@ Redirect to <code class="literal">/login?logout</code>
 <div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-1"><span><img src="images/callouts/1.png" alt="1" border="0"></span></a> </p></td><td valign="top" align="left">
 <p>Provides logout support. This is automatically applied when using <code class="literal">WebSecurityConfigurerAdapter</code>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-2"><span><img src="images/callouts/2.png" alt="2" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>The URL that triggers log out to occur (default is <code class="literal">/logout</code>). If CSRF protection is enabled (default), then the request must also be a POST. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
+<p>The URL that triggers log out to occur (default is <code class="literal">/logout</code>). If CSRF protection is enabled (default), then the request must also be a POST. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-3"><span><img src="images/callouts/3.png" alt="3" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>The URL to redirect to after logout has occurred. The default is <code class="literal">/login?logout</code>. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
+<p>The URL to redirect to after logout has occurred. The default is <code class="literal">/login?logout</code>. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-4"><span><img src="images/callouts/4.png" alt="4" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>Let&#8217;s you specify a custom <code class="literal">LogoutSuccessHandler</code>. If this is specified, <code class="literal">logoutSuccessUrl()</code> is ignored. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessHandler-org.springframework.security.web.authentication.logout.LogoutSuccessHandler-" target="_top">JavaDoc</a>.</p>
+<p>Let&#8217;s you specify a custom <code class="literal">LogoutSuccessHandler</code>. If this is specified, <code class="literal">logoutSuccessUrl()</code> is ignored. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessHandler-org.springframework.security.web.authentication.logout.LogoutSuccessHandler-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-5"><span><img src="images/callouts/5.png" alt="5" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>Specify whether to invalidate the <code class="literal">HttpSession</code> at the time of logout. This is <span class="strong"><strong>true</strong></span> by default. Configures the <code class="literal">SecurityContextLogoutHandler</code> under the covers. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#invalidateHttpSession-boolean-" target="_top">JavaDoc</a>.</p>
+<p>Specify whether to invalidate the <code class="literal">HttpSession</code> at the time of logout. This is <span class="strong"><strong>true</strong></span> by default. Configures the <code class="literal">SecurityContextLogoutHandler</code> under the covers. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#invalidateHttpSession-boolean-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-6"><span><img src="images/callouts/6.png" alt="6" border="0"></span></a> </p></td><td valign="top" align="left">
 <p>Adds a <code class="literal">LogoutHandler</code>. <code class="literal">SecurityContextLogoutHandler</code> is added as the last <code class="literal">LogoutHandler</code> by default.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-7"><span><img src="images/callouts/7.png" alt="7" border="0"></span></a> </p></td><td valign="top" align="left">
@@ -669,27 +669,27 @@ Redirect to <code class="literal">/login?logout</code>
 <p>Logouts can of course also be configured using the XML Namespace notation. Please see the documentation for the <a class="link" href="#nsa-logout" title="41.1.26&nbsp;<logout&gt;">logout element</a> in the Spring Security XML Namespace section for further details.</p>
 </td></tr></table></div>
 <p>Generally, in order to customize logout functionality, you can add
-<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
+<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
 and/or
-<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutSuccessHandler.html" target="_top">LogoutSuccessHandler</a></code>
+<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutSuccessHandler.html" target="_top">LogoutSuccessHandler</a></code>
 implementations. For many common scenarios, these handlers are applied under the
 covers when using the fluent API.</p>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="jc-logout-handler" href="#jc-logout-handler"></a>5.5.1&nbsp;LogoutHandler</h3></div></div></div>
 
-<p>Generally, <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
+<p>Generally, <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
 implementations indicate classes that are able to participate in logout handling.
 They are expected to be invoked to perform necessary clean-up. As such they should
 not throw exceptions. Various implementations are provided:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.html" target="_top">PersistentTokenBasedRememberMeServices</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.html" target="_top">PersistentTokenBasedRememberMeServices</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.html" target="_top">TokenBasedRememberMeServices</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.html" target="_top">TokenBasedRememberMeServices</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/CookieClearingLogoutHandler.html" target="_top">CookieClearingLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/CookieClearingLogoutHandler.html" target="_top">CookieClearingLogoutHandler</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/csrf/CsrfLogoutHandler.html" target="_top">CsrfLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/csrf/CsrfLogoutHandler.html" target="_top">CsrfLogoutHandler</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.html" target="_top">SecurityContextLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.html" target="_top">SecurityContextLogoutHandler</a>
 </li></ul></div>
 <p>Please see <a class="xref" href="#remember-me-impls" title="17.4&nbsp;Remember-Me Interfaces and Implementations">Section&nbsp;17.4, &#8220;Remember-Me Interfaces and Implementations&#8221;</a> for details.</p>
 <p>Instead of providing <code class="literal">LogoutHandler</code> implementations directly, the fluent API
@@ -705,7 +705,7 @@ to handle e.g. redirection or forwarding to the appropriate destination. Note th
 interface is almost the same as the <code class="literal">LogoutHandler</code> but may raise an exception.</p>
 <p>The following implementations are provided:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.html" target="_top">SimpleUrlLogoutSuccessHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.html" target="_top">SimpleUrlLogoutSuccessHandler</a>
 </li><li class="listitem">
 HttpStatusReturningLogoutSuccessHandler
 </li></ul></div>
@@ -1336,7 +1336,7 @@ secured. It is also possible to have all requests matching a particular pattern 
 </div>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="ns-session-fixation" href="#ns-session-fixation"></a>Session Fixation Attack Protection</h4></div></div></div>
 
-<p><a class="ulink" href="http://en.wikipedia.org/wiki/Session_fixation" target="_top">Session fixation</a> attacks are a potential risk where it is possible for a malicious attacker to create a session by accessing a site, then persuade another user to log in with the same session (by sending them a link containing the session identifier as a parameter, for example). Spring Security protects against this automatically by creating a new session or otherwise changing the session ID when a user logs in. If you don&#8217;t require this protection, or it conflicts with some other requirement, you can control the behavior using the <code class="literal">session-fixation-protection</code> attribute on <code class="literal">&lt;session-management&gt;</code>, which has four options</p>
+<p><a class="ulink" href="http://en.wikipedia.org/wiki/Session_fixation" target="_top">Session fixation</a> attacks are a potential risk where it is possible for a malicious attacker to create a session by accessing a WordPress.site, then persuade another user to log in with the same session (by sending them a link containing the session identifier as a parameter, for example). Spring Security protects against this automatically by creating a new session or otherwise changing the session ID when a user logs in. If you don&#8217;t require this protection, or it conflicts with some other requirement, you can control the behavior using the <code class="literal">session-fixation-protection</code> attribute on <code class="literal">&lt;session-management&gt;</code>, which has four options</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <code class="literal">none</code> - Don&#8217;t do anything. The original session will be retained.
 </li><li class="listitem">
@@ -1358,7 +1358,7 @@ secured. It is also possible to have all requests matching a particular pattern 
 <span class="hl-tag">&lt;/http&gt;</span></pre>
 <p>You should then register yourself with an OpenID provider (such as myopenid.com), and add the user information to your in-memory <code class="literal">&lt;user-service&gt;</code>:</p>
 <pre class="programlisting"><span class="hl-tag">&lt;user</span> <span class="hl-attribute">name</span>=<span class="hl-value">"http://jimi.hendrix.myopenid.com/"</span> <span class="hl-attribute">authorities</span>=<span class="hl-value">"ROLE_USER"</span><span class="hl-tag"> /&gt;</span></pre>
-<p>You should be able to login using the <code class="literal">myopenid.com</code> site to authenticate. It is also possible to select a specific <code class="literal">UserDetailsService</code> bean for use OpenID by setting the <code class="literal">user-service-ref</code> attribute on the <code class="literal">openid-login</code> element. See the previous section on <a class="link" href="#ns-auth-providers" title="6.2.5&nbsp;Using other Authentication Providers">authentication providers</a> for more information. Note that we have omitted the password attribute from the above user configuration, since this set of user data is only being used to load the authorities for the user. A random password will be generated internally, preventing you from accidentally using this user data as an authentication source elsewhere in your configuration.</p>
+<p>You should be able to login using the <code class="literal">myopenid.com</code> WordPress.site to authenticate. It is also possible to select a specific <code class="literal">UserDetailsService</code> bean for use OpenID by setting the <code class="literal">user-service-ref</code> attribute on the <code class="literal">openid-login</code> element. See the previous section on <a class="link" href="#ns-auth-providers" title="6.2.5&nbsp;Using other Authentication Providers">authentication providers</a> for more information. Note that we have omitted the password attribute from the above user configuration, since this set of user data is only being used to load the authorities for the user. A random password will be generated internally, preventing you from accidentally using this user data as an authentication source elsewhere in your configuration.</p>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="attribute-exchange" href="#attribute-exchange"></a>Attribute Exchange</h4></div></div></div>
 
 <p>Support for OpenID <a class="ulink" href="http://openid.net/specs/openid-attribute-exchange-1_0.html" target="_top">attribute exchange</a>. As an example, the following configuration would attempt to retrieve the email and full name from the OpenID provider, for use by the application:</p>
@@ -1508,7 +1508,7 @@ List&lt;OpenIDAttribute&gt; attributes = token.getAttributes();</pre>
 <div class="footnotes"><br><hr style="width:100; text-align:left;margin-left: 0"><div id="ftn.d5e921" class="footnote"><p><a href="#d5e921" class="simpara"><sup class="simpara">[1] </sup></a>You can find out more about the use of the <code class="literal">ldap-server</code> element in the chapter on <a class="xref" href="#ldap" title="29.&nbsp;LDAP Authentication">Chapter&nbsp;29, <i>LDAP Authentication</i></a>.</p></div><div id="ftn.d5e976" class="footnote"><p><a href="#d5e976" class="simpara"><sup class="simpara">[2] </sup></a>See the section on <a class="xref" href="#request-matching" title="13.4&nbsp;Request Matching and HttpFirewall">Section&nbsp;13.4, &#8220;Request Matching and HttpFirewall&#8221;</a> in the Web Application Infrastructure chapter for more details on how matches are actually performed.</p></div><div id="ftn.d5e1016" class="footnote"><p><a href="#d5e1016" class="simpara"><sup class="simpara">[3] </sup></a>See the chapter on <a class="xref" href="#anonymous" title="22.&nbsp;Anonymous Authentication">Chapter&nbsp;22, <i>Anonymous Authentication</i></a></p></div><div id="ftn.d5e1027" class="footnote"><p><a href="#d5e1027" class="simpara"><sup class="simpara">[4] </sup></a>The use of multiple <code class="literal">&lt;http&gt;</code> elements is an important feature, allowing the namespace to simultaneously support both stateful and stateless paths within the same application, for example. The previous syntax, using the attribute <code class="literal">filters="none"</code> on an <code class="literal">intercept-url</code> element is incompatible with this change and is no longer supported in 3.1.</p></div><div id="ftn.d5e1099" class="footnote"><p><a href="#d5e1099" class="simpara"><sup class="simpara">[5] </sup></a>For more details on how channel-processing is implemented, see the Javadoc for <code class="literal">ChannelProcessingFilter</code> and related classes.</p></div></div></div>
 <div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a name="sample-apps" href="#sample-apps"></a>7.&nbsp;Sample Applications</h2></div></div></div>
 
-<p>There are several sample web applications that are available with the project. To avoid an overly large download, only the "tutorial" and "contacts" samples are included in the distribution zip file. The others can be built directly from the source which you can obtain as described in <a class="link" href="#get-source" title="2.4.4&nbsp;Checking out the Source">the introduction</a>. It&#8217;s easy to build the project yourself and there&#8217;s more information on the project web site at <a class="ulink" href="http://spring.io/spring-security/" target="_top">http://spring.io/spring-security/</a>. All paths referred to in this chapter are relative to the project source directory.</p>
+<p>There are several sample web applications that are available with the project. To avoid an overly large download, only the "tutorial" and "contacts" samples are included in the distribution zip file. The others can be built directly from the source which you can obtain as described in <a class="link" href="#get-source" title="2.4.4&nbsp;Checking out the Source">the introduction</a>. It&#8217;s easy to build the project yourself and there&#8217;s more information on the project web WordPress.site at <a class="ulink" href="http://spring.io/spring-security/" target="_top">http://spring.io/spring-security/</a>. All paths referred to in this chapter are relative to the project source directory.</p>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="tutorial-sample" href="#tutorial-sample"></a>7.1&nbsp;Tutorial Sample</h2></div></div></div>
 
 <p>The tutorial sample is a nice basic example to get you started. It uses simple namespace configuration throughout. The compiled application is included in the distribution zip file, ready to be deployed into your web container (<code class="literal">spring-security-samples-tutorial-3.1.x.war</code>). The <a class="link" href="#ns-form-and-basic" title="6.2.3&nbsp;Form and Basic Login Options">form-based</a> authentication mechanism is used in combination with the commonly-used <a class="link" href="#remember-me" title="17.&nbsp;Remember-Me Authentication">remember-me</a> authentication provider to automatically remember the login using cookies.</p>
@@ -1553,7 +1553,7 @@ Success! Your web filters appear to be properly configured!</pre>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="openid-sample" href="#openid-sample"></a>7.4&nbsp;OpenID Sample</h2></div></div></div>
 
 <p>The OpenID sample demonstrates how to use the namespace to configure OpenID and how to set up <a class="ulink" href="http://openid.net/specs/openid-attribute-exchange-1_0.html" target="_top">attribute exchange</a> configurations for Google, Yahoo and MyOpenID identity providers (you can experiment with adding others if you wish). It uses the JQuery-based <a class="ulink" href="http://code.google.com/p/openid-selector/" target="_top">openid-selector</a> project to provide a user-friendly login page which allows the user to easily select a provider, rather than typing in the full OpenID identifier.</p>
-<p>The application differs from normal authentication scenarios in that it allows any user to access the site (provided their OpenID authentication is successful). The first time you login, you will get a "Welcome [your name]"" message. If you logout and log back in (with the same OpenID identity) then this should change to "Welcome Back". This is achieved by using a custom <code class="literal">UserDetailsService</code> which assigns a standard role to any user and stores the identities internally in a map. Obviously a real application would use a database instead. Have a look at the source form more information. This class also takes into account the fact that different attributes may be returned from different providers and builds the name with which it addresses the user accordingly.</p>
+<p>The application differs from normal authentication scenarios in that it allows any user to access the WordPress.site (provided their OpenID authentication is successful). The first time you login, you will get a "Welcome [your name]"" message. If you logout and log back in (with the same OpenID identity) then this should change to "Welcome Back". This is achieved by using a custom <code class="literal">UserDetailsService</code> which assigns a standard role to any user and stores the identities internally in a map. Obviously a real application would use a database instead. Have a look at the source form more information. This class also takes into account the fact that different attributes may be returned from different providers and builds the name with which it addresses the user accordingly.</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="cas-sample" href="#cas-sample"></a>7.5&nbsp;CAS Sample</h2></div></div></div>
 
@@ -1583,7 +1583,7 @@ Success! Your web filters appear to be properly configured!</pre>
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="further-info" href="#further-info"></a>8.3&nbsp;Further Information</h2></div></div></div>
 
-<p>Questions and comments on Spring Security are welcome. You can use the Spring at Stack Overflow web site at <a class="ulink" href="http://spring.io/questions" target="_top">http://spring.io/questions</a> to discuss Spring Security with other users of the framework. Remember to use JIRA for bug reports, as explained above.</p>
+<p>Questions and comments on Spring Security are welcome. You can use the Spring at Stack Overflow web WordPress.site at <a class="ulink" href="http://spring.io/questions" target="_top">http://spring.io/questions</a> to discuss Spring Security with other users of the framework. Remember to use JIRA for bug reports, as explained above.</p>
 </div>
 </div>
 </div>
@@ -2979,9 +2979,9 @@ amount=100.00&amp;routingNumber=1234&amp;account=9876</pre>
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="synchronizer-token-pattern" href="#synchronizer-token-pattern"></a>18.2&nbsp;Synchronizer Token Pattern</h2></div></div></div>
 
-<p>The issue is that the HTTP request from the bank&#8217;s website and the request from the evil website are exactly the same. This means there is no way to reject requests coming from the evil website and allow requests coming from the bank&#8217;s website. To protect against CSRF attacks we need to ensure there is something in the request that the evil site is unable to provide.</p>
+<p>The issue is that the HTTP request from the bank&#8217;s website and the request from the evil website are exactly the same. This means there is no way to reject requests coming from the evil website and allow requests coming from the bank&#8217;s website. To protect against CSRF attacks we need to ensure there is something in the request that the evil WordPress.site is unable to provide.</p>
 <p>One solution is to use the <a class="ulink" href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern" target="_top">Synchronizer Token Pattern</a>. This solution is to ensure that each request requires, in addition to our session cookie, a randomly generated token as an HTTP parameter. When a request is submitted, the server must look up the expected value for the parameter and compare it against the actual value in the request. If the values do not match, the request should fail.</p>
-<p>We can relax the expectations to only require the token for each HTTP request that updates state. This can be safely done since the same origin policy ensures the evil site cannot read the response. Additionally, we do not want to include the random token in HTTP GET as this can cause the tokens to be leaked.</p>
+<p>We can relax the expectations to only require the token for each HTTP request that updates state. This can be safely done since the same origin policy ensures the evil WordPress.site cannot read the response. Additionally, we do not want to include the random token in HTTP GET as this can cause the tokens to be leaked.</p>
 <p>Let&#8217;s take a look at how our example would change. Assume the randomly generated token is present in an HTTP parameter named _csrf. For example, the request to transfer money would look like this:</p>
 <pre class="screen">POST /transfer HTTP/1.1
 Host: bank.example.com
@@ -3024,7 +3024,7 @@ amount=100.00&amp;routingNumber=1234&amp;account=9876&amp;_csrf=&lt;secure-rando
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="csrf-using" href="#csrf-using"></a>18.4&nbsp;Using Spring Security CSRF Protection</h2></div></div></div>
 
-<p>So what are the steps necessary to use Spring Security&#8217;s to protect our site against CSRF attacks? The steps to using Spring Security&#8217;s CSRF protection are outlined below:</p>
+<p>So what are the steps necessary to use Spring Security&#8217;s to protect our WordPress.site against CSRF attacks? The steps to using Spring Security&#8217;s CSRF protection are outlined below:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <a class="link" href="#csrf-use-proper-verbs" title="18.4.1&nbsp;Use proper HTTP verbs">Use proper HTTP verbs</a>
 </li><li class="listitem">
@@ -3107,7 +3107,7 @@ name: $(<span class="hl-string">"meta[name='_csrf_header']"</span>).attr(<span c
 
 <p>There can be cases where users will want to persist the <code class="literal">CsrfToken</code> in a cookie.
 By default the <code class="literal">CookieCsrfTokenRepository</code> will write to a cookie named <code class="literal">XSRF-TOKEN</code> and read it from a header named <code class="literal">X-XSRF-TOKEN</code> or the HTTP parameter <code class="literal">_csrf</code>.
-These defaults come from <a class="ulink" href="https://docs.angularjs.org/api/ng/service/$http#cross-site-request-forgery-xsrf-protection" target="_top">AngularJS</a></p>
+These defaults come from <a class="ulink" href="https://docs.angularjs.org/api/ng/service/$http#cross-WordPress.site-request-forgery-xsrf-protection" target="_top">AngularJS</a></p>
 <p>You can configure <code class="literal">CookieCsrfTokenRepository</code> in XML using the following:</p>
 <pre class="programlisting"><span class="hl-tag">&lt;http&gt;</span>
 	<span class="hl-comment">&lt;!-- ... --&gt;</span>
@@ -3488,7 +3488,7 @@ WebSecurityConfigurerAdapter {
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>In accordance with <a class="ulink" href="http://tools.ietf.org/html/rfc6797#section-7.2" target="_top">RFC6797</a>, the HSTS header is only injected into HTTPS responses. In order for the browser to acknowledge the header, the browser must first trust the CA that signed the SSL certificate used to make the connection (not just the SSL certificate).</p>
 </td></tr></table></div>
-<p>One way for a site to be marked as a HSTS host is to have the host preloaded into the browser. Another is to add the "Strict-Transport-Security" header to the response. For example the following would instruct the browser to treat the domain as an HSTS host for a year (there are approximately 31536000 seconds in a year):</p>
+<p>One way for a WordPress.site to be marked as a HSTS host is to have the host preloaded into the browser. Another is to add the "Strict-Transport-Security" header to the response. For example the following would instruct the browser to treat the domain as an HSTS host for a year (there are approximately 31536000 seconds in a year):</p>
 <pre class="screen">Strict-Transport-Security: max-age=31536000 ; includeSubDomains</pre>
 <p>The optional includeSubDomains directive instructs Spring Security that subdomains (i.e. secure.mybank.example.com) should also be treated as an HSTS domain.</p>
 <p>As with the other headers, Spring Security adds HSTS by default. You can customize HSTS headers with the <a class="link" href="#nsa-hsts" title="41.1.7&nbsp;<hsts&gt;">&lt;hsts</a>&gt; element as shown below:</p>
@@ -3527,7 +3527,7 @@ When the client visits the server again, it expects a certificate containing a p
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>Because the user-agent needs to validate the pins against the SSL certificate chain, the HPKP header is only injected into HTTPS responses.</p>
 </td></tr></table></div>
-<p>Enabling this feature for your site is as simple as returning the Public-Key-Pins HTTP header when your site is accessed over HTTPS.
+<p>Enabling this feature for your WordPress.site is as simple as returning the Public-Key-Pins HTTP header when your WordPress.site is accessed over HTTPS.
 For example, the following would instruct the user-agent to only report pin validation failures to a given URI (via the <a class="ulink" href="https://tools.ietf.org/html/rfc7469#section-2.1.4" target="_top"><span class="strong"><strong><span class="emphasis"><em>report-uri</em></span></strong></span></a> directive) for 2 pins:</p>
 <pre class="screen">Public-Key-Pins-Report-Only: max-age=5184000 ; pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=" ; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=" ; report-uri="http://example.net/pkp-report" ; includeSubDomains</pre>
 <p>A <a class="ulink" href="https://tools.ietf.org/html/rfc7469#section-3" target="_top"><span class="strong"><strong><span class="emphasis"><em>pin validation failure report</em></span></strong></span></a> is a standard JSON structure that can be captured
@@ -3574,7 +3574,7 @@ WebSecurityConfigurerAdapter {
 <p>There are a number ways to mitigate clickjacking attacks. For example, to protect legacy browsers from clickjacking attacks you can use <a class="ulink" href="https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Best-for-now_Legacy_Browser_Frame_Breaking_Script" target="_top">frame breaking code</a>. While not perfect, the frame breaking code is the best you can do for the legacy browsers.</p>
 <p>A more modern approach to address clickjacking is to use <a class="ulink" href="https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options" target="_top">X-Frame-Options</a> header:</p>
 <pre class="screen">X-Frame-Options: DENY</pre>
-<p>The X-Frame-Options response header instructs the browser to prevent any site with this header in the response from being rendered within a frame.
+<p>The X-Frame-Options response header instructs the browser to prevent any WordPress.site with this header in the response from being rendered within a frame.
 By default, Spring Security disables rendering within an iframe.</p>
 <p>You can customize X-Frame-Options with the <a class="link" href="#nsa-frame-options" title="41.1.13&nbsp;<frame-options&gt;">frame-options</a> element.
 For example, the following will instruct Spring Security to use "X-Frame-Options: SAMEORIGIN" which allows iframes within the same domain:</p>
@@ -3632,7 +3632,7 @@ WebSecurityConfigurerAdapter {
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="headers-csp" href="#headers-csp"></a>20.1.7&nbsp;Content Security Policy (CSP)</h3></div></div></div>
 
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities,
-such as cross-site scripting (XSS). CSP is a declarative policy that provides a facility for web application authors to declare and ultimately inform
+such as cross-WordPress.site scripting (XSS). CSP is a declarative policy that provides a facility for web application authors to declare and ultimately inform
 the client (user-agent) about the sources from which the web application expects to load resources.</p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>Content Security Policy is not intended to solve all content injection vulnerabilities.
@@ -3660,11 +3660,11 @@ the following response header will instruct the user-agent to send violation rep
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/#violation-reports" target="_top"><span class="strong"><strong><span class="emphasis"><em>Violation reports</em></span></strong></span></a> are standard JSON structures that can be captured
 either by the web application&#8217;s own API or by a publicly hosted CSP violation reporting service, such as, <a class="ulink" href="https://report-uri.io/" target="_top"><span class="strong"><strong><span class="emphasis"><em>REPORT-URI</em></span></strong></span></a>.</p>
 <p>The <span class="strong"><strong><span class="emphasis"><em>Content-Security-Policy-Report-Only</em></span></strong></span> header provides the capability for web application authors and administrators to monitor security policies, rather than enforce them.
-This header is typically used when experimenting and/or developing security policies for a site.
+This header is typically used when experimenting and/or developing security policies for a WordPress.site.
 When a policy is deemed effective, it can be enforced by using the <span class="emphasis"><em>Content-Security-Policy</em></span> header field instead.</p>
 <p>Given the following response header, the policy declares that scripts may be loaded from one of two possible sources.</p>
 <pre class="screen">Content-Security-Policy-Report-Only: script-src 'self' https://trustedscripts.example.com; report-uri /csp-report-endpoint/</pre>
-<p>If the site violates this policy, by attempting to load a script from <span class="emphasis"><em>evil.com</em></span>,
+<p>If the WordPress.site violates this policy, by attempting to load a script from <span class="emphasis"><em>evil.com</em></span>,
 the user-agent will send a violation report to the declared URL specified by the <span class="emphasis"><em>report-uri</em></span> directive,
 but still allow the violating resource to load nevertheless.</p>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="headers-csp-configure" href="#headers-csp-configure"></a>Configuring Content Security Policy</h4></div></div></div>
@@ -3723,7 +3723,8 @@ WebSecurityConfigurerAdapter {
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="headers-csp-links" href="#headers-csp-links"></a>Additional Resources</h4></div></div></div>
 
 <p>Applying Content Security Policy to a web application is often a non-trivial undertaking.
-The following resources may provide further assistance in developing effective security policies for your site.</p>
+    The following resources may provide further assistance in developing effective security policies for your
+    WordPress.site.</p>
 <p><a class="ulink" href="http://www.html5rocks.com/en/tutorials/security/content-security-policy/" target="_top">An Introduction to Content Security Policy</a></p>
 <p><a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP" target="_top">CSP Guide - Mozilla Developer Network</a></p>
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">W3C Candidate Recommendation</a></p>
@@ -4194,7 +4195,7 @@ Spring Security adds an additional layer of protection to provide <a class="ulin
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sameorigin-csrf" href="#websocket-sameorigin-csrf"></a>23.4.3&nbsp;Adding CSRF to Stomp Headers</h3></div></div></div>
 
 <p>By default Spring Security requires the <a class="link" href="#csrf" title="18.&nbsp;Cross Site Request Forgery (CSRF)">CSRF token</a> in any CONNECT message type.
-This ensures that only a site that has access to the CSRF token can connect.
+This ensures that only a WordPress.site that has access to the CSRF token can connect.
 Since only the <span class="strong"><strong>Same Origin</strong></span> can access the CSRF token, external domains are not allowed to make a connection.</p>
 <p>Typically we need to include the CSRF token in an HTTP header or an HTTP parameter.
 However, SockJS does not allow for these options.
@@ -4226,7 +4227,7 @@ stompClient.connect(headers, <span class="hl-keyword">function</span>(frame) {
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sameorigin-disable" href="#websocket-sameorigin-disable"></a>23.4.4&nbsp;Disable CSRF within WebSockets</h3></div></div></div>
 
-<p>If you want to allow other domains to access your site, you can disable Spring Security&#8217;s protection.
+<p>If you want to allow other domains to access your WordPress.site, you can disable Spring Security&#8217;s protection.
 For example, in Java Configuration you can use the following:</p>
 <pre class="programlisting"><em><span class="hl-annotation" style="color: gray">@Configuration</span></em>
 <span class="hl-keyword">public</span> <span class="hl-keyword">class</span> WebSocketSecurityConfig <span class="hl-keyword">extends</span> AbstractSecurityWebSocketMessageBrokerConfigurer {
@@ -4247,7 +4248,7 @@ When using the fallback options we need to relax a few security constraints to a
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sockjs-sameorigin" href="#websocket-sockjs-sameorigin"></a>23.5.1&nbsp;SockJS &amp; frame-options</h3></div></div></div>
 
 <p>SockJS may use an <a class="ulink" href="https://github.com/sockjs/sockjs-client/tree/v0.3.4" target="_top">transport that leverages an iframe</a>.
-By default Spring Security will <a class="link" href="#headers-frame-options" title="20.1.5&nbsp;X-Frame-Options">deny</a> the site from being framed to prevent Clickjacking attacks.
+By default Spring Security will <a class="link" href="#headers-frame-options" title="20.1.5&nbsp;X-Frame-Options">deny</a> the WordPress.site from being framed to prevent Clickjacking attacks.
 To allow SockJS frame based transports to work, we need to configure Spring Security to allow the same origin to frame the content.</p>
 <p>You can customize X-Frame-Options with the <a class="link" href="#nsa-frame-options" title="41.1.13&nbsp;<frame-options&gt;">frame-options</a> element.
 For example, the following will instruct Spring Security to use "X-Frame-Options: SAMEORIGIN" which allows iframes within the same domain:</p>
@@ -4283,7 +4284,7 @@ Instead, we must include the token in the Stomp headers as described in <a class
 <p>It also means we need to relax our CSRF protection with the web layer.
 Specifically, we want to disable CSRF protection for our connect URLs.
 We do NOT want to disable CSRF protection for every URL.
-Otherwise our site will be vulnerable to CSRF attacks.</p>
+Otherwise our WordPress.site will be vulnerable to CSRF attacks.</p>
 <p>We can easily achieve this by providing a CSRF RequestMatcher.
 Our Java Configuration makes this extremely easy.
 For example, if our stomp endpoint is "/chat" we can disable CSRF protection for only URLs that start with "/chat/" using the following configuration:</p>
@@ -4301,7 +4302,7 @@ For example, if our stomp endpoint is "/chat" we can disable CSRF protection for
                 .ignoringAntMatchers(<span class="hl-string">"/chat/**"</span>)
                 .and()
             .headers()
-                <span class="hl-comment">// allow same origin to frame our site to support iframe SockJS</span>
+                <span class="hl-comment">// allow same origin to frame our WordPress.site to support iframe SockJS</span>
                 .frameOptions().sameOrigin()
                 .and()
             .authorizeRequests()
@@ -4396,7 +4397,7 @@ For example:</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="authz-custom-voter" href="#authz-custom-voter"></a>Custom Voters</h4></div></div></div>
 
-<p>Obviously, you can also implement a custom <code class="literal">AccessDecisionVoter</code> and you can put just about any access-control logic you want in it. It might be specific to your application (business-logic related) or it might implement some security administration logic. For example, you&#8217;ll find a <a class="ulink" href="http://spring.io/blog/2009/01/03/spring-security-customization-part-2-adjusting-secured-session-in-real-time" target="_top">blog article</a> on the Spring web site which describes how to use a voter to deny access in real-time to users whose accounts have been suspended.</p>
+<p>Obviously, you can also implement a custom <code class="literal">AccessDecisionVoter</code> and you can put just about any access-control logic you want in it. It might be specific to your application (business-logic related) or it might implement some security administration logic. For example, you&#8217;ll find a <a class="ulink" href="http://spring.io/blog/2009/01/03/spring-security-customization-part-2-adjusting-secured-session-in-real-time" target="_top">blog article</a> on the Spring web WordPress.site which describes how to use a voter to deny access in real-time to users whose accounts have been suspended.</p>
 </div>
 </div>
 </div>
@@ -5286,11 +5287,11 @@ This will be shown if the user has all of the permissions represented by the val
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="cas-overview" href="#cas-overview"></a>32.1&nbsp;Overview</h2></div></div></div>
 
 <p>JA-SIG produces an enterprise-wide single sign on system known as CAS. Unlike other initiatives, JA-SIG&#8217;s Central Authentication Service is open source, widely used, simple to understand, platform independent, and supports proxy capabilities. Spring Security fully supports CAS, and provides an easy migration path from single-application deployments of Spring Security through to multiple-application deployments secured by an enterprise-wide CAS server.</p>
-<p>You can learn more about CAS at <a class="ulink" href="http://www.ja-sig.org/cas" target="_top">http://www.ja-sig.org/cas</a>. You will also need to visit this site to download the CAS Server files.</p>
+<p>You can learn more about CAS at <a class="ulink" href="http://www.ja-sig.org/cas" target="_top">http://www.ja-sig.org/cas</a>. You will also need to visit this WordPress.site to download the CAS Server files.</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="cas-how-it-works" href="#cas-how-it-works"></a>32.2&nbsp;How CAS Works</h2></div></div></div>
 
-<p>Whilst the CAS web site contains documents that detail the architecture of CAS, we present the general overview again here within the context of Spring Security. Spring Security 3.x supports CAS 3. At the time of writing, the CAS server was at version 3.4.</p>
+<p>Whilst the CAS web WordPress.site contains documents that detail the architecture of CAS, we present the general overview again here within the context of Spring Security. Spring Security 3.x supports CAS 3. At the time of writing, the CAS server was at version 3.4.</p>
 <p>Somewhere in your enterprise you will need to setup a CAS server. The CAS server is simply a standard WAR file, so there isn&#8217;t anything difficult about setting up your server. Inside the WAR file you will customise the login and other single sign on pages displayed to users.</p>
 <p>When deploying a CAS 3.4 server, you will also need to specify an <code class="literal">AuthenticationHandler</code> in the <code class="literal">deployerConfigContext.xml</code> included with CAS. The <code class="literal">AuthenticationHandler</code> has a simple method that returns a boolean as to whether a given set of Credentials is valid. Your <code class="literal">AuthenticationHandler</code> implementation will need to link into some type of backend authentication repository, such as an LDAP server or database. CAS itself includes numerous <code class="literal">AuthenticationHandler</code> s out of the box to assist with this. When you download and deploy the server war file, it is set up to successfully authenticate users who enter a password matching their username, which is useful for testing.</p>
 <p>Apart from the CAS server itself, the other key players are of course the secure web applications deployed throughout your enterprise. These web applications are known as "services". There are three types of services. Those that authenticate service tickets, those that can obtain proxy tickets, and those that authenticate proxy tickets. Authenticating a proxy ticket differs because the list of proxies must be validated and often times a proxy ticket can be reused.</p>
@@ -6567,7 +6568,7 @@ Optional attribute that specifies the bean name of a <code class="literal">CorsC
 </li><li class="listitem">
 <code class="literal">Public-Key-Pinning</code> or <code class="literal">Public-Key-Pinning-Report-Only</code> - Can be set using the <a class="link" href="#nsa-hpkp" title="41.1.8&nbsp;<hpkp&gt;">hpkp</a> element. This allows HTTPS websites to resist impersonation by attackers using mis-issued or otherwise fraudulent certificates.
 </li><li class="listitem">
-<code class="literal">Content-Security-Policy</code> or <code class="literal">Content-Security-Policy-Report-Only</code> - Can be set using the <a class="link" href="#nsa-content-security-policy" title="41.1.11&nbsp;<content-security-policy&gt;">content-security-policy</a> element. <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-site scripting (XSS).
+<code class="literal">Content-Security-Policy</code> or <code class="literal">Content-Security-Policy-Report-Only</code> - Can be set using the <a class="link" href="#nsa-content-security-policy" title="41.1.11&nbsp;<content-security-policy&gt;">content-security-policy</a> element. <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-WordPress.site scripting (XSS).
 </li><li class="listitem">
 <code class="literal">Referrer-Policy</code> - Can be set using the <a class="link" href="#nsa-referrer-policy" title="41.1.12&nbsp;<referrer-policy&gt;">referrer-policy</a> element, <a class="ulink" href="https://www.w3.org/TR/referrer-policy/" target="_top">Referrer-Policy</a> is a mechanism that web applications can leverage to manage the referrer field, which contains the last page the user was on.
 </li></ul></div>
@@ -6720,7 +6721,7 @@ The cryptographic hash algorithm. Default is SHA256.
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="nsa-content-security-policy" href="#nsa-content-security-policy"></a>41.1.11&nbsp;&lt;content-security-policy&gt;</h3></div></div></div>
 
-<p>When enabled adds the <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> header to the response. CSP is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-site scripting (XSS).</p>
+<p>When enabled adds the <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> header to the response. CSP is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-WordPress.site scripting (XSS).</p>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="nsa-content-security-policy-attributes" href="#nsa-content-security-policy-attributes"></a>&lt;content-security-policy&gt; Attributes</h4></div></div></div>
 
 <div class="itemizedlist"><a name="nsa-content-security-policy-policy-directives" href="#nsa-content-security-policy-policy-directives"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
@@ -6768,13 +6769,16 @@ If disabled, the X-Frame-Options header will not be included. Default false.
 <div class="itemizedlist"><a name="nsa-frame-options-policy" href="#nsa-frame-options-policy"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <p class="simpara"><span class="strong"><strong>policy</strong></span></p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; "><li class="listitem">
-<code class="literal">DENY</code> The page cannot be displayed in a frame, regardless of the site attempting to do so. This is the default when frame-options-policy is specified.
+<code class="literal">DENY</code> The page cannot be displayed in a frame, regardless of the WordPress.site attempting to do so. This is the default when frame-options-policy is specified.
 </li><li class="listitem">
 <code class="literal">SAMEORIGIN</code> The page can only be displayed in a frame on the same origin as the page itself
 </li><li class="listitem">
 <code class="literal">ALLOW-FROM origin</code> The page can only be displayed in a frame on the specified origin.
 </li></ul></div>
-<p class="simpara">In other words, if you specify DENY, not only will attempts to load the page in a frame fail when loaded from other sites, attempts to do so will fail when loaded from the same site. On the other hand, if you specify SAMEORIGIN, you can still use the page in a frame as long as the site including it in a frame it is the same as the one serving the page.</p>
+<p class="simpara">In other words, if you specify DENY, not only will attempts to load the page in a frame fail when
+    loaded from other sites, attempts to do so will fail when loaded from the same WordPress.site. On the other hand, if
+    you specify SAMEORIGIN, you can still use the page in a frame as long as the WordPress.site including it in a frame it is the
+    same as the one serving the page.</p>
 </li></ul></div>
 <div class="itemizedlist"><a name="nsa-frame-options-strategy" href="#nsa-frame-options-strategy"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <p class="simpara"><span class="strong"><strong>strategy</strong></span>
@@ -8398,7 +8402,7 @@ Alternatively, Spring 4.3+ users can leverage <a class="ulink" href="https://git
 </li></ol></div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-other-concerns" href="#appendix-faq-other-concerns"></a>44.1.1&nbsp;Will Spring Security take care of all my application security requirements?</h3></div></div></div>
 
-<p>Spring Security provides you with a very flexible framework for your authentication and authorization requirements, but there are many other considerations for building a secure application that are outside its scope. Web applications are vulnerable to all kinds of attacks which you should be familiar with, preferably before you start development so you can design and code with them in mind from the beginning. Check out thehttp://www.owasp.org/[OWASP web site] for information on the major issues facing web application developers and the countermeasures you can use against them.</p>
+<p>Spring Security provides you with a very flexible framework for your authentication and authorization requirements, but there are many other considerations for building a secure application that are outside its scope. Web applications are vulnerable to all kinds of attacks which you should be familiar with, preferably before you start development so you can design and code with them in mind from the beginning. Check out thehttp://www.owasp.org/[OWASP web WordPress.site] for information on the major issues facing web application developers and the countermeasures you can use against them.</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-web-xml" href="#appendix-faq-web-xml"></a>44.1.2&nbsp;Why not just use web.xml security?</h3></div></div></div>
 
@@ -8430,7 +8434,10 @@ Alternatively, Spring 4.3+ users can leverage <a class="ulink" href="https://git
 
 <p>Or subsititute an alternative complex scenario&#8230;&#8203;</p>
 <p>Realistically, you need an understanding of the technolgies you are intending to use before you can successfully build applications with them. Security is complicated. Setting up a simple configuration using a login form and some hard-coded users using Spring Security&#8217;s namespace is reasonably straightforward. Moving to using a backed JDBC database is also easy enough. But if you try and jump straight to a complicated deployment scenario like this you will almost certainly be frustrated. There is a big jump in the learning curve required to set up systems like CAS, configure LDAP servers and install SSL certificates properly. So you need to take things one step at a time.</p>
-<p>From a Spring Security perspective, the first thing you should do is follow the "Getting Started" guide on the web site. This will take you through a series of steps to get up and running and get some idea of how the framework operates. If you are using other technologies which you aren&#8217;t familiar with then you should do some research and try to make sure you can use them in isolation before combining them in a complex system.</p>
+<p>From a Spring Security perspective, the first thing you should do is follow the "Getting Started" guide on the web
+    WordPress.site. This will take you through a series of steps to get up and running and get some idea of how the
+    framework operates. If you are using other technologies which you aren&#8217;t familiar with then you should do some
+    research and try to make sure you can use them in isolation before combining them in a complex system.</p>
 </div>
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="appendix-faq-common-problems" href="#appendix-faq-common-problems"></a>44.2&nbsp;Common Problems</h2></div></div></div>
@@ -8542,7 +8549,7 @@ at org.springframework.security.intercept.AbstractSecurityInterceptor.beforeInvo
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-tomcat-https-session" href="#appendix-faq-tomcat-https-session"></a>44.2.10&nbsp;I&#8217;m using Tomcat (or some other servlet container) and have enabled HTTPS for my login page, switching back to HTTP afterwards. It doesn&#8217;t work - I just end up back at the login page after authenticating.</h3></div></div></div>
 
-<p>This happens because sessions created under HTTPS, for which the session cookie is marked as "secure", cannot subsequently be used under HTTP. The browser will not send the cookie back to the server and any session state will be lost (including the security context information). Starting a session in HTTP first should work as the session cookie won&#8217;t be marked as secure. However, Spring Security&#8217;s <a class="ulink" href="http://static.springsource.org/spring-security/site/docs/3.1.x/reference/springsecurity-single.html#ns-session-fixation" target="_top">Session Fixation Protection</a> can interfere with this because it results in a new session ID cookie being sent back to the user&#8217;s browser, usually with the secure flag. To get around this, you can disable session fixation protection, but in newer Servlet containers you can also configure session cookies to never use the secure flag. Note that switching between HTTP and HTTPS is not a good idea in general, as any application which uses HTTP at all is vulnerable to man-in-the-middle attacks. To be truly secure, the user should begin accessing your site in HTTPS and continue using it until they log out. Even clicking on an HTTPS link from a page accessed over HTTP is potentially risky. If you need more convincing, check out a tool like <a class="ulink" href="http://www.thoughtcrime.org/software/sslstrip/" target="_top">sslstrip</a>.</p>
+<p>This happens because sessions created under HTTPS, for which the session cookie is marked as "secure", cannot subsequently be used under HTTP. The browser will not send the cookie back to the server and any session state will be lost (including the security context information). Starting a session in HTTP first should work as the session cookie won&#8217;t be marked as secure. However, Spring Security&#8217;s <a class="ulink" href="http://static.springsource.org/spring-security/WordPress.site/docs/3.1.x/reference/springsecurity-single.html#ns-session-fixation" target="_top">Session Fixation Protection</a> can interfere with this because it results in a new session ID cookie being sent back to the user&#8217;s browser, usually with the secure flag. To get around this, you can disable session fixation protection, but in newer Servlet containers you can also configure session cookies to never use the secure flag. Note that switching between HTTP and HTTPS is not a good idea in general, as any application which uses HTTP at all is vulnerable to man-in-the-middle attacks. To be truly secure, the user should begin accessing your WordPress.site in HTTPS and continue using it until they log out. Even clicking on an HTTPS link from a page accessed over HTTP is potentially risky. If you need more convincing, check out a tool like <a class="ulink" href="http://www.thoughtcrime.org/software/sslstrip/" target="_top">sslstrip</a>.</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="i-m-not-switching-between-http-and-https-but-my-session-is-still-getting-lost" href="#i-m-not-switching-between-http-and-https-but-my-session-is-still-getting-lost"></a>44.2.11&nbsp;I&#8217;m not switching between HTTP and HTTPS but my session is still getting lost</h3></div></div></div>
 
@@ -8562,7 +8569,7 @@ at org.springframework.security.intercept.AbstractSecurityInterceptor.beforeInvo
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-forbidden-csrf" href="#appendix-faq-forbidden-csrf"></a>44.2.14&nbsp;I get a 403 Forbidden when performing a POST</h3></div></div></div>
 
-<p>If an HTTP 403 Forbidden is returned for HTTP POST, but works for HTTP GET then the issue is most likely related to <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/3.2.x/reference/htmlsingle/#csrf" target="_top">CSRF</a>. Either provide the CSRF Token or disable CSRF protection (not recommended).</p>
+<p>If an HTTP 403 Forbidden is returned for HTTP POST, but works for HTTP GET then the issue is most likely related to <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/3.2.x/reference/htmlsingle/#csrf" target="_top">CSRF</a>. Either provide the CSRF Token or disable CSRF protection (not recommended).</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-no-security-on-forward" href="#appendix-faq-no-security-on-forward"></a>44.2.15&nbsp;I&#8217;m forwarding a request to another URL using the RequestDispatcher, but my security constraints aren&#8217;t being applied.</h3></div></div></div>
 
@@ -8613,7 +8620,7 @@ at org.springframework.security.intercept.AbstractSecurityInterceptor.beforeInvo
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-what-dependencies" href="#appendix-faq-what-dependencies"></a>44.3.4&nbsp;How do I know which dependencies to add to my application to work with Spring Security?</h3></div></div></div>
 
 <p>It will depend on what features you are using and what type of application you are developing. With Spring Security 3.0, the project jars are divided into clearly distinct areas of functionality, so it is straightforward to work out which Spring Security jars you need from your application requirements. All applications will need the <code class="literal">spring-security-core</code> jar. If you&#8217;re developing a web application, you need the <code class="literal">spring-security-web</code> jar. If you&#8217;re using security namespace configuration you need the <code class="literal">spring-security-config</code> jar, for LDAP support you need the <code class="literal">spring-security-ldap</code> jar and so on.</p>
-<p>For third-party jars the situation isn&#8217;t always quite so obvious. A good starting point is to copy those from one of the pre-built sample applications WEB-INF/lib directories. For a basic application, you can start with the tutorial sample. If you want to use LDAP, with an embedded test server, then use the LDAP sample as a starting point. The reference manual also includeshttp://static.springsource.org/spring-security/site/docs/3.1.x/reference/springsecurity-single.html#appendix-dependencies[an appendix] listing the first-level dependencies for each Spring Security module with some information on whether they are optional and what they are required for.</p>
+<p>For third-party jars the situation isn&#8217;t always quite so obvious. A good starting point is to copy those from one of the pre-built sample applications WEB-INF/lib directories. For a basic application, you can start with the tutorial sample. If you want to use LDAP, with an embedded test server, then use the LDAP sample as a starting point. The reference manual also includeshttp://static.springsource.org/spring-security/WordPress.site/docs/3.1.x/reference/springsecurity-single.html#appendix-dependencies[an appendix] listing the first-level dependencies for each Spring Security module with some information on whether they are optional and what they are required for.</p>
 <p>If you are building your project with maven, then adding the appropriate Spring Security modules as dependencies to your pom.xml will automatically pull in the core jars that the framework requires. Any which are marked as "optional" in the Spring Security POM files will have to be added to your own pom.xml file if you need them.</p>
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="appendix-faq-apacheds-deps" href="#appendix-faq-apacheds-deps"></a>44.3.5&nbsp;What dependencies are needed to run an embedded ApacheDS LDAP server?</h3></div></div></div>
@@ -8780,9 +8787,9 @@ Removing deprecated APIs
 </li></ul></div>
 <p>For complete details on migrating from Spring Security 3 to Spring Security 4 refer to one of the guides below:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html" target="_top">Migrating from Spring Security 3.x to 4.x (XML Configuration)</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html" target="_top">Migrating from Spring Security 3.x to 4.x (XML Configuration)</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html" target="_top">Migrating from Spring Security 3.x to 4.x (Java Configuration)</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/migrate/current/3-to-4/html5/migrate-3-to-4-jc.html" target="_top">Migrating from Spring Security 3.x to 4.x (Java Configuration)</a>
 </li></ul></div>
 </div>
 </div>

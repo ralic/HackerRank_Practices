@@ -40,8 +40,9 @@ public class Spring_WordCountSite_JunitTest {
 
     @BeforeAll
     public static void driverStart() {
+        // TODO Need the latest Firefox (v53)
         driver = new FirefoxDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
     }
 
     @AfterAll

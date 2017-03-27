@@ -1,0 +1,105 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/MainController"
+package org/vishia/exampleJava2C/java4c/;
+
+class MainController; nameC=MainController_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+    //Innerclass: WayCtrlThread_MainController
+  InnerClass{ 
+    nonStaticInner class WayCtrlThread; nameC=WayCtrlThread_MainController_s; argIdent=XX; extends java/lang/Thread //creationMode=C
+    {  
+        //Innerclass: WayCtrlThread_MainController
+        //Innerclass: MainController
+    fieldIdents {
+      //outer=2 ,super=1: short %.. addWay;
+      //outer=2 ,super=1: short %.. dWay;
+      //outer=2 ,super=1: short[??] X%. dWay1;
+      //outer=2 ,super=1: int %.d kMsgOutFile;
+      //outer=2 ,super=1: int %.d kMsgOutFileGC;
+      //outer=2 ,super=1: org/vishia/msgDispatch/LogMessageFile(instance=org/vishia/msgDispatch/LogMessageFile) $.. logMsgFileCtrlValues;
+      //outer=2 ,super=1: org/vishia/msgDispatch/LogMessageFile(instance=org/vishia/msgDispatch/LogMessageFile) $.. logMsgFileGC;
+      //outer=2 ,super=1: org/vishia/msgDispatch/LogMessage @.. msg;
+      //outer=2 ,super=1: org/vishia/msgDispatch/MsgDispatcher(instance=org/vishia/msgDispatch/MsgDispatcher) $.. msgDispatcher;
+      //outer=2 ,super=1: org/vishia/msgDispatch/MsgDispatcher.DispatcherThread *.. msgDispatcherThread;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/SetValueGenerator_ifc(instance=org/vishia/exampleJava2C/java4c/SetValueGenerator) *.. mySetValueGenerator;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/OamVariables(instance=org/vishia/exampleJava2C/java4c/OamVariables) $.. oamVariables;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/PID_controller(instance=org/vishia/exampleJava2C/java4c/PID_controller) $.. pidCtrl1;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/CtrlBase @.. pidCtrl2;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/MainController *.s singleton;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/ReadTargetFromText(instance=org/vishia/exampleJava2C/java4c/ReadTargetFromText) $.. targetReader;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/TestClass @.. testDynamicReference;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/SetValueGenerator.Target.OnlyTest.InnerTest @.. testEnvJ2c;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/Testifc @.. testifc;
+      //outer=2 ,super=1: short %.. wWay;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/WaitThreadOrganizer @.. waitCycleOrganizer;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/WayActuator @.. way1Actuator;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/WaySensor @.. way1Sensor;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/WayActuator @.. way2Actuator;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/WaySensor @.. way2Sensor;
+      //outer=2 ,super=1: org/vishia/exampleJava2C/java4c/MainController.WayCtrlThread(instance=org/vishia/exampleJava2C/java4c/MainController.WayCtrlThread) $.. wayCtrlThread;
+      //outer=2 ,super=1: short %.. yOut;
+      //outer=2 ,super=1: short[??] X%. yOut2;
+    }
+      methods {  
+        run-_$, defined: java/lang/Runnable.run: void %.r null();
+      }
+
+      castTo {
+        org/vishia/exampleJava2C/java4c/MainController: * "(?)->outer" *;
+        java/lang/Object: $ "(?).base.super.base.RunnableJc.base.object" $;
+        java/lang/Runnable: $ "(?).base.super.base.RunnableJc" $;
+        java/lang/Thread: $ "(?).base.super" $;
+      }
+
+    }
+
+  }
+fieldIdents {
+  short %.. addWay;
+  short %.. dWay;
+  short[??] X%. dWay1;
+  int %.d kMsgOutFile;
+  int %.d kMsgOutFileGC;
+  org/vishia/msgDispatch/LogMessageFile(instance=org/vishia/msgDispatch/LogMessageFile) $.. logMsgFileCtrlValues;
+  org/vishia/msgDispatch/LogMessageFile(instance=org/vishia/msgDispatch/LogMessageFile) $.. logMsgFileGC;
+  org/vishia/msgDispatch/LogMessage @.. msg;
+  org/vishia/msgDispatch/MsgDispatcher(instance=org/vishia/msgDispatch/MsgDispatcher) $.. msgDispatcher;
+  org/vishia/msgDispatch/MsgDispatcher.DispatcherThread *.. msgDispatcherThread;
+  org/vishia/exampleJava2C/java4c/SetValueGenerator_ifc(instance=org/vishia/exampleJava2C/java4c/SetValueGenerator) *.. mySetValueGenerator;
+  org/vishia/exampleJava2C/java4c/OamVariables(instance=org/vishia/exampleJava2C/java4c/OamVariables) $.. oamVariables;
+  org/vishia/exampleJava2C/java4c/PID_controller(instance=org/vishia/exampleJava2C/java4c/PID_controller) $.. pidCtrl1;
+  org/vishia/exampleJava2C/java4c/CtrlBase @.. pidCtrl2;
+  org/vishia/exampleJava2C/java4c/MainController *.s singleton;
+  org/vishia/exampleJava2C/java4c/ReadTargetFromText(instance=org/vishia/exampleJava2C/java4c/ReadTargetFromText) $.. targetReader;
+  org/vishia/exampleJava2C/java4c/TestClass @.. testDynamicReference;
+  org/vishia/exampleJava2C/java4c/SetValueGenerator.Target.OnlyTest.InnerTest @.. testEnvJ2c;
+  org/vishia/exampleJava2C/java4c/Testifc @.. testifc;
+  short %.. wWay;
+  org/vishia/exampleJava2C/java4c/WaitThreadOrganizer @.. waitCycleOrganizer;
+  org/vishia/exampleJava2C/java4c/WayActuator @.. way1Actuator;
+  org/vishia/exampleJava2C/java4c/WaySensor @.. way1Sensor;
+  org/vishia/exampleJava2C/java4c/WayActuator @.. way2Actuator;
+  org/vishia/exampleJava2C/java4c/WaySensor @.. way2Sensor;
+  org/vishia/exampleJava2C/java4c/MainController.WayCtrlThread(instance=org/vishia/exampleJava2C/java4c/MainController.WayCtrlThread) $.. wayCtrlThread;
+  short %.. yOut;
+  short[??] X%. yOut2;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/MainController *.. MainController_s(org/vishia/exampleJava2C/simPc/iRequireMainController *.. broker,org/vishia/msgDispatch/LogMessage *.. msg1,org/vishia/exampleJava2C/java4c/WaitThreadOrganizer *.. waitCycleOrganizer);
+    ctorO_WayCtrlThread-_$, mode= ctor+nonStaticCtor: org/vishia/exampleJava2C/java4c/MainController.WayCtrlThread *.. WayCtrlThread_MainController_s(java/lang/String(instance=java/lang/String) t.. sName);
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    getWay11Intg-_$: float %.r null();
+    getWayOffset-_$: int %.r null();
+    getWaySetvalue-_$: short %.r null();
+    prepare-_$: void %.r null();
+    setTarget-_$: boolean %.r null(short %.. targetValue);
+    start-_$: void %.r null();
+    step-_$: void %.r null();
+    wireFunction-_$: void %.r null();
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

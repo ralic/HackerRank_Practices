@@ -1,0 +1,191 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "TestAnonymous_Test"
+package org/vishia/java2C/test/;
+
+class TestAnonymous; nameC=TestAnonymous_Test_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+    //Innerclass: C_INNER_TestAnonymous_Test
+    //Innerclass: C_ref2_TestAnonymous_Test
+    //Innerclass: C_refTempSimpleClass_TestAnonymous_Test
+    //Innerclass: C_staticAnonymous_TestAnonymous_Test
+    //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+    //Innerclass: TestInnerStatic_TestAnonymous_Test
+  InnerClass{ 
+    final nonStaticInner class TestInnerNonstatic; nameC=TestInnerNonstatic_TestAnonymous_Test_s; argIdent=XX; extends java/lang/Object //creationMode=C
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      //outer=2 ,super=1: org/vishia/java2C/test/SimpleClass @.. ref;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+      //outer=2 ,super=1: int %.. testValueOuter;
+      int %.. xInnerNonstatic;
+    }
+      methods {  
+        testInnerNonstatic-_$: void %.r null();
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.object" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+    final class TestInnerStatic; nameC=TestInnerStatic_TestAnonymous_Test_s; argIdent=XX; extends java/lang/Object //creationMode=C
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      int %.. xInnerStatic;
+    }
+      methods {  
+        ctorO-_$, mode= ctor+static: org/vishia/java2C/test/TestAnonymous.TestInnerStatic *.. TestInnerStatic_TestAnonymous_Test_s();
+        testInnerNonstatic-_$: void %.r null(int %.. input);
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.object" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+    nonStaticInner anonymous class C_ref2; nameC=C_ref2_TestAnonymous_Test_s; argIdent=XX; extends org/vishia/java2C/test/ImplIfc //creationMode=Y
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      //outer=1 ,super=3: java/lang/Object @.. anyRef;
+      //outer=1 ,super=2: org/vishia/java2C/test/AnyClass(instance=org/vishia/java2C/test/AnyClass) $.. data;
+      //outer=1 ,super=2: org/vishia/java2C/test/Ifc @.. ref;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+      //outer=2 ,super=1: int %.. testValueOuter;
+      //outer=1 ,super=2: int %.. val;
+      //outer=1 ,super=3: int %.. x1;
+    }
+      methods {  
+        addValue+_i-_$, defined: org/vishia/java2C/test/SimpleClass.addValue, mode= overrideable: int %.r null(int %.. value);
+      }
+
+      castTo {
+        org/vishia/java2C/test/Ifc2: $ "(?).base.super.base.Ifc2_Test" $;
+        org/vishia/java2C/test/Ifc: $ "(?).base.super.base.IfcToTest" $;
+        org/vishia/java2C/test/ImplIfc: $ "(?).base.super" $;
+        java/lang/Object: $ "(?).base.super.base.Ifc2_Test.base.object" $;
+        org/vishia/java2C/test/SimpleClass: $ "(?).base.super.base.super" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+    nonStaticInner anonymous class C_staticAnonymous; nameC=C_staticAnonymous_TestAnonymous_Test_s; argIdent=XX; extends org/vishia/java2C/test/SimpleClass //creationMode=Y
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      //outer=1 ,super=2: java/lang/Object @.. anyRef;
+      float %.. disturbing;
+      //outer=2 ,super=1: org/vishia/java2C/test/SimpleClass @.. ref;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+      //outer=2 ,super=1: int %.. testValueOuter;
+      float %.. x1;
+    }
+      methods {  
+        addValue+_i-_$, defined: org/vishia/java2C/test/SimpleClass.addValue, mode= overrideable: int %.r null(int %.. value);
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.super.base.object" $;
+        org/vishia/java2C/test/SimpleClass: $ "(?).base.super" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+    nonStaticInner statementBlock:b class C_refTempSimpleClass; nameC=C_refTempSimpleClass_TestAnonymous_Test_s; argIdent=XX; extends org/vishia/java2C/test/SimpleClass //creationMode=b
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      //outer=1 ,super=2: java/lang/Object @.. anyRef;
+      //outer=2 ,super=1: org/vishia/java2C/test/SimpleClass @.. ref;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+      //outer=2 ,super=1: int %.. testValueOuter;
+      //outer=1 ,super=2: int %.. x1;
+    }
+      methods {  
+        addValue+_i-_$, defined: org/vishia/java2C/test/SimpleClass.addValue, mode= overrideable: int %.r null(int %.. value);
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.super.base.object" $;
+        org/vishia/java2C/test/SimpleClass: $ "(?).base.super" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+    nonStaticInner statementBlock:b class C_INNER; nameC=C_INNER_TestAnonymous_Test_s; argIdent=XX; extends org/vishia/java2C/test/SimpleClass //creationMode=b
+    {  
+        //Innerclass: TestInnerNonstatic_TestAnonymous_Test
+        //Innerclass: TestInnerStatic_TestAnonymous_Test
+        //Innerclass: TestAnonymous_Test
+    fieldIdents {
+      //outer=1 ,super=2: java/lang/Object @.. anyRef;
+      //outer=2 ,super=1: org/vishia/java2C/test/SimpleClass @.. ref;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+      //outer=2 ,super=1: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+      //outer=2 ,super=1: int %.. testValueOuter;
+      //outer=1 ,super=2: int %.. x1;
+    }
+      methods {  
+        addValue+_i-_$, defined: org/vishia/java2C/test/SimpleClass.addValue, mode= overrideable: int %.r null(int %.. value);
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.super.base.object" $;
+        org/vishia/java2C/test/SimpleClass: $ "(?).base.super" $;
+        org/vishia/java2C/test/TestAnonymous: * "(?)->outer" *;
+      }
+
+    }
+
+  }
+fieldIdents {
+  org/vishia/java2C/test/SimpleClass @.. ref;
+  org/vishia/java2C/test/TestAnonymous.C_ref2(instance=org/vishia/java2C/test/TestAnonymous.C_ref2) $.. ref2;
+  org/vishia/java2C/test/TestAnonymous.C_staticAnonymous(instance=org/vishia/java2C/test/TestAnonymous.C_staticAnonymous) $.. staticAnonymous;
+  int %.. testValueOuter;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/TestAnonymous *.. TestAnonymous_Test_s();
+    ctorO_C_INNER-_$, mode= ctor+anonymousCtor+nonStaticCtor: org/vishia/java2C/test/TestAnonymous.C_INNER *.. C_INNER_TestAnonymous_Test_s(int %.. value);
+    ctorO_C_ref2-_$, mode= ctor+anonymousCtor+nonStaticCtor: org/vishia/java2C/test/TestAnonymous.C_ref2 *.. C_ref2_TestAnonymous_Test_s(int %.. val);
+    ctorO_C_refTempSimpleClass-_$, mode= ctor+anonymousCtor+nonStaticCtor: org/vishia/java2C/test/TestAnonymous.C_refTempSimpleClass *.. C_refTempSimpleClass_TestAnonymous_Test_s(int %.. value);
+    ctorO_C_staticAnonymous-_$, mode= ctor+anonymousCtor+nonStaticCtor: org/vishia/java2C/test/TestAnonymous.C_staticAnonymous *.. C_staticAnonymous_TestAnonymous_Test_s(int %.. value);
+    ctorO_TestInnerNonstatic-_$, mode= ctor+nonStaticCtor: org/vishia/java2C/test/TestAnonymous.TestInnerNonstatic *.. TestInnerNonstatic_TestAnonymous_Test_s();
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    setRef-_$, mode= overrideable: void %.r null(org/vishia/java2C/test/SimpleClass *.. ref);
+    test-_$, mode= overrideable: void %.r null();
+  }
+
+  methods-overrideable {
+    setRef_TestAnonymous_Test;
+    test_TestAnonymous_Test;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

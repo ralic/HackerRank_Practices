@@ -1,0 +1,21 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/WayActuator"
+package org/vishia/exampleJava2C/java4c/;
+
+interface WayActuator; nameC=WayActuator_s; argIdent=XX; extends java/lang/Object //creationMode=F
+{  
+fieldIdents {
+}
+  methods {  
+    setMotorVoltage-_$, mode= overrideable: void %.r null(short %.. value);
+  }
+
+  methods-overrideable {
+    setMotorVoltage_WayActuator;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

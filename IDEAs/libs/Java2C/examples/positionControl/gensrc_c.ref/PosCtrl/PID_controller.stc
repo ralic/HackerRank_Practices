@@ -1,0 +1,42 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/PID_controller"
+package org/vishia/exampleJava2C/java4c/;
+
+class PID_controller; nameC=PID_controller_s; argIdent=XX; extends java/lang/Object implements org/vishia/exampleJava2C/java4c/CtrlBase //creationMode=P
+{  
+fieldIdents {
+  int %.. intgVal;
+  short %.. kD;
+  short %.. kI;
+  short %.. kP;
+  short %.. lastForDiff;
+  short[??] X%. xPID;
+  short[??] X%. yPID;
+}
+  methods {  
+    calculate-_$, mode= overrideable: short %.r null(short %.. input);
+    connectInput-_$, mode= overrideable: void %.r null(short[??] X%. ref);
+    ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/PID_controller *.. PID_controller_s();
+    getIntg-_$, mode= overrideable: float %.r null();
+    init-_$, defined: org/vishia/exampleJava2C/java4c/CtrlBase.init, mode= overrideable: void %.r null();
+    parametrize-_$, defined: org/vishia/exampleJava2C/java4c/CtrlBase.parametrize, mode= overrideable: void %.r null();
+    provideOutput-_$, mode= overrideable: short[??] X%r null();
+    reset-_$, defined: org/vishia/exampleJava2C/java4c/CtrlBase.reset, mode= overrideable: void %.r null();
+    setIntg-_$, mode= overrideable: void %.r null(short %.. setValue);
+    step+_i-_$, defined: org/vishia/exampleJava2C/java4c/CtrlBase.step, mode= overrideable: void %.r null(int %.. time);
+  }
+
+  methods-overrideable {
+    calculate_PID_controller;
+    setIntg_PID_controller;
+    getIntg_PID_controller;
+    connectInput_PID_controller;
+    provideOutput_PID_controller;
+  }
+
+  castTo {
+    org/vishia/exampleJava2C/java4c/CtrlBase: $ "(?).base.CtrlBase" $;
+    java/lang/Object: $ "(?).base.CtrlBase.base.object" $;
+  }
+
+}

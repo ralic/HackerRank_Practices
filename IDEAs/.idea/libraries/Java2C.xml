@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Java2C">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Java2C/Java2C.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

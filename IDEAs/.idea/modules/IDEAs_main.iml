@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="IDEAs:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
-  <component name="FacetManager">
-    <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/WordCountWeb/RestAPI/Spring_WordCountSite.java</file>
-          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/apache/camelQRcode/RestAPI/QRCodeRest.java</file>
-          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/Spring_backend/BackendApplication.java</file>
-          <file>file://$MODULE_DIR$/../../src/main/java/org/raliclo/Spring_backend/config/CorsConfig.java</file>
-        </fileset>
-      </configuration>
-    </facet>
-    <facet type="Python" name="Python">
-      <configuration sdkName="Python 3.6.0 (/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/bin/python3.6)" />
-    </facet>
-  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../build/classes/main" />
     <exclude-output />
@@ -36,7 +21,16 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/piccolo2d-core-3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -45,25 +39,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -81,7 +57,223 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET3.5.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.NET3.5.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeap.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -108,565 +300,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeapCSharp.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeap.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeap.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.NET3.5.dll" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET3.5.dll" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/piccolo2d-core-3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapCSharp.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/Leap.py" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET4.0.dll" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/Info.plist" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapJava.dylib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapJava.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -684,6 +318,393 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-config-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/Info.plist" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-core-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapPython.so" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-data-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeapCSharp.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-config-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-thymeleaf3-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-ldap-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/LeapCSharp.NET4.0.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-cas-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-crypto-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-openid-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-taglibs-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-messaging-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-test-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/MacOS/libLeapCSharp.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-web-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-aspects-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-core-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/libLeap.dylib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-web-2.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist/spring-social-security-2.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/UnityAssets/Plugins/LeapCSharp.bundle/Contents/_CodeSignature/CodeResources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/LeapSDK/lib/Leap.py" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-remoting-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/piccolo2d-core-3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
           <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -693,7 +714,16 @@
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/jaffer-0.06_Apple_AFP.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -705,7 +735,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-gwt:21.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-tests:21.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava-testlib:21.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: mysql:mysql-connector-java:6.0.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: mysql:mysql-connector-java:6.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:ios-sdk:zip:8.60.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:dalvik-sdk:zip:8.60.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.javafxports:jfxdvk:8.60.7" level="project" />
@@ -927,10 +957,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.jsonwebtoken:jjwt:0.7.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr4-runtime:4.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:antlr-runtime:3.5.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:ST4:4.0.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-desktop:3.1.0-stable" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.antlr:ST4:4.0.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jmonkeyengine:jme3-lwjgl:3.1.0-stable" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish:javax.json:1.0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.errorprone:error_prone_annotations:2.0.15" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: junit:junit:4.12" level="project" />
@@ -1394,8 +1424,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.batch:javax.batch-api:1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-windows:2.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-admin:2.0.0-M15" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-linux:2.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-admin:2.0.0-M15" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.lwjgl.lwjgl:lwjgl-platform:natives-osx:2.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.server:apacheds-interceptors-authn:2.0.0-M15" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput:2.0.5" level="project" />
@@ -1476,51 +1506,70 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:linux-armhf:0.2.19-1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:linux-ppc64le:0.2.19-1.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:macosx-x86_64:0.2.19-1.3" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/piccolo2d-core-3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/tess4j-3.3.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-javadoc.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT-sources.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist/spring-security-acl-5.0.0.BUILD-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86:0.2.19-1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86_64:0.2.19-1.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.10:2.2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.3.v20170317" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-trigger:1.0.0-M20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerby-util:1.0.0-RC2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-swing:2.4.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.0.pr2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-core:1.19" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-json:1.19" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-server:1.19" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jets3t:jets3t:0.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: jline:jline:2.12.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math3:3.4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-httpclient:commons-httpclient:3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.11:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalactic:scalactic_2.11:3.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.protobuf:protobuf-java:2.6.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.squareup.okio:okio:1.6.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-cli:commons-cli:1.3.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-compress:1.8.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jettison:jettison:1.3.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-compiler:2.12.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-library:2.12.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-reflect:2.12.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.101tec:zkclient:0.9" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.lucene:lucene-core:3.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.9.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.mina:mina-core:2.0.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.minidev:accessors-smart:1.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libthrift:0.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-compiler:5.5.23" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jsp-api:2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:servlet-api:2.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-runtime:5.5.23" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:1.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:tests:1.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-ast_2.11:3.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-scalap_2.11:3.5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-common:2.25.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-client:2.25.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-configuration:commons-configuration:1.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco:javacpp:1.3.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.6" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -2124,70 +2173,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86:0.2.19-1.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco.javacpp-presets:openblas:windows-x86_64:0.2.19-1.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.10:2.2.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.3.v20170317" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.directory.api:api-ldap-extras-trigger:1.0.0-M20" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.kerby:kerby-util:1.0.0-RC2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-swing:2.4.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.9.0.pr2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-core:1.19" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-json:1.19" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.sun.jersey:jersey-server:1.19" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jutils:jutils:1.0.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.java.dev.jets3t:jets3t:0.9.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-linux:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-windows:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: jline:jline:2.12.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: net.java.jinput:jinput-platform:natives-osx:2.0.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math3:3.4.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.xerial.snappy:snappy-java:1.1.2.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-httpclient:commons-httpclient:3.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalatest:scalatest_2.11:3.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scalactic:scalactic_2.11:3.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.protobuf:protobuf-java:2.6.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.squareup.okio:okio:1.6.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-cli:commons-cli:1.3.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-compress:1.8.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jettison:jettison:1.3.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-compiler:2.12.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-library:2.12.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang:scala-reflect:2.12.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.101tec:zkclient:0.9" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.lucene:lucene-core:3.5.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.9.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: xerces:xercesImpl:2.11.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.mina:mina-core:2.0.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-math:2.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: net.minidev:accessors-smart:1.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.thrift:libthrift:0.9.3" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-compiler:5.5.23" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jsp-api:2.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:servlet-api:2.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: tomcat:jasper-runtime:5.5.23" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:1.7.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.avro:avro-ipc:tests:1.7.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.velocity:velocity:1.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-ast_2.11:3.5.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.json4s:json4s-scalap_2.11:3.5.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-common:2.25.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-client:2.25.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-api:2.5.0-b32" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-utils:2.5.0-b32" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b32" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2.external:javax.inject:2.5.0-b32" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-configuration:commons-configuration:1.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.bytedeco:javacpp:1.3.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.6" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.25.1" level="project" />
-    <orderEntry type="library" name="Python 3.6.0 (/usr/local/Cellar/python3/3.6.0_1/Frameworks/Python.framework/Versions/3.6/bin/python3.6) interpreter library" level="application" />
   </component>
 </module>

@@ -195,7 +195,7 @@ Spring Security adds an additional layer of protection to provide <a class="ulin
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sameorigin-csrf" href="#websocket-sameorigin-csrf"></a>23.4.3&nbsp;Adding CSRF to Stomp Headers</h3></div></div></div>
 
 <p>By default Spring Security requires the <a class="link" href="csrf.html" title="18.&nbsp;Cross Site Request Forgery (CSRF)">CSRF token</a> in any CONNECT message type.
-This ensures that only a site that has access to the CSRF token can connect.
+This ensures that only a WordPress.site that has access to the CSRF token can connect.
 Since only the <span class="strong"><strong>Same Origin</strong></span> can access the CSRF token, external domains are not allowed to make a connection.</p>
 <p>Typically we need to include the CSRF token in an HTTP header or an HTTP parameter.
 However, SockJS does not allow for these options.
@@ -227,7 +227,7 @@ stompClient.connect(headers, <span class="hl-keyword">function</span>(frame) {
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sameorigin-disable" href="#websocket-sameorigin-disable"></a>23.4.4&nbsp;Disable CSRF within WebSockets</h3></div></div></div>
 
-<p>If you want to allow other domains to access your site, you can disable Spring Security&#8217;s protection.
+<p>If you want to allow other domains to access your WordPress.site, you can disable Spring Security&#8217;s protection.
 For example, in Java Configuration you can use the following:</p>
 <pre class="programlisting"><em><span class="hl-annotation" style="color: gray">@Configuration</span></em>
 <span class="hl-keyword">public</span> <span class="hl-keyword">class</span> WebSocketSecurityConfig <span class="hl-keyword">extends</span> AbstractSecurityWebSocketMessageBrokerConfigurer {
@@ -248,7 +248,7 @@ When using the fallback options we need to relax a few security constraints to a
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="websocket-sockjs-sameorigin" href="#websocket-sockjs-sameorigin"></a>23.5.1&nbsp;SockJS &amp; frame-options</h3></div></div></div>
 
 <p>SockJS may use an <a class="ulink" href="https://github.com/sockjs/sockjs-client/tree/v0.3.4" target="_top">transport that leverages an iframe</a>.
-By default Spring Security will <a class="link" href="headers.html#headers-frame-options" title="20.1.5&nbsp;X-Frame-Options">deny</a> the site from being framed to prevent Clickjacking attacks.
+By default Spring Security will <a class="link" href="headers.html#headers-frame-options" title="20.1.5&nbsp;X-Frame-Options">deny</a> the WordPress.site from being framed to prevent Clickjacking attacks.
 To allow SockJS frame based transports to work, we need to configure Spring Security to allow the same origin to frame the content.</p>
 <p>You can customize X-Frame-Options with the <a class="link" href="appendix-namespace.html#nsa-frame-options" title="41.1.13&nbsp;<frame-options&gt;">frame-options</a> element.
 For example, the following will instruct Spring Security to use "X-Frame-Options: SAMEORIGIN" which allows iframes within the same domain:</p>
@@ -284,7 +284,7 @@ Instead, we must include the token in the Stomp headers as described in <a class
 <p>It also means we need to relax our CSRF protection with the web layer.
 Specifically, we want to disable CSRF protection for our connect URLs.
 We do NOT want to disable CSRF protection for every URL.
-Otherwise our site will be vulnerable to CSRF attacks.</p>
+Otherwise our WordPress.site will be vulnerable to CSRF attacks.</p>
 <p>We can easily achieve this by providing a CSRF RequestMatcher.
 Our Java Configuration makes this extremely easy.
 For example, if our stomp endpoint is "/chat" we can disable CSRF protection for only URLs that start with "/chat/" using the following configuration:</p>
@@ -302,7 +302,7 @@ For example, if our stomp endpoint is "/chat" we can disable CSRF protection for
                 .ignoringAntMatchers(<span class="hl-string">"/chat/**"</span>)
                 .and()
             .headers()
-                <span class="hl-comment">// allow same origin to frame our site to support iframe SockJS</span>
+                <span class="hl-comment">// allow same origin to frame our WordPress.site to support iframe SockJS</span>
                 .frameOptions().sameOrigin()
                 .and()
             .authorizeRequests()

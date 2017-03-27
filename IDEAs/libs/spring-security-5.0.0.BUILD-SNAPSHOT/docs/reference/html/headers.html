@@ -195,7 +195,7 @@ WebSecurityConfigurerAdapter {
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>In accordance with <a class="ulink" href="http://tools.ietf.org/html/rfc6797#section-7.2" target="_top">RFC6797</a>, the HSTS header is only injected into HTTPS responses. In order for the browser to acknowledge the header, the browser must first trust the CA that signed the SSL certificate used to make the connection (not just the SSL certificate).</p>
 </td></tr></table></div>
-<p>One way for a site to be marked as a HSTS host is to have the host preloaded into the browser. Another is to add the "Strict-Transport-Security" header to the response. For example the following would instruct the browser to treat the domain as an HSTS host for a year (there are approximately 31536000 seconds in a year):</p>
+<p>One way for a WordPress.site to be marked as a HSTS host is to have the host preloaded into the browser. Another is to add the "Strict-Transport-Security" header to the response. For example the following would instruct the browser to treat the domain as an HSTS host for a year (there are approximately 31536000 seconds in a year):</p>
 <pre class="screen">Strict-Transport-Security: max-age=31536000 ; includeSubDomains</pre>
 <p>The optional includeSubDomains directive instructs Spring Security that subdomains (i.e. secure.mybank.example.com) should also be treated as an HSTS domain.</p>
 <p>As with the other headers, Spring Security adds HSTS by default. You can customize HSTS headers with the <a class="link" href="appendix-namespace.html#nsa-hsts" title="41.1.7&nbsp;<hsts&gt;">&lt;hsts</a>&gt; element as shown below:</p>
@@ -234,7 +234,7 @@ When the client visits the server again, it expects a certificate containing a p
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>Because the user-agent needs to validate the pins against the SSL certificate chain, the HPKP header is only injected into HTTPS responses.</p>
 </td></tr></table></div>
-<p>Enabling this feature for your site is as simple as returning the Public-Key-Pins HTTP header when your site is accessed over HTTPS.
+<p>Enabling this feature for your WordPress.site is as simple as returning the Public-Key-Pins HTTP header when your WordPress.site is accessed over HTTPS.
 For example, the following would instruct the user-agent to only report pin validation failures to a given URI (via the <a class="ulink" href="https://tools.ietf.org/html/rfc7469#section-2.1.4" target="_top"><span class="strong"><strong><span class="emphasis"><em>report-uri</em></span></strong></span></a> directive) for 2 pins:</p>
 <pre class="screen">Public-Key-Pins-Report-Only: max-age=5184000 ; pin-sha256="d6qzRu9zOECb90Uez27xWltNsj0e1Md7GkYYkVoZWmM=" ; pin-sha256="E9CZ9INDbd+2eRQozYqqbQ2yXLVKB9+xcprMF+44U1g=" ; report-uri="http://example.net/pkp-report" ; includeSubDomains</pre>
 <p>A <a class="ulink" href="https://tools.ietf.org/html/rfc7469#section-3" target="_top"><span class="strong"><strong><span class="emphasis"><em>pin validation failure report</em></span></strong></span></a> is a standard JSON structure that can be captured
@@ -281,7 +281,7 @@ WebSecurityConfigurerAdapter {
 <p>There are a number ways to mitigate clickjacking attacks. For example, to protect legacy browsers from clickjacking attacks you can use <a class="ulink" href="https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Best-for-now_Legacy_Browser_Frame_Breaking_Script" target="_top">frame breaking code</a>. While not perfect, the frame breaking code is the best you can do for the legacy browsers.</p>
 <p>A more modern approach to address clickjacking is to use <a class="ulink" href="https://developer.mozilla.org/en-US/docs/HTTP/X-Frame-Options" target="_top">X-Frame-Options</a> header:</p>
 <pre class="screen">X-Frame-Options: DENY</pre>
-<p>The X-Frame-Options response header instructs the browser to prevent any site with this header in the response from being rendered within a frame.
+<p>The X-Frame-Options response header instructs the browser to prevent any WordPress.site with this header in the response from being rendered within a frame.
 By default, Spring Security disables rendering within an iframe.</p>
 <p>You can customize X-Frame-Options with the <a class="link" href="appendix-namespace.html#nsa-frame-options" title="41.1.13&nbsp;<frame-options&gt;">frame-options</a> element.
 For example, the following will instruct Spring Security to use "X-Frame-Options: SAMEORIGIN" which allows iframes within the same domain:</p>
@@ -339,7 +339,7 @@ WebSecurityConfigurerAdapter {
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="headers-csp" href="#headers-csp"></a>20.1.7&nbsp;Content Security Policy (CSP)</h3></div></div></div>
 
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities,
-such as cross-site scripting (XSS). CSP is a declarative policy that provides a facility for web application authors to declare and ultimately inform
+such as cross-WordPress.site scripting (XSS). CSP is a declarative policy that provides a facility for web application authors to declare and ultimately inform
 the client (user-agent) about the sources from which the web application expects to load resources.</p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><table border="0" summary="Note"><tr><td rowspan="2" align="center" valign="top" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th></tr><tr><td align="left" valign="top">
 <p>Content Security Policy is not intended to solve all content injection vulnerabilities.
@@ -367,11 +367,11 @@ the following response header will instruct the user-agent to send violation rep
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/#violation-reports" target="_top"><span class="strong"><strong><span class="emphasis"><em>Violation reports</em></span></strong></span></a> are standard JSON structures that can be captured
 either by the web application&#8217;s own API or by a publicly hosted CSP violation reporting service, such as, <a class="ulink" href="https://report-uri.io/" target="_top"><span class="strong"><strong><span class="emphasis"><em>REPORT-URI</em></span></strong></span></a>.</p>
 <p>The <span class="strong"><strong><span class="emphasis"><em>Content-Security-Policy-Report-Only</em></span></strong></span> header provides the capability for web application authors and administrators to monitor security policies, rather than enforce them.
-This header is typically used when experimenting and/or developing security policies for a site.
+This header is typically used when experimenting and/or developing security policies for a WordPress.site.
 When a policy is deemed effective, it can be enforced by using the <span class="emphasis"><em>Content-Security-Policy</em></span> header field instead.</p>
 <p>Given the following response header, the policy declares that scripts may be loaded from one of two possible sources.</p>
 <pre class="screen">Content-Security-Policy-Report-Only: script-src 'self' https://trustedscripts.example.com; report-uri /csp-report-endpoint/</pre>
-<p>If the site violates this policy, by attempting to load a script from <span class="emphasis"><em>evil.com</em></span>,
+<p>If the WordPress.site violates this policy, by attempting to load a script from <span class="emphasis"><em>evil.com</em></span>,
 the user-agent will send a violation report to the declared URL specified by the <span class="emphasis"><em>report-uri</em></span> directive,
 but still allow the violating resource to load nevertheless.</p>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="headers-csp-configure" href="#headers-csp-configure"></a>Configuring Content Security Policy</h4></div></div></div>
@@ -430,7 +430,7 @@ WebSecurityConfigurerAdapter {
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="headers-csp-links" href="#headers-csp-links"></a>Additional Resources</h4></div></div></div>
 
 <p>Applying Content Security Policy to a web application is often a non-trivial undertaking.
-The following resources may provide further assistance in developing effective security policies for your site.</p>
+The following resources may provide further assistance in developing effective security policies for your WordPress.site.</p>
 <p><a class="ulink" href="http://www.html5rocks.com/en/tutorials/security/content-security-policy/" target="_top">An Introduction to Content Security Policy</a></p>
 <p><a class="ulink" href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP" target="_top">CSP Guide - Mozilla Developer Network</a></p>
 <p><a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">W3C Candidate Recommendation</a></p>

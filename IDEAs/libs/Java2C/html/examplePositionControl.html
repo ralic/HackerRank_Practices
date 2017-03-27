@@ -1,0 +1,141 @@
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pre="http://www.vishia.de/2006/XhtmlPre" xmlns:xhtml="http://www.w3.org/1999/xhtml" test_rootname="root">
+   <test_inputXmlRoot name="local-name(.)"></test_inputXmlRoot>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <title>Example position control for Java2C</title>
+      <link rel="stylesheet" type="text/css" href="htmlstd.css">
+   </head>
+   <body>
+      <h1>Example position control for Java2C</h1>
+      <p class="standard"><font size="+1"><u>Inhalt</u></font></p>
+      <ul>
+         <li><a href="#chapter_1">1 Example position control</a></li>
+      </ul>
+      <hr><a id="w0aaaa" name="chapter_1"></a><a id="w0aaaa" name="1"></a><h2>1 Example position control</h2><a id="w0aaaab3" name="Topic.Java2C.ExamplePositionCtrl."></a><div class="" id="Topic.Java2C.ExamplePositionCtrl.">
+         <p class="debug">Topic:.Java2C.ExamplePositionCtrl.</p>
+         <p class="debug"> pStyle=std tableStyle=stdTable</p>
+         
+         <p class="std">As an example for a program in Java to implement in C, there is a position control. The sources in Java are disposed in the
+            following packages:
+         </p>
+         
+         <ul class="std">
+            <li>
+               <p class="std">The package <code>org.vishia.exampleJava2C.java4c</code> contains that code, which should translated to C. The <em>java4c</em> means <em>java for c</em>. There is a PID-controller in 16-bit-arithmetic as standard algorithm, a MainController for the organization of the position
+                  (move) control, and a set value generator to generate set values for a way.
+               </p>
+            </li>
+            <li>
+               <p class="std">The package <code>org.vishia.exampleJava2C.emulationEnv</code> contains some classes, which are not translated to C. They are written in C direct. In older versions the environment for
+                  the controller was found here. But now the environment for simulation on PC is contained in the following:
+               </p>
+            </li>
+            <li>
+               <p class="std">The package <code>org.vishia.exampleJava2C.simPc</code> contains classes, which presents a simulation environment for the controller to simulate it on a PC without a outside-process.
+                  This sources are given in Java to simulate, they are translated to C too to simulated the same in C in a PC. It includes the
+                  simulation of the environment, the emulation of threads and sampling times (interrupts) of the controller and reports, logs
+                  etc. to protocol the procedures.
+               </p>
+            </li>
+            <li>
+               <p class="std">The packages <code>org.vishia.mainCmd</code>, <code>org.vishia.util</code> etc. contains some helpers. They are translated to C too, but not as part of this project but as <em>standard Routines of the CRuntimeJavalike</em> - written in Java and translated to C. They are translated calling the makefile in <a href="../make">Java2C-download:make</a>/java2C_Jc.bat.
+               </p>
+            </li>
+         </ul>
+         
+         <p class="std">At the opposite side, C, there are the following Folders:</p>
+         
+         <ul class="std">
+            <li>
+               <p class="std">gensrc_c: This folder contains the generated C-sources from Java2C. They are secondary sources, the real sources are the java-sources
+                  in the package <code>org.vishia.exampleJava2C.java4c</code>. To produce the secondary-sources, you must call the batchfile <code>java2C_example.bat</code> for windows. There is a folder <code>gensrc_c.ref</code>. It contains the generated sources as a reference. You can compare the reference-sources with your translated sources, maybe
+                  after change, or copy the reference-sources into the folder ../gensrc_c to compile it.
+               </p>
+            </li>
+            <li>
+               <p class="std">src_c: There are the simulation environment, directly written in C. If there are not a simulation - only the real embedded
+                  control system, it would be replaced by the system environment of the embedded hardware in C.
+               </p>
+            </li>
+            <li>
+               <p class="std">CRuntimeJavalike: It is not a part of the example but the basic for all functionality from Java standards. This primary sources
+                  are the runtime environment for the Java2C-translated C-code.
+               </p>
+            </li>
+         </ul>
+         
+         <p class="std">The example is complex enough to show and test some principles. The next picture shows an object-model-diagram (UML, Created
+            by <a href="http://www-01.ibm.com/software/awdtools/rhapsody">IBM-Rhapsody</a>) of the controller:
+         </p>
+         
+         <p class="std">
+            <br clear="all"><a href="../img/ctrl_omdPosCtrl.png"><img src="../img/ctrl_omdPosCtrl.png"><span class="ImageTitle">Bild: ObjectModelDiagram Example PositionControl - controller</span></a></p>
+         
+         <ul class="std">
+            <li>
+               <p class="std">The main class of the controller is the <code>MainController</code>. You find its C-Source in gensrc_c/PosCtrl/MainController.c. The Java-source can be found in the file org/vishia/exampleJava2C/java4c/MainController.java.
+                  This class creates the subordinate instances for controlling. In the C-implementation all compositions are embedded <code>struct</code> in the <code>struct MainController_s</code>.
+               </p>
+            </li>
+            <li>
+               <p class="std">The PID-Controller is associated via an interface in Java, to demonstrate the interface concept.</p>
+            </li>
+            <li>
+               <p class="std">A <code>SetValueGenerator</code> is an special part of the position-controller which calculates the current position in any sampling period. It works with
+                  a given target ways which is the target of one course of movement. A next target is provided if possible to continue the movement
+                  in the fast calculation cycle of the set-value-generating if the target point is reached. There is used a <code>new</code> Statement to create the instances to store the next target points. The <code>new</code> statement with garbage collection should be worked proper in C using the BlockHeap-concept of CRuntimeJavalike.
+               </p>
+            </li>
+            <li>
+               <p class="std">Some coordinates for next targets are read in another thread. It is the main thread of this application - maybe slower. The
+                  class to do that is <code>ReadTargetFromText</code>. It may be in praxis for example <em>receive targets via network</em> or adequate. This class knows some target positions, up to now stored in an array of fix size, but it should be stored in
+                  a LinkedList or Queue (in later versions). The slower thread tries to set the <em>next target</em> to the <em>SetValueGenerator</em>. It successes if the <em>next target</em> is free to use. It is, if the <em>next target</em> is taken as current one.
+               </p>
+            </li>
+            <li>
+               <p class="std">The controller Thread is organized by a Thread class in Java, it is the inner class <code>WayCtrlThread</code>. The thread runs in a while-loop. This loop is waiting for the next sampling period calling the method <code>WaitThreadorganizer.waitCycle</code>. In a real embedded system there is a wait-notify-mechanism, whereby the notifying is done by a hardware interrupt. In a
+                  simulation environment there is a wait(milliseconds)-call. In this routine the simulation of the environment is done additionally.
+               </p>
+            </li>
+         </ul>
+         
+         <p class="std">From where comes the actual values of position and where are the output values of the controller?</p>
+         
+         <p class="std">
+            <br clear="all"><a href="../img/sim_omdPosCtrl.png"><img src="../img/sim_omdPosCtrl.png"><span class="ImageTitle">Bild: ObjectModelDiagram Example PositionControl - in/output simulation</span></a></p>
+         
+         <p class="std">The figure shows it. There are two interfaces, for act values and for output values. The controller calls <code>getWay()</code> or <code>setMotorVoltage()</code> to its known associations. Their types are interfaces. The associations refers to the implementation, but the methods are
+            called from the interfaces. The associations to the act-value and the output-value implementors are <em>aggregations</em> which are set in the build phase of the application (on startup).
+         </p>
+         
+         <p class="std">In a real embedded application the implementor-methods accesses the hardware or they handle with bus communication data from
+            field bus for sensors and actuators. In the simulation environment, for Java, and for the translated C-code too, there is
+            the class <code>SimPC</code>. This class contains a inner class <code>WaitThread</code>, which implements the <code>waitCycle()</code>-method of the shown interface. Instead only waiting for a notification of an interrupt this implementation calculates the
+            behaviour of the outside process. In this example the motor voltage is integrated to increment the position value. But there
+            is a disturbance too, to make the controlling more interesting...
+         </p>
+         
+         <p class="std">The interfaces for <code>WaySensor</code> and <code>WayActuator</code> are implemented in an anonymous inner class inside <code>SimPc</code>. This kind of implementation can't be shown yet in the UML-diagram, because the converter <a href="http://www.vishia.org/Xml/indexXmiEval.html">Java2XMI</a> should be inproved yet. The UML-diagram shows the composition to the interface instead the composition to the anomymous implementor
+            class yet. The implementor is a non-static inner class of <code>SimPc</code>. It means that the interface-implementor can access all private variabe of <code>SimPc</code>. There is the calculated position (variable <code>way1</code>) and the variable <code>voltage1</code> which stores the output value from the controller. Both variable are get respectively set.
+         </p>
+         
+         <p class="std">In the future there should be added a second controlling system for positioning a second one, and the both positioning things
+            should be coupled together, it may be with a distance, an elastic force or other. This enhancement of the example should be
+            shown, that a complexly problem is better treatable in Java as in C or C++
+         </p>
+         
+         <p class="std">
+            <b>Inspect the controller</b>:
+         </p>
+         
+         <p class="std">The working of the controller can be visited. The controller sends some values in a middle cycle time via socket-communication.
+            Therefore the <em>InterProcessComm</em> is used, which is present in Java: <a href="http://www.vishia.org/Java/docuSrcJavaSrc/org/vishia/communication/InterProcessComm.html">javasrc:_org/vishia/communication/InterProcessComm</a> and in adapted form in C: <a href="http://www.vishia.org/Jc/html/InterProcessComm.html">vishia/Jc/html/InterProcessComm.html</a>. A <em>localhost</em>-communication to a fix port is used. It may be parametrize-able too. The visitor is a GUI-application, which can be started
+            with <a href="../examples/positionControl">Java2C-download:examples/positionControl</a>/run_Viewer.bat. It receives the UDP-telegrams at the declareted port and shows the values. The sources of this application
+            are not an essentiel part of this download, but they are given here too. The Viewer-application is configurable with a text
+            file given in <a href="../examples/positionControl/GUI/gui.cfg">Java2C-download:examples/positionControl/GUI/gui.cfg</a>. The image shows a snap-shot of the viewer:
+         </p>
+         
+         <p class="std">
+            <br clear="all"><a href="../img/GUIviewerPosCtrl.png"><img src="../img/GUIviewerPosCtrl.png"><span class="ImageTitle">Bild: Snapshot of viewer</span></a></p>
+      </div><br clear="all"></body>
+</html>

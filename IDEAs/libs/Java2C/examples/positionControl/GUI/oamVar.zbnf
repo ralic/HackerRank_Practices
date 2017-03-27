@@ -1,0 +1,4 @@
+##This syntax describes the oam-variable-config-file.
+OamConfig::= ==[OamVariables|AllVariableFromDB]== { <variable> ; } \e.
+
+variable::= <$/\.?name> : <!.?typeChar> @<#?bytePos>[\.0x<#x?bitMask>] [ + <#?nrofBytes> [ * <#?nrofArrayElements>]].

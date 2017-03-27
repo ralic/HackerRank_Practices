@@ -1,0 +1,49 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/ReadTargetFromText"
+package org/vishia/exampleJava2C/java4c/;
+
+class ReadTargetFromText; nameC=ReadTargetFromText_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+    //Innerclass: Target_ReadTargetFromText
+  InnerClass{ 
+    final class Target; nameC=Target_ReadTargetFromText_s; argIdent=XX; extends java/lang/Object //creationMode=C
+    {  
+        //Innerclass: Target_ReadTargetFromText
+        //Innerclass: ReadTargetFromText
+    fieldIdents {
+      short %.. position;
+      short %.. velocity;
+    }
+      methods {  
+        ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/ReadTargetFromText.Target *.. Target_ReadTargetFromText_s();
+      }
+
+      castTo {
+        java/lang/Object: $ "(?).base.object" $;
+        org/vishia/exampleJava2C/java4c/ReadTargetFromText: * "(?)->outer" *;
+      }
+
+    }
+
+  }
+fieldIdents {
+  org/vishia/util/StringPart(instance=org/vishia/util/StringPart) $.. spTextTarget;
+  org/vishia/exampleJava2C/java4c/ReadTargetFromText.Target[100] Y$. targets;
+  java/lang/String(instance=java/lang/String) t.. textTarget;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/ReadTargetFromText *.. ReadTargetFromText_s();
+    readTargetsFromText-_$, mode= overrideable: int %.r null(java/lang/String(instance=java/lang/String) t.. input);
+    test-_$, mode= overrideable: void %.r null();
+  }
+
+  methods-overrideable {
+    test_ReadTargetFromText;
+    readTargetsFromText_ReadTargetFromText;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

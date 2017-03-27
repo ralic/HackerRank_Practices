@@ -1,0 +1,91 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "TestAllConcepts_Test"
+package org/vishia/java2C/test/;
+
+class TestAllConcepts; nameC=TestAllConcepts_Test_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+fieldIdents {
+  org/vishia/java2C/test/AnyClass @.. anyRef;
+  org/vishia/java2C/test/SimpleDataStruct[12] Y$. dataArrayEmbedded;
+  org/vishia/java2C/test/SimpleDataStruct[??] X$. dataArrayRef;
+  org/vishia/java2C/test/SimpleDataStruct[12] Q$. dataArraySimpleEmbedded;
+  org/vishia/java2C/test/SimpleDataStruct[??] X@. dataAssociatedEmbeddedArray;
+  org/vishia/java2C/test/SimpleDataStruct[??] X$. dataAssociatedRefArray;
+  org/vishia/java2C/test/SimpleDataStruct[12] Y@. dataRefArray;
+  org/vishia/java2C/test/SimpleDataStruct[12] Y$. dataRefArrayEmbedded;
+  org/vishia/java2C/test/SimpleDataStruct(instance=org/vishia/java2C/test/SimpleDataStruct) $.. embeddedData;
+  org/vishia/java2C/test/ExpandedDataStruct(instance=org/vishia/java2C/test/ExpandedDataStruct) $.. embeddedDataExpand;
+  org/vishia/java2C/test/SimpleDataStruct(instance=org/vishia/java2C/test/SimpleDataStruct) $.. embeddedDataNotEnpand;
+  org/vishia/java2C/test/ExtendsImpl(instance=org/vishia/java2C/test/ExtendsImpl) $.. extendsImpl;
+  org/vishia/java2C/test/Ifc @.. ifc;
+  org/vishia/java2C/test/Ifc @.. ifc2;
+  org/vishia/java2C/test/ImplIfc(instance=org/vishia/java2C/test/ImplIfc) $.. ifc3;
+  org/vishia/java2C/test/ImplIfc(instance=org/vishia/java2C/test/ImplIfc) @.. ifc4;
+  org/vishia/java2C/test/Ifc(instance=org/vishia/java2C/test/ImplIfc) @.. ifcNonVirtual;
+  org/vishia/java2C/test/ImplIfc(instance=org/vishia/java2C/test/ImplIfc) $.. implifc;
+  org/vishia/java2C/test/ImplIfc @.. implifc2;
+  int[1000] Y%. intArray;
+  int[??] X%. intArrayRef;
+  int[??] X%. intArrayRef2;
+  int[??] X%. intArrayRefSimple;
+  int[1000] Q%. intArraySimple;
+  int[3] Q%S intArrayStaticConst;
+  char %.S kCharConst;
+  int %.d kIdxMsgOutputFile;
+  int %.d kMsgBlockHeap;
+  int %.s nrofInstances;
+  int %.. simpleInt;
+  java/lang/StringBuffer(instance=java/lang/StringBuffer, fixBufferSize=20000) $B. stringBufferMain;
+  org/vishia/java2C/test/TestAnonymous(instance=org/vishia/java2C/test/TestAnonymous) $.. testAnonymous;
+  org/vishia/java2C/test/TestString(instance=org/vishia/java2C/test/TestString) $.. testString;
+  org/vishia/java2C/test/TestStringFormatter(instance=org/vishia/java2C/test/TestStringFormatter) $.. testStringFormatter;
+  org/vishia/java2C/test/TestThread(instance=org/vishia/java2C/test/TestThread) $.. testThread;
+  org/vishia/java2C/test/TestWaitNotify(instance=org/vishia/java2C/test/TestWaitNotify) $.. testWaitNotify;
+  org/vishia/java2C/test/TestWaitNotify.WaitNotifyData(instance=org/vishia/java2C/test/TestWaitNotify.WaitNotifyData) $.. testWaitNotifyData;
+}
+  methods {  
+    access+_i-_$, mode= overrideable: int %.r null(int %.. x);
+    access+_f-_$, mode= overrideable: void %.r null(float %.. x);
+    checkConcatCallReturnAnything-_$, mode= overrideable: int %.r null();
+    checkConcatCallReturnThisTypefixNonVirtual-_$, mode= overrideable: int %.r null();
+    checkConcatenationDynamicCall-_$, mode= overrideable: int %.r null();
+    checkConcatenationDynamicCallToBaseMethods-_$, mode= overrideable: int %.r null();
+    checkConcatenationSimple-_$: int %.r null();
+    checkNonVirtual-_$, mode= noThCxt+overrideable: void %.r null();
+    checkSomeDynamicCalls-_$, mode= overrideable: int %.r null();
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/TestAllConcepts *.. TestAllConcepts_Test_s();
+    equals+_O-_$, defined: java/lang/Object.equals, mode= overrideable: boolean %.r null(java/lang/Object *.. cmp);
+    equals+_S-_$, mode= overrideable: boolean %.r null(java/lang/String(instance=java/lang/String) t.. cmp);
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.r null();
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    main-_$, mode= overrideable: void %.r null();
+    main+_SY-_$, mode= static: void %.r null(java/lang/String[??] Xt. args);
+    returnThisOverrideable_Test-_$, mode= noStacktrace+noThCxt+overrideable+returnThis: org/vishia/java2C/test/TestAllConcepts *.r null(int %.. value);
+    testAccessIfc-_$, mode= overrideable: int %.r null();
+    testAccessIfcMtbl-_$, mode= overrideable: int %.r null();
+    testAccessIfcMtbl2-_$, mode= overrideable: int %.r null(boolean %.. bTest);
+    testInternalDynCall-_$: void %.r null();
+  }
+
+  methods-overrideable {
+    access_i_TestAllConcepts_Test;
+    checkSomeDynamicCalls_TestAllConcepts_Test;
+    checkConcatenationDynamicCall_TestAllConcepts_Test;
+    checkConcatenationDynamicCallToBaseMethods_TestAllConcepts_Test;
+    checkConcatCallReturnThisTypefixNonVirtual_TestAllConcepts_Test;
+    checkConcatCallReturnAnything_TestAllConcepts_Test;
+    returnThisOverrideable_Test_TestAllConcepts_Test;
+    checkNonVirtual_TestAllConcepts_Test;
+    equals_S_TestAllConcepts_Test;
+    access_f_TestAllConcepts_Test;
+    testAccessIfc_TestAllConcepts_Test;
+    testAccessIfcMtbl_TestAllConcepts_Test;
+    testAccessIfcMtbl2_TestAllConcepts_Test;
+    main_TestAllConcepts_Test;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

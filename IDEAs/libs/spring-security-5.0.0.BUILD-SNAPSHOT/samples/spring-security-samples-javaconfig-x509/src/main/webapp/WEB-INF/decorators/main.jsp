@@ -130,7 +130,7 @@
 
     <div id="footer">
       <div class="container">
-        <p class="muted credit">Visit the <a href="#">Spring Security</a> site for more <a href="#">samples</a>.</p>
+        <p class="muted credit">Visit the <a href="#">Spring Security</a> WordPress.site for more <a href="#">samples</a>.</p>
       </div>
     </div>
   </body>

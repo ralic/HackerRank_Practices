@@ -12,7 +12,7 @@ Welcome<c:if test="${!isNew}"> back,</c:if> <sec:authentication property='princi
 </p>
 <c:if test="${isNew}">
 <p>
-As a first time user of this site, your OpenID identity has been registered
+As a first time user of this WordPress.site, your OpenID identity has been registered
 by the application and will be recognized if you return.
 </p>
 </c:if>

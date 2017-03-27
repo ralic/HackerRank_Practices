@@ -1,0 +1,28 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "TestgarbageCollector_Test"
+package org/vishia/java2C/test/;
+
+class TestgarbageCollector; nameC=TestgarbageCollector_Test_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+fieldIdents {
+  org/vishia/java2C/test/SimpleClass @.s staticData;
+}
+  methods {  
+    createAndReturnInstance-_$, mode= overrideable+returnNew: org/vishia/java2C/test/SimpleClass *.n null();
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/TestgarbageCollector *.. TestgarbageCollector_Test_s();
+    test-_$, mode= overrideable: void %.r null();
+    testNewInstance-_$, mode= overrideable: void %.r null();
+    useCreatedInstanceInternal-_$: void %.r null();
+  }
+
+  methods-overrideable {
+    createAndReturnInstance_TestgarbageCollector_Test;
+    testNewInstance_TestgarbageCollector_Test;
+    test_TestgarbageCollector_Test;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

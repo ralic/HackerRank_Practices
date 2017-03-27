@@ -1,0 +1,46 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "Java2cTest/ImplTest"
+package org/vishia/java2C/test/;
+
+class ImplIfc; nameC=ImplIfcTest_s; argIdent=XX; extends org/vishia/java2C/test/SimpleClass implements org/vishia/java2C/test/Ifc, org/vishia/java2C/test/Ifc2 //creationMode=P
+{  
+fieldIdents {
+  //outer=1 ,super=2: java/lang/Object @.. anyRef;
+  org/vishia/java2C/test/AnyClass(instance=org/vishia/java2C/test/AnyClass) $.. data;
+  org/vishia/java2C/test/Ifc @.. ref;
+  int %.. val;
+  //outer=1 ,super=2: int %.. x1;
+}
+  methods {  
+    anotherIfcmethod+_i-_$, defined: org/vishia/java2C/test/Ifc.anotherIfcmethod_i: int %.r null(int %.. input);
+    anotherIfcmethod+_f-_$, defined: org/vishia/java2C/test/Ifc.anotherIfcmethod_f, mode= overrideable: float %.r null(float %.. input);
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/ImplIfc *.. ImplIfcTest_s(int %.. val);
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    processIfcMethod+_i-_$, defined: org/vishia/java2C/test/Ifc.processIfcMethod, mode= overrideable: int %.r null(int %.. input);
+    processIfcMethod+_f-_$, defined: org/vishia/java2C/test/Ifc2.processIfcMethod: float %.r null(float %.. input);
+    returnAnyInstance-_$: org/vishia/java2C/test/AnyClass *.r null();
+    returnAnyInstanceOverrideable-_$, mode= overrideable: org/vishia/java2C/test/AnyClass *.r null();
+    returnThis-_$, mode= returnThis: org/vishia/java2C/test/ImplIfc *.r null(int %.. value);
+    returnThisOverrideable-_$, mode= overrideable+returnThis: org/vishia/java2C/test/ImplIfc *.r null(int %.. value);
+    testIfc2+_f-_$, defined: org/vishia/java2C/test/Ifc2.testIfc2: float %.r null(float %.. input);
+    testImplIfc-_$: int %.r null();
+    testOverridden-_$, mode= overrideable: int %.r null(float %.. value);
+    testOverrideAble-_$, mode= overrideable: int %.r null(float %.. value);
+    toString-_$, defined: java/lang/Object.toString, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null();
+  }
+
+  methods-overrideable {
+    testOverrideAble_ImplIfcTest;
+    testOverridden_ImplIfcTest;
+    returnThisOverrideable_ImplIfcTest;
+    returnAnyInstanceOverrideable_ImplIfcTest;
+  }
+
+  castTo {
+    org/vishia/java2C/test/Ifc2: $ "(?).base.Ifc2_Test" $;
+    org/vishia/java2C/test/Ifc: $ "(?).base.IfcToTest" $;
+    java/lang/Object: $ "(?).base.Ifc2_Test.base.object" $;
+    org/vishia/java2C/test/SimpleClass: $ "(?).base.super" $;
+  }
+
+}

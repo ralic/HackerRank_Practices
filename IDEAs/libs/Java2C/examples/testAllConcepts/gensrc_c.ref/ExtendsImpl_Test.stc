@@ -1,0 +1,27 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "ExtendsImpl_Test"
+package org/vishia/java2C/test/;
+
+class ExtendsImpl; nameC=ExtendsImpl_Test_s; argIdent=XX; extends org/vishia/java2C/test/ImplIfc //creationMode=P
+{  
+fieldIdents {
+  //outer=1 ,super=3: java/lang/Object @.. anyRef;
+  //outer=1 ,super=2: org/vishia/java2C/test/AnyClass(instance=org/vishia/java2C/test/AnyClass) $.. data;
+  //outer=1 ,super=2: org/vishia/java2C/test/Ifc @.. ref;
+  //outer=1 ,super=2: int %.. val;
+  //outer=1 ,super=3: int %.. x1;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/ExtendsImpl *.. ExtendsImpl_Test_s();
+    testOverridden+_f-_$, defined: org/vishia/java2C/test/ImplIfc.testOverridden, mode= overrideable: int %.r null(float %.. value);
+  }
+
+  castTo {
+    org/vishia/java2C/test/Ifc2: $ "(?).base.super.base.Ifc2_Test" $;
+    org/vishia/java2C/test/Ifc: $ "(?).base.super.base.IfcToTest" $;
+    org/vishia/java2C/test/ImplIfc: $ "(?).base.super" $;
+    java/lang/Object: $ "(?).base.super.base.Ifc2_Test.base.object" $;
+    org/vishia/java2C/test/SimpleClass: $ "(?).base.super.base.super" $;
+  }
+
+}

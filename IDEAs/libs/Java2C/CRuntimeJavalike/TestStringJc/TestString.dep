@@ -1,0 +1,305 @@
+# Microsoft Developer Studio Generated Dependency File, included by TestString.mak
+
+..\Jc\DateJc.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\DateJc.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\Jc\StringJc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\Jc\ObjectJc.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\jc\reflectionjc.h"\
+	"..\jc\reflmemaccessjc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\Jc\StringBufferJc.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\jc\reflectionjc.h"\
+	"..\jc\reflmemaccessjc.h"\
+	"..\Jc\StringJc.h"\
+	"..\Jc\StringJc_intern.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\Jc\StringJc.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\Jc\StringJc.h"\
+	"..\Jc\StringJc_intern.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+.\TestString.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\DateJc.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\Jc\StringJc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	".\teststring.h"\
+	
+
+..\Fwc\fw_Exception.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_error.h"\
+	
+
+..\Fwc\fw_Formatter.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\Fwc\fw_MemC.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_mem.h"\
+	
+
+..\Fwc\fw_Object.c : \
+	"..\fwc\fw_basic.h"\
+	"..\Fwc\fw_Exception.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\Fwc\fw_SimpleC.c : \
+	"..\Fwc\fw_SimpleC.h"\
+	"..\os_windows\os_types_def.h"\
+	
+
+..\Fwc\fw_threadContext.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_thread.h"\
+	
+
+..\os_Windows\os_mem.c : \
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_mem.h"\
+	"d:\progs\msc6\act\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\os_Windows\os_mutex.c : \
+	"..\os_windows\os_internalwin.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_error.h"\
+	"..\osal\inc\os_mem.h"\
+	"..\osal\inc\os_sync.h"\
+	"..\osal\src\os_internal_common.h"\
+	"d:\progs\msc6\act\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\os_Windows\os_thread.c : \
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_error.h"\
+	"..\osal\inc\os_mem.h"\
+	"..\osal\inc\os_sync.h"\
+	"..\osal\inc\os_thread.h"\
+	"d:\progs\msc6\act\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\os_Windows\os_time.c : \
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	"d:\progs\msc6\act\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+..\gen\AllReflectionsJc.c : \
+	"..\blockheap\blockheapjc.h"\
+	"..\blockheap\blockheapjc_admin.h"\
+	"..\blockheap\blockheapjc_internal.h"\
+	"..\fwc\fw_basic.h"\
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\gen\allreflectionsjc.h"\
+	"..\jc\abstractlistjc.h"\
+	"..\jc\arraysjc.h"\
+	"..\jc\comparatorjc.h"\
+	"..\jc\concurrentlinkedqueuejc.h"\
+	"..\jc\concurrentringbufferjc.h"\
+	"..\Jc\DateJc.h"\
+	"..\jc\fileiojc.h"\
+	"..\jc\formatterjc.h"\
+	"..\jc\linkedlistjc.h"\
+	"..\jc\listiteratorjc.h"\
+	"..\jc\listjc.h"\
+	"..\jc\listmapentryjc.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\jc\oswrapperjc.h"\
+	"..\jc\reflectionjc.h"\
+	"..\jc\reflmemaccessjc.h"\
+	"..\jc\stringbufferjc.h"\
+	"..\Jc\StringJc.h"\
+	"..\jc\systemjc.h"\
+	"..\jc\threadjc.h"\
+	"..\msgdisp\logmessageconsole.h"\
+	"..\msgdisp\vaargbuffer.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_adapter.h"\
+	"..\osal\inc\os_atomicaccess.h"\
+	"..\osal\inc\os_endian.h"\
+	"..\osal\inc\os_error.h"\
+	"..\osal\inc\os_file.h"\
+	"..\osal\inc\os_mem.h"\
+	"..\osal\inc\os_serror.h"\
+	"..\osal\inc\os_socket.h"\
+	"..\osal\inc\os_sync.h"\
+	"..\osal\inc\os_thread.h"\
+	"..\osal\inc\os_time.h"\
+	"..\osal\inc\os_waitnotify.h"\
+	
+
+..\Jc\ReflectionBaseTypesJc.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\jc\reflectionjc.h"\
+	"..\jc\reflmemaccessjc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\FwConv\allocOnlyAtStartup.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_time.h"\
+	
+
+..\FwConv\fw_PlatformConvSimpleStop.c : \
+	"..\Fwc\fw_Exception.h"\
+	"..\fwc\fw_formatter.h"\
+	"..\fwc\fw_logmessage.h"\
+	"..\Fwc\fw_MemC.h"\
+	"..\Fwc\fw_SimpleC.h"\
+	"..\Fwc\fw_String.h"\
+	"..\fwc\fw_threadcontext.h"\
+	"..\fwc\fw_timeconversions.h"\
+	"..\fwc\fw_va_list.h"\
+	"..\Fwc\objectBaseC.h"\
+	"..\fwconvnobheapc\fw_platform_conventions.h"\
+	"..\Jc\ObjectJc.h"\
+	"..\os_windows\os_types_def.h"\
+	"..\osal\inc\os_thread.h"\
+	"..\osal\inc\os_time.h"\
+	

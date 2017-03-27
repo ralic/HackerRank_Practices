@@ -234,7 +234,7 @@ Allows users to authenticate with HTTP Basic authentication
 </div>
 <div class="section"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="jc-logout" href="#jc-logout"></a>5.5&nbsp;Handling Logouts</h2></div></div></div>
 
-<p>When using the <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html" target="_top">WebSecurityConfigurerAdapter</a></code>, logout capabilities are automatically applied. The default is that accessing the URL <code class="literal">/logout</code> will log the user out by:</p>
+<p>When using the <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.html" target="_top">WebSecurityConfigurerAdapter</a></code>, logout capabilities are automatically applied. The default is that accessing the URL <code class="literal">/logout</code> will log the user out by:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 Invalidating the HTTP Session
 </li><li class="listitem">
@@ -260,13 +260,13 @@ Redirect to <code class="literal">/login?logout</code>
 <div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-1"><span><img src="images/callouts/1.png" alt="1" border="0"></span></a> </p></td><td valign="top" align="left">
 <p>Provides logout support. This is automatically applied when using <code class="literal">WebSecurityConfigurerAdapter</code>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-2"><span><img src="images/callouts/2.png" alt="2" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>The URL that triggers log out to occur (default is <code class="literal">/logout</code>). If CSRF protection is enabled (default), then the request must also be a POST. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
+<p>The URL that triggers log out to occur (default is <code class="literal">/logout</code>). If CSRF protection is enabled (default), then the request must also be a POST. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-3"><span><img src="images/callouts/3.png" alt="3" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>The URL to redirect to after logout has occurred. The default is <code class="literal">/login?logout</code>. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
+<p>The URL to redirect to after logout has occurred. The default is <code class="literal">/login?logout</code>. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessUrl-java.lang.String-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-4"><span><img src="images/callouts/4.png" alt="4" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>Let&#8217;s you specify a custom <code class="literal">LogoutSuccessHandler</code>. If this is specified, <code class="literal">logoutSuccessUrl()</code> is ignored. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessHandler-org.springframework.security.web.authentication.logout.LogoutSuccessHandler-" target="_top">JavaDoc</a>.</p>
+<p>Let&#8217;s you specify a custom <code class="literal">LogoutSuccessHandler</code>. If this is specified, <code class="literal">logoutSuccessUrl()</code> is ignored. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#logoutSuccessHandler-org.springframework.security.web.authentication.logout.LogoutSuccessHandler-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-5"><span><img src="images/callouts/5.png" alt="5" border="0"></span></a> </p></td><td valign="top" align="left">
-<p>Specify whether to invalidate the <code class="literal">HttpSession</code> at the time of logout. This is <span class="strong"><strong>true</strong></span> by default. Configures the <code class="literal">SecurityContextLogoutHandler</code> under the covers. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#invalidateHttpSession-boolean-" target="_top">JavaDoc</a>.</p>
+<p>Specify whether to invalidate the <code class="literal">HttpSession</code> at the time of logout. This is <span class="strong"><strong>true</strong></span> by default. Configures the <code class="literal">SecurityContextLogoutHandler</code> under the covers. For more information, please consult the <a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/config/annotation/web/configurers/LogoutConfigurer.html#invalidateHttpSession-boolean-" target="_top">JavaDoc</a>.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-6"><span><img src="images/callouts/6.png" alt="6" border="0"></span></a> </p></td><td valign="top" align="left">
 <p>Adds a <code class="literal">LogoutHandler</code>. <code class="literal">SecurityContextLogoutHandler</code> is added as the last <code class="literal">LogoutHandler</code> by default.</p>
 </td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO4-7"><span><img src="images/callouts/7.png" alt="7" border="0"></span></a> </p></td><td valign="top" align="left">
@@ -276,27 +276,27 @@ Redirect to <code class="literal">/login?logout</code>
 <p>Logouts can of course also be configured using the XML Namespace notation. Please see the documentation for the <a class="link" href="appendix-namespace.html#nsa-logout" title="41.1.26&nbsp;<logout&gt;">logout element</a> in the Spring Security XML Namespace section for further details.</p>
 </td></tr></table></div>
 <p>Generally, in order to customize logout functionality, you can add
-<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
+<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
 and/or
-<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutSuccessHandler.html" target="_top">LogoutSuccessHandler</a></code>
+<code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutSuccessHandler.html" target="_top">LogoutSuccessHandler</a></code>
 implementations. For many common scenarios, these handlers are applied under the
 covers when using the fluent API.</p>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="jc-logout-handler" href="#jc-logout-handler"></a>5.5.1&nbsp;LogoutHandler</h3></div></div></div>
 
-<p>Generally, <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
+<p>Generally, <code class="literal"><a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/LogoutHandler.html" target="_top">LogoutHandler</a></code>
 implementations indicate classes that are able to participate in logout handling.
 They are expected to be invoked to perform necessary clean-up. As such they should
 not throw exceptions. Various implementations are provided:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.html" target="_top">PersistentTokenBasedRememberMeServices</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/PersistentTokenBasedRememberMeServices.html" target="_top">PersistentTokenBasedRememberMeServices</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.html" target="_top">TokenBasedRememberMeServices</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/rememberme/TokenBasedRememberMeServices.html" target="_top">TokenBasedRememberMeServices</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/CookieClearingLogoutHandler.html" target="_top">CookieClearingLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/CookieClearingLogoutHandler.html" target="_top">CookieClearingLogoutHandler</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/csrf/CsrfLogoutHandler.html" target="_top">CsrfLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/csrf/CsrfLogoutHandler.html" target="_top">CsrfLogoutHandler</a>
 </li><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.html" target="_top">SecurityContextLogoutHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.html" target="_top">SecurityContextLogoutHandler</a>
 </li></ul></div>
 <p>Please see <a class="xref" href="remember-me.html#remember-me-impls" title="17.4&nbsp;Remember-Me Interfaces and Implementations">Section&nbsp;17.4, &#8220;Remember-Me Interfaces and Implementations&#8221;</a> for details.</p>
 <p>Instead of providing <code class="literal">LogoutHandler</code> implementations directly, the fluent API
@@ -312,7 +312,7 @@ to handle e.g. redirection or forwarding to the appropriate destination. Note th
 interface is almost the same as the <code class="literal">LogoutHandler</code> but may raise an exception.</p>
 <p>The following implementations are provided:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
-<a class="ulink" href="http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.html" target="_top">SimpleUrlLogoutSuccessHandler</a>
+<a class="ulink" href="http://docs.spring.io/spring-security/WordPress.site/docs/current/apidocs/org/springframework/security/web/authentication/logout/SimpleUrlLogoutSuccessHandler.html" target="_top">SimpleUrlLogoutSuccessHandler</a>
 </li><li class="listitem">
 HttpStatusReturningLogoutSuccessHandler
 </li></ul></div>

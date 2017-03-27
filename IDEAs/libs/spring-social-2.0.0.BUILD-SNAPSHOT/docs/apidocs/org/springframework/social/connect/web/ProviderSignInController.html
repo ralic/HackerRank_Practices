@@ -419,8 +419,8 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;providerId,
                                                                                                <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process a sign-in form submission by commencing the process of establishing a connection to the provider on behalf of the user.
- For OAuth1, fetches a new request token from the provider, temporarily stores it in the session, then redirects the user to the provider's site for authentication authorization.
- For OAuth2, redirects the user to the provider's site for authentication authorization.</div>
+ For OAuth1, fetches a new request token from the provider, temporarily stores it in the session, then redirects the user to the provider's WordPress.site for authentication authorization.
+ For OAuth2, redirects the user to the provider's WordPress.site for authentication authorization.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>providerId</code> - the provider ID to authorize against</dd>
@@ -443,7 +443,7 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                                                             <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;providerId,
                                                                                                                                             <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process the authentication callback from an OAuth 1 service provider.
- Called after the member authorizes the authentication, generally done once by having he or she click "Allow" in their web browser at the provider's site.
+ Called after the member authorizes the authentication, generally done once by having he or she click "Allow" in their web browser at the provider's WordPress.site.
  Handles the provider sign-in callback by first determining if a local user account is associated with the connected provider account.
  If so, signs the local user in by delegating to <a href="../../../../../org/springframework/social/connect/web/SignInAdapter.html#signIn-java.lang.String-org.springframework.social.connect.Connection-org.springframework.web.context.request.NativeWebRequest-"><code>SignInAdapter.signIn(String, Connection, NativeWebRequest)</code></a>
  If not, redirects the user to a signup page to create a new account with <a href="../../../../../org/springframework/social/connect/web/ProviderSignInAttempt.html" title="class in org.springframework.social.connect.web"><code>ProviderSignInAttempt</code></a> context exposed in the HttpSession.</div>
@@ -474,7 +474,7 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                                                      <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;code,
                                                                                                                                      <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process the authentication callback from an OAuth 2 service provider.
- Called after the user authorizes the authentication, generally done once by having he or she click "Allow" in their web browser at the provider's site.
+ Called after the user authorizes the authentication, generally done once by having he or she click "Allow" in their web browser at the provider's WordPress.site.
  Handles the provider sign-in callback by first determining if a local user account is associated with the connected provider account.
  If so, signs the local user in by delegating to <a href="../../../../../org/springframework/social/connect/web/SignInAdapter.html#signIn-java.lang.String-org.springframework.social.connect.Connection-org.springframework.web.context.request.NativeWebRequest-"><code>SignInAdapter.signIn(String, Connection, NativeWebRequest)</code></a>.
  If not, redirects the user to a signup page to create a new account with <a href="../../../../../org/springframework/social/connect/web/ProviderSignInAttempt.html" title="class in org.springframework.social.connect.web"><code>ProviderSignInAttempt</code></a> context exposed in the HttpSession.</div>

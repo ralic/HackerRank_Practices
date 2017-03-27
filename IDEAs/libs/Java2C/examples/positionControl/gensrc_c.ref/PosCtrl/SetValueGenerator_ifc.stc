@@ -1,0 +1,23 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/SetValueGenerator_ifc"
+package org/vishia/exampleJava2C/java4c/;
+
+interface SetValueGenerator_ifc; nameC=SetValueGenerator_ifc_s; argIdent=XX; extends java/lang/Object //creationMode=F
+{  
+fieldIdents {
+}
+  methods {  
+    setTarget-_$, mode= overrideable: boolean %.r null(short %.. targetValue);
+    step-_$, mode= overrideable: short %.r null();
+  }
+
+  methods-overrideable {
+    setTarget_SetValueGenerator_ifc;
+    step_SetValueGenerator_ifc;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

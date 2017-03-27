@@ -5,6 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs_main.iml" group="IDEAs" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/IDEAs_test.iml" group="IDEAs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android_main.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android_main.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/android_test.iml" filepath="$PROJECT_DIR$/.idea/modules/android/android_test.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/ios.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/ios.iml" group="ios" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/ios_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/ios_main.iml" group="ios" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ios/ios_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ios/ios_test.iml" group="ios" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,63 @@
+==Java2C==
+@ident=Java2C
+.
+
+
+===Changes from 0.87 to 0.90===
+@ident=changes087_090
+.
+Date: 2009-09-28
+
+====Java2C - core====
+@ident=Java2C
+The version 0.9 regards the whole package tree of Java sources in more as one source locations at the file system. 
+The mapping to a C file and name-space structure is completed. The particulary translation of some Java files
+and the reading of structure (stc-files) from already-translated or manually C-files are supported now.
+
+The String processing is revises: 
+* In context with the new concatenation strategy the concatenation of Strings and StringBuffer.append is written in a tidier form, better able to read and in one line per concatenated method call. 
+* Therefore the short-names of some StringBuffer-methods are unnecessarry now, the names ,,append...,, are used now to append.
+* The optimization of buffering is revises: There is a mode ,,@java2c=optimize-toString,,, than a expensive copy of buffer content is not done. But it is not exact Java-compatible. Without this annotation the behaviouor is like Java. This modell is applied to String processing, it isn't apply to all ,,toString..(...),,-methods yet. 
+ 
+Some bugs are corrected by continuous testing the two examples ,,positionCtrl,, and ,,testAllConcepts,,
+and by a using the Message Dispatcher in a productive project. That productive project had been forced
+the concept of particulary translation because the ,,org.vishia.util.StringPart,, is put in another C-library
+as ,,org.vishia.util.MsgDispatcher,, there. The documentation is improved.
+
+This version of the Java2C translator may be the prototype of the finishing version 1.0, able to improve
+only with documentation and yet unknown bugs, not changed in structure.
+
+See [[Topic:.Java2C.changes087_090.bugs.|$chapter]].
+
+
+====Documentation====
+@ident=docu
+
+*The package ,,org.vishia.java2C.test,, is commented now. 
+*The ,,org.vishia.java2C.Docu,, is improved.
+
+====CRuntimeJavalike====
+@ident=Jc
+
+Changes in String processing.
+
+====Examples====
+@ident=examples
+
+*The package ,,org.vishia.java2C.test,, 
+
+
+====Detect bugs and requirements====
+@ident=bugs
+* calling of methods from super-superclasses or from interfaces of superclasses were wrong. In access to method table the nested method table is absent:
+at ex. ,,mtthis->Ifc_Test.processIfcMethod(...),, is produced, correct is ,,mtthis->ImplIfc_Test.Ifc_Test.processIfcMethod(...),, It should be able to fix with small effort!
+* ,,apppend_L_StringBuffer(..., ObjectJc*),, is not implemented yet, the call of ,,toString(...),, from any Object is not tested.
+
+====View to the near future====
+@ident=future
+* Working with multiple threads should be implemented. All requisites are given now.
+* LinkedList etc. should be implemented in the near future.
+* for-loop-variant using iterator
+* The garbage collector should be tested explicitely, still to do. I assume, it works.
+
+

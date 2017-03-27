@@ -624,8 +624,8 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                 <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;providerId,
                                                                                                 <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process a connect form submission by commencing the process of establishing a connection to the provider on behalf of the member.
- For OAuth1, fetches a new request token from the provider, temporarily stores it in the session, then redirects the member to the provider's site for authorization.
- For OAuth2, redirects the user to the provider's site for authorization.</div>
+ For OAuth1, fetches a new request token from the provider, temporarily stores it in the session, then redirects the member to the provider's WordPress.site for authorization.
+ For OAuth2, redirects the user to the provider's WordPress.site for authorization.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>providerId</code> - the provider ID to connect to</dd>
@@ -648,7 +648,7 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                                                             <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;providerId,
                                                                                                                                             <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process the authorization callback from an OAuth 1 service provider.
- Called after the user authorizes the connection, generally done by having he or she click "Allow" in their web browser at the provider's site.
+ Called after the user authorizes the connection, generally done by having he or she click "Allow" in their web browser at the provider's WordPress.site.
  On authorization verification, connects the user's local account to the account they hold at the service provider
  Removes the request token from the session since it is no longer valid after the connection is established.</div>
 <dl>
@@ -673,7 +673,7 @@ public&nbsp;<a href="http://static.springframework.org/spring/docs/3.2.x/javadoc
                                                                                                                                      <a href="http://download.oracle.com/javase/6/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;providerId,
                                                                                                                                      <a href="http://static.springframework.org/spring/docs/3.2.x/javadoc-api/org/springframework/web/context/request/NativeWebRequest.html?is-external=true" title="class or interface in org.springframework.web.context.request">NativeWebRequest</a>&nbsp;request)</pre>
 <div class="block">Process the authorization callback from an OAuth 2 service provider.
- Called after the user authorizes the connection, generally done by having he or she click "Allow" in their web browser at the provider's site.
+ Called after the user authorizes the connection, generally done by having he or she click "Allow" in their web browser at the provider's WordPress.site.
  On authorization verification, connects the user's local account to the account they hold at the service provider.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

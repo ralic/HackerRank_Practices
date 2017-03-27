@@ -1,0 +1,22 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "ExpandedDataStruct_Test"
+package org/vishia/java2C/test/;
+
+final class ExpandedDataStruct; nameC=ExpandedDataStruct_Test_s; argIdent=XX; extends org/vishia/java2C/test/SimpleDataStruct //creationMode=P
+{  
+fieldIdents {
+  //outer=1 ,super=2: double %.. db;
+  double %.. e;
+  double %.. f;
+  //outer=1 ,super=2: short %.. xb;
+  //outer=1 ,super=2: short %.. yb;
+}
+  methods {  
+    ctorM-_$, mode= ctor+static: org/vishia/java2C/test/ExpandedDataStruct *.. ExpandedDataStruct_Test_s();
+  }
+
+  castTo {
+    org/vishia/java2C/test/SimpleDataStruct: $ "(?).base.super" $;
+  }
+
+}

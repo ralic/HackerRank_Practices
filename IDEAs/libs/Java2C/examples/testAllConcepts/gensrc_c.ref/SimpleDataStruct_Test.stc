@@ -1,0 +1,16 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "SimpleDataStruct_Test"
+package org/vishia/java2C/test/;
+
+class SimpleDataStruct; nameC=SimpleDataStruct_Test_s; argIdent=XX; //creationMode=P
+{  
+fieldIdents {
+  double %.. db;
+  short %.. xb;
+  short %.. yb;
+}
+  methods {  
+    ctorM-_$, mode= ctor+static: org/vishia/java2C/test/SimpleDataStruct *.. SimpleDataStruct_Test_s();
+  }
+
+}

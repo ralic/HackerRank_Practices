@@ -1,0 +1,70 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "TestString_Test"
+package org/vishia/java2C/test/;
+
+class TestString; nameC=TestString_Test_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+fieldIdents {
+  java/lang/StringBuilder @.. buffer1;
+  java/lang/StringBuilder(instance=java/lang/StringBuilder, fixBufferSize=1000) $B. bufferEmbedded;
+  java/lang/StringBuffer *.. bufferInit;
+  char[??] X%. charArray;
+  java/lang/String(instance=java/lang/String) t.s empty;
+  java/io/FileOutputStream(instance=java/io/FileOutputStream) $.. oStream1;
+  java/io/FileOutputStream(instance=java/io/FileOutputStream) $.. oStream2;
+  java/lang/StringBuffer(instance=java/lang/StringBuffer, fixBufferSize=250) $B. sbufferFix;
+  java/lang/String[10] Yt. strArray;
+  java/lang/String[??] Xt. strArray2;
+  java/lang/String(instance=java/lang/String) t.. stringRef;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/TestString *.. TestString_Test_s(java/lang/StringBuffer *.. bufferInit);
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    processString-_$, mode= static: int %.r null(java/lang/String(instance=java/lang/String) t.. str);
+    testCharSequence-_$, mode= overrideable: void %.r null();
+    testDateString-_$, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null(java/lang/String(instance=java/lang/String) t.. sPath,int %.. ident);
+    testDateStringDynamic-_$, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null(java/lang/String(instance=java/lang/String) t.. sPath,int %.. ident);
+    testFormat-_$, mode= overrideable+returnNew: java/lang/String(instance=java/lang/String) t.n null(int %.. value,float %.. fValue);
+    testGarbageString-_$, mode= overrideable: void %.r null();
+    testInsertCharArray-_$, mode= overrideable: void %.r null();
+    testNonPersistenceOfStrings-_$, mode= overrideable: void %.r null();
+    testOutStream-_$, mode= overrideable: void %.r null(java/lang/String(instance=java/lang/String) t.. sPath);
+    testPersistenceOfStrings-_$, mode= overrideable: void %.r null();
+    testReplace-_$, mode= overrideable: void %.r null();
+    testSomeSimpleStringMethods-_$, mode= overrideable: int %.r null();
+    testStringBuffer-_$, mode= overrideable: void %.r null();
+    testStringConcatenationInStack-_$, mode= overrideable: void %.r null(int %.. value,float %.. fValue);
+    testStringConcatenationUsingBuilder-_$, mode= overrideable: void %.r null(int %.. value);
+    testStringConcatenationWithTemps-_$, mode= overrideable: void %.r null(int %.. value,float %.. fValue);
+    testStringParameter-_$, mode= overrideable: void %.r null();
+    testStringParameter+_SS-_$, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null(java/lang/String(instance=java/lang/String) t.. s1,java/lang/String(instance=java/lang/String) t.. s2);
+    testStringProcessing-_$, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null();
+    toString-_$, defined: java/lang/Object.toString, mode= overrideable: java/lang/String(instance=java/lang/String) t.r null();
+  }
+
+  methods-overrideable {
+    testStringConcatenationInStack_TestString_Test;
+    testStringConcatenationWithTemps_TestString_Test;
+    testStringConcatenationUsingBuilder_TestString_Test;
+    testStringParameter_SS_TestString_Test;
+    testStringParameter_TestString_Test;
+    testFormat_TestString_Test;
+    testReplace_TestString_Test;
+    testInsertCharArray_TestString_Test;
+    testGarbageString_TestString_Test;
+    testStringBuffer_TestString_Test;
+    testNonPersistenceOfStrings_TestString_Test;
+    testPersistenceOfStrings_TestString_Test;
+    testDateString_TestString_Test;
+    testDateStringDynamic_TestString_Test;
+    testOutStream_TestString_Test;
+    testSomeSimpleStringMethods_TestString_Test;
+    testCharSequence_TestString_Test;
+    testStringProcessing_TestString_Test;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

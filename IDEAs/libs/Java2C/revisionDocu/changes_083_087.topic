@@ -1,0 +1,89 @@
+==Java2C==
+@ident=Java2C
+.
+
+
+===Changes from 0.83 to 0.87===
+@ident=changes083_087
+The version 0.87 is submitted as a pre-version. Some documentation and tests should be done, the next version is planned for september-2009 and should named 0.90.
+
+Date: 2009-08-26
+
+====Java2C - core====
+The following features are implemented yet and first-time tested with the positionCtrl-Example and with a new ,,testAllConcepts,,-Example:
+
+The determinant new features surround base classe, interfaces and dynamic call:
+
+* The translation of super classes and interface-usage is ready yet. Multiple interfaces with the same method definitions or multiple overridden methods are able to use too. It is adequate the Java concepts. The virtual methods (override-able) are implemented using ''method tables''. They are ''function pointers in C''. The access to members of super classes is implemented certainly, using a built reference ,,&ythis->base.super,,.
+
+* The dynamic call of methods is more safety in comparison with C++. The reference of the method table is a part of data, but the access is checked using significance data. So it may be able to use in safety-critical applications. The call of dynamic methods needs some more calculation time as in C++.
+
+* The usage of interfaces in Java-designed software is possible and recommendable, but if an access uses a known instance anyway, a direct static C-call is generated instead the dynamic call, which were needfully using an interface access to a unknown instance. A known instance is detect either using embedded data, or an extra signification ,,java2c=instanceType:"Name",, is able to applicate to references. This concept conflates the two different principles: Object-Orientation and Independently using the Interface-concept in software design and the simple and direct call of C-routines in implementation.
+
+* A pointer to a method table is saved in variables only in stack local ones, never in class elements. That is because a bug in other threads should never disturb the address to prevent fault calls. A pointer to the method table speed ups the dynamicly call of methods. An application can use this feature by defining a stack-local interface reference. That is translated to an enhanced method-table-reference, a new concept. This reference contains two elements: reference to the data, and reference to the associated method table. The second one is got one time in a subroutine and storing than. An adequate feature is the automatic generation of the method table reference for dynamic calls using ,,this,, as reference. 
+
+Some more features:
+
+* The concatenation of method calls in expressions like ,,ref.method().othermethod(),,, typically used for ,,StringBuffer.append(...),, uses now assignments to temporary references. The expression is written in C in form ,,(tempref1 = method(ref), othermethod(tempref1)),, as comma-separated expression. It may be better able to read and test as the older form ,,othermethod(method(ref)),,, because it is straightly forward and not nested. But the more important reason is: If dynamical call is need, the reference is used twice. But there should be only one call of any method.
+
+* The typically concatenation of methods, which returns ,,this,,, should not need difference temporary references and should procure the reference to the method table only one time. Therefore methods which returns ,,this,, are able to designate with ,,java2c=return-this.,, The translator banks on this designation and uses the same reference for any concatenated method. Hence the C-code is optimized. The ,,return this,,-concatenation is a typical phenomenon.
+
+
+Some more features, implemented in a not published version 0.4 in april already:
+
+* The @java2c=tag is now useable also for parameter of methods. The syntax of parameter description detection is improved. 
+* A @java2c=zeroTermString is supported. It produces char* instead StringJc. It may more opportune as paramter type of methods (simple use of "Stringliteral").
+
+* The assignment to an enhanced reference is generated using Macro ,,SETREFJc(REF, OBJP),, resp. ,,CLEARREFJc(REF),, instead generating the routine call ,,setBackRefJc(...),, etc. The access to enhanced references is done using Macro ,,REFJc(REF),,
+*+ Advantage: 
+** a) It is better readable at C-Level (for code-review), 
+** b) The same sources may also compiled in environments without using enhanced references, without Garbage Collections, to use Java2C-translated sources in foreign not so far Java-like oriented environments. 
+
+* The extra file with definition of enhanced references (input.cfg keyword fileAllReferences) is now unneeded, hence it isn't a commonly file needed. The enhanced references are defined now in the header files. The reason of using an extra commonly file was: On compiling an objectfile this definitions should be given only one time, but they may be needed some times. The problem is detached now, by testing a define (#ifdef typeREFDEF) to prevent double definition of the typedef of the enhanced references. Now any headerfile, which uses an enhanced reference from any type, defines it self. The advantage is: In distributed files a commonly file is a problem. Now it is decentral.
+
+
+* Using of prefix in input.cfg-file: Now it's possible to write the generated files in sub-folders (see example). A ,,#include "folder/file.h",, is generated also.
+
+* Generating Reflection informations: The Reflections in C are necessary to access data in a running application in non-debugging-mode. There is a ''Inspector'' using this principle. But this Inspector isn't a part of open source. The sources using that are licensed with the second licence-model. But the principle of access to data via reflections is useable in open source, see ,,CRuntimeJavalike/reflectionJc.c,,.
+
+* The detection of type-conversion and access-conversion necessity is improved. A pointercast ,,(Type*)reference,, is prevented, it may be a problem on reviewing software for safety. Instead the exact access is translated, at example ,,&ythis->base.Interfacetype,,. Some more requires are necessary because of different access to data.
+
+* Bugfix: default-statements in switch-case were wrong.
+
+====Documentation====
+
+The Java-sources of Java2C were converted to XMI and inputted in an UML-tool. With that tool some Object modell diagramms are drawed and positioned in the comment in Java-sources as ,,<img ... />,,. So they are present in the Javadoc-output. Note: The javadoc of Java2C can be visit in [[!http://www.vishia.org/Java/docuSrcJavaSrc/org/vishia/java2C/package-summary.html]] or you can create the javadoc from the download of java2c, calling ,,Java2C/make/genjavadoc_Java2C.bat. The Javadoc will be placed parallel to the ,,Java2C,,-folder, the pictures are stored in ,,Java2C/img,,.
+
+
+
+====CRuntimeJavalike====
+
+* Formatting with variable arguments: before any variable argument list in C  and before a va_list-argument a ,,char*,, typeArgs is added. It is the type of the arguments, which are not safe otherwise in C. The implememtation of a special signification in the variable argument list in Version 0.83 isn't save, because this special pointer ,,&typedVaArg_VaArgBuffer,, can be also a contingently integer value. 
+
+* Improvement of Reflection using.
+
+====Examples====
+
+A new folder ,,testAllConcepts,, is created. The Java-Sources are placed in the ,,Java2C/srcJava,,-folder in the package ,,org.vishia.java2C.test,,.
+With this files
+* all features are tested,
+* the usage of all features are documented as example.
+
+The classic example ,,positionControl,, is used furthermore as a practice example:
+ 
+* Some files are disposed in folders. It is to test this feature of Java2C.
+* Improvement of the MsgDispatcher.java.
+
+====Detect bugs and requirements====
+
+* The usage of stc-Files from imported packages doesn't work. At example if the StringPart-class is part of the Java2C-translation process, it is okay. But if it is an imported class, and the stc-File is given at any other position, it can't locate it. The requirement is: check the import statements, complete the class name with package information, and check a package - C-folder association to locate the stc file.
+
+====View to the near future====
+
+* improve the package/C-folder association to imported java files.
+* Working with multiple threads should be implemented. All requisites are given now.
+* LinkedList etc. should be implemented in the near future.
+* for-loop-variant using iterator
+* The garbage collector should be tested explicitely, still to do. I assume, it works.
+
+

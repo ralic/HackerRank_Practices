@@ -1,0 +1,4 @@
+##This syntax describes the message-config-file.
+MsgConfig::= { <item> } \e.
+
+item::= <#?identNr>  <!.?type> <*|\t|\ \ ?dst> <*|\r|\n|\t|\ \ ?text>.

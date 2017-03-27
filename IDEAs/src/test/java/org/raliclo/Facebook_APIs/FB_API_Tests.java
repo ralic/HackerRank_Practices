@@ -1,8 +1,8 @@
 package org.raliclo.Facebook_APIs;
 
-
 import facebook4j.*;
 import facebook4j.auth.AccessToken;
+import facebook4j.conf.ConfigurationBuilder;
 import facebook4j.internal.http.RequestMethod;
 import facebook4j.internal.org.json.JSONArray;
 import facebook4j.internal.org.json.JSONObject;
@@ -15,6 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 /**
  * Created by raliclo on 23/03/2017.
  */
@@ -25,24 +26,36 @@ public class FB_API_Tests {
 
         // Timer for Speed Test
         long speedX = System.currentTimeMillis();
-
+        String clientURL = "https://www.facebook.com/dialog/oauth";
+        String redirect_uri = "https://www.facebook.com/connect/login_success.html";
+        String appId = "1893798130904502";
+        String appSecret = "4a4027a8af68be1230dab58390113f41";
+        String appToken = "970662847e117eb20a57d46dc3e0c29a";
+        //https://developers.facebook.com/docs/facebook-login/permissions
+        String access_scope = "public_profile,user_friends,email";
+        String display = "popup";
+        String response_type = "token";
 //        Getting Facebook Instance
 //        At first it is necessary to acquire Facebook instance to use Facebook4J.
 //        You can get Facebook instance in FacebookFactory.getInstance().
-//
+        ConfigurationBuilder cb = new ConfigurationBuilder();
+        cb.setDebugEnabled(true)
+                .setOAuthAppId(appId)
+                .setOAuthAppSecret(appSecret)
+                .setOAuthAccessToken(appToken);
+//                .setClientURL(clientURL)
+//                .setOAuthCallbackURL(redirect_uri);
+
         Facebook facebook = new FacebookFactory().getInstance();
 //        If App ID / App Secret / access token / access permission are listed in facebook4j.properties then, they are set
 //        in Facebook instance given back.
 //                See Configuration | Facebook4J - A Java library for the Facebook Graph API for the detail.
 //        When they are not listed, it is setable later as follows:
-        String appId = "1893798130904502";
-        String appSecret = "4a4027a8af68be1230dab58390113f41";
-        //https://developers.facebook.com/docs/facebook-login/permissions
-        String commaSeparetedPermissions = "email";
+
         //https://developers.facebook.com/docs/marketing-api/access
         String accessToken = "Development";
         facebook.setOAuthAppId(appId, appSecret);
-        facebook.setOAuthPermissions(commaSeparetedPermissions);
+        facebook.setOAuthPermissions(access_scope);
         facebook.setOAuthAccessToken(new AccessToken(accessToken, null));
 //        OAuth support
 //        Getting User Access Token

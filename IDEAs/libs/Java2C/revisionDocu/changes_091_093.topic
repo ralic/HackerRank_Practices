@@ -1,0 +1,109 @@
+==Java2C==
+@ident=Java2C
+.
+
+
+===Changes from 0.91 to 0.93===
+@ident=changes091_093
+.
+Date: 2010-12-31
+
+====Java2C - core====
+@ident=Java2C
+
+There was done a lot of work in detail in the last year.
+
+
+*bugfix: 2009-10-25 Hartmut: A description of statements were written three times, now fixed. Only short description is got from Java code and transported to the C-code. 
+*bugfix: 2010-01-24 Hartmut: On super.call() the reference was written with ,,ythis,,, now ,,(&ythis->base.super),,. Source: SecondPass.java.gen_reference(...)
+
+*chg: 2010-05-14 If a file is to translate because the Java-src is newer, but the file exists, it will be renamed to "...bak". The other choice may be: It have to be deleted! In other way an error while translating left the file unchanged, the error isn't detected and changes are not applied.
+
+*chg: 2010-04-04 The String processing is changed again: Now the calling of ,,toString(),, or any other routine which returns a String is optimal respectively fast realtime and works without dynamically memory: The String is not copied in a independend buffer, but it is referenced where it is (other than in Java!). The String is copied later when necessary. The behaviour is able to determine with some new annotations in comment, so working without dynamic memory and with restricted usage possibilities but hard realtime is able to establish, in responsibility to the user. The String processing is documented out of the view of the CRumtimeJavalike-library (basics of C-Programming) in german language, see [[Jc/String_Jc]]. In that work the behaviour of the Java2C-translator is checked and improved too.
+
+*new/bugfix: 2010-04-11 Hartmut: If an inner type of a class is need calling ,,LocalIdents.getType(),,, and the environment class was not translated yet, the ,,getLocalIdents(),, of the environment type was returned ,,null,,. Now the method ,,JavaSrcTreeFile.getLocalIdents(),, tests whether the file is translated. It translate it if necessary and returns the correct data. 
+
+*new: 2010-04-25 A new idea: If an instance is designated with ,,@java2c=embeddedType:Name,, than an instance is implemented as embedded instance, also if it is not intitialized, and also, the reference type is a base type. The translator reserves the memory for the given instance type, and handle the reference adequate to the annotaion ,,@java2c=instanceType,,. It means, in Java a base class or interface may be used, but in C the given type is used without dynamically call of methods. The constructor may be called later, at that moment, where in Java ,,new Type(...),, is called. Than a ,,init_ObjectJc(...),, and before that a ,,finalize_ObjectJc(),, is called. A ,,new Type(...),, can be called more as one time, the instance were initialized newly. Thats why the ,,finalize,, is called before. If the instance is referenced, the reference refers the new instance after them. This behaviour is other than in Java. The Java2C-translator may control, whether a reference is used, and it may warn on that (later, TODO). In a embedded software it should be easily comprehansible. This feature were necessary because the instance of a ,,java.IO.FileOutputStream,, is only possible with given Filename with opened file. Without this feature either a dynamic memory management were obligated or a special wrapper with an open-method were necessary. With this feature the originally Java src-style for such constructs is able to use.
+
+* new: 2010-02-09: If a method returns a non-primitive type, it is a reference. That reference is excluded from the ,,activategGarbageCollection(...),,-call before return. It means, the block is not activated for garbage collection. That is important, because the block is footloose just now, not staticly referenced. Its reference is returned in stack, and the block may be used footloose yet. But the calling routine have to call ,,activategGarbageCollection(...),, for that block. This is determined by setting the annotation ,,@java2c=return-new,, for that method. Than the caller stores the reference and activates the block for garbage collection, also if it doesn't use itself. This is the decisive step to enable the working of garbage collection in a higher priority as other threads. Elsewhere if a block war activated for garbage collection, and it was found as 'non-used', but it is used as stack-referenced, it would be freed wrongly.
+
+*new: 2010-05-15: The check of parameter in the routine ClassData.searchMethod() uses a score. The method, which uses less conversion of parameter, wins. It is important to select the appropriate method. A method whith variable arguments have the lowest score. The problem is found while testing LogMessage.
+
+*new: 2010-0612: Initial values were written as initial values in C too. Changed in GenerateClass.gen_variableDefinition(...). The problem is: Java accepts definition of variable inside the block, C only at begin. If the value is const, it is set on begin of the block. If it is non-const, the order of execution have to be regarded. Therefore a initializing at begin of block may be fault, it isn't done, instead the setting of the value at the correct position in the thread of code.
+
+*new: 2010-0612: Methods with variable argument list are stored with ,,keyname#*,, only one time instead more as one for all imaginable number of parameters. Therewith the usage of stc-file for example for ,,LogMessageFW.sendMsg(...),, is possible. In the stc-file it is written with ,,... name,, as the last parameter.
+
+*new:2010-0725: The stc-File-parsing is redesigned. See [[java2c:ReadStructure]]. The content is parsed firstly, and then evaluate. It is important for inner classes. They should be known first before evaluate the content of other elements which uses it. A second output of structure of a [[java2c:ClassData]]-Definition is written if a sub-directory ,,stcCmp,, exists at level of source directory of a read stc-file. It is to compare, for test, whether the parsed content is equal to originally written one. Only for test. If this directory doesn't exist, no second output will be written. The older version wrote a ,,.sec..file any time, but in the last versions without content.
+
+*new:2010-0807: The package replacement and the creation of [[java2c:JavaSrcTreeFile]] is changed respectively corrected. The older variant assumes, that all Java-files should be found as Java-files, though they are not scheduled to translate. For example, if a ,,org/vishia/util/StringPart,, is used, it have to be found in the Java-sourcepath of the configuration of Java2C-translation, though it is present in the translated form (,,J1c/StringPartJc.c,,). Now, if a Java-Type is used and its package-replacement is given, the associated stc-file is found, though a affiliated Java-file is not existing in the current translation focus. That is better and more practical. 
+  
+*new:2010-0807: The package path and the package replacement are corrected:
+* In [[java2c:CRuntimeJavalikeClassData]], all standard packages are created. It is for example ,,java/io,,, ,,java/util,,, but ,,org/vishia/bridgeC,, and ,,org/vishia/util,, too. 
+* The package- and javafile-replacement for all files, which are contained in the CRuntimeJavalike, were set there too.
+* But the concretely contents of the java-files respectively there representation in the CRuntimeJavalike in C are contained in stc-files. The stc-files should be parsed, if the types are used. It need a piece of calculation time. But the parsing needs less time (milliseconds). The advantage is, the content is adjustable at text-level. If a method is changed in the CRuntimeJavalike-C-library, the translator shouldn't be changed. Only the stc-file should be adapted. The stc-file is a mapping of structure in relation to the header-files.
+* The standard types and simple structures are definded in the [[java2c:CRuntimeJavalikeClassData]] still.
+
+
+*new:2010-0826: Anonymous inner classes are implemented now. It was complex to do so, but anonymous classes are interesting for a good design of Java-sources. In C automatically named classes are build. The constructor is derived from the called constructor of the base class. Hint: Anonymous classes are built in Java with the syntax 'new Type(param){ derived content of class };'
+
+*new: 2010-0826: All methods should be found now. Previously, a non-found-method are created and marked as "/*unknown method*/". It means,
+now the stc-files have to be completely. If a method isn't found, a detailed error message is given.
+
+*new: 2010-0826: ClassData contains the information 'sourceOfClassData' to evaluate, where and when the ClassData are created. It contains either the path of the stc-file or of the Java-file. Or "CRuntimeJavalike-std" is contained there, if the ClassData are created in [[java2c:CRuntimeJavalike]].
+
+*new: 2010-12-05: embedded types are handled more correctly, see [[java2c:Docu.G_Instantiation#g7_embeddedTypes()]]. Embedded types should be defined as final in Java. Because-they have its mem-space in C. There are not referenced in C.
+
+*new: 2010-12-01: The 2. pass of the translation is running after the first pass of the file, not only after all first passes.
+It has an advantage if some errors of translation occurs. If a second pass war run successfully, it is finished.  
+
+*new: 2010-12: Some error messages are improved. For example if a method is missed in an stc-file, the signature of the method is shown in the error messages. It may be a hand written stc-file, which can be completed with this informations. The source of the gotten ClassData in the translation process is stored in the ClassData therefore.
+
+*new: 2010-12: const as attribute of a class in an stc-file: The class-pointer is designated as Type const* this then. A const instance is built-able in C (read-only methods). ClassData.isConstant as attribute.
+
+*new: 2010-12: Persistence of referenced instances, especially used for Strings: The modeStatic in FieldData is used now to designate non-persistent fields using a 'r' as char. It is set if @java2c=nonPersistent is annotated.
+
+*new: 2010-12: A new class org/vishia/util/Java4C was created. It contains annotation-interfaces. There are not used yet, but in preparation. It is better to use annotation classes than annotations in the description/comment. It helps for example in Eclipse using word-completion. That annotation classes should be established in the next version.
+
+*new: 2010-12-31: abstract classes don't produce now method tables. The first class where it was detected was ByteDataAccess. An abstract method hasn't an implementation, therefore the pointer to the method doesn't exist. The method table of an abstract class is never used because it is never the type of an instance.
+
+====Documentation====
+@ident=docu
+
+Some things added.
+
+====CRuntimeJavalike====
+@ident=Jc
+*chg: 2010-01-25 Hartmut: ReflectionJc.c: An access to a remote memory (at example via FPGA to DSP) was established. Not necessary yet for Java2C.
+
+*bugfix: 2010-04-09 Hartmut: BlockHeapJc_GarbageCol.c:testBlockCluster_GarbageCollectorJc(...) and BlockHeapJc_GarbageCol.c:allocObject_IIs_BlockHeapJc(...): If the heap is overflowed (empty), the ,,ythis->lastFreeBlock,, should set to null too. If any block is freed, and ,,ythis->firstFreeBlock == null,,, than this is the first now available block. The bug was, if the heap was overflowed, after them freed blocks are not available any time. The situation was noticeable especially if the garbage collector was running because no block are available calling ,,alloc_ObjectJc(...),,.
+
+*bugfix: 2010-04-09 Hartmut: BlockHeapJc_GarbageCol.c, ,,runUserCalledGc_BlockHeapJc(...),,: A running garbage collection was aborted setting ,,bAbortTestBecauseUserCall,, to ,,true,,. But this setting had effect also to the current call, it was aborted too. Now the method ,,garbageCollection_BlockHeapJc(bool bUserCall),, knows, whether it is a user call or a normal call.
+
+*new: 2010-05-23 Hartmut: Fwc/LogMessage_FW is enhanced with 2 virtual methods: MT_sendMsg_LogMessageFW and MT_sendMsg_time_LogMessageFW.
+Though a direct virtual call using the method table can be used instead a call of sendMsg_Szv_LogMessageFW(...) which is implemented in LogMessage_FW and calls [[Jc/getMtbl_ObjectJc(...)]]. The new possibility is faster! 
+
+*chg: 2010-07-03 Hartmut: The size of blocks in the BlockHeap is defined now as a constant SIZEBLOCK_BlockHeapJc in the file fw_platform_conventions.h. A variable size of blocks in several instances of Blockheap isn't supported anymore. It was a too complex concept, which handicaps a fast calculation from an address inside a block to the start of block. Mostly, the memory is not a strong limited ressource, so fine tunings of block size to save memory is less times necessary as the save of calculation time.
+
+*bugfix: 2010-08-16 Hartmut: The Macro SETREFJc has used the argument OBJP twice, so the code is called twice, with side effect of double allocation of memory.
+
+*new: 2010-08-15 Hartmut: Some corrections on messages of garbageCollection_BlockHeapJc(). 
+
+*new: 2010-12: Improvement of String processing. The String processing is able to use especially without garbage collection, the necessity of persistence of String can be designated in Java2C via annotations or in C direct with usage of the proper methods.
+
+*new: 2010-12: New type ByteStringJc. It is adequat to StringJc, but a ByteStringJc is a byte-container in any case. A StringJc may be a container of UTF-16 chars too (if it is need). 
+
+*new: 2010-10: The OSAL-adaption is done for Linux. It is not ready yet and not tested in all features, but it is started to do.
+
+*new: 2011-01-01: The order of elements in ,,OS_ValuePtr,, is changed, now it is renamed to ,,OS_PtrValue,,. It needs an adaption in some files, maybe also in user-spaces, and for all os-specific ,,os_types_def.h,,-files. The reason for this change: There is not a difference between access to the pointer for enhanced references. It simplifies the handling in an inspector tool, which works with symbolic access to all variables of a controller software. The pointer is the first element now.
+
+*new: 2010-12: Some checks and improvements are done.
+
+====Examples====
+@ident=examples
+
+The ''PositionControl''-Example is completed with a graphical output now. You can see how the calculation works. The graphic representation is a Java-program, working with SWT-Graphic with an own concept of building the GUI-application. This concept is used only here. It is not described extensively here. 
+
+The data-communication between the ''PositionControl''-programm and the GUI based on a Socket communication using the ''InterProcessComm''-Interface, which is provided in C as in Java.
+
+The ''testAllConcepts''-examples are completed especially with String checks.
+

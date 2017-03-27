@@ -1,0 +1,28 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "Java2cTest/IfcTest"
+package org/vishia/java2C/test/;
+
+interface Ifc; nameC=IfcToTest_s; argIdent=XX; extends java/lang/Object //creationMode=F
+{  
+fieldIdents {
+  java/lang/String(instance=java/lang/String) t.s constString;
+  int %.d constValue;
+  int %.S constValue2;
+}
+  methods {  
+    anotherIfcmethod+_i-_$, mode= overrideable: int %.r null(int %.. input);
+    anotherIfcmethod+_f-_$, mode= overrideable: float %.r null(float %.. input);
+    processIfcMethod-_$, mode= overrideable: int %.r null(int %.. input);
+  }
+
+  methods-overrideable {
+    processIfcMethod_IfcToTest;
+    anotherIfcmethod_i_IfcToTest;
+    anotherIfcmethod_f_IfcToTest;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

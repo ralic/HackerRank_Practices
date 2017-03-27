@@ -200,7 +200,7 @@ Optional attribute that specifies the bean name of a <code class="literal">CorsC
 </li><li class="listitem">
 <code class="literal">Public-Key-Pinning</code> or <code class="literal">Public-Key-Pinning-Report-Only</code> - Can be set using the <a class="link" href="appendix-namespace.html#nsa-hpkp" title="41.1.8&nbsp;<hpkp&gt;">hpkp</a> element. This allows HTTPS websites to resist impersonation by attackers using mis-issued or otherwise fraudulent certificates.
 </li><li class="listitem">
-<code class="literal">Content-Security-Policy</code> or <code class="literal">Content-Security-Policy-Report-Only</code> - Can be set using the <a class="link" href="appendix-namespace.html#nsa-content-security-policy" title="41.1.11&nbsp;<content-security-policy&gt;">content-security-policy</a> element. <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-site scripting (XSS).
+<code class="literal">Content-Security-Policy</code> or <code class="literal">Content-Security-Policy-Report-Only</code> - Can be set using the <a class="link" href="appendix-namespace.html#nsa-content-security-policy" title="41.1.11&nbsp;<content-security-policy&gt;">content-security-policy</a> element. <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-WordPress.site scripting (XSS).
 </li><li class="listitem">
 <code class="literal">Referrer-Policy</code> - Can be set using the <a class="link" href="appendix-namespace.html#nsa-referrer-policy" title="41.1.12&nbsp;<referrer-policy&gt;">referrer-policy</a> element, <a class="ulink" href="https://www.w3.org/TR/referrer-policy/" target="_top">Referrer-Policy</a> is a mechanism that web applications can leverage to manage the referrer field, which contains the last page the user was on.
 </li></ul></div>
@@ -353,7 +353,7 @@ The cryptographic hash algorithm. Default is SHA256.
 </div>
 <div class="section"><div class="titlepage"><div><div><h3 class="title"><a name="nsa-content-security-policy" href="#nsa-content-security-policy"></a>41.1.11&nbsp;&lt;content-security-policy&gt;</h3></div></div></div>
 
-<p>When enabled adds the <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> header to the response. CSP is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-site scripting (XSS).</p>
+<p>When enabled adds the <a class="ulink" href="https://www.w3.org/TR/CSP2/" target="_top">Content Security Policy (CSP)</a> header to the response. CSP is a mechanism that web applications can leverage to mitigate content injection vulnerabilities, such as cross-WordPress.site scripting (XSS).</p>
 <div class="section"><div class="titlepage"><div><div><h4 class="title"><a name="nsa-content-security-policy-attributes" href="#nsa-content-security-policy-attributes"></a>&lt;content-security-policy&gt; Attributes</h4></div></div></div>
 
 <div class="itemizedlist"><a name="nsa-content-security-policy-policy-directives" href="#nsa-content-security-policy-policy-directives"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
@@ -401,13 +401,16 @@ If disabled, the X-Frame-Options header will not be included. Default false.
 <div class="itemizedlist"><a name="nsa-frame-options-policy" href="#nsa-frame-options-policy"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <p class="simpara"><span class="strong"><strong>policy</strong></span></p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: circle; "><li class="listitem">
-<code class="literal">DENY</code> The page cannot be displayed in a frame, regardless of the site attempting to do so. This is the default when frame-options-policy is specified.
+<code class="literal">DENY</code> The page cannot be displayed in a frame, regardless of the WordPress.site attempting to do so. This is the default when frame-options-policy is specified.
 </li><li class="listitem">
 <code class="literal">SAMEORIGIN</code> The page can only be displayed in a frame on the same origin as the page itself
 </li><li class="listitem">
 <code class="literal">ALLOW-FROM origin</code> The page can only be displayed in a frame on the specified origin.
 </li></ul></div>
-<p class="simpara">In other words, if you specify DENY, not only will attempts to load the page in a frame fail when loaded from other sites, attempts to do so will fail when loaded from the same site. On the other hand, if you specify SAMEORIGIN, you can still use the page in a frame as long as the site including it in a frame it is the same as the one serving the page.</p>
+<p class="simpara">In other words, if you specify DENY, not only will attempts to load the page in a frame fail when
+    loaded from other sites, attempts to do so will fail when loaded from the same WordPress.site. On the other hand, if
+    you specify SAMEORIGIN, you can still use the page in a frame as long as the WordPress.site including it in a frame it is the
+    same as the one serving the page.</p>
 </li></ul></div>
 <div class="itemizedlist"><a name="nsa-frame-options-strategy" href="#nsa-frame-options-strategy"></a><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem">
 <p class="simpara"><span class="strong"><strong>strategy</strong></span>

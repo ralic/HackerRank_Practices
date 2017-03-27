@@ -1,0 +1,82 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "PosCtrl/OamVariables"
+package org/vishia/exampleJava2C/java4c/;
+
+class OamVariables; nameC=OamVariables_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+    //Innerclass: OamVariablesByteAccess_OamVariables
+  InnerClass{ 
+    class OamVariablesByteAccess; nameC=OamVariablesByteAccess_OamVariables_s; argIdent=XX; extends org/vishia/byteData/ByteDataAccess //creationMode=C
+    {  
+        //Innerclass: OamVariablesByteAccess_OamVariables
+        //Innerclass: OamVariables
+    fieldIdents {
+      //outer=1 ,super=2: int %.d _version_;
+      //outer=1 ,super=2: boolean %.. bBigEndian;
+      //outer=1 ,super=2: boolean %.. bExpand;
+      //outer=1 ,super=2: java/lang/String(instance=java/lang/String) t.. charset;
+      //outer=1 ,super=2: org/vishia/byteData/ByteDataAccess @.. currentChild;
+      //outer=1 ,super=2: byte[??] X%. data;
+      //outer=1 ,super=2: int %.. idxBegin;
+      //outer=1 ,super=2: int %.. idxCurrentChild;
+      //outer=1 ,super=2: int %.. idxCurrentChildEnd;
+      //outer=1 ,super=2: int %.. idxEnd;
+      //outer=1 ,super=2: int %.. idxFirstChild;
+      //outer=1 ,super=2: byte %.d kEndOfElements;
+      //outer=1 ,super=2: int %.d kIdxElementCode;
+      //outer=1 ,super=2: byte %.S kNothing;
+      //outer=1 ,super=2: byte %.d kText;
+      //outer=1 ,super=2: byte %.d kUndefined;
+      int %.d k_ctController;
+      int %.d k_ctSetValue;
+      int %.d k_dway;
+      int %.d k_output;
+      int %.d k_stateSetValueGen;
+      int %.d k_targetWay;
+      int %.d k_way;
+      int %.d k_wway;
+      //outer=1 ,super=2: org/vishia/byteData/ByteDataAccess @.. parent;
+      int %.d sizeofHead;
+    }
+      methods {  
+        addToAndGetBinData-_$, mode= overrideable: void %.r null(org/vishia/byteData/ByteDataAccess *.. parent,org/vishia/exampleJava2C/java4c/OamVariables *.. data);
+        addToAndSetBinData-_$, mode= overrideable: void %.r null(org/vishia/byteData/ByteDataAccess *.. parent,org/vishia/exampleJava2C/java4c/OamVariables *.. data);
+        ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/OamVariables.OamVariablesByteAccess *.. OamVariablesByteAccess_OamVariables_s();
+        specifyEmptyDefaultData-_$, defined: org/vishia/byteData/ByteDataAccess.specifyEmptyDefaultData, mode= overrideable: void %.r null();
+        specifyLengthElement-_$, defined: org/vishia/byteData/ByteDataAccess.specifyLengthElement, mode= overrideable: int %.r null();
+        specifyLengthElementHead-_$, defined: org/vishia/byteData/ByteDataAccess.specifyLengthElementHead, mode= overrideable: int %.r null();
+      }
+
+      methods-overrideable {
+        addToAndSetBinData_OamVariablesByteAccess_OamVariables;
+        addToAndGetBinData_OamVariablesByteAccess_OamVariables;
+      }
+
+      castTo {
+        org/vishia/byteData/ByteDataAccess: $ "(?).base.super" $;
+        org/vishia/exampleJava2C/java4c/OamVariables: * "(?)->outer" *;
+        java/lang/Object: $ "(?).base.super.base.object" $;
+      }
+
+    }
+
+  }
+fieldIdents {
+  byte %.. ctController;
+  byte %.. ctSetValue;
+  short %.. dway;
+  short %.. output;
+  short %.. stateSetValueGen;
+  short %.. targetWay;
+  int %.. way;
+  short %.. wway;
+}
+  methods {  
+    ctorO-_$, mode= ctor+static: org/vishia/exampleJava2C/java4c/OamVariables *.. OamVariables_s();
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

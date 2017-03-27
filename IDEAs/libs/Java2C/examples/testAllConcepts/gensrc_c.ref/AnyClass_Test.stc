@@ -1,0 +1,32 @@
+<?Java2C-stc www.vishia.org version="0.94" encoding="UTF8" ?>
+Structure of translated java-file "AnyClass_Test"
+package org/vishia/java2C/test/;
+
+class AnyClass; nameC=AnyClass_Test_s; argIdent=XX; extends java/lang/Object //creationMode=P
+{  
+fieldIdents {
+  org/vishia/java2C/test/ImplIfc @.. ref;
+  int %.. x1;
+}
+  methods {  
+    addValue-_$: int %.r null(int %.. value);
+    addValueOverrideable-_$, mode= overrideable: int %.r null(int %.. value);
+    ctorO-_$, mode= ctor+static: org/vishia/java2C/test/AnyClass *.. AnyClass_Test_s(org/vishia/java2C/test/ImplIfc *.. ref);
+    finalize-_$, defined: java/lang/Object.finalize, mode= overrideable: void %.. void();
+    returnRef-_$: org/vishia/java2C/test/ImplIfc *.r null();
+    returnRefOverrideable-_$, mode= overrideable: org/vishia/java2C/test/ImplIfc *.r null();
+    returnThis-_$, mode= returnThis: org/vishia/java2C/test/AnyClass *.r null(int %.. value);
+    returnThisOverrideable-_$, mode= overrideable+returnThis: org/vishia/java2C/test/AnyClass *.r null(int %.. value);
+  }
+
+  methods-overrideable {
+    addValueOverrideable_AnyClass_Test;
+    returnThisOverrideable_AnyClass_Test;
+    returnRefOverrideable_AnyClass_Test;
+  }
+
+  castTo {
+    java/lang/Object: $ "(?).base.object" $;
+  }
+
+}

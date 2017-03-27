@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/vishia/bridgeC/MemUnit.java" kind="src" path="srcJava.zbnf"/>
+	<classpathentry kind="src" path="PositionCtrl"/>
+	<classpathentry kind="src" path="srcJava.GUI"/>
+	<classpathentry kind="src" path="src-Java2C"/>
+	<classpathentry kind="src" path="src-vishiaUtil"/>
+	<classpathentry kind="src" path="new_srcJava.util"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0"/>
+	<classpathentry kind="lib" path="D:/Progs/Eclipse3_5/plugins/org.eclipse.swt.win32.win32.x86_3.5.1.v3555a.jar" sourcepath="D:/Progs/Eclipse3_5/plugins/org.eclipse.swt.win32.win32.x86.source_3.5.1.v3555a.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
