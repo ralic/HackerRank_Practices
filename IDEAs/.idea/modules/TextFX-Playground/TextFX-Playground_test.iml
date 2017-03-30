@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TextFX-Playground:test" external.linked.project.path="$MODULE_DIR$/../../../TextFX-Playground" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="IDEAs" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output-test url="file://$MODULE_DIR$/../../../TextFX-Playground/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../TextFX-Playground/build/generated-src/antlr/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../TextFX-Playground/build/generated-src/antlr/test" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../TextFX-Playground/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../TextFX-Playground/src/test/antlr" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../TextFX-Playground/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../TextFX-Playground/src/test/resources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="TextFX-Playground_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: antlr:antlr:2.7.7" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="TextFX-Playground_main" />
+</module>

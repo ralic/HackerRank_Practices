@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.fasterxml.jackson.module:jackson-module-scala_2.11:2.9.0.pr2">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Could not resolve com.fasterxml.jackson.module:jackson-module-scala_2.11:2.9.0.pr2." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-scala_2.11/2.9.0.pr2/20d7414737bc5911d15a7fd7c62a31118e90392/jackson-module-scala_2.11-2.9.0.pr2.jar!/" />
     </CLASSES>
     <JAVADOC />

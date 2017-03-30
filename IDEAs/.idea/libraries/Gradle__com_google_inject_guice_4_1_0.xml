@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.inject:guice:4.1.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Could not resolve com.google.inject:guice:4.1.0." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.1.0/eeb69005da379a10071aa4948c48d89250febb07/guice-4.1.0.jar!/" />
     </CLASSES>
     <JAVADOC />

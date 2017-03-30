@@ -1,0 +1,37 @@
+
+/*
+CI Solution Comparison : Jenkins vs. Travis CI vs. CircleCI
+http://stackshare.io/stackups/travis-ci-vs-circleci-vs-jenkins
+Jenkins has highest market share and deployed for large enterprise.
+TODO Jenkins Support
+ */
+
+//apply plugin: "com.terrafolio.jenkins"
+//
+//jenkins {
+//
+//    servers {
+//        testing {
+//            url "https://ci.jenkins.io/"
+//            secure true         // optional
+//            username "testuser" // optional
+//            password "testpass" // optional
+//        }
+//    }
+//
+//    templates {
+//        build {
+//            xml file("build-template.xml")
+//        }
+//    }
+//    defaultServer servers.testing // optional
+//    jobs {
+//        test {
+//            server servers.testing
+//            definition {
+//                name "Build ${project.name}" //optional
+//                xml file("config.xml")
+//            }
+//        }
+//    }
+//}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+	<test name="Test1">
+		<pattern>
+			<event concept="ont::acquire">
+				<role label="agent">ont::person</role>
+			</event>
+		</pattern>
+		<text>
+			<event concept="ont::purchase">
+				<role label="affected">ont::manufactured-object</role>
+				<role label="agent">ont::consumer</role>
+			</event>
+		</text>
+	</test>
+	<test name="Test2">
+		<pattern>
+			<event concept="ont::acquire">
+				<role label="agent">ont::female-person</role>
+			</event>
+		</pattern>
+		<text>
+			<event concept="ont::purchase">
+				<role label="affected">ont::manufactured-object</role>
+				<role label="agent">ont::consumer</role>
+			</event>
+		</text>
+	</test>
+	<test name="Test3">
+		<pattern>
+			<event concept="ont::commerce-sell">
+				<role label="agent">ont::person</role>
+			</event>
+		</pattern>
+		<text>
+			<event concept="ont::acquire">
+				<role label="affected">ont::manufactured-object</role>
+				<role label="agent">ont::female-person</role>
+			</event>
+		</text>
+	</test>
+	<test name="Test4">
+		<pattern>
+			<event concept="ont::event-of-change" />
+		</pattern>
+		<text>
+			<event concept="ont::acquire">
+				<role label="affected">ont::manufactured-object</role>
+				<role label="agent">ont::female-person</role>
+			</event>
+		</text>
+	</test>
+</testcases>

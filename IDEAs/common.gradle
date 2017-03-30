@@ -2,10 +2,7 @@
 // This file is to be applied to every subproject.
 //
 
-apply plugin: 'java'
 apply plugin: 'maven'
-
-
 
 mavenGroupId = 'org.ralic'
 mavenVersion = '1.3-SNAPSHOT'
@@ -15,16 +12,6 @@ mavenArtifactId = name
 
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
-repositories {
-    mavenCentral()
-    // You may define additional repositories, or even remove "mavenCentral()".
-    // Read more about repositories here:
-    //   http://www.gradle.org/docs/current/userguide/dependency_management.html#sec:repositories
-}
-
-dependencies {
-    // Adding dependencies here will add the dependencies to each subproject.
-}
 
 
 

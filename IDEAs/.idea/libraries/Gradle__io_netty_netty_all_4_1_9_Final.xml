@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: io.netty:netty-all:4.1.9.Final">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/Could not resolve io.netty:netty-all:4.1.9.Final." />
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar!/" />
     </CLASSES>
     <JAVADOC />

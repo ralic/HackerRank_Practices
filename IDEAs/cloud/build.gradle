@@ -1,0 +1,954 @@
+buildscript {
+    // Use "jcenter" for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    repositories {
+        mavenCentral()
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        maven { url 'https://jitpack.io' }
+        maven { url "http://com.jfrog.bintray" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "https://repository.cloudera.com/content/repositories/releases/" }
+        maven { url "http://repo.hortonworks.com/content/repositories/releases/" }
+        maven { url "https://dl.google.com/android/repository/repository-12.xml" }
+        jcenter()
+        flatDir {
+            dirs "../libs"
+        }
+    }
+
+
+    dependencies {
+        classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3" // Support JUNIT-5
+        classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.9.1" // Support Dynamic version in dependency
+        //        classpath "gradle.plugin.com.netflix.nebula:gradle-ospackage-plugin:3.6.1" // Support RPM Package.
+//        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE" // Support Spring Boot
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.1.RELEASE"
+        classpath "org.ajoberstar:gradle-git:1.6.0" // Support Gradle-Git
+        classpath "com.layer:gradle-git-repo-plugin:2.0.2"
+        classpath "net.serenity-bdd:serenity-gradle-plugin:1.2.3-rc.7" // Support Serenity BDD
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT'// Support Spring Boot
+        // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
+
+//        github("layerhq", "maven-private", "master", "releases")
+//        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master", "releases")
+
+        // ProGuard Support
+//        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
+
+        // Google Platform Support
+        classpath 'com.google.appengine:gradle-appengine-plugin:+'
+        // Scala.js Support
+        // classpath 'com.github.gtache:scalajs-plugin:0.2.0'
+        classpath fileTree(dir: '../libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
+
+        // Proguard Support
+        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
+
+        // Android Support
+        classpath 'com.android.tools.build:gradle:2.3.0'
+
+        // JavaFX Port for Mobile
+        classpath 'org.javafxports:jfxmobile-plugin:1.3.4'
+    }
+
+}
+
+//    TODO NOT Consistent with  Android
+apply plugin: "java"
+apply plugin: "application"
+apply plugin: "org.springframework.boot"
+apply plugin: "antlr"
+
+def excludes = configurations.all {
+    exclude group: "org.slf4j", module: "slf4j-log4j12"
+    exclude group: "org.slf4j", module: "slf4j-simple"
+//    exclude group: "ch.qos.logback", module: "logback-classic"
+    exclude group: "log4j", module: "log4j"
+    exclude group: "org.bytedeco", module: "javacpp-presets"
+    exclude group: "org.apache.logging.log4j", module: "log4j-slf4j-impl"
+//    exclude group: "org.eclipse.jetty", module: "jetty-server"
+    exclude group: "org.eclipse.jetty.aggregate", module: "jetty-all"
+    // TODO : jetty-all-7.6.0 ? makes Spring Boot Crashes.
+    exclude group: "org.eclipse.jetty", module: "jetty-webapp"
+    exclude group: "org.eclipse.sisu", module: "space.SisuIndexAPT6"
+    exclude group: "org.apache.calcite", module: "calcite-avatica"
+    exclude group: "com.google.common", module: "base"
+    exclude group: "org.springframework.boot", module: "spring-boot-starter-undertow"
+    exclude group: "io.undertow", module: "undertow-core"
+//    exclude group: "com.fasterxml.jackson.module", module: "spark_core"
+}
+dependencies {
+
+    /**
+     *     For Spark Development
+     */
+
+    def SparkVer = "2.1.0"
+    compile("org.apache.spark:spark-core_2.11:${SparkVer}")
+            {
+                exclude group: "com.fasterxml.jackson.module",
+                        module: "jackson-module-scala_2.11"
+            }
+    compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-hive_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-repl_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-yarn_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-graphx_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-catalyst_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-network-shuffle_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
+    compile "com.databricks:spark-csv_2.11:1.5.0"
+    compile "com.databricks:spark-avro_2.11:3.2.0"
+    compile "com.databricks:spark-xml_2.11:0.4.1"
+//    compile "com.databricks:diff-match-patch:0.1"
+
+//    def SparkVerOld = "1.6.3"
+//    compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+
+    // For Spark Unit Test with SparkHive
+    // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
+    compile "com.holdenkarau:spark-testing-base_2.11:2.1.0_0.6.0"
+
+    // For JSON to Java Object (Gson)
+    compile "com.google.code.gson:gson:2.7"
+
+    def guavaVer = "21.0" // "22.0-SNAPSHOT" //"20.0"  // ""21.0" // "22.0-SNAPSHOT"
+    compile("com.google.guava:guava:${guavaVer}") { force = true }
+    compile "com.google.guava:guava-parent:${guavaVer}"
+    compile "com.google.guava:guava-gwt:${guavaVer}"
+    compile "com.google.guava:guava-tests:${guavaVer}"
+    compile "com.google.guava:guava-testlib:${guavaVer}"
+    testCompile("com.google.guava:guava:${guavaVer}")
+
+    // MySQL Connector support
+    compile "mysql:mysql-connector-java:6.0.3"//6.0.3
+
+    // Local Libs Support
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // For JavaFX Support -- Mobile Applications
+    // https://bitbucket.org/javafxports/javafxmobile-plugin
+    compile "org.javafxports:ios-sdk:8.60.7"
+    compile "org.javafxports:dalvik-sdk:8.60.7"
+    compile "org.javafxports:jfxdvk:8.60.7"
+    // TODO Need more time to configure this.
+//     compile "org.robovm:robovm-dist:1.14.0"
+//     compile "org.robovm:robovm-rt-android:1.14.0"
+
+    // For Spring Boot
+    // Error :java.lang.NoClassDefFoundError: ch/qos/logback/classic/turbo/TurboFilter
+    compile "ch.qos.logback:logback-classic:1.2.2"
+    testCompile("ch.qos.logback:logback-classic:1.2.2") { force = true }
+
+    // Github as dependency Example
+//    compile "com.github.User:Repo:Tag"
+//    compile "com.github.graalvm:fastr:graal-vm-0.13"
+
+    // Apache Tika Support ( Image meta file. for GMAP)
+    compile "org.apache.tika:tika:1.14"
+    compile "org.apache.tika:tika-core:1.14"
+
+//    compile "org.apache.tika:tika-parent:1.14"
+//    compile "org.apache.tika:tika-parsers:1.14"
+//    compile "org.apache.tika:tika-app:1.14"
+//    compile "org.apache.tika:tika-xmp:1.14"
+//    runtime "org.apache.tika:tika-core:1.14"
+//    runtime 'org.apache.tika:tika-parsers:1.14'
+
+    // Vaadin U & I Framework
+    def vaadinVer = "8.0.2"
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-client
+    compile "com.vaadin:vaadin-client:${vaadinVer}"
+//    compile "com.vaadin:vaadin:7.0.0.alpha3"
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-themes
+    compile "com.vaadin:vaadin-themes:${vaadinVer}"
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-server
+    compile "com.vaadin:vaadin-server:${vaadinVer}"
+// https://mvnrepository.com/artifact/com.vaadin/vaadin-spring
+    compile "com.vaadin:vaadin-spring:2.0.0"
+
+    // VertX for Web design
+    // https://mvnrepository.com/artifact/io.vertx/vertx-core
+    compile group: 'io.vertx', name: 'vertx-core', version: '3.3.3'
+
+    // Antlr Support
+    antlr "org.antlr:antlr4:4.6" // use ANTLR version 4
+
+    // For Selenium Development : Automation Web Browser Automation Test
+    def SeleniumWebDrivers = "3.3.1" // 3.2.0
+    def SeleniumMobileDrivers = "2.39.0"
+
+//    compile "org.seleniumhq.selenium:selenium:2.0rc2"
+    compile "org.seleniumhq.selenium:selenium-java:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-server:${SeleniumWebDrivers}"
+
+    compile "org.seleniumhq.selenium:selenium-remote-driver:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-firefox-driver:${SeleniumWebDrivers}"
+
+    compile "org.seleniumhq.selenium:selenium-support:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-ie-driver:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-chrome-driver:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-safari-driver:${SeleniumWebDrivers}"
+    compile "org.seleniumhq.selenium:selenium-edge-driver:${SeleniumWebDrivers}"
+
+    compile "org.seleniumhq.selenium:selenium-iphone-driver:${SeleniumMobileDrivers}"
+    compile "org.seleniumhq.selenium:selenium-android-driver:${SeleniumMobileDrivers}"
+    compile "org.seleniumhq.selenium:selenium-htmlunit-driver:${SeleniumMobileDrivers}"
+
+    // Headless web test || GhostDriver
+//    compile "org.jboss.arquillian.extension:arquillian-phantom-driver:1.2.1.Final"
+    compile "com.codeborne:phantomjsdriver:1.4.1"
+    compile "com.machinepublishers:jbrowserdriver:0.17.1"
+//    compile "org.jboss.arquillian.extension:2.1.1"
+
+    /**
+     * Spring Framework
+     */
+    def SpringFullVer = "5.0.0.BUILD-SNAPSHOT" // .M5 .BUILD-SNAPSHOT
+    // http://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/htmlsingle/
+    runtime fileTree(dir: '../libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
+
+    compile "org.springframework:spring-test:${SpringFullVer}"
+    compile "org.springframework:spring-core:${SpringFullVer}"
+    compile "org.springframework:spring-beans:${SpringFullVer}"
+    compile "org.springframework:spring-context:${SpringFullVer}"
+    compile "org.springframework:spring-expression:${SpringFullVer}"
+    compile "org.springframework:spring-tx:${SpringFullVer}"
+    compile "org.springframework:spring-oxm:${SpringFullVer}"
+    compile "org.springframework:spring-web:${SpringFullVer}"
+    compile "org.springframework:spring-webmvc:${SpringFullVer}"
+    compile "org.springframework:spring-web-reactive:${SpringFullVer}"
+    compile "org.springframework:spring-websocket:${SpringFullVer}"
+    compile "org.springframework:spring-orm:${SpringFullVer}"
+    compile "org.springframework.data:spring-data-neo4j-parent:${SpringFullVer}"
+
+    // Spring Data Common Core
+    // http://projects.spring.io/spring-data/#quick-start
+    // https://github.com/spring-projects/spring-data-rest/releases
+    def SpringCommonCoreVer = "2.0.0.BUILD-SNAPSHOT"
+    def SpringDataCoreVer = "2.0.0.BUILD-SNAPSHOT"
+    def SpringElasticSearchVer = "3.0.0.BUILD-SNAPSHOT"
+    compile "org.springframework.data:spring-data-commons:${SpringCommonCoreVer}"
+    compile "org.springframework.data:spring-data-jdbc-core:${SpringDataCoreVer}"
+//    compile "org.springframework.data:spring-data-jdbc-ext:${SpringDataCoreVer}" //  POM file not available.
+//    compile "org.springframework.data:spring-data-gemfire:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-elasticsearch:${SpringElasticSearchVer}"
+    // compile "org.springframework.data:spring-data-ldap:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-solr:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-keyvalue:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-cassandra-parent:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-mongodb-parent:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-redis:${SpringDataCoreVer}"
+    // compile "org.springframework.data:spring-data-oracle:${SpringDataCoreVer}"
+    compile "org.springframework.data:spring-data-jpa:${SpringDataCoreVer}"
+//    compile "org.springframework.data:spring-data-rest-example:${SpringDataCoreVer}" // Need pivotal gemfire
+//    compile "org.springframework.data:spring-data-geode:1.1.0.BUILD-SNAPSHOT" // Need pivotal gemfire
+
+    // Dbeaver : Database Tools
+    /*
+    Free multi-platform database tool for developers, SQL programmers,  database administrators and analysts.
+    Supports any database which has JDBC driver (which basically means - ANY database).
+    EE version also supports non-JDBC datasources (WMI, MongoDB, Cassandra, Redis).
+    */
+    //https://github.com/serge-rider/dbeaver
+//    compile "org.jkiss.dbeaver:dbeaver:4.0.3"
+
+    // Scala Gen
+    //https://github.com/pshirshov/idea-scalagen.git
+    compile "com.mysema.scalagen:scalagen-root:0.3.2"
+
+    // Wordpress :
+    // Spring Hadoop Core
+    def SpringHadoopCoreVer = "2.5.0.M1"
+    compile "org.springframework.data:spring-data-hadoop:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-batch:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-boot:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-hive:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-pig:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-hbase:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-config:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-spark:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-sqoop2:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-util:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-cluster-tests:${SpringHadoopCoreVer}"
+    compile "org.springframework.data:spring-data-hadoop-build-tests:${SpringHadoopCoreVer}"
+//    compile "org.springframework.webflow:spring-webflow:2.4.0.M1"
+
+    // Spring Rest Core
+    def SpringRestVer = "3.0.0.BUILD-SNAPSHOT"
+    compile "org.springframework.data:spring-data-rest-parent:${SpringRestVer}"
+    compile "org.springframework.data:spring-data-rest-core:${SpringRestVer}"
+    compile "org.springframework.data:spring-data-rest-webmvc:${SpringRestVer}"
+
+    // Spring Rest Test Core
+    testCompile "org.springframework.data:spring-data-rest-tests:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-core:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-security:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-shop:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-solr:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-mongodb:${SpringRestVer}"
+    testCompile "org.springframework.data:spring-data-rest-tests-jpa:${SpringRestVer}"
+
+    // Spring Security New
+    compile fileTree(dir: 'libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist', include: { '**/*.jar' })
+    testCompile fileTree(dir: 'libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist', include: { '**/*.jar' })
+
+//    compile "org.springframework.security:spring-security:${SpringFullVer}"
+//    compile "org.springframework.security:spring-security-parent:3.0.9.CI-SNAPSHOT"
+//    compile "org.springframework.security:spring-security:${SpringFullVer}" //   POM file not available.
+    compile "org.springframework.security:spring-security-bom:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-ldap:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-acl:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-aspects:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-core:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-web:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-remoting:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-cas:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-config:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-crypto:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-data:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-openid:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-messaging:${SpringFullVer}"
+    compile "org.springframework.security:spring-security-taglibs:${SpringFullVer}"
+
+    // Spring Security Others
+    def SpringSecurityOthers = "1.0.0-BUILD-SNAPSHOT"
+    compile "org.springframework.security:spring-security-4-jc:${SpringSecurityOthers}"
+    compile "org.springframework.security:spring-security-4-xml:${SpringSecurityOthers}"
+    //    compile "org.springframework.security:spring-security-javaconfig:${SpringFullVer}"
+    //    compile "org.springframework.security:spring-security-javaconfig-build:${SpringFullVer}"
+    //    compile "org.springframework.security:spring-security-jwt:${SpringFullVer}"
+    //    compile "org.springframework.security:spring-security-rsa:${SpringFullVer}"
+
+    // Spring Security Kerberos
+    def SpringKerberosVer = "1.0.0.BUILD-SNAPSHOT"
+//    compile "org.springframework.security.kerberos:spring-security-kerberos:${SpringKerberosVer}" // POM file not available
+    compile "org.springframework.security.kerberos:spring-security-kerberos-client:${SpringKerberosVer}"
+    compile "org.springframework.security.kerberos:spring-security-kerberos-core:${SpringKerberosVer}"
+    compile "org.springframework.security.kerberos:spring-security-kerberos-test:${SpringKerberosVer}"
+    testCompile "org.springframework.security.kerberos:spring-security-kerberos-test:${SpringKerberosVer}"
+    compile "org.springframework.security.kerberos:spring-security-kerberos-web:${SpringKerberosVer}"
+
+    // Spring Security Oauth
+    def SpringOauthVer = "2.1.1.BUILD-SNAPSHOT"
+    compile "org.springframework.security.oauth:spring-security-oauth:${SpringOauthVer}"
+    compile "org.springframework.security.oauth:spring-security-oauth-parent:${SpringOauthVer}"
+    compile "org.springframework.security.oauth:spring-security-oauth2:${SpringOauthVer}"
+    compile "org.springframework.security.oauth:sparklr2:${SpringOauthVer}"
+    compile "org.springframework.security.oauth:tonr2:${SpringOauthVer}"
+
+
+    compile "org.springframework.security:spring-security-test:${SpringFullVer}"
+    testCompile "org.springframework.security:spring-security-test:${SpringFullVer}"
+
+    // Spring Socials
+
+    compile fileTree(dir: 'libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist', include: { '**/*.jar' })
+    testCompile fileTree(dir: 'libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist', include: { '**/*.jar' })
+
+//    compile "org.springframework.social:spring-social:${SpringDataCoreVer}"
+//    compile "org.springframework.social:spring-social-facebook-web:${SpringRestVer}" //3.0
+//    compile "org.springframework.social:spring-social-facebook:${SpringRestVer}" //3.0
+//
+//    compile "org.springframework.social:spring-social-linkedin:${SpringRestVer}" //2.0
+//    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}" //2.0
+//    compile "org.springframework.social:spring-social-core:${SpringDataCoreVer}" //2.0
+//    compile "org.springframework.social:spring-social-config:${SpringDataCoreVer}"//2.0
+//    compile "org.springframework.social:spring-social-security:${SpringDataCoreVer}"//2.0
+//    compile "org.springframework.social:spring-social-web:${SpringDataCoreVer}"
+//    compile "org.springframework.social:spring-social-twitter:${SpringDataCoreVer}"
+//
+//    compile "org.springframework.social:spring-social-github:${SpringSecurityOthers}" // 1.0
+//    compile "org.springframework.social:spring-social-connect-web:${SpringSecurityOthers}" // 1.0
+//    compile "org.springframework.social:spring-social-connect:${SpringSecurityOthers}" // 1.0
+//    compile "org.springframework.social:spring-social-oauth:${SpringSecurityOthers}"
+//    compile "org.springframework.social:spring-social-webmvc:${SpringSecurityOthers}"
+
+    // Spring Others
+    compile "org.springframework:spring-tuple-parent:1.0.1.BUILD-SNAPSHOT"
+    compile "org.springframework.statemachine:spring-statemachine-bom:${SpringDataCoreVer}"
+//    compile "org.springframework.shell:spring-shell:${SpringFullVer}"
+//    compile "io.spring.gradle:spring-gradle-build-conventions:1.0-SNAPSHOT"
+//    compile "io.spring.gradle:spring-convention-plugins:1.0-SNAPSHOT"
+
+
+    def SpringBootVer = "2.0.0.BUILD-SNAPSHOT"
+    //http://repo.spring.io/snapshot/org/springframework/data/
+    //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
+    compile "org.springframework.boot:spring-boot-full-build:${SpringBootVer}"
+    testCompile "org.springframework.boot:spring-boot-full-build:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-starter:${SpringBootVer}"
+    compile("org.springframework.boot:spring-boot-starter-web:${SpringBootVer}")
+            {
+                exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty"
+                exclude group: "org.springframework.boot", module: "spring-boot-starter-undertow"
+            }
+    compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-starter-parent:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-starter-security:${SpringBootVer}"
+//    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringBootVer}"
+    compile "org.springframework.boot:spring-boot-devtools:${SpringBootVer}"
+
+    // Spring Test
+    compile("org.springframework.boot:spring-boot-starter-test:${SpringBootVer}")
+    testCompile("org.springframework.boot:spring-boot-test-autoconfigure:${SpringBootVer}")
+    testCompile "org.springframework.boot:spring-boot-starter-test:${SpringBootVer}"
+    testCompile "org.springframework.boot:spring-boot-starter-parent:${SpringBootVer}"
+    testCompile "org.springframework.boot:spring-boot-starter-tomcat:${SpringBootVer}"
+
+    /**
+     * Jetty HTTP2 Server
+     * http://unrestful.io/2015/10/10/http2-java-client-examples.html
+     */
+    compile "io.netty:netty-all:4.1.9.Final"
+    def jettyVer = "9.4.0.M1"
+    compile "org.eclipse.jetty:jetty-server:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-servlet:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-util:${jettyVer}"
+    compile "org.eclipse.jetty:jetty-http:${jettyVer}"
+    compile "javax.servlet:javax.servlet-api:4.0.0-b03"
+    // Turn next line on for Spring-Boot Embedded Jetty , off to use Tomcat with Spring.
+//    compile "org.eclipse.jetty:jetty-webapp:${jettyVer}"
+    /**
+     * Undertow Server
+     */
+
+    compile "io.undertow:undertow-core:1.4.11.Final" // 2.0.0.Alpha1
+    testCompile "io.undertow:undertow-core:1.4.11.Final"
+
+    /**
+     *     For Hadoop Development
+     */
+
+    def HadoopVer = '3.0.0-alpha2'
+
+    def HadoopVer_CDH = "1.2.1"  // "2.6.0-mr1-cdh5.10.0"
+    compile "org.apache.hadoop:hadoop-test:${HadoopVer_CDH}"
+    compile "org.apache.hadoop:hadoop-core:${HadoopVer_CDH}"
+    compile "org.apache.hadoop:hadoop-tools:${HadoopVer_CDH}" // Dist-cp support
+
+    compile "org.apache.hadoop:hadoop-main:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-client:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-hdfs:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-annotations:${HadoopVer}"
+
+    // For Hadoop MapReduce Development Environment
+    compile "org.apache.hadoop:hadoop-mapreduce-client-core:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-jobclient:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-app:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-shuffle:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-mapreduce-client-hs:${HadoopVer}" // MapReduce History Storage
+    compile "org.apache.hadoop:hadoop-streaming:${HadoopVer}" // MapReduce Streaming
+    compile "org.apache.hadoop:hadoop-minikdc:${HadoopVer}" // MapReduce Streaming
+
+    // For Hadoop YARN Development Environment
+    compile "org.apache.hadoop:hadoop-yarn-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-api:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-common:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-client:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-web-proxy:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-nodemanager:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-resourcemanager:${HadoopVer}"
+
+    // For Hadoop Auth Security Development Environment
+    compile "org.apache.hadoop:hadoop-auth:${HadoopVer}"
+
+    // Mini Cluster for Hadoop Test
+    compile "org.apache.hadoop:hadoop-minicluster:${HadoopVer}"
+    compile "org.apache.hadoop:hadoop-yarn-server-tests:${HadoopVer}"
+
+    //http://attic.apache.org/projects/mrunit.html
+    //compile "org.apache.mrunit:mrunit:1.1.0:hadoop2"
+//    compile "org.apache.mrunit:mrunit:${HadoopVer}"
+
+    // Cassandra
+    // TODO : One of these makes Spring Boot/Tomcat crashes.
+//    compile "org.apache.cassandra:cassandra-all:3.7"
+//    compile "com.datastax.spark:spark-cassandra-connector_2.10:1.6.0"
+//    compile "com.datastax.cassandra:cassandra-driver-core:3.0.3"
+
+    // For ZooKeeper Development
+    compile "org.apache.zookeeper:zookeeper:3.4.8"
+
+    /**
+     *     For Apache Geode Development
+     *     Performance is key. Consistency is a must.
+     *     http://geode.apache.org/
+     */
+//    compile "org.apache.geode:gemfire-core:1.0.0-incubating.M1"
+
+    // JSON, YAML support
+    def jackson = "2.9.0.pr2"
+    compile "com.fasterxml.jackson.core:jackson-core:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-databind:${jackson}" // YAML or JSON format
+    compile "com.fasterxml.jackson.core:jackson-annotations:${jackson}" // YAML or JSON format
+    // Jackson Scala Version
+    compile "com.fasterxml.jackson.module:jackson-module-scala_2.11:${jackson}" // YAML or JSON format
+
+    // ZeroMQ vs Kafka vs RabbitMQ
+    // https://tomasz.janczuk.org/2015/09/from-kafka-to-zeromq-for-log-aggregation.html
+    // http://stackoverflow.com/questions/731233/activemq-or-rabbitmq-or-zeromq-or
+
+    // For Bitcoin in Java
+    compile "org.bitcoinj:bitcoinj-core:0.14.4"
+
+    // For Apache TinkerPop
+    compile "org.apache.tinkerpop:hadoop-gremlin:3.2.4"
+
+    // For CoAP in IOT //  Java CoAP implementation
+    // http://www.win.tue.nl/~lrahman/iot/files/LeshanTutorial.pdf
+    // http://stackoverflow.com/questions/30424457/what-are-the-major-differences-between-http-and-coap
+    compile "org.eclipse.californium:californium-core:2.0.0-M3"
+    compile "org.eclipse.leshan:leshan-all:1.0.0-M1"
+//    compile "de.uzl.itm:ncoap-core:1.0.2"
+
+    // Google Zxing QRCode Generator
+    def ZxingVer = "3.3.0"
+    compile "com.google.zxing:zxing-parent:${ZxingVer}"
+    compile "com.google.zxing:javase:${ZxingVer}"
+
+    // For Mesos Development
+    compile "org.apache.mesos:mesos:1.2.0"
+    compile "com.mesosphere.mesos.rx.java:mesos-rxjava:0.1.0"
+    compile "com.groupon.mesos:jesos:1.4"
+
+
+    def alluxioVer = "1.4.0"
+    // For Alluxio Development
+    compile "org.alluxio:alluxio-core-client:${alluxioVer}"
+    compile "org.alluxio:alluxio-parent:${alluxioVer}"
+    compile "org.alluxio:alluxio-keyvalue:${alluxioVer}"
+    compile "org.alluxio:alluxio-integration:${alluxioVer}"
+    compile "org.alluxio:alluxio-examples:${alluxioVer}"
+//    compile "org.alluxio:alluxio-core-common:${alluxioVer}"
+//    compile "org.alluxio:alluxio-core-server:${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-local: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-hdfs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-core-client-internal: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-s3: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-keyvalue-common: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-shell: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-keyvalue-client: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-oss: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-gcs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs-glusterfs: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-core: ${alluxioVer}"
+//    compile "org.alluxio:alluxio-underfs:${alluxioVer}"
+//    compile "org.alluxio:alluxio-assemblies:${alluxioVer}"
+//    compile "org.alluxio:alluxio-integration-mesos:${alluxioVer}"
+//    testcompile "org.alluxio:alluxio-minicluster: ${alluxioVer}"
+//    testcompile "org.alluxio:alluxio-tests:${alluxioVer}"
+
+    // For MS Document Process
+    def apachePOIVer = "3.16-beta2"
+    compile "org.apache.poi:poi:${apachePOIVer}"
+    compile "org.apache.poi:poi-ooxml:${apachePOIVer}"
+    compile "org.apache.poi:poi-scratchpad:${apachePOIVer}"
+
+    // For Data Flow
+    compile "org.apache.nifi:nifi:1.1.2"
+
+    // For Deep Learning (ND4J,DL4J)
+    // http://deeplearning4j.org/
+    // http://nd4j.org/
+    def deep4jVer = "0.8.0"
+    compile "org.deeplearning4j:deeplearning4j-parent:${deep4jVer}"
+    compile "org.deeplearning4j:deeplearning4j-core:${deep4jVer}"
+    compile "org.nd4j:nd4j-native-platform:${deep4jVer}"
+
+    // For OpenCV Related & Computer Vision
+    // OpenPNP http://openpnp.org/
+    compile "org.openpnp:opencv:2.4.11-2"
+    // ByteDeco http://bytedeco.org/
+    // https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv
+    compile "org.bytedeco.javacpp-presets:opencv:3.1.0-1.2"
+    compile "org.bytedeco:javacpp-presets:1.3"
+
+    // For Audio/Video Processing
+    // For Web Conference https://jitsi.org/
+    compile "org.jitsi:jitsi-universe-public:1.0.2"
+
+    // For Game Development https://libgdx.badlogicgames.com/
+    // For libGDX
+//    compile "com.badlogicgames.gdx:gdx:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
+//    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
+
+    // JMonkey3
+    def jMonkeyVer = "3.1.0-stable"
+    // For JMonkey3 Game Development
+    // https://jmonkeyengine.github.io/wiki/jme3/maven.html#gradle
+    // http://docs.jmonkeyengine.org/jme3/virtualreality.html
+    compile "org.jmonkeyengine:jme3-core:${jMonkeyVer}"
+    runtime "org.jmonkeyengine:jme3-desktop:${jMonkeyVer}"
+    runtime "org.jmonkeyengine:jme3-lwjgl:${jMonkeyVer}"
+
+    // For Virtual Reality / Oculus Rift
+    // http://jogamp.org/jogl/www/
+    compile "org.jogamp.jogl:oculusvr:2.3.2"
+
+    // For Virtual Reality /Leap Motion
+//    compile "com.leapmotion.leap:leapMotion:3.1"
+//    runtime files('libs/LeapSDK/lib/LeapJava.jar)
+
+    compile fileTree(dir: '../libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
+    testCompile fileTree(dir: '../libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
+
+    // For Geo Location Integration
+    compile "com.gluonhq:maps:1.0.0"
+
+    // For Apache Commons Net and Email
+    compile "commons-net:commons-net:3.6"
+    compile "org.apache.commons:commons-email:1.4"
+    compile "commons-io:commons-io:2.5"
+//    compile "org.apache.commons:commons-Imaging:1.0"
+    compile "org.apache.commons:commons-collections4:4.1"
+
+    // For Time and Date (Joda-Time)
+    compile "joda-time:joda-time:2.9.4"
+
+    // For H2 Datbase http://www.h2database.com/html/main.html
+    compile "com.h2database:h2:1.4.192"
+
+    // C10K Problem
+    // https://en.wikipedia.org/wiki/C10k_problem
+    // https://news.ycombinator.com/item?id=5127251
+    // http://shenfeng.me/600k-concurrent-connection-http-kit.html
+
+    // For Apache Camel
+    def CamelVer = "2.18.3"
+    compile "org.apache.camel:camel-core:${CamelVer}"
+    compile "org.apache.camel:camel-cdi:${CamelVer}"
+    compile "org.apache.camel:camel-test:${CamelVer}"
+    compile "org.apache.camel:camel-spring-boot:${CamelVer}"
+    compile "org.apache.camel:camel-jetty:${CamelVer}"
+    compile "org.apache.camel:camel-xstream:${CamelVer}"
+    compile "org.apache.camel:camel-jackson:${CamelVer}"
+    compile "org.apache.camel:camel-mail:${CamelVer}"
+
+    // For HTML Parser (Jsoup)
+    compile "org.jsoup:jsoup:1.10.2"
+
+    // For Hibernate
+    compile "org.hibernate:hibernate-core:5.2.8.Final"
+
+    // For Arquillian Test ( http://arquillian.org/modules/core-platform/ )
+    testCompile "org.jboss.arquillian:arquillian-bom:1.1.12.Final"
+    testCompile "org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6"
+
+    // For Arquillian Cube
+    // ( Docker or Kubernetes Testing , http://arquillian.org/blog/2016/08/18/arquillian-cube-1-0-0-Alpha14/ )
+    testCompile "org.arquillian.cube:arquillian-cube-requirement:1.0.0.Alpha18"
+    testCompile "org.arquillian.extension:arquillian-recorder:1.1.6.Final"
+    testCompile "org.arquillian.spacelift:arquillian-spacelift:1.0.0.Alpha9"
+
+    // Support Cucumber
+    // https://cucumber.io/docs/reference/jvm#java
+    def CucumberVer = "1.2.5"
+    testCompile "info.cukes:cucumber-java8:${CucumberVer}"
+    testCompile "info.cukes:cucumber-java:${CucumberVer}"
+    testCompile "info.cukes:cucumber-scala_2.12:${CucumberVer}"
+    testCompile "info.cukes:cucumber-testng:${CucumberVer}"
+    testCompile "info.cukes:cucumber-junit:${CucumberVer}"
+
+    // The production code uses the SLF4J logging API at compile time
+    // "format ||  <groupId> :<artifactId> :<version> "
+    compile "org.slf4j:slf4j-api:1.7.22"
+
+    // Declare the dependency for your favourite test framework you want to use in your tests.
+    // TestNG is also supported by the Gradle Test task. Just change the
+    // testCompile dependency to testCompile "org.testng:testng:6.9.12" and add
+    // "test.useTestNG()" to your build script.
+
+    testCompile "org.testng:testng:6.9.12" // 6.11
+    //    testCompile "com.google.inject:guice:4.1.0"
+
+    //    testCompile ("org.uncommons:reportng:1.1.4") {
+    //        exclude group: "org.testng", module: "testng"
+    //    }
+
+    // JUnit Jupiter API and TestEngine implementation
+    testCompile "org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}"
+    testRuntime "org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}"
+    testCompile "org.junit.jupiter:junit-jupiter-migration-support:${junitJupiterVersion}"
+
+    // Support Serenity BDD
+    def SerenityVer = "1.2.2"
+    testCompile "net.serenity-bdd:serenity-core:${SerenityVer}"
+    testCompile "net.serenity-bdd:serenity-junit:${SerenityVer}"
+    testCompile "org.assertj:assertj-core:3.6.2"
+    testCompile "org.slf4j:slf4j-simple:1.7.25"
+
+    // Apache Log4J 2
+    compile "org.apache.logging.log4j:log4j-api:${log4JVersion}" // Apache Log4J 2
+    compile "org.apache.logging.log4j:log4j-core:${log4JVersion}" // Apache Log4J 2
+    testRuntime "org.apache.logging.log4j:log4j-core:${log4JVersion}"
+    testRuntime "org.apache.logging.log4j:log4j-jul:${log4JVersion}"
+
+    /*
+     Leptonica Image Processing library via JNA
+     http://tess4j.sourceforge.net/lept4j.html
+     */
+    compile "net.sourceforge.lept4j:lept4j:1.3.0"
+    compile "com.github.jai-imageio:jai-imageio-core:1.3.1"
+    compile "net.sourceforge.tess4j:tess4j:3.3.1"
+
+    /* Scala Support
+    Configuring the Zinc compiler is not always required.
+    https://docs.gradle.org/current/userguide/scala_plugin.html
+
+    The Scala compiler ignores Gradle"s targetCompatibility and sourceCompatibility settings.
+    In Scala 2.11, the Scala compiler always compiles to Java 6 compatible bytecode.
+    In Scala 2.12, the Scala compiler always compiles to Java 8 compatible bytecode.
+    If you also have Java sources, you can follow the same steps as for the Java plugin
+    to ensure the correct Java compiler is used.
+     */
+
+    compile "org.scala-lang:scalap:2.12.1"
+    compile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12.1
+    testCompile "org.scalatest:scalatest-app_2.12:3.2.0-SNAP4"
+    testCompile "org.scala-lang:scala-library-all:2.12.1" // for scala 2.12.1
+
+//    testCompile "org.scalatest:scalatest_2.12:3.0.0"
+//    testCompile "org.scalactic:scalactic_2.12.0-M5:3.0.0"
+//
+//    testCompile "org.scalatest:scalatest_2.11:3.0.1"
+//    testCompile "org.scalactic:scalactic_2.11:3.0.1"
+    testRuntime "org.pegdown:pegdown:1.6.0"
+
+    /* Scalajs Support
+    https://github.com/gtache/scalajs-gradle
+    http://repo1.maven.org/maven2/org/scala-js/
+   */
+    // def scalajsVer = "0.6.13"
+    // compile "org.scala-js:scalajs-library_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-compiler_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scalajs-javalib-ex_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-compiler_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scalajs-test-interface_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-ir_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-ir_sjs0.6_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-tools_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-stubs_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-sbt-test-adapter_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-js-envs_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-js-envs-test-kit_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-java-time_sjs0.6_2.12:0.2.0"
+    // compile "org.scala-js:scalajs-java-logging_sjs0.6_2.12:0.1.0"
+    // compile "org.scala-js:scalajs-dom_sjs0.6_2.12.0-M4:0.9.1:"
+    // compile "org.scala-js:scalajs-cli_2.11:0.6.9"
+    // compile "org.scala-js:scalajs-tools_sjs0.6_2.12:${scalajsVer}"
+
+    // TODO There is bug for integrating junit/selenium in scala-js
+    // compile "org.scala-js:scalajs-junit-test-runtime_2.12:${scalajsVer}"
+    // compile "org.scala-js:scalajs-junit-test-plugin_2.12.1:${scalajsVer}"
+    // compile "org.scala-js:scala-junit-mixin-plugin_2.12.0-M5:0.1.0:"
+    // compile "org.scala-js:seleniumjsenv_2.12.0-M3:0.1.0"
+    // compile "org.scala-js:scalajs-env-selenium_2.12.0-M4:0.1.3"
+    // compile "org.eclipse.jetty:jetty-server:8.1.16.v20140903"
+    // compile "org.eclipse.jetty:jetty-websocket:8.1.16.v20140903"
+
+    // For Kafka Development
+    def KafkaVer = "0.10.1.1"
+//            "0.10.2.0-rc2"
+    compile "org.apache.kafka:kafka_2.11:$KafkaVer"
+    compile "org.apache.kafka:kafka_2.12:$KafkaVer"
+    compile "org.apache.kafka:kafka-streams:$KafkaVer"
+    compile "org.apache.kafka:kafka-examples:$KafkaVer"
+    compile "org.apache.kafka:kafka-tools:$KafkaVer"
+    compile "org.apache.kafka:kafka-log4j-appender:$KafkaVer"
+    compile "org.apache.kafka:kafka-clients:$KafkaVer"
+    compile "org.apache.kafka:connect-api:$KafkaVer"
+    compile "org.apache.kafka:connect-json:$KafkaVer"
+    compile "org.apache.kafka:connect-file:$KafkaVer"
+    compile "org.apache.kafka:connect-runtime:$KafkaVer"
+    compile "org.apache.kafka:kafka-streams-examples:$KafkaVer"
+
+    // For PDF Support
+    compile "org.apache.pdfbox:pdfbox:2.0.4" // PDF
+    compile "com.itextpdf:itextpdf:5.5.10" // HTML to PDF
+
+    // PDF to HTML  //https://github.com/coolwanglu/pdf2htmlEX
+
+    // Data Storage : Schema evolution
+    //https://docs.oracle.com/cd/E26161_02/html/GettingStartedGuide/schemaevolution.html
+
+    // For Avro Support
+    //https://github.com/miguno/avro-cli-examples
+    compile "org.apache.avro:avro:1.8.1"
+    testCompile "org.apache.avro:avro:1.8.1"
+
+    // For Optimized Row Colomun Storage
+    def apachORCVer = "1.3.3"
+    compile "org.apache.orc:orc:${apachORCVer}"
+    compile "org.apache.orc:orc-core:${apachORCVer}"
+    compile "org.apache.orc:orc-tools:${apachORCVer}"
+    compile "org.apache.orc:orc-mapreduce:${apachORCVer}"
+
+    // For Parquet Support
+    compile "com.twitter:parquet-format:2.2.0"
+
+    // For Ignite Support
+    def IgniteVer = "1.9.0"
+    compile "org.apache.ignite:ignite-core:${IgniteVer}"
+    compile "org.apache.ignite:ignite-mesos:${IgniteVer}"
+    compile "org.apache.ignite:ignite-spring:${IgniteVer}"
+    compile "org.apache.ignite:ignite-tools:${IgniteVer}"
+    compile "org.apache.ignite:ignite-rest-http:${IgniteVer}"
+    compile "org.apache.ignite:ignite-spark:${IgniteVer}"
+    compile "org.apache.ignite:ignite-kafka:${IgniteVer}"
+    compile "org.apache.ignite:ignite-camel:${IgniteVer}"
+    compile "org.apache.ignite:ignite-clients:${IgniteVer}"
+
+    compile "org.apache.ignite:ignite-examples:1.0.0-RC3"
+    compile "org.apache.ignite:ignite-codegen:1.0.0-RC3"
+
+    // For ASM Core, Bytecode comparison
+    compile "org.ow2.asm:asm-all:6.0_ALPHA"
+    compile "org.ow2.asm:asm-debug-all:6.0_ALPHA"
+    compile "org.ow2.asm:asm-analysis:6.0_ALPHA"
+
+    /** Google Guava Library
+     * TODO Encountered NoSuchMethod Error when using higher version
+     * https://mvnrepository.com/artifact/com.google.guava/guava/21.0
+     */
+
+
+    compile "com.google.j2objc:j2objc-annotations:1.1"
+//    compile "com.google.j2objc:j2objc:1.3.1"
+
+    // Google Guice for Dependency Injection
+    // Guice vs Spring
+    // https://github.com/google/guice/wiki/SpringComparison
+    def guiceVer = "4.1.0"
+    compile "com.google.inject:guice:${guiceVer}" // Core
+    compile "com.google.inject:guice-parent:${guiceVer}"
+    compile "com.google.inject:guice-bom:${guiceVer}"
+    compile "com.google.inject:jdk8-tests:${guiceVer}"
+
+    // AWS Support
+    compile "com.amazonaws:aws-java-sdk-bom:1.11.93"
+
+    // Facebook Support
+    // http://facebook4j.github.io/en/index.html
+    // https://github.com/facebook/facebook-android-sdk/blob/master/facebook/build.gradle
+    compile "org.facebook4j:facebook4j-core:2.4.8"
+//    compile 'com.parse.bolts:bolts-android:1.4.0'
+    testCompile 'org.robolectric:robolectric:3.0'
+    testCompile 'org.robolectric:shadows-support-v4:3.0'
+
+    // Android Related (Local Lib directly as for now)
+    // https://dl.google.com/android/repository/repository-12.xml
+//    compile 'com.android.support:support-v4:25.0.0'
+//    compile 'com.android.support:appcompat-v7:25.0.0'
+//    compile 'com.android.support:cardview-v7:25.0.0'
+//    compile 'com.android.support:customtabs:25.0.0'
+
+    def powerMockVersion = '1.6.1'
+    testCompile "org.powermock:powermock-module-junit4:$powerMockVersion"
+    testCompile "org.powermock:powermock-module-junit4-rule:$powerMockVersion"
+    testCompile "org.powermock:powermock-classloading-xstream:$powerMockVersion"
+    testCompile "org.powermock:powermock-api-mockito:$powerMockVersion"
+
+//    compile "com.google.android.gms:play-services:10.2.1"
+
+    // WordPress Support
+    //http://bican.net/wordpress-java/
+//    compile "net.bican:jwordpress:0.6.5"
+//    compile "WordPress.xmlrpc:xmlrpc:1.1.1"
+
+    // Twitter Utilities
+    compile "com.twitter:util-core_2.12:6.42.0"
+
+    // JWT Web Token support
+    compile "io.jsonwebtoken:jjwt:0.7.0"
+
+    //https://orc.apache.org/
+//    compile "com.typesafe.zinc:zinc:0.3.11"
+//    testCompile "com.typesafe.zinc:zinc:0.3.11"
+//    zinc "com.typesafe.zinc:zinc:0.3.11"
+
+    //https://mvnrepository.com/open-source
+
+    /*
+    USB Access via JNA
+     */
+//    compile "org.usb4java:usb4java:1.2.1-SNAPSHOT"
+//    compile "org.usb4java:usb4java-javax:1.2.1-SNAPSHOT"
+}
+
+/*
+Big Jar setup
+ */
+jar {
+    baseName = "RE-TI-R-ED-Projects"
+    version = "2.0.0-SNAPSHOT"
+}
+
+
+bootRun {
+    addResources = true
+}
+
+bootRepackage {
+    mainClassName = "org.raliclo.JavaSEApplication"
+}
+
+task runCountSite(type: JavaExec) {
+    mainClassName = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task runEasy(type: JavaExec) {
+    mainClassName = "org.raliclo.JavaSEApplication"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+
+task runCount(type: JavaExec) {
+    mainClassName = "org.raliclo.WordCountWeb.RestAPI.dataApp.WordCountAvro"
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+//Example:
+//gradle - PmainClass = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite" execute
+//gradle - PmainClass = "LeapMotion.testLeap" execute
+
+//task execute(type: JavaExec) {
+//    main = mainClass
+//    classpath = sourceSets.main.runtimeClasspath
+//}
+
+task runLeap(type: JavaExec) {
+    mainClassName = "LeapMotion.leapTest"
+    main = mainClassName
+    systemProperty "java.library.path", "../libs/LeapSDK/lib"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+apply plugin: 'distribution'
+distZip.enabled = false
+distTar.enabled = false
+bootRepackage.enabled = false
+jar.enabled = false
+
+

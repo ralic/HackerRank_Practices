@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.security.oauth:tonr2:war:2.1.1.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/tonr2/2.1.1.BUILD-SNAPSHOT/9299302cef5b43bf5a4d3b946e4189a3080c0557/tonr2-2.1.1.BUILD-SNAPSHOT.war!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/tonr2/2.1.1.BUILD-SNAPSHOT/d733e744a184ab2b7831d1dff241b6abb396147e/tonr2-2.1.1.BUILD-SNAPSHOT.war!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
