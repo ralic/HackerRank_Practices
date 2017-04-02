@@ -18,6 +18,7 @@
  * user guide available at https://docs.gradle.org/3.0-20160712001602+0000/userguide/tutorial_java_projects.html
  */
 
+
 buildscript {
     // Use "jcenter" for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
@@ -32,10 +33,15 @@ buildscript {
         maven { url "https://plugins.gradle.org/m2/" }
         maven { url "https://repository.cloudera.com/content/repositories/releases/" }
         maven { url "http://repo.hortonworks.com/content/repositories/releases/" }
+        maven { url "https://dl.google.com/android/repository/repository-12.xml" }
+
+        maven { url "http://dl.bintray.com/jetbrains/intellij-plugin-service" }
+        maven { url "https://dl.bintray.com/databricks/maven/" }
         flatDir {
             dirs 'libs'
         }
     }
+
     dependencies {
         classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.0-M3" // Support JUNIT-5
         classpath "com.netflix.nebula:gradle-dependency-lock-plugin:4.9.1" // Support Dynamic version in dependency
@@ -46,14 +52,11 @@ buildscript {
         classpath "com.layer:gradle-git-repo-plugin:2.0.2"
         classpath "net.serenity-bdd:serenity-gradle-plugin:1.2.3-rc.7" // Support Serenity BDD
         classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT'// Support Spring Boot
-//        classpath 'com.github.multi-os-engine:moe-plugin-gradle:+'
         // Support Git Repo https://github.com/layerhq/gradle-git-repo-plugin
 
 //        github("layerhq", "maven-private", "master", "releases")
 //        git("https://github.com/phr00t/jMonkeyVR.git", "jMonkeyVR", "master", "releases")
 
-        // JavaFX Port for Mobile
-//        classpath "org.javafxports:jfxmobile-plugin:1.0.8"
         // ProGuard Support
 //        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
 
@@ -64,25 +67,29 @@ buildscript {
         classpath fileTree(dir: 'libs/LeapSDK/lib', include: { '**/*.jar'; '**/*.dylib' })
 
         // Proguard Support
-        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
+//        classpath 'com.github.hotchemi:gradle-proguard-plugin:0.1.0'
+
+        // Android Support
+        classpath 'com.android.tools.build:gradle:2.3.0'
+
+        // JavaFX Port for Mobile
+        classpath 'org.javafxports:jfxmobile-plugin:1.3.4'
+
+        project.getExtensions().getExtraProperties().set("moeSDKVersion", "1.3.2")
+
     }
 
 }
 
 plugins {
-    // GO Language Support.
-
-    // Use this variant if you use this as primary plugin
-    // In this case every task is simply named like: build, clean, test, ...
-//    id 'org.echocat.golang' version '0.1.15'
-
-    // Use this variant if you use this as secondary plugin
-    //    for example if you also use Java in this build file.
-    // In this case every task is simply named like: golangBuild, golangClean, golangTest, ...
-    id 'org.echocat.golang-minor' version '0.1.15'
+    // Intellij Plugins for Scala
+    //https://github.com/JetBrains/gradle-intellij-plugin
+    //https://blog.jetbrains.com/scala/
+//    id "org.jetbrains.intellij" version "0.2.7"
 
 //    J trans C
-    id "com.jtransc" version "0.5.2"
+    //https://github.com/jtransc/jtransc/tree/master/jtransc-intellij-plugin
+    id "com.jtransc" version "0.5.9"
 
     /*
         Javascript Support
@@ -94,7 +101,8 @@ plugins {
     id "com.eriwen.gradle.js" version "2.14.1"
     id "com.moowork.node" version "0.13"
 
-    /*  Golang Support
+    // GO Language Support.
+    /*
     The plugin provides the following gradle tasks:
         dependencies
         format
@@ -102,6 +110,11 @@ plugins {
         build and buildStatic
      */
 //    id "de.flachnetz.golang-gradle-plugin" version "0.1.31"
+
+    // Use this variant if you use this as secondary plugin
+    //    for example if you also use Java in this build file.
+    // In this case every task is simply named like: golangBuild, golangClean, golangTest, ...
+    id 'org.echocat.golang-minor' version '0.1.15'
 
     /*
         Avro Support
@@ -126,43 +139,136 @@ plugins {
 /*
     JavaFX Port Mobile
  */
-//    id "me.tatarka.retrolambda" version "3.3.0"
+    id "me.tatarka.retrolambda" version "3.3.0"
 
 }
 
-//apply plugin: "com.github.j2objccontrib.j2objcgradle"
+// ext {
+//     // The following are only a few examples of the types of properties you can define.
+//     compileSdkVersion = 25
+//     buildToolsVersion = "25.0.2"
+//     // You can also create properties to specify versions for dependencies.
+//     // Having consistent versions between modules can avoid conflicts with behavior.
+//     supportLibVersion = "25.3.0"
+// }
 
-apply plugin: "base"
-apply plugin: "java"
-apply plugin: "maven"
-apply plugin: "scala"
-apply plugin: "antlr"
-apply plugin: "net.serenity-bdd.aggregator"
-apply plugin: "nebula.dependency-lock"
-apply plugin: "org.ajoberstar.github-pages"
-// apply plugin: 'scalajs-plugin'
 
-//apply plugin: "war" // Support Web Application Archive
-//apply plugin: "org.javafxports.jfxmobile"
-//apply plugin: "nebula.ospackage" // Support RPM package
+//apply plugin: 'org.javafxports.jfxmobile'
+apply plugin: "org.springframework.boot"
 
-// Pick IDE appropriate for you
+allprojects {
+
+    repositories {
+
+        maven { url "https://repo.spring.io/milestone" }
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://central.maven.org/" }
+        mavenLocal()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "http://repo1.maven.org/maven2/" }
+        maven { url "http://conjars.org/repo" }
+        maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
+        maven { url "https://jitpack.io" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases" }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+        flatDir { dirs 'libs/LeapSDK/lib' }
+        flatDir { dirs 'libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist' }
+        flatDir { dirs 'libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist' }
+    }
+
+    apply plugin: "antlr"
+    generateGrammarSource {
+        maxHeapSize = "64m"
+        arguments += ["-visitor", "-long-messages"]
+    }
 
 /*
-     Golang Support
-    https://github.com/go-lang-plugin-org/go-lang-idea-plugin
-    https://plugins.jetbrains.com/plugin/5047?pr=idea
-*/
+Software Test : Junit & TestNG
+ */
+    test {
+        /* set heap size for the test JVM(s) */
+        minHeapSize = "512m"
+//    maxHeapSize = "1024m" //default 512m
+        maxHeapSize = "5120m"
+        forkEvery = 1 // prevent Java OOM error on over 1 GB of mem usage
+        /*
+            [Test Logs]  Show that tests are run in the command-line output
+            fLogging {
+            events "started", "passed"
+            }
+         */
+        testLogging {
+            events "passed", "skipped", "failed"
+        }
+        testLogging.showStandardStreams = false // true // It will be automatic true if descriptor is customized.
 
-apply plugin: "idea"
-idea {
-    module {
-        downloadJavadoc = true //false //
-        downloadSources = true //false //
+        //Q:  TestNG vs JUNIT4 ?
+        //A:  http://www.guru99.com/junit-vs-testng.html
+        //Q:  JUnit5 ?
+        //A:  http://junit.org/junit5/docs/current/user-guide/
+        systemProperties "test-name": "TestName from build.gradle"
+
+//    includeClassNamePattern '.*Test'
+
+//     useJUnit()
+        // enable TestNG support (default is JUnit)
+        useTestNG() {
+            // runlist to executed. path is relative to current folder
+            // Specify suites here , if not or left empty here, all test will be excuted.
+
+            // Here are three sample test Suites written in XML format
+            // suites "src/test/java/intermediate_MultiThreadTest.xml"
+            // suites "src/test/java/beginner.xml"
+//         suites "src/test/java/all.xml"
+        }
+
+        //     set a system property for the test JVM(s)
+        //    systemProperty "some.prop", "value"
+        //
+        //    // explicitly include or exclude tests
+        //    include "org/foo/**"
+        //    exclude "org/boo/**"
+
+        // show standard out and standard error of the test JVM(s) on the console
+        ignoreFailures = true
+
+        /* Comment out for using customized descriptor in stdout
+
+        // listen to events in the test execution lifecycle
+        beforeTest { descriptor ->
+        logger.lifecycle("Running test: " + descriptor)
+        }
+        // listen to standard out and standard error of the test JVM(s)
+        onOutput { descriptor, event ->
+        logger.lifecycle("Test: " + descriptor + " produced standard out/err: \n" + event.message )
+        }
+         */
+    }
+
+// Compile / Test / Read report
+    task NGreport(type: Exec, dependsOn: [test]) {
+//https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
+        workingDir './'
+        commandLine 'open'
+        args './build/reports/tests/test/index.html'
+        //store the output instead of printing to the console:
+        standardOutput = new ByteArrayOutputStream()
+        ext.output = {
+            return standardOutput.toString()
+        }
+    }
+
+    task BDDreport(type: Exec, dependsOn: [test]) {
+        workingDir './'
+        commandLine 'open'
+        args 'target/site/serenity/index.html'
+        standardOutput = new ByteArrayOutputStream()
+        ext.output = {
+            return standardOutput.toString()
+        }
     }
 }
-apply plugin: 'git-repo'
-
 //repositories {
 //    git("com.github.multi-os-engine", "moe-plugin-gradle", "master", "releases")
 //}
@@ -173,33 +279,6 @@ apply plugin: 'git-repo'
 //        downloadJavadoc = true
 //    }
 //}
-
-/*
-Big Jar setup
- */
-jar {
-    baseName = "RE-TI-R-ED-Projects"
-    version = "2.0.0-SNAPSHOT"
-}
-
-repositories {
-
-    maven { url "https://repo.spring.io/milestone" }
-    maven { url "http://repo.spring.io/snapshot" }
-    maven { url "http://central.maven.org/" }
-    mavenLocal()
-    jcenter()
-    maven { url "https://jitpack.io" }
-    maven { url "http://repo1.maven.org/maven2/" }
-    maven { url "http://conjars.org/repo" }
-    maven { url "https://maven.itm.uni-luebeck.de/content/repositories/snapshots" }
-    maven { url "https://jitpack.io" }
-    maven { url "https://oss.sonatype.org/content/repositories/releases" }
-    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
-    flatDir { dirs 'libs/LeapSDK/lib' }
-    flatDir { dirs 'libs/spring-social-2.0.0.BUILD-SNAPSHOT/dist' }
-    flatDir { dirs 'libs/spring-security-5.0.0.BUILD-SNAPSHOT/dist' }
-}
 
 /*
  [Exclusion]
@@ -228,28 +307,44 @@ def excludes = configurations.all {
 
 apply plugin: "org.junit.platform.gradle.plugin"
 
-compileTestJava {
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-    options.compilerArgs += "-parameters"
-}
+// Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
+//    apply plugin: 'add.proguard'
+//apply plugin: "com.github.j2objccontrib.j2objcgradle"
 
-compileJava {
-    options.fork = true  // Fork your compilation into a child process
-    options.forkOptions.setMemoryMaximumSize("4g") // Set maximum memory to 4g
-}
+/*
+    Apply Plugin for JavaSE RunTime Support
+    Automatic restart using Spring-Boot
+ */
+apply plugin: "base"
+apply plugin: "maven"
+apply plugin: "net.serenity-bdd.aggregator"
+apply plugin: "nebula.dependency-lock"
+apply plugin: "org.ajoberstar.github-pages"
+// apply plugin: 'scalajs-plugin'
+//apply plugin: "war" // Support Web Application Archive
+//apply plugin: "org.javafxports.jfxmobile"
+//apply plugin: "nebula.ospackage" // Support RPM package
 
-compileScala {
-    options.fork = true  // Fork your compilation into a child process
-    options.forkOptions.setMemoryMaximumSize("4g") // Set maximum memory to 4g
-}
+// Pick IDE appropriate for you
+/*
+     Golang Support
+    https://github.com/go-lang-plugin-org/go-lang-idea-plugin
+    https://plugins.jetbrains.com/plugin/5047?pr=idea
+*/
 
+apply plugin: 'git-repo'
 
-compileTestScala {
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-    options.compilerArgs += "-parameters"
-}
+// FOR FACEBOOK SUPPORT
+//apply plugin: 'com.android.library'
+
+//apply plugin: 'com.android.application'
+//android {
+//    buildToolsVersion "25.0.0"
+//    minSdkVersion 25
+//    targetSdkVersion 25
+//    compileSdkVersion 25
+//
+//}
 
 /*
  [JUNIT] In this section you configure JUnit5 Platform Support
@@ -259,7 +354,6 @@ junitPlatform {
     platformVersion "1.0.0-M3"
     enableStandardTestTask true
     reportsDir file('build/test-results/junit-platform')
-    enableStandardTestTask true
 }
 
 
@@ -273,7 +367,46 @@ ext.log4JVersion = "2.7"
  [Dependencies] In this section you declare the dependencies for your production and test code
 */
 
+
+
 dependencies {
+
+    /**
+     *     For Spark Development
+     */
+
+    def SparkVer = "2.1.0"
+    compile("org.apache.spark:spark-core_2.11:${SparkVer}")
+            {
+                exclude group: "com.fasterxml.jackson.module",
+                        module: "jackson-module-scala_2.11"
+            }
+    compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-hive_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-repl_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-yarn_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-graphx_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-catalyst_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-network-shuffle_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
+    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
+    compile "com.databricks:spark-csv_2.11:1.5.0"
+    compile "com.databricks:spark-avro_2.11:3.2.0"
+    compile "com.databricks:spark-xml_2.11:0.4.1"
+//    compile "com.databricks:diff-match-patch:0.1"
+
+//    def SparkVerOld = "1.6.3"
+//    compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
+//    compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+
+    // For Spark Unit Test with SparkHive
+    // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
+    compile "com.holdenkarau:spark-testing-base_2.11:2.1.0_0.6.0"
 
     // For JSON to Java Object (Gson)
     compile "com.google.code.gson:gson:2.7"
@@ -284,10 +417,12 @@ dependencies {
     compile "com.google.guava:guava-gwt:${guavaVer}"
     compile "com.google.guava:guava-tests:${guavaVer}"
     compile "com.google.guava:guava-testlib:${guavaVer}"
+    compile 'com.google.code.findbugs:annotations:3.0.1u2'
+
     testCompile("com.google.guava:guava:${guavaVer}")
 
     // MySQL Connector support
-    compile "mysql:mysql-connector-java:6.0.6"//6.0.3
+    compile "mysql:mysql-connector-java:6.0.3"//6.0.3
 
     // Local Libs Support
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -298,9 +433,10 @@ dependencies {
     compile "org.javafxports:ios-sdk:8.60.7"
     compile "org.javafxports:dalvik-sdk:8.60.7"
     compile "org.javafxports:jfxdvk:8.60.7"
+
     // TODO Need more time to configure this.
-    // compile "org.robovm:robovm-dist:1.14.0"
-    // compile "org.robovm:robovm-rt-android:1.14.0"
+//     compile "org.robovm:robovm-dist:1.14.0"
+//     compile "org.robovm:robovm-rt-android:1.14.0"
 
     // For Spring Boot
     // Error :java.lang.NoClassDefFoundError: ch/qos/logback/classic/turbo/TurboFilter
@@ -368,20 +504,6 @@ dependencies {
     compile "com.machinepublishers:jbrowserdriver:0.17.1"
 //    compile "org.jboss.arquillian.extension:2.1.1"
 
-//     def SpringVer = "1.5.1.RELEASE"
-//     compile "org.springframework.boot:spring-boot-starter:${SpringVer}"
-//     compile("org.springframework.boot:spring-boot-starter-web:${SpringVer}")
-//            { exclude group: "org.springframework.boot", module: "spring-boot-starter-jetty" }
-//     compile "org.springframework.boot:spring-boot-starter-data-jpa:${SpringVer}"
-//     testCompile "org.springframework.boot:spring-boot-starter-test:${SpringVer}"
-
-// //    compile "org.springframework.boot:spring-boot:${SpringVer}"
-// //    compile "org.springframework.boot:spring-boot-starter-thymeleaf:${SpringVer}"
-// //    compile "org.springframework.boot:spring-boot-starter-security:${SpringVer}"
-// //    compile "org.springframework.boot:spring-boot-configuration-processor:${SpringVer}"
-// //    compile "org.springframework.boot:spring-boot-starter-jetty:${SpringVer}"
-// //    compile "org.springframework.boot:spring-boot-starter-actuator:${SpringVer}"
-
     /**
      * Spring Framework
      */
@@ -426,6 +548,20 @@ dependencies {
 //    compile "org.springframework.data:spring-data-rest-example:${SpringDataCoreVer}" // Need pivotal gemfire
 //    compile "org.springframework.data:spring-data-geode:1.1.0.BUILD-SNAPSHOT" // Need pivotal gemfire
 
+    // Dbeaver : Database Tools
+    /*
+    Free multi-platform database tool for developers, SQL programmers,  database administrators and analysts.
+    Supports any database which has JDBC driver (which basically means - ANY database).
+    EE version also supports non-JDBC datasources (WMI, MongoDB, Cassandra, Redis).
+    */
+    //https://github.com/serge-rider/dbeaver
+//    compile "org.jkiss.dbeaver:dbeaver:4.0.3"
+
+    // Scala Gen
+    //https://github.com/pshirshov/idea-scalagen.git
+    compile "com.mysema.scalagen:scalagen-root:0.3.2"
+
+    // Wordpress :
     // Spring Hadoop Core
     def SpringHadoopCoreVer = "2.5.0.M1"
     compile "org.springframework.data:spring-data-hadoop:${SpringHadoopCoreVer}"
@@ -539,10 +675,10 @@ dependencies {
 //    compile "io.spring.gradle:spring-gradle-build-conventions:1.0-SNAPSHOT"
 //    compile "io.spring.gradle:spring-convention-plugins:1.0-SNAPSHOT"
 
+
     def SpringBootVer = "2.0.0.BUILD-SNAPSHOT"
     //http://repo.spring.io/snapshot/org/springframework/data/
     //https://github.com/spring-projects/spring-data-examples/tree/master/rest/multi-store
-
     compile "org.springframework.boot:spring-boot-full-build:${SpringBootVer}"
     testCompile "org.springframework.boot:spring-boot-full-build:${SpringBootVer}"
     compile "org.springframework.boot:spring-boot:${SpringBootVer}"
@@ -584,7 +720,6 @@ dependencies {
     /**
      * Undertow Server
      */
-
 
     compile "io.undertow:undertow-core:1.4.11.Final" // 2.0.0.Alpha1
     testCompile "io.undertow:undertow-core:1.4.11.Final"
@@ -638,46 +773,19 @@ dependencies {
 
     // Cassandra
     // TODO : One of these makes Spring Boot/Tomcat crashes.
-//    compile "org.apache.cassandra:cassandra-all:3.7"
-//    compile "com.datastax.spark:spark-cassandra-connector_2.10:1.6.0"
-//    compile "com.datastax.cassandra:cassandra-driver-core:3.0.3"
+    compile "org.apache.cassandra:cassandra-all:3.7"
+    compile "com.datastax.spark:spark-cassandra-connector_2.11:2.0.0"
+    compile "com.datastax.cassandra:cassandra-driver-core:3.1.0"
 
     // For ZooKeeper Development
-    compile "org.apache.zookeeper:zookeeper:3.4.8"
+    compile "org.apache.zookeeper:zookeeper:3.5.2-alpha"
 
     /**
      *     For Apache Geode Development
      *     Performance is key. Consistency is a must.
      *     http://geode.apache.org/
      */
-    compile "org.apache.geode:gemfire-core:1.0.0-incubating.M1"
-
-    /**
-     *     For Spark Development
-     */
-
-    def SparkVer = "2.1.0"
-   compile("org.apache.spark:spark-core_2.11:${SparkVer}")
-           {
-               exclude group: "com.fasterxml.jackson.module",
-                       module: "jackson-module-scala_2.11"
-           }
-    compile "org.apache.spark:spark-sql_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-mllib_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-streaming_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-hive_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-repl_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-unsafe_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-yarn_2.11:${SparkVer}"
-    compile "org.apache.spark:spark-graphx_2.11:${SparkVer}"
-
-    compile "org.apache.spark:spark-tags_2.11:${SparkVer}"
-
-   def SparkVerOld = "1.6.2"
-   compile "org.apache.spark:spark-test-tags_2.11:${SparkVerOld}"
-   compile "org.apache.spark:spark-streaming-twitter_2.11:${SparkVerOld}"
-   compile "org.apache.spark:spark-streaming-kafka_2.11:${SparkVerOld}"
-   compile "org.apache.spark:spark-bagel_2.11:${SparkVerOld}"
+//    compile "org.apache.geode:gemfire-core:1.0.0-incubating.M1"
 
     // JSON, YAML support
     def jackson = "2.9.0.pr2"
@@ -708,10 +816,6 @@ dependencies {
     def ZxingVer = "3.3.0"
     compile "com.google.zxing:zxing-parent:${ZxingVer}"
     compile "com.google.zxing:javase:${ZxingVer}"
-
-    // For Spark Unit Test with SparkHive
-    // https://repo.jfrog.org/artifactory/libs-release-bintray/com/holdenkarau/spark-testing-base_2.11/
-    compile "com.holdenkarau:spark-testing-base_2.11:2.1.0_0.6.0"
 
     // For Mesos Development
     compile "org.apache.mesos:mesos:1.2.0"
@@ -779,12 +883,6 @@ dependencies {
 //    compile "com.badlogicgames.gdx:gdx:1.9.4"
 //    compile "com.badlogicgames.gdx:gdx-platform:1.9.4"
 //    compile "com.badlogicgames.gdx:gdx-backend-moe:1.9.4"
-
-    // MOE SUPPORT
-//- Gradle Core Plugins (not a core plugin, please see https://docs.gradle.org/3.2.1/userguide/standard_plugins.html for available core plugins)
-//- Gradle Central Plugin Repository (no 'moe-plugin-gradle' plugin available - see following link for available plugins)
-// https://plugins.gradle.org
-//    compile "com.github.multi-os-engine:moe-plugin-gradle:moe-1.2.3"
 
     // JMonkey3
     def jMonkeyVer = "3.1.0-stable"
@@ -903,6 +1001,7 @@ dependencies {
      */
     compile "net.sourceforge.lept4j:lept4j:1.3.0"
     compile "com.github.jai-imageio:jai-imageio-core:1.3.1"
+    compile "net.sourceforge.tess4j:tess4j:3.3.1"
 
     /* Scala Support
     Configuring the Zinc compiler is not always required.
@@ -1041,13 +1140,49 @@ dependencies {
 
     // Facebook Support
     // http://facebook4j.github.io/en/index.html
+    // https://github.com/facebook/facebook-android-sdk/blob/master/facebook/build.gradle
     compile "org.facebook4j:facebook4j-core:2.4.8"
+//    compile 'com.parse.bolts:bolts-android:1.4.0'
+    testCompile 'org.robolectric:robolectric:3.0'
+    testCompile 'org.robolectric:shadows-support-v4:3.0'
+
+    // Android Related (Local Lib directly as for now)
+    // https://dl.google.com/android/repository/repository-12.xml
+//    compile 'com.android.support:support-v4:25.0.0'
+//    compile 'com.android.support:appcompat-v7:25.0.0'
+//    compile 'com.android.support:cardview-v7:25.0.0'
+//    compile 'com.android.support:customtabs:25.0.0'
+
+    def powerMockVersion = '1.6.1'
+    testCompile "org.powermock:powermock-module-junit4:$powerMockVersion"
+    testCompile "org.powermock:powermock-module-junit4-rule:$powerMockVersion"
+    testCompile "org.powermock:powermock-classloading-xstream:$powerMockVersion"
+    testCompile "org.powermock:powermock-api-mockito:$powerMockVersion"
+
+    // Metrics : Java Health Check
+//    compile "io.dropwizard.metrics:metrics-core:3.2.2"
+//    compile "com.google.android.gms:play-services:10.2.1"
+
+    // WordPress Support
+    //http://bican.net/wordpress-java/
+//    compile "net.bican:jwordpress:0.6.5"
+//    compile "WordPress.xmlrpc:xmlrpc:1.1.1"
 
     // Twitter Utilities
     compile "com.twitter:util-core_2.12:6.42.0"
 
     // JWT Web Token support
     compile "io.jsonwebtoken:jjwt:0.7.0"
+    compile "org.hamcrest:hamcrest-library:1.3"
+
+    // JavaFX test
+    testCompile "org.mockito:mockito-core:2.3.5"
+    testCompile "org.testfx:testfx-core:4.0.6-alpha"
+//    testCompile "org.testfx:testfx-core:4.0.+"
+    testCompile "org.testfx:testfx-junit:4.0.6-alpha"
+    testCompile "org.hamcrest:hamcrest-library:1.3"
+    testCompile "org.controlsfx:controlsfx:8.40.12"
+    testCompile "org.testfx:openjfx-monocle:8u76-b04"
 
     //https://orc.apache.org/
 //    compile "com.typesafe.zinc:zinc:0.3.11"
@@ -1065,312 +1200,72 @@ dependencies {
 }
 
 /*
-    Scala Support
- */
-// https://docs.gradle.org/current/userguide/scala_plugin.html
-// Compiling in external process
-tasks.withType(ScalaCompile) {
-//    scalaCompileOptions.with {
-//        force = true
-//    }
-    configure(scalaCompileOptions.forkOptions) {
-        memoryMaximumSize = "1g"
-    }
-}
-
-//setting custom max heap size and extra arguments for ANTLR
-generateGrammarSource {
-    maxHeapSize = "64m"
-    arguments += ["-visitor", "-long-messages"]
-}
-
-/*
-    Apply Plugin for JavaSE RunTime Support
-    Automatic restart using Spring-Boot
- */
-
-// Gradle Chap50 : https://docs.gradle.org/current/userguide/application_plugin.html
-apply plugin: 'add.proguard'
-apply plugin: "application"
-apply plugin: "org.springframework.boot"
-//apply plugin: "spring-boot"
-
-bootRun {
-    addResources = true
-}
-
-bootRepackage {
-    mainClassName = "org.raliclo.JavaSEApplication"
-}
-/*
-Software Test : Junit & TestNG
- */
-test {
-    /* set heap size for the test JVM(s) */
-    minHeapSize = "512m"
-//    maxHeapSize = "1024m" //default 512m
-    maxHeapSize = "4096m"
-    forkEvery = 1 // prevent Java OOM error on over 1 GB of mem usage
-    /*
-        [Test Logs]  Show that tests are run in the command-line output
-        fLogging {
-        events "started", "passed"
-        }
-     */
-    testLogging.showStandardStreams = false // true // It will be automatic true if descriptor is customized.
-
-    //Q:  TestNG vs JUNIT4 ?
-    //A:  http://www.guru99.com/junit-vs-testng.html
-    //Q:  JUnit5 ?
-    //A:  http://junit.org/junit5/docs/current/user-guide/
-    systemProperties "test-name": "TestName from build.gradle"
-
-//    includeClassNamePattern '.*Test'
-
-//     useJUnit()
-    // enable TestNG support (default is JUnit)
-    useTestNG() {
-        // runlist to executed. path is relative to current folder
-        // Specify suites here , if not or left empty here, all test will be excuted.
-
-        // Here are three sample test Suites written in XML format
-        // suites "src/test/java/intermediate_MultiThreadTest.xml"
-        // suites "src/test/java/beginner.xml"
-//         suites "src/test/java/all.xml"
-    }
-
-    //     set a system property for the test JVM(s)
-    //    systemProperty "some.prop", "value"
-    //
-    //    // explicitly include or exclude tests
-    //    include "org/foo/**"
-    //    exclude "org/boo/**"
-
-    // show standard out and standard error of the test JVM(s) on the console
-    ignoreFailures = true
-
-    /* Comment out for using customized descriptor in stdout
-
-    // listen to events in the test execution lifecycle
-    beforeTest { descriptor ->
-    logger.lifecycle("Running test: " + descriptor)
-    }
-    // listen to standard out and standard error of the test JVM(s)
-    onOutput { descriptor, event ->
-    logger.lifecycle("Test: " + descriptor + " produced standard out/err: \n" + event.message )
-    }
-     */
-}
-
-/*
 Task Definitions
 -Following are task definition examples.
 -REF: https://docs.gradle.org/current/userguide/tutorial_gradle_command_line.html#N1014A
  */
 
+
+
+
 task compile {
     println "\n[Info] Compiler started" // Emit additional message to :compile
 }
 
-// Compile / Test / Read report
-//task NGreport(type: Exec, dependsOn: [test]) {
-////https://docs.gradle.org/current/dsl/org.gradle.api.tasks.Exec.html
-//    workingDir './'
-//    commandLine 'open'
-//    args './build/reports/tests/test/index.html'
-//    //store the output instead of printing to the console:
-//    standardOutput = new ByteArrayOutputStream()
-//    ext.output = {
-//        return standardOutput.toString()
-//    }
-//}
+apply plugin: "idea"
+apply plugin: "scala"
 
-task runEasy(type: JavaExec) {
-    mainClassName = "org.raliclo.JavaSEApplication"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
 }
 
-task runCountSite(type: JavaExec) {
-    mainClassName = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
+compileTestJava {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    options.compilerArgs += "-parameters"
 }
 
-task runCount(type: JavaExec) {
-    mainClassName = "org.raliclo.WordCountWeb.RestAPI.dataApp.WordCountAvro"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
+compileJava {
+    options.fork = true  // Fork your compilation into a child process
+    options.forkOptions.setMemoryMaximumSize("4g") // Set maximum memory to 4g
 }
 
-// Example :
-// gradle -PmainClass="org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite" execute
-// gradle -PmainClass="LeapMotion.testLeap" execute
-
-//task execute(type:JavaExec) {
-//    main = mainClass
-//    classpath = sourceSets.main.runtimeClasspath
-//}
-
-task runLeap(type: JavaExec) {
-    mainClassName = "LeapMotion.leapTest"
-    main = mainClassName
-    systemProperty "java.library.path", "libs/LeapSDK/lib"
-    classpath = sourceSets.main.runtimeClasspath
+/*
+    Scala Support
+ */
+// https://docs.gradle.org/current/userguide/scala_plugin.html
+// Compiling in external process
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.with {
+        force = true
+    }
+    configure(scalaCompileOptions.forkOptions) {
+        memoryMaximumSize = "1g"
+    }
 }
 
-def gradleVersion = "3.4.1"
-// task to add gradle wrapper files.
-task("wrapper", type: Wrapper) {
-    distributionUrl = "https://services.gradle.org/distributions/" +
-            "gradle-${gradleVersion}-all.zip"
+compileScala {
+    options.fork = true  // Fork your compilation into a child process
+    options.forkOptions.setMemoryMaximumSize("4g") // Set maximum memory to 4g
 }
 
-//gradle dist -x test ==> This will exclude [test]
-//task dist(dependsOn: [compile, test]) << {
-//    println "building the distribution"
-//}
 
-// gradle projects ===> List all Projects in Tree
-// gradle tasks ===> List all tasks in Tree , same as tasks
-
-// TASKSs for Game Development on JMonkey3
-
-//
-//task libDist(dependsOn: subprojects.build) << {
-////    description "Builds and copies the engine binaries, sources and javadoc to build/libDist"
-//    File libFolder = mkdir("$buildDir/libDist/lib")
-//    File sourceFolder = mkdir("$buildDir/libDist/sources")
-//    File javadocFolder = mkdir("$buildDir/libDist/javadoc")
-//    subprojects.each {project ->
-//        if(project.ext.mainClass == ""){
-//            project.tasks.withType(Jar).each {archiveTask ->
-//                if(archiveTask.classifier == "sources"){
-//                    copy {
-//                        from archiveTask.archivePath
-//                        into sourceFolder
-//                        rename {project.name + "-" + archiveTask.classifier +"."+ archiveTask.extension}
-//                    }
-//                } else if(archiveTask.classifier == "javadoc"){
-//                    copy {
-//                        from archiveTask.archivePath
-//                        into javadocFolder
-//                        rename {project.name + "-" + archiveTask.classifier +"."+ archiveTask.extension}
-//                    }
-//                } else{
-//                    copy {
-//                        from archiveTask.archivePath
-//                        into libFolder
-//                        rename {project.name + "." + archiveTask.extension}
-//                    }
-//                }
-//            }
-//        }
-//    }
-//}
-//
-//task createZipDistribution(type:Zip,dependsOn:["dist","libDist"], description:"Package the nightly zip distribution"){
-//    archiveName "jME" + jmeFullVersion + ".zip"
-//    into("/") {
-//        from {"./dist"}
-//    }
-//    into("/sources") {
-//        from {"$buildDir/libDist/sources"}
-//    }
-//}
-//
-//task copyLibs(type: Copy){
-////    description "Copies the engine dependencies to build/libDist"
-//    from {
-//        subprojects*.configurations*.compile*.copyRecursive({ !(it instanceof ProjectDependency); })*.resolve()
-//    }
-//
-//    into "$buildDir/libDist/lib-ext" //buildDir.path + "/" + libsDirName + "/lib"
-//}
-//
-////task dist(dependsOn: [":jme3-examples:dist", "mergedJavadoc"]){
-////    description "Creates a jME3 examples distribution with all jme3 binaries, sources, javadoc and external libraries under ./dist"
-////}
-//task dist(dependsOn: ["mergedJavadoc"]){
-//    description "Creates a jME3 examples distribution with all jme3 binaries, sources, javadoc and external libraries under ./dist"
-//}
-//
-//task mergedJavadoc(type: Javadoc, description: "Creates Javadoc from all the projects.") {
-//    title = "jMonkeyEngine3"
-//    destinationDir = mkdir("dist/javadoc")
-//
-//    options.encoding = "UTF-8"
-//
-//    // Allows Javadoc to be generated on Java 8 despite doclint errors.
-//    if (JavaVersion.current().isJava8Compatible()) {
-//        options.addStringOption("Xdoclint:none", "-quiet")
-//    }
-//
-//    options.overview = file("javadoc-overview.html")
-//    // Note: The closures below are executed lazily.
-//    source subprojects.collect {project ->
-//        project.sourceSets*.allJava
-//    }
-////    classpath = files(subprojects.collect {project ->
-////            project.sourceSets*.compileClasspath})
-//    //    source {
-//    //        subprojects*.sourceSets*.main*.allSource
-//    //    }
-//    classpath.from {
-//        subprojects*.configurations*.compile*.copyRecursive({ !(it instanceof ProjectDependency); })*.resolve()
-//    }
-//}
-//
-//task mergedSource(type: Copy){
-//
-//}
-//
-////task wrapper(type: Wrapper, description: "Creates and deploys the Gradle wrapper to the current directory.") {
-////    gradleVersion = "3.4.1"
-////}
-//
-//ext {
-//    ndkCommandPath  = ""
-//    ndkExists       = false
-//}
-//
-//task configureAndroidNDK {
-//    def ndkBuildFile = "ndk-build"
-//    // if windows, use ndk-build.cmd instead
-//    if (System.properties["os.name"].toLowerCase().contains("windows")) {
-//        ndkBuildFile = "ndk-build.cmd"
-//    }
-//
-//    // ndkPath is defined in the root project gradle.properties file
-//    String ndkBuildPath = ndkPath + File.separator + ndkBuildFile
-//    //Use the environment variable for the NDK location if defined
-//    if (System.env.ANDROID_NDK != null) {
-//        ndkBuildPath = System.env.ANDROID_NDK + File.separator + ndkBuildFile
-//    }
-//
-//    if (new File(ndkBuildPath).exists()) {
-//        ndkExists = true
-//        ndkCommandPath = ndkBuildPath
-//    }
-//}
-
-//xcodebuild {
-//    version = "7.3.1"
-//    target = "XCode-TARGET"
-//    scheme = "Example"
-//    configuration = "Test"
-//    destination = ["iPhone 6s"]
-//}
-
-//j2objcConfig {
-//    // Sets up libraries you depend on
-//    autoConfigureDeps true
-//    // Omit these two lines if you don"t configure your Xcode project with CocoaPods
-//    xcodeProjectDir "../ios"  //  suggested directory name
-//    xcodeTargetsIos "IOS-APP"  // greplace with your iOS targets
-//    finalConfigure()          // Must be last call to configuration
-//}
-//
+compileTestScala {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    options.compilerArgs += "-parameters"
+}
+/*
+* Setting custom max heap size and extra arguments for ANTLR
+* Not nessary to use.
+*/
+// generateGrammarSource {
+//     maxHeapSize = "64m"
+//     arguments += ["-visitor", "-long-messages"]
+// }
 
 /*
  TODO [Low] Fix JavaFX Port Mobile
@@ -1402,24 +1297,6 @@ task("wrapper", type: Wrapper) {
 //        }
 //    }
 //}
-/*
- JavaFX Support for Android / iOS
- http://docs.gluonhq.com/javafxports/
- TODO [Low] Fix JavaFX Port Mobile
-*/
-//jfxmobile {
-//    ios {
-//        forceLinkClasses = ["ensemble.**.*"]
-//    }
-//    android {
-//        applicationPackage = "org.raliclo.JavaFX_Mobile"
-//    }
-//}
-
-//generateGrammarSource {
-//    maxHeapSize = "64m"
-//    arguments += ["-visitor", "-long-messages"]
-//}
 
 //retrolambda {
 //    jdk System.getenv("JAVA8_HOME")
@@ -1431,329 +1308,44 @@ task("wrapper", type: Wrapper) {
 //    incremental true
 //}
 
-/*
-CI Solution Comparison : Jenkins vs. Travis CI vs. CircleCI
-http://stackshare.io/stackups/travis-ci-vs-circleci-vs-jenkins
-Jenkins has highest market share and deployed for large enterprise.
-TODO Jenkins Support
- */
-
-//apply plugin: "com.terrafolio.jenkins"
-//
-//jenkins {
-//
-//    servers {
-//        testing {
-//            url "https://ci.jenkins.io/"
-//            secure true         // optional
-//            username "testuser" // optional
-//            password "testpass" // optional
-//        }
-//    }
-//
-//    templates {
-//        build {
-//            xml file("build-template.xml")
-//        }
-//    }
-//    defaultServer servers.testing // optional
-//    jobs {
-//        test {
-//            server servers.testing
-//            definition {
-//                name "Build ${project.name}" //optional
-//                xml file("config.xml")
-//            }
-//        }
-//    }
-//}
-
-//Chapter 70. Building native software
-//https://docs.gradle.org/current/userguide/native_software.html#cppPlugin
-
-/*
-C / C++ / Assembler /Golang support
-TODO Complete the configuration & Support
- */
-//apply plugin: "c"
-//apply plugin: "cpp"
-//apply plugin: "assembler"
-//apply plugin: "objective-cpp"
-//apply plugin: "objective-c"
-//
-//model {
-//    components {
-////        platforms {
-////            macOS {
-////                architecture "x86_64"
-////                operatingSystem "osx"
-////            }
-////        }
-//        main(NativeExecutableSpec) {
-////            targetPlatform macOS  // Error : Incubating.
-//            sources {
-//                c {
-//                    source {
-//                        srcDir "src/main/clang"
-//                        include "**/*.c"
-//                    }
-//                    exportedHeaders {
-//                        srcDir "src/include"
-//                    }
-//                }
-//                cpp {
-//                    source {
-//                        srcDir "src/main/cpp"
-//                        include "**/*.cpp"
-//                    }
-//                }
-//
-//                //https://docs.gradle.org/current/dsl/org.gradle.language.assembler.AssemblerSourceSet.html
-//                //Note: This property is incubating and may change in a future version of Gradle.
-//                asm {
-//                    source {
-//                        srcDirs "src/main/asm"
-//                        include "**/*.s"
-//                    }
-//                }
-//            }
-//            binaries.all {
-//                // Prerequsite : Know about "Preprocessor, source, compiler, linker , assembler "
-//                //https://courses.cs.washington.edu/courses/cse378/97au/help/compilation.html
-//                // Define a preprocessor macro for every binary
-//                cppCompiler.define "NDEBUG"
-//
-//                // Define toolchain-specific source, compiler and linker, assembler options
-//                if (toolChain in Gcc) {
-//                    sources {
-//                        platformAsm(AssemblerSourceSet) {
-//                            source.srcDir "src/main/asm/gcc"
-//                        }
-//                    }
-//                    assembler.args "-g"
-//                    cppCompiler.args "-O2", "-fno-access-control"
-//                    linker.args "-Xlinker", "-S"
-//                }
-//                if (toolChain in VisualCpp) {
-//                    sources {
-//                        platformAsm(AssemblerSourceSet) {
-//                            source.srcDir "src/main/asm/visualcpp"
-//                        }
-//                    }
-//                    assembler.args "/Zi"
-//                    cppCompiler.args "/Zi"
-//                    linker.args "/DEBUG"
-//                }
-//            }
-//        }
-//    }
-//}
-
-// FindBugs Plugin
-//apply plugin: "findbugs"
-//tasks.withType(FindBugs) {
-//    reports {
-//        xml.enabled false
-//        html.enabled true
-//        html.stylesheet resources.text.fromFile("config/xsl/findbugs-custom.xsl")
-//    }
-//}
-
 /*  Karma Jasmine Support
     1) Old: http://stackoverflow.com/questions/32341673/automate-jasmine-test-in-gradle
     2) New: https://github.com/craigburke/karma-gradle
  */
 
-//apply plugin: 'moe'
-//
-//moe {
-//    proguardLevel 'platform'
-//    xcode {
-//        // boolean, indicates whether the Xcode project should be generated or not, defaults to true.
-//        generateProject
-//
-//        // String, name of the main target.
-//        mainTarget
-//
-//        // String, name of the test target.
-//        testTarget
-//
-//        // String, product name of the main target.
-//        mainProductName
-//
-//        // String, path to the main storyboard.
-//        mainUIStoryboardPath
-//
-//        // String, path to launch screen storyboard/xib.
-//        launchScreenFilePath
-//
-//        // String, path to launch image.
-//        launchImagesSource
-//
-//        // String, value for the 'NSLocationWhenInUseUsageDescription' property.
-//        locationWhenInUseUsageDescription
-//
-//        // String, path to the app icons.
-//        appIconsSource
-//
-//        // String, organizations name (ex: My Company).
-//        organizationName
-//
-//        // String, company identifier (ex: com.mycompany).
-//        companyIdentifier
-//
-//        // String, the app's bundle ID (ex: com.mycompany.myapp).
-//        bundleID
-//
-//        // String, package where the 'Main' class can be found (ex: com.mycompany.myapp).
-//        packageName
-//
-//        // String, path to the main target's Info.plist.
-//        infoPlistPath
-//
-//        // String, path to the test target's Info.plist.
-//        testInfoPlistPath
-//
-//        // boolean, value for the 'UIApplicationExitsOnSuspend' property.
-//        applicationExitOnSuspend
-//
-//        // String, value for the 'CFBundleShortVersionString' property.
-//        bundleShortVersionString
-//
-//        // String, value for the 'CFBundleVersion' property.
-//        bundleVersion
-//
-//        // String, the minimal system version the app requires (ex: 9.0).
-//        deploymentTarget
-//
-//        // String, path to the Xcode project's directory.
-//        xcodeProjectDirPath
-//
-//        // List, list of supported interface orientations.
-//        // - UIInterfaceOrientationPortrait
-//        // - UIInterfaceOrientationPortraitUpsideDown
-//        // - UIInterfaceOrientationLandscapeLeft
-//        // - UIInterfaceOrientationLandscapeRight
-//        supportedInterfaceOrientations
-//    }
-//
-//    signing {
-//        // String, ID of the development team.
-//        developmentTeam
-//
-//        // String, path to the provisioning profile.
-//        provisioningProfile
-//
-//        // String, name of the signing identity
-//        signingIdentity
-//    }
-//
-//    packaging {
-//        excludes = ['LICENSE', 'LICENSE.*']
-//        exclude 'README.md' // Excludes the README.md file from the application.jar
-//    }
-//
-//    resources {
-//        // Enables resources from the source directory
-//        enableResourcesFromSourceDirs = true
-//
-//        // Excludes all Java source files when copying from the source directory
-//        resourcesFromSourceDirExcludes = ['**/*.java']
-//    }
-//    javaProcess {
-//        jvmArgs '-Xmx4096m'
-//    }
-//
-//}
+// Copy Dependencies jars into dependencies folder
+task copyDependencies(type: Copy) {
+    from configurations.compile
+    into 'dependencies'
+}
 
-/*
-Node.js All script minify
- */
-// http://stackoverflow.com/questions/36978782/gradle-minify-all-javascript
-// https://docs.gradle.org/current/userguide/working_with_files.html
-//
-//import com.eriwen.gradle.js.tasks.MinifyJsTask
-//
-//// Declare your sources
-//
-//def jsSrcDir = "src/main/jsSrcDir"
-//
-//javascript.source {
-//    dev {
-//        js {
-//            srcDir jsSrcDir
-//            include "*.js"
-//            exclude "*.min.js"
-//        }
-//    }
-//    prod {
-//        js {
-//            srcDir jsSrcDir
-//            include "*.min.js"
-//        }
-//    }
-//}
-//
-//def dynamicTaskNames = []
-//def dynamicTaskIndex = 1
-//
-//FileTree tree = fileTree(jsSrcDir) {
-//    include "**/*.js"
-//    exclude "**/*.css"
-//    exclude "**/*.less"
-//    exclude "**/*.sass"
-//}
-//
-//tree.each { file ->
-//    def dynamicTaskName = "minifiy${dynamicTaskIndex}_" + relativePath(file)
-//
-//    task "${dynamicTaskName}"(type: MinifyJsTask) {
-//        def newfolder = "" + relativePath(file).substring(jsSrcDir.length(), (relativePath(file).length() - file.name.length()))
-////        println("${buildDir}/javascript"+newfolder)
-////        println(file.properties)
-//        source = file.absolutePath
-//        dest = "${buildDir}/min-closure.js" + newfolder + "min.${file.name}"
-////        dest = file.parent + "/min.${file.name}"
-//        // ** ALERT ** Turn it off if code not running.
-////        closure.compilationLevel = "ADVANCED_OPTIMIZATIONS"
-//        closure {
-//            warningLevel = "QUIET"
-//            compilerOptions.languageIn = "ECMASCRIPT6_STRICT" // or ECMASCRIPT6
-//            compilerOptions.languageOut = "ECMASCRIPT5_STRICT"// Turn it off if code not running.
-//        }
-//
-//    }
-//
-//    dynamicTaskNames << dynamicTaskName
-//    dynamicTaskIndex++
-//}
-//
-//task myMinify(dependsOn: dynamicTaskNames) {
-//    println("jsScripts Minified.")
-//}
-//
-//// Declare your sources
-//javascript.source {
-//    dev {
-//        js {
-//            srcDir jsSrcDir
-//            include "*.js"
-//            exclude "*.min.js"
-//        }
-//    }
-//    prod {
-//        js {
-//            srcDir jsSrcDir
-//            include "*.min.js"
-//        }
-//    }
-//}
+// Compile / Test / Read report
+task lintJava(type: Exec) {
+    workingDir './'
+    commandLine 'open'
+    args './android/build/outputs/lint-results-debug.html'
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        return standardOutput.toString()
+    }
+}
+
+subprojects {
+    // {
+    // doLast {println "- I depend on water"}
+    // afterEvaluate { Project project ->
+    //     if (project.arctic) {
+    //         // doLast {
+    //         // println '- I love to spend time in the arctic waters.' }
+    //     }
+    // }
+    // }
+    rootProject.clean { dependsOn tasks.matching { it.name == "clean" } }
+}
 
 // Simplify or Skip distZip/disTar unless necessary
 apply plugin: 'distribution'
 distZip.enabled = false
 distTar.enabled = false
-bootRepackage.enabled = false
+
 jar.enabled = false
-
-

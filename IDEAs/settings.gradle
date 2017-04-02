@@ -18,3 +18,8 @@ include 'services:webservice'
 
 rootProject.name = 'IDEAs'
 
+include 'cloud'
+include 'moeMobile'
+//include 'jfxMobile'  // TODO to be configured
+include 'TextFX'
+include 'TextFX-Playground'

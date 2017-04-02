@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.apache.tinkerpop:hadoop-gremlin:3.2.4">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tinkerpop/hadoop-gremlin/3.2.4/3cc34c62b17588df0bd20d1adfb6e3a1d53846f2/hadoop-gremlin-3.2.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

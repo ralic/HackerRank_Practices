@@ -5,7 +5,7 @@
 apply plugin: 'maven'
 
 mavenGroupId = 'org.ralic'
-mavenVersion = '1.3-SNAPSHOT'
+mavenVersion = '2.0-SNAPSHOT'
 group = mavenGroupId
 version = mavenVersion
 mavenArtifactId = name
@@ -13,7 +13,12 @@ mavenArtifactId = name
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 
-
+def gradleVersion = "3.4.1"
+// task to add gradle wrapper files.
+task("wrapper", type: Wrapper) {
+    distributionUrl = "https://services.gradle.org/distributions/" +
+            "gradle-${gradleVersion}-all.zip"
+}
 
 task sourcesJar(type: Jar, dependsOn: classes, description: 'Creates a jar from the source files.') {
     classifier = 'sources'
@@ -43,3 +48,4 @@ final srcfolders = task(createFolders(description: 'Creates the source folders i
         }
     }
 })
+

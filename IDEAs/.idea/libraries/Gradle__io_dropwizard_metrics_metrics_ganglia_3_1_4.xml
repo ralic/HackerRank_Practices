@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: io.dropwizard.metrics:metrics-ganglia:3.1.4">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-ganglia/3.1.4/1f455e89a1e0cd82e4f00aec0ba59da7d4a956f7/metrics-ganglia-3.1.4.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

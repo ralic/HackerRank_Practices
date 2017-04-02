@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.springframework.security.kerberos:spring-security-kerberos-core:1.0.0.BUILD-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.kerberos/spring-security-kerberos-core/1.0.0.BUILD-SNAPSHOT/f558a7073f1e0cb587f58c4baf90448709068b45/spring-security-kerberos-core-1.0.0.BUILD-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

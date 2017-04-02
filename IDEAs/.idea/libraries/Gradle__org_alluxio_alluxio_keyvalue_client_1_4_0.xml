@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.alluxio:alluxio-keyvalue-client:1.4.0">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.alluxio/alluxio-keyvalue-client/1.4.0/b1d66fba530c3b806cd8eb9499eecd4bcdd1c408/alluxio-keyvalue-client-1.4.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
