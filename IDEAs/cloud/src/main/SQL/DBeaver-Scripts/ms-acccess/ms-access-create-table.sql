@@ -1,1 +1,0 @@
-create table companies2 (columna decimal(3,2), columnb varchar(10),columnc varchar(10),);

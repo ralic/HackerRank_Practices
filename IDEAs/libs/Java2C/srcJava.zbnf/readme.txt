@@ -1,1 +1,0 @@
-This sources are compiled also in zbnf.jar.
