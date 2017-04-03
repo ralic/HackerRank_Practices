@@ -1021,43 +1021,9 @@ bootRun {
 }
 
 bootRepackage {
-    mainClassName = "org.raliclo.JavaSEApplication"
+    // mainClassName = "org.raliclo.JavaSEApplication"
 }
 
-task runCountSite(type: JavaExec) {
-    mainClassName = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
-}
-
-task runEasy(type: JavaExec) {
-    mainClassName = "org.raliclo.JavaSEApplication"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
-}
-
-
-task runCount(type: JavaExec) {
-    mainClassName = "org.raliclo.WordCountWeb.RestAPI.dataApp.WordCountAvro"
-    main = mainClassName
-    classpath = sourceSets.main.runtimeClasspath
-}
-
-//Example:
-//gradle - PmainClass = "org.raliclo.WordCountWeb.RestAPI.Spring_WordCountSite" execute
-//gradle - PmainClass = "LeapMotion.testLeap" execute
-
-//task execute(type: JavaExec) {
-//    main = mainClass
-//    classpath = sourceSets.main.runtimeClasspath
-//}
-
-task runLeap(type: JavaExec) {
-    mainClassName = "LeapMotion.leapTest"
-    main = mainClassName
-    systemProperty "java.library.path", "../libs/LeapSDK/lib"
-    classpath = sourceSets.main.runtimeClasspath
-}
 apply plugin: "distribution"
 distZip.enabled = false
 distTar.enabled = false
